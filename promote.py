@@ -2,10 +2,14 @@
 Promote scored papers to Zotero.
 Only papers above the configured threshold get promoted.
 Uses pyzotero to create items in the Zotero library.
+Downloads open access PDFs when available.
 """
 
+import os
 import sys
+import tempfile
 
+import requests
 from pyzotero import zotero
 
 import database
@@ -86,17 +90,49 @@ def _build_zotero_item(paper: dict, template: dict, collection_key: str) -> dict
     return item
 
 
+def _download_pdf(url: str) -> str | None:
+    """Download a PDF to a temp file. Returns the file path, or None on failure."""
+    try:
+        resp = requests.get(url, timeout=30, allow_redirects=True,
+                            headers={"Accept": "application/pdf"})
+        resp.raise_for_status()
+        content_type = resp.headers.get("Content-Type", "")
+        if "pdf" not in content_type and not resp.content[:5] == b"%PDF-":
+            return None
+        fd, path = tempfile.mkstemp(suffix=".pdf")
+        with os.fdopen(fd, "wb") as f:
+            f.write(resp.content)
+        return path
+    except Exception:
+        return None
+
+
 def promote_paper(paper: dict, zot: zotero.Zotero, template: dict, collection_key: str) -> bool:
     """Promote a single paper to Zotero. Returns True on success."""
     item = _build_zotero_item(paper, template, collection_key)
     try:
         resp = zot.create_items([item])
-        if resp.get("successful"):
-            database.mark_promoted(paper["id"])
-            return True
-        else:
+        if not resp.get("successful"):
             print(f"    Zotero API error: {resp.get('failed', {})}")
             return False
+
+        item_key = resp["successful"]["0"]["key"]
+        database.mark_promoted(paper["id"])
+
+        # Attempt to download and attach open access PDF
+        oa_url = paper.get("oa_pdf_url", "")
+        if oa_url:
+            pdf_path = _download_pdf(oa_url)
+            if pdf_path:
+                try:
+                    zot.attachment_simple([pdf_path], item_key)
+                    print("[PDF] ", end="", flush=True)
+                except Exception:
+                    pass  # Item created successfully, PDF attachment is a bonus
+                finally:
+                    os.unlink(pdf_path)
+
+        return True
     except Exception as e:
         print(f"    Error promoting: {e}")
         return False

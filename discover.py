@@ -76,6 +76,12 @@ def discover_from_journal(source_id: str, journal_name: str, from_date: str) -> 
         authors = _parse_authors(work.get("authorships", []))
         pub_date = work.get("publication_date", "")
 
+        # Extract open access PDF URL if available
+        oa_pdf_url = ""
+        oa_info = work.get("open_access", {})
+        if oa_info.get("is_oa") and oa_info.get("oa_url"):
+            oa_pdf_url = oa_info["oa_url"]
+
         papers_to_add.append({
             "title": title,
             "authors": authors,
@@ -85,6 +91,7 @@ def discover_from_journal(source_id: str, journal_name: str, from_date: str) -> 
             "url": f"https://doi.org/{doi}" if doi else work.get("id", ""),
             "published_date": pub_date,
             "source_channel": "openalex",
+            "oa_pdf_url": oa_pdf_url,
         })
 
     return database.add_papers_bulk(papers_to_add)

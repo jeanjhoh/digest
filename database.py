@@ -44,9 +44,15 @@ def _init_db(conn: sqlite3.Connection) -> None:
             score_timeliness REAL,
             score_composite REAL,
             triage_reasoning TEXT,
-            promoted_date TEXT
+            promoted_date TEXT,
+            oa_pdf_url TEXT
         )
     """)
+    # Migration: add oa_pdf_url if table already exists without it
+    try:
+        conn.execute("ALTER TABLE papers ADD COLUMN oa_pdf_url TEXT")
+    except Exception:
+        pass  # Column already exists
     conn.commit()
     _initialized = True
 
@@ -89,6 +95,7 @@ def add_paper(
     url: str = "",
     published_date: str = "",
     source_channel: str = "manual",
+    oa_pdf_url: str = "",
 ) -> Optional[int]:
     """
     Add a paper to the staging database.
@@ -99,12 +106,13 @@ def add_paper(
             cursor = conn.execute(
                 """
                 INSERT INTO papers (title, authors, abstract, journal, doi, url,
-                                    published_date, source_channel, date_added, status)
-                VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                                    published_date, source_channel, date_added, status,
+                                    oa_pdf_url)
+                VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
                 """,
                 (title, authors, abstract, journal, doi, url,
                  published_date, source_channel, datetime.now().isoformat(),
-                 STATUS_PENDING),
+                 STATUS_PENDING, oa_pdf_url),
             )
             conn.commit()
             return cursor.lastrowid
@@ -124,13 +132,15 @@ def add_papers_bulk(papers: list[dict]) -> int:
                 conn.execute(
                     """
                     INSERT INTO papers (title, authors, abstract, journal, doi, url,
-                                        published_date, source_channel, date_added, status)
-                    VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                                        published_date, source_channel, date_added, status,
+                                        oa_pdf_url)
+                    VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
                     """,
                     (p["title"], p.get("authors", ""), p.get("abstract", ""),
                      p.get("journal", ""), p.get("doi", ""), p.get("url", ""),
                      p.get("published_date", ""), p.get("source_channel", "manual"),
-                     datetime.now().isoformat(), STATUS_PENDING),
+                     datetime.now().isoformat(), STATUS_PENDING,
+                     p.get("oa_pdf_url", "")),
                 )
                 added += 1
             except sqlite3.IntegrityError:
