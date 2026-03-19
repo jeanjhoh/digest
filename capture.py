@@ -4,6 +4,8 @@ Add papers to the staging database by DOI (auto-resolves metadata via CrossRef)
 or by manually providing title/authors/abstract.
 """
 
+from __future__ import annotations
+
 import re
 
 import requests

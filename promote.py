@@ -5,6 +5,8 @@ Uses pyzotero to create items in the Zotero library.
 Downloads open access PDFs when available.
 """
 
+from __future__ import annotations
+
 import os
 import sys
 import tempfile

@@ -8,6 +8,8 @@ Supports two engines:
   - "api": Uses the anthropic Python SDK (requires ANTHROPIC_API_KEY)
 """
 
+from __future__ import annotations
+
 import json
 import re
 import subprocess
