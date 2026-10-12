@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ title | default(site.title) }}</title>
+  <meta name="description" content="{% block description %}{{ site.tagline }}{% endblock %}">
+  {% if canonical %}<link rel="canonical" href="{{ canonical }}">{% endif %}
+  <meta property="og:title" content="{{ title | default(site.title) }}">
+  <meta property="og:type" content="website">
+  {% if canonical %}<meta property="og:url" content="{{ canonical }}">{% endif %}
+  <meta property="og:description" content="{{ self.description() }}">
+  <link rel="icon" href="{{ rel }}favicon.png">
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title }} — issues" href="{{ site_url }}rss.xml">
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title }} — papers" href="{{ site_url }}feed-papers.xml">
+  <link rel="stylesheet" href="{{ icons_css }}">
+  <link rel="stylesheet" href="{{ rel }}styles.css?v={{ versions.get('styles.css', '') }}">
+  {% block head %}{% endblock %}
+</head>
+<body data-page="{{ page }}"{% block body_attrs %}{% endblock %}>
+<div class="site-wrap">
+  <div class="row g-0">
+    {% include "_sidebar.html" %}
+    <div class="col-12 col-md-9 main-col">
+      <div class="main-inner">
+        {% block main %}{% endblock %}
+      </div>
+    </div>
+  </div>
+  <footer class="site-footer">
+    <p>&copy; {{ now_year }} {{ site.owner }} · <a href="{{ rel }}rss.xml">RSS</a> · <a href="{{ rel }}llms.html">For AI assistants</a> · <a href="{{ rel }}details.html">Sources</a></p>
+  </footer>
+</div>
+{% block panels %}{% endblock %}
+<script src="{{ rel }}app.js?v={{ versions.get('app.js', '') }}" defer></script>
+</body>
+</html>

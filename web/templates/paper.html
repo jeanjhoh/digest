@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% from "_entry.html" import entry %}
+{% block description %}{{ article.title }} — {{ article.authors | authors_inline }}, {{ article.venue }}.{% endblock %}
+{% block head %}
+  {% for name, content in highwire %}<meta name="{{ name }}" content="{{ content }}">
+  {% endfor %}
+{% endblock %}
+{% block main %}
+<header class="digest-head">
+  <h2 class="digest-title"><a href="{{ rel }}">{{ site.title }}</a></h2>
+  <p class="issue-line">Issue <a href="{{ rel }}issues/{{ '%03d' | format(issue.number) }}.html#k-{{ article.slug }}">{{ issue.label }}</a> · {{ issue.cutoff | date_long }}</p>
+</header>
+<div id="entries" class="single">
+  {{ entry(article, rel=rel) }}
+</div>
+<section class="cite-static">
+  <h2>Cite</h2>
+  <p>{{ article.plain_citation }}</p>
+  <pre>{{ article.bibtex }}</pre>
+</section>
+<p><a href="{{ rel }}issues/{{ '%03d' | format(issue.number) }}.html#k-{{ article.slug }}">← Back to issue {{ issue.label }}</a></p>
+{% endblock %}

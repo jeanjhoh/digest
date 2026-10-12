@@ -1,0 +1,8 @@
+[project]
+name = "research-digest"
+version = "0.1.0"
+description = "Weekly research digest: fetch, classify, and publish new papers as a static site"
+requires-python = ">=3.12"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

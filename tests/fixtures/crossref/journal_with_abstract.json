@@ -1,0 +1,769 @@
+{
+ "indexed": {
+  "date-parts": [
+   [
+    2026,
+    10,
+    6
+   ]
+  ],
+  "date-time": "2026-10-06T09:53:21Z",
+  "timestamp": 1791280401317,
+  "version": "4.1.0"
+ },
+ "reference-count": 93,
+ "publisher": "Wiley",
+ "issue": "11",
+ "license": [
+  {
+   "start": {
+    "date-parts": [
+     [
+      2026,
+      8,
+      3
+     ]
+    ],
+    "date-time": "2026-08-03T00:00:00Z",
+    "timestamp": 1785715200000
+   },
+   "content-version": "vor",
+   "delay-in-days": 0,
+   "URL": "http://creativecommons.org/licenses/by/4.0/"
+  },
+  {
+   "start": {
+    "date-parts": [
+     [
+      2026,
+      8,
+      3
+     ]
+    ],
+    "date-time": "2026-08-03T00:00:00Z",
+    "timestamp": 1785715200000
+   },
+   "content-version": "tdm",
+   "delay-in-days": 0,
+   "URL": "http://doi.wiley.com/10.1002/tdm_license_1.1"
+  }
+ ],
+ "content-domain": {
+  "domain": [
+   "sms.onlinelibrary.wiley.com"
+  ],
+  "crossmark-restriction": true
+ },
+ "short-container-title": [
+  "Strategic Management Journal"
+ ],
+ "published-print": {
+  "date-parts": [
+   [
+    2026,
+    11
+   ]
+  ]
+ },
+ "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:sec>\n                    <jats:title>Research Summary</jats:title>\n                    <jats:p>Can environmental, social, and governance (ESG) investors hold businesses accountable for their environmental impact? Extending institutional theory and analyzing a global sample of firms from 2006 to 2019, we argue that, in response to ESG investors' institutional pressures, firms may intensify pollution outsourcing to suppliers as a sophisticated form of corporate decoupling. We further theorize and find suggestive evidence that this effect is less salient and sometimes reversed when ESG investors can help firms access green technologies and when they have more direct purview of firms' suppliers. We employ investor\u2010level acquisitions as quasi\u2010exogenous shocks and additionally analyze a separate firm\u2013supplier sample to support the hypotheses with largely consistent results.</jats:p>\n                  </jats:sec>\n                  <jats:sec>\n                    <jats:title>Managerial Summary</jats:title>\n                    <jats:p>Environmental, social, and governance (ESG) investors are increasingly expected to act as private regulators, using ownership stakes to steer companies toward sustainability. Yet, looking only at whether a focal firm cleans up its own operations can be misleading because it ignores what happens in the broader supply chain. Using global firm data from 2006 to 2019, we find that companies under strong ESG investor pressure generate lower direct emissions but may shift pollution to suppliers, leaving the combined emissions unchanged. We also provide suggestive evidence that this outsourcing is reduced and sometimes can become reduced when investors can help firms adopt green technologies and directly oversee supplier practices.</jats:p>\n                  </jats:sec>",
+ "DOI": "10.1002/smj.70115",
+ "type": "journal-article",
+ "created": {
+  "date-parts": [
+   [
+    2026,
+    8,
+    4
+   ]
+  ],
+  "date-time": "2026-08-04T01:35:00Z",
+  "timestamp": 1785807300000
+ },
+ "page": "2993-3028",
+ "update-policy": "https://doi.org/10.1002/crossmark_policy",
+ "source": "Crossref",
+ "is-referenced-by-count": 0,
+ "title": [
+  "ESG investing and pollution outsourcing"
+ ],
+ "prefix": "10.1002",
+ "volume": "47",
+ "author": [
+  {
+   "ORCID": "https://orcid.org/0000-0001-8186-9071",
+   "authenticated-orcid": false,
+   "given": "Shipeng",
+   "family": "Yan",
+   "sequence": "first",
+   "affiliation": [
+    {
+     "name": "Faculty of Business and Economics The University of Hong Kong  China"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "ORCID": "https://orcid.org/0000-0002-3644-4741",
+   "authenticated-orcid": false,
+   "given": "Fan",
+   "family": "Zhang",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "Bentley University  USA"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Zhengyu",
+   "family": "Li",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "The University of Melbourne  Australia"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  }
+ ],
+ "member": "311",
+ "published-online": {
+  "date-parts": [
+   [
+    2026,
+    8,
+    3
+   ]
+  ]
+ },
+ "reference": [
+  {
+   "key": "e_1_2_11_2_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1093/rfs/hhp019"
+  },
+  {
+   "key": "e_1_2_11_3_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1016/j.jfineco.2010.10.018"
+  },
+  {
+   "key": "e_1_2_11_4_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1177/0170840618765028"
+  },
+  {
+   "key": "e_1_2_11_5_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1093/rof/rfad013"
+  },
+  {
+   "key": "e_1_2_11_6_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1002/smj.3122"
+  },
+  {
+   "key": "e_1_2_11_7_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1016/j.jfineco.2021.05.007"
+  },
+  {
+   "key": "e_1_2_11_8_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1016/j.jfineco.2022.01.004"
+  },
+  {
+   "key": "e_1_2_11_9_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1086/518871"
+  },
+  {
+   "key": "e_1_2_11_10_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1017/beq.2021.46"
+  },
+  {
+   "key": "e_1_2_11_11_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1093/rof/rfac033"
+  },
+  {
+   "key": "e_1_2_11_12_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1007/s10551-015-2816-9"
+  },
+  {
+   "key": "e_1_2_11_13_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1002/smj.2041"
+  },
+  {
+   "key": "e_1_2_11_14_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1002/smj.3288"
+  },
+  {
+   "key": "e_1_2_11_15_1",
+   "volume-title": "ESG shocks in global supply chains. SSRN scholarly paper",
+   "author": "Bisetti E.",
+   "year": "2024"
+  },
+  {
+   "key": "e_1_2_11_16_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1016/j.jfineco.2021.05.008"
+  },
+  {
+   "key": "e_1_2_11_17_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1002/smj.3532"
+  },
+  {
+   "key": "e_1_2_11_18_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1016/j.jfineco.2018.06.012"
+  },
+  {
+   "key": "e_1_2_11_19_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.5465/19416520.2012.684462"
+  },
+  {
+   "key": "e_1_2_11_20_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1111/jiec.13008"
+  },
+  {
+   "key": "e_1_2_11_21_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1016/j.jcorpfin.2023.102418"
+  },
+  {
+   "key": "e_1_2_11_22_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1111/j.1468-0335.1937.tb00002.x"
+  },
+  {
+   "key": "e_1_2_11_23_1",
+   "volume-title": "Working paper series. Working paper",
+   "author": "Cohen L.",
+   "year": "2020"
+  },
+  {
+   "key": "e_1_2_11_24_1",
+   "unstructured": "Cowe R.(2002).Rules of engagement: An new approach will help to balance financial and social demands.Financial Times."
+  },
+  {
+   "key": "e_1_2_11_25_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.5465/amj.2010.0697"
+  },
+  {
+   "key": "e_1_2_11_26_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1016/j.jfineco.2020.01.003"
+  },
+  {
+   "key": "e_1_2_11_27_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1016/j.jacceco.2022.101525"
+  },
+  {
+   "key": "e_1_2_11_28_1",
+   "volume-title": "The vanishing American corporation: Navigating the hazards of a new economy",
+   "author": "Davis G. F.",
+   "year": "2016"
+  },
+  {
+   "key": "e_1_2_11_29_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1177/2631787721995198"
+  },
+  {
+   "key": "e_1_2_11_30_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1073/pnas.1107409108"
+  },
+  {
+   "key": "e_1_2_11_31_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1287/orsc.2022.1620"
+  },
+  {
+   "key": "e_1_2_11_32_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1093/rfs/hhv044"
+  },
+  {
+   "key": "e_1_2_11_33_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1111/jofi.13412"
+  },
+  {
+   "key": "e_1_2_11_34_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.5465/amr.2016.0107"
+  },
+  {
+   "key": "e_1_2_11_35_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1016/j.jfineco.2018.08.013"
+  },
+  {
+   "key": "e_1_2_11_36_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1111/fima.12413"
+  },
+  {
+   "key": "e_1_2_11_37_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1287/orsc.2018.1226"
+  },
+  {
+   "key": "e_1_2_11_38_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1177/0170840614563742"
+  },
+  {
+   "key": "e_1_2_11_39_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1016/j.jfineco.2007.07.003"
+  },
+  {
+   "key": "e_1_2_11_40_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.5465/amj.2011.0744"
+  },
+  {
+   "key": "e_1_2_11_41_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1002/smj.3313"
+  },
+  {
+   "key": "e_1_2_11_42_1",
+   "volume-title": "The social responsibility of business is to increase its profits",
+   "author": "Friedman M.",
+   "year": "1970"
+  },
+  {
+   "key": "e_1_2_11_43_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1093/rof/rfac064"
+  },
+  {
+   "key": "e_1_2_11_44_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1016/j.jfineco.2019.05.017"
+  },
+  {
+   "key": "e_1_2_11_45_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1086/428442"
+  },
+  {
+   "key": "e_1_2_11_46_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1177/0003122409357044"
+  },
+  {
+   "key": "e_1_2_11_47_1",
+   "first-page": "89",
+   "volume-title": "OECD environment working papers",
+   "author": "Ha\u0161\u010di\u010d I.",
+   "year": "2015"
+  },
+  {
+   "key": "e_1_2_11_48_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1093/rfs/hhx028"
+  },
+  {
+   "key": "e_1_2_11_49_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1093/rof/rfad002"
+  },
+  {
+   "issue": "3",
+   "key": "e_1_2_11_50_1",
+   "first-page": "104",
+   "article-title": "The new boundaries of the \u201cboundaryless\u201d company",
+   "volume": "70",
+   "author": "Hirschhorn L.",
+   "year": "1992",
+   "journal-title": "Harvard Business Review"
+  },
+  {
+   "key": "e_1_2_11_51_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1016/j.jfineco.2013.12.002"
+  },
+  {
+   "key": "e_1_2_11_52_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1002/smj.2268"
+  },
+  {
+   "key": "e_1_2_11_53_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1038/s41558-024-02236-3"
+  },
+  {
+   "key": "e_1_2_11_54_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1287/orsc.2014.0949"
+  },
+  {
+   "key": "e_1_2_11_55_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1287/mnsc.2022.4394"
+  },
+  {
+   "key": "e_1_2_11_56_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.5465/amj.2015.0770"
+  },
+  {
+   "key": "e_1_2_11_57_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.5465/AMR.2007.25275680"
+  },
+  {
+   "key": "e_1_2_11_58_1",
+   "volume-title": "Common institutional ownership and diffusion of innovation",
+   "author": "Kostovetsky L.",
+   "year": "2020"
+  },
+  {
+   "key": "e_1_2_11_59_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1002/smj.3582"
+  },
+  {
+   "key": "e_1_2_11_60_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1016/j.jfineco.2021.03.008"
+  },
+  {
+   "key": "e_1_2_11_61_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1177/00018392221124916"
+  },
+  {
+   "key": "e_1_2_11_62_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1002/smj.2656"
+  },
+  {
+   "key": "e_1_2_11_63_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1177/0003122411432701"
+  },
+  {
+   "key": "e_1_2_11_64_1",
+   "volume-title": "SSRN Scholarly Paper",
+   "author": "Lin X.",
+   "year": "2024"
+  },
+  {
+   "key": "e_1_2_11_65_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.7551/mitpress/4412.003.0009"
+  },
+  {
+   "key": "e_1_2_11_66_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1017/S0003055418000679"
+  },
+  {
+   "key": "e_1_2_11_67_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1287/orsc.2015.1039"
+  },
+  {
+   "key": "e_1_2_11_68_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1111/joms.12957"
+  },
+  {
+   "key": "e_1_2_11_69_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1086/226550"
+  },
+  {
+   "issue": "4",
+   "key": "e_1_2_11_70_1",
+   "first-page": "[i]",
+   "article-title": "Radical shareholder primacy",
+   "volume": "10",
+   "author": "Millon D.",
+   "year": "2012",
+   "journal-title": "University of St. Thomas Law Journal"
+  },
+  {
+   "key": "e_1_2_11_71_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1287/orsc.2020.1380"
+  },
+  {
+   "key": "e_1_2_11_72_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.2307/258610"
+  },
+  {
+   "key": "e_1_2_11_73_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.2307/258154"
+  },
+  {
+   "key": "e_1_2_11_74_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1111/joms.12920"
+  },
+  {
+   "key": "e_1_2_11_75_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1515/9781400846177"
+  },
+  {
+   "key": "e_1_2_11_76_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.9774/GLEAF.978-1-909493-59-9_4"
+  },
+  {
+   "key": "e_1_2_11_77_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1002/9780470404324.hof002014"
+  },
+  {
+   "key": "e_1_2_11_78_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1515/2152-2820.1037"
+  },
+  {
+   "key": "e_1_2_11_79_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.5465/amj.2010.0962"
+  },
+  {
+   "key": "e_1_2_11_80_1",
+   "unstructured": "Tett G.(2021).Wall street's new mantra: Green is good.Financial Times.https://www.ft.com/content/e5b57ece-0c31-4f42-9229-c8981bc9fd34"
+  },
+  {
+   "key": "e_1_2_11_81_1",
+   "volume-title": "Who cares wins: Connecting financial markets to a changing world",
+   "author": "The Global Compact",
+   "year": "2005"
+  },
+  {
+   "key": "e_1_2_11_82_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.5465/AMJ.2010.57318905"
+  },
+  {
+   "key": "e_1_2_11_83_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1007/s10551-015-2610-8"
+  },
+  {
+   "issue": "2",
+   "key": "e_1_2_11_84_1",
+   "first-page": "84",
+   "article-title": "A more sustainable supply chain",
+   "volume": "98",
+   "author": "Villena V. H.",
+   "year": "2020",
+   "journal-title": "Harvard Business Review"
+  },
+  {
+   "key": "e_1_2_11_85_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1146/annurev.polisci.11.053106.141706"
+  },
+  {
+   "key": "e_1_2_11_86_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1002/(SICI)1097-0266(199704)18:4<303::AID-SMJ869>3.0.CO;2-G"
+  },
+  {
+   "key": "e_1_2_11_87_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1287/mnsc.2019.3538"
+  },
+  {
+   "key": "e_1_2_11_88_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1287/stsc.2023.0188"
+  },
+  {
+   "key": "e_1_2_11_89_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.2307/2393593"
+  },
+  {
+   "key": "e_1_2_11_90_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.2307/2667086"
+  },
+  {
+   "key": "e_1_2_11_91_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.5465/amr.2012.0218"
+  },
+  {
+   "key": "e_1_2_11_92_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1086/227496"
+  },
+  {
+   "key": "e_1_2_11_93_1",
+   "volume-title": "The economic institutions of capitalism: Firms, markets, relational contracting",
+   "author": "Williamson O. E.",
+   "year": "1985"
+  },
+  {
+   "key": "e_1_2_11_94_1",
+   "unstructured": "Wingfield N. &Duhigg C.(2012).Apple lists its suppliers for 1st time.The New York Times.https://www.nytimes.com/2012/01/14/technology/apple-releases-list-of-its-suppliers-for-the-first-time.html"
+  }
+ ],
+ "container-title": [
+  "Strategic Management Journal"
+ ],
+ "language": "en",
+ "link": [
+  {
+   "URL": "https://sms.onlinelibrary.wiley.com/doi/pdf/10.1002/smj.70115",
+   "content-type": "application/pdf",
+   "content-version": "vor",
+   "intended-application": "text-mining"
+  },
+  {
+   "URL": "https://sms.onlinelibrary.wiley.com/doi/full-xml/10.1002/smj.70115",
+   "content-type": "application/xml",
+   "content-version": "vor",
+   "intended-application": "text-mining"
+  },
+  {
+   "URL": "https://sms.onlinelibrary.wiley.com/doi/pdf/10.1002/smj.70115",
+   "content-type": "unspecified",
+   "content-version": "vor",
+   "intended-application": "similarity-checking"
+  }
+ ],
+ "deposited": {
+  "date-parts": [
+   [
+    2026,
+    10,
+    6
+   ]
+  ],
+  "date-time": "2026-10-06T09:13:49Z",
+  "timestamp": 1791278029000
+ },
+ "score": 0.0,
+ "resource": {
+  "primary": {
+   "URL": "https://sms.onlinelibrary.wiley.com/doi/10.1002/smj.70115"
+  }
+ },
+ "issued": {
+  "date-parts": [
+   [
+    2026,
+    8,
+    3
+   ]
+  ]
+ },
+ "references-count": 93,
+ "journal-issue": {
+  "issue": "11",
+  "published-print": {
+   "date-parts": [
+    [
+     2026,
+     11
+    ]
+   ]
+  }
+ },
+ "alternative-id": [
+  "10.1002/smj.70115"
+ ],
+ "URL": "https://doi.org/10.1002/smj.70115",
+ "archive": [
+  "Portico"
+ ],
+ "ISSN": [
+  "0143-2095",
+  "1097-0266"
+ ],
+ "issn-type": [
+  {
+   "value": "0143-2095",
+   "type": "print"
+  },
+  {
+   "value": "1097-0266",
+   "type": "electronic"
+  }
+ ],
+ "published": {
+  "date-parts": [
+   [
+    2026,
+    8,
+    3
+   ]
+  ]
+ },
+ "assertion": [
+  {
+   "value": "2026-05-01",
+   "order": 0,
+   "name": "received",
+   "label": "Received",
+   "group": {
+    "name": "publication_history",
+    "label": "Publication History"
+   }
+  },
+  {
+   "value": "2026-07-22",
+   "order": 2,
+   "name": "accepted",
+   "label": "Accepted",
+   "group": {
+    "name": "publication_history",
+    "label": "Publication History"
+   }
+  },
+  {
+   "value": "2026-08-03",
+   "order": 3,
+   "name": "published",
+   "label": "Published",
+   "group": {
+    "name": "publication_history",
+    "label": "Publication History"
+   }
+  }
+ ],
+ "_source_slug": "smj"
+}

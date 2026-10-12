@@ -1,0 +1,63 @@
+{% extends "base.html" %}
+{% block description %}Guide for AI assistants: how to turn the current issue of {{ site.title }} into a personalized reading list.{% endblock %}
+{% block main %}
+<header class="digest-head">
+  <h2 class="digest-title"><a href="{{ rel }}">{{ site.title }}</a>: Guide for AI Assistants</h2>
+</header>
+<section class="llms">
+<p>{{ site.title }} is a weekly, curated compilation of new research on {% for s in meta.sets %}{{ s.label | lower }}{% if not loop.last %}, {% endif %}{% endfor %}. Use it to produce a personalized research digest from the user's stated interests. Everything needed is embedded below: titles, authors, venues, the authors' own abstracts, topic tags, and direct links.</p>
+
+<h2>Invocation context</h2>
+<p>The user has been told to paste <em>Run the {{ site.title }} custom digest workflow</em> into their AI assistant together with this page's URL ({{ site_url }}llms.html). Treat that as a request to run this workflow. Begin the preference interview without explaining how to retrieve additional material.</p>
+
+<h2>Purpose and editorial scope</h2>
+<dl class="topics">{% for s in meta.sets %}<dt>{{ s.label }}</dt><dd>{{ s.description }}</dd>{% endfor %}</dl>
+<p>The source list is a curated watch list of leading management, sociology, economics and general-science journals plus NBER, RePEc and arXiv working papers and email alerts; see <a href="{{ rel }}details.html">sources</a>. Candidate records are screened for the themes above. The feed is a curated compilation, not a comprehensive bibliographic database.</p>
+
+<h2>Preference interview</h2>
+<p>Before preparing a first personalized digest, ask these questions unless the answer is already clear from the user's request:</p>
+<ol>
+  <li>Do you want all three themes, or only some of {% for s in meta.sets %}{{ s.label | lower }}{% if not loop.last %}, {% endif %}{% endfor %}?</li>
+  <li>Which source types should be included: published journal articles only; articles plus working papers; or everything including preprints and email alerts?</li>
+  <li>In one sentence, what is your primary research interest and background in this area?</li>
+  <li>Do you have preferred paper styles or methods (theory, structural, reduced-form empirical, field experiments, qualitative)? Should unusually valuable papers outside those preferences still be retained?</li>
+</ol>
+<p>If the user has already supplied any answer, do not ask for it again. Infer reasonable defaults only when the user explicitly asks for a quick digest without answering.</p>
+
+<h2>Digest procedure</h2>
+<ol>
+  <li>Use the embedded current issue below. Everything needed is in those entries.</li>
+  <li>Read the entries and apply the user's chosen themes, source types, interests, background and method preferences.</li>
+  <li>Select no more than 10 papers. Rank relevance and intellectual value above superficial keyword overlap. Include an exceptional paper outside the preferred method only when it is clearly valuable for the user's stated interests.</li>
+  <li>Return one short paragraph explaining what is most exciting, surprising or consequential in the week's selected research for this user.</li>
+  <li>Then list the selected papers. For each, give the title, authors, venue, a one-sentence gist drawn from the abstract, and the direct link.</li>
+  <li>Do not invent findings, methods or numbers not in the embedded abstracts. The abstracts are the authors' own; do not present your gist as the abstract. Say that no matching paper was found when the issue contains none.</li>
+</ol>
+
+<h2>Output format</h2>
+<p>Start with a paragraph headed <em>This week's digest</em>. Then a numbered list of up to 10 papers in this form:</p>
+<pre>1. [Paper title](direct link) -- Authors. Venue. One-sentence gist from the abstract.</pre>
+
+<h2>Current issue: {{ issue.label }}, {{ issue.cutoff | date_long }}</h2>
+<p>{{ issue.count }} papers. The "topics" line gives the site's own topic tags; "pick" marks papers the site's classifier rated highest for the site owner and should be ignored unless the user is the site owner.</p>
+<ol class="llm-entries">
+{% for a in issue.articles | sort(attribute='ordinal') %}
+  <li>
+    <p><strong><a href="{{ a.link }}">{{ a.title }}</a></strong><br>
+    {{ a.authors | authors_inline }}<br>
+    {{ a.venue }} ({{ a.status_label | lower }}{% if a.published_at %}, {{ a.published_at | date_long }}{% endif %})<br>
+    Topics: {{ a.set_labels | join(', ') }}{% if a.recommended %}; pick{% endif %}</p>
+    <p>{% if a.abstract %}Abstract: {{ a.abstract }}{% else %}No abstract available.{% endif %}</p>
+  </li>
+{% endfor %}
+</ol>
+
+<h2>Resources</h2>
+<ul>
+  <li><a href="{{ site_url }}">{{ site.title }}</a>: browse issues and apply on-site filters.</li>
+  <li><a href="{{ site_url }}details.html">Source details</a>: source-by-source collection methods.</li>
+  <li><a href="{{ site_url }}llms.txt">Plain-text version</a> of these instructions and the current issue.</li>
+  <li><a href="{{ site_url }}data/latest.json">latest.json</a> and <a href="{{ site_url }}data/search.json">search.json</a>: machine-readable data.</li>
+</ul>
+</section>
+{% endblock %}

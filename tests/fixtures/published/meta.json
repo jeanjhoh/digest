@@ -1,0 +1,140 @@
+{
+ "schema_version": 1,
+ "generated_at": "2026-10-07T10:31:00Z",
+ "site": {
+  "title": "Weekly Research Digest",
+  "nav_label": "Digest",
+  "tagline": "New research on entrepreneurship, generative AI and work, and organizations and inequality",
+  "url": "https://jeanjhoh.github.io/digest/",
+  "parent_url": "https://jeanoh.org/",
+  "owner": "Jean Joohyun Oh",
+  "owner_role": "Assistant Professor, Tepper School of Business, Carnegie Mellon University",
+  "publish_day": "Wednesday"
+ },
+ "sets": [
+  {
+   "id": "entrepreneurship",
+   "label": "Entrepreneurship",
+   "short": "Entrep.",
+   "description": "New venture creation and growth, founders, startup financing, entry and exit, and who becomes an entrepreneur."
+  },
+  {
+   "id": "ai_work",
+   "label": "Generative AI & Work",
+   "short": "AI & Work",
+   "description": "How generative AI and LLMs change work, tasks, occupations, hiring, skills, productivity, and new ventures."
+  },
+  {
+   "id": "orgs_inequality",
+   "label": "Organizations & Inequality",
+   "short": "Orgs & Ineq.",
+   "description": "Class origins, stratification, careers, hiring, pay gaps, and how organizations reproduce or reduce inequality."
+  }
+ ],
+ "categories": [
+  {
+   "id": "management_journal",
+   "label": "Management journals",
+   "order": 1
+  },
+  {
+   "id": "sociology_journal",
+   "label": "Sociology journals",
+   "order": 2
+  },
+  {
+   "id": "economics_journal",
+   "label": "Economics journals",
+   "order": 3
+  },
+  {
+   "id": "science_journal",
+   "label": "General science journals",
+   "order": 4
+  },
+  {
+   "id": "working_paper",
+   "label": "Working papers",
+   "order": 5
+  },
+  {
+   "id": "preprint",
+   "label": "Preprints",
+   "order": 6
+  },
+  {
+   "id": "alert",
+   "label": "Email alerts",
+   "order": 7
+  }
+ ],
+ "publication_statuses": {
+  "published": "Published",
+  "working_paper": "Working paper",
+  "preprint": "Preprint"
+ },
+ "latest_issue": 2,
+ "issues": [
+  {
+   "number": 1,
+   "cutoff": "2026-09-30",
+   "window_start": "2026-09-16",
+   "published_at": "2026-09-30T10:30:00Z",
+   "count": 3,
+   "recommended_count": 1,
+   "set_counts": {
+    "entrepreneurship": 2,
+    "ai_work": 1,
+    "orgs_inequality": 1
+   },
+   "category_counts": {
+    "management_journal": 2,
+    "working_paper": 1
+   },
+   "run_status": "success",
+   "run_errors": [],
+   "stats": {
+    "seen": 612,
+    "in_scope": 3,
+    "est_cost_usd": 0.31
+   }
+  },
+  {
+   "number": 2,
+   "cutoff": "2026-10-07",
+   "window_start": "2026-09-30",
+   "published_at": "2026-10-07T10:31:00Z",
+   "count": 6,
+   "recommended_count": 2,
+   "set_counts": {
+    "entrepreneurship": 3,
+    "ai_work": 3,
+    "orgs_inequality": 2
+   },
+   "category_counts": {
+    "management_journal": 2,
+    "sociology_journal": 1,
+    "economics_journal": 1,
+    "working_paper": 1,
+    "preprint": 1
+   },
+   "run_status": "partial",
+   "run_errors": [
+    {
+     "source_slug": "arxiv-ai-work",
+     "message": "TimeoutError: read timed out"
+    }
+   ],
+   "stats": {
+    "seen": 688,
+    "in_scope": 6,
+    "est_cost_usd": 0.38
+   }
+  }
+ ],
+ "stats": {
+  "issue_count": 2,
+  "article_count": 9,
+  "source_count": 6
+ }
+}

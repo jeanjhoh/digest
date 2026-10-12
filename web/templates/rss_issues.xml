@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+  <title>{{ site.title }}</title>
+  <link>{{ site_url }}</link>
+  <description>{{ site.tagline }}</description>
+  <language>en</language>
+  <lastBuildDate>{{ generated_at | rfc822 }}</lastBuildDate>
+  <atom:link href="{{ site_url }}rss.xml" rel="self" type="application/rss+xml"/>
+  {% for i in issues | reverse %}
+  <item>
+    <title>{{ site.title }} {{ i.label }} ({{ i.cutoff | date_long }})</title>
+    <link>{{ site_url }}issues/{{ '%03d' | format(i.number) }}.html</link>
+    <guid isPermaLink="true">{{ site_url }}issues/{{ '%03d' | format(i.number) }}.html</guid>
+    <pubDate>{{ (i.generated_at or i.cutoff) | rfc822 }}</pubDate>
+    <description><![CDATA[<p>{{ i.count }} papers.</p><ol>{% for a in i.articles | sort(attribute='ordinal') %}<li><a href="{{ a.link }}">{{ a.title | e }}</a> — {{ a.authors | authors_inline | e }}. <em>{{ a.venue | e }}</em>.{% if a.abstract %} {{ a.abstract | truncate_text(400) | e }}{% endif %}</li>{% endfor %}</ol>]]></description>
+  </item>
+  {% endfor %}
+</channel>
+</rss>

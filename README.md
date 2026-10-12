@@ -1,124 +1,56 @@
-# Academic Paper Pipeline
+# Weekly Research Digest
 
-A system that discovers, triages, and surfaces relevant academic papers. Papers flow through a staging database where Claude scores them on relevance to your research before you decide what enters Zotero.
+A weekly, numbered digest of new papers on entrepreneurship, generative AI and work, and organizations and inequality, published as a static site at <https://jeanjhoh.github.io/digest/> (served under the personal site as `/digest/`). Modeled on Kevin Bryan's [Useful Knowledge](https://kevinbryanecon.com/usefulknowledge).
 
-## How It Works
+Each entry shows the paper's original abstract (from Crossref, OpenAlex, Semantic Scholar, or the source), a one-line topical note, links, and a one-click Zotero save via the Zotero Connector.
+
+## How it works
 
 ```
-Discovery Sources                  Staging DB              Zotero
-┌─────────────────┐               ┌──────────┐           ┌──────────────┐
-│ OpenAlex API    │──┐            │          │           │              │
-│ (16 journals)   │  │  discover  │ pending  │  triage   │  _Reader     │
-│                 │  ├──────────→ │    ↓     │─────────→ │   Digest     │
-│ Google Scholar  │  │  ingest    │ scored   │  promote  │  collection  │
-│ alerts (Gmail)  │──┤            │    ↓     │─────────→ │              │
-│                 │  │            │ promoted │           │              │
-│ SSRN alerts     │──┤            │ archived │           └──────────────┘
-│ (Gmail)         │  │            └──────────┘
-│                 │  │
-│ Manual DOI      │──┘  capture
-└─────────────────┘
+GitHub Actions (Wednesday 10:00 UTC)
+  fetch sources ─► front-matter filter ─► dedupe / merge versions ─► abstract chain
+      └─► keyword gate (free) ─► LLM classification (sets, relevance, note) ─► issue assignment
+  commit data/ ─► sitebuilder ─► site/ ─► GitHub Pages
 ```
 
-## Weekly Workflow
+- `digest/` — pipeline package (`python -m digest ...`)
+- `sitebuilder/` + `web/` — static site generator (`python -m sitebuilder ...`)
+- `config/sources.yaml` — the watch list, in three tiers: **A** every paper is classified (top journals), **B** keyword-gated, **C** strict keyword gate
+- `config/topics.yaml` — topic sets and keyword gates
+- `config/profile.md` — the reader profile the classifier scores against
+- `config/settings.yaml` — window, model, thresholds, site metadata
+- `data/` — committed state: `articles/<year>.jsonl`, `issues.json`, `runs.jsonl`, and `published/` (the site's input)
+- `scripts/google_apps_script.js` — Gmail parser for SSRN / Google Scholar alerts (runs in Google Apps Script, feeds a published Sheet CSV)
 
-A cron job runs **every Friday at 3pm** and does steps 1-4 automatically:
-
-1. `discover` — Fetches new papers from 16 journals via OpenAlex
-2. `ingest` — Pulls papers from your Google Sheet (Scholar/SSRN alert emails)
-3. `triage` — Claude scores each paper on relevance, quality, and timeliness
-4. `digest` — Generates a ranked markdown file in `digests/`
-5. **macOS notification** — "Paper Digest Ready"
-
-**What you do:**
-
-- Open `digests/digest_YYYY-MM-DD.md` to scan the ranked list
-- Run `python3 cli.py promote --select 1,3,5` to send your picks to Zotero
-- When you come across a paper elsewhere, run `python3 cli.py capture <DOI>`
-
-## CLI Reference
+## Local use
 
 ```bash
-python3 cli.py discover [--days N]       # Fetch new papers from OpenAlex (default: 7 days)
-python3 cli.py ingest                    # Import papers from Google Sheet
-python3 cli.py capture <DOI>             # Add a paper by DOI (resolves via CrossRef)
-python3 cli.py capture --manual          # Add a paper by typing metadata
-python3 cli.py triage [--limit N]        # Score pending papers with Claude
-python3 cli.py promote                   # Review and send scored papers to Zotero
-python3 cli.py promote --select 1,3,5    # Promote specific papers by number
-python3 cli.py promote --yes             # Promote all above threshold
-python3 cli.py digest                    # Generate markdown digest
-python3 cli.py status                    # Show pipeline statistics
+python3 -m venv .venv && . .venv/bin/activate
+pip install -r requirements-dev.txt
+cp .env.example .env            # fill in ANTHROPIC_API_KEY, CROSSREF_MAILTO, GSHEET_CSV_URL
+
+python -m digest sources check                     # validate every ISSN / feed
+python -m digest run --dry-run --no-llm --days 8   # fetch + keyword stage, print the funnel
+python -m digest run --dry-run --llm-limit 1       # one LLM batch, print verdicts
+python -m digest run --bootstrap                   # first real run: Issue 1 from a 14-day window
+python -m digest publish                           # write data/published/
+python -m sitebuilder build --data data/published --out site
+python -m sitebuilder check site
+python -m sitebuilder serve site                   # http://localhost:8000
+python -m pytest
 ```
 
-Triage engine flag: `--engine cli` (default, uses Claude Code) or `--engine api` (uses Anthropic SDK).
+Other commands: `python -m digest status`, `python -m digest add-doi <doi>`, `python -m digest fetch --sources asq,jbv --print`.
 
-## Setup
+## Deployment
 
-### 1. Install dependencies
+Repository settings:
+- **Pages** → Source: GitHub Actions
+- **Secrets**: `ANTHROPIC_API_KEY`, `GSHEET_CSV_URL` (optional `S2_API_KEY`)
+- **Variables**: `CROSSREF_MAILTO`, optional `SITE_URL`
 
-```bash
-pip3 install -r requirements.txt
-```
+`.github/workflows/digest.yml` runs the pipeline weekly, commits `data/`, builds the site, and deploys. Trigger it manually from the Actions tab with `dry_run` to test, or `bootstrap` for the first issue. Pushes to `main` that touch `web/`, `sitebuilder/`, or `data/published/` rebuild and redeploy without re-running the pipeline.
 
-### 2. Configure `.env`
+## Editing the watch list
 
-```bash
-cp .env.example .env
-```
-
-Fill in:
-- `OPENALEX_EMAIL` — your institutional email (for faster API access)
-- `ZOTERO_API_KEY` — from https://www.zotero.org/settings/keys
-- `ZOTERO_LIBRARY_ID` — listed as "Your userID" on that page
-- `GSHEET_CSV_URL` — your published Google Sheet URL (see below)
-- `ANTHROPIC_API_KEY` — only needed if using `--engine api`
-
-### 3. Google Apps Script (for Scholar/SSRN email ingestion)
-
-1. Create a Google Sheet named "Paper Pipeline Inbox"
-2. Extensions → Apps Script → paste contents of `google_apps_script.js`
-3. Run `processAlerts` once and authorize
-4. Add a daily trigger (Triggers → Add → Time-driven → Day timer)
-5. File → Share → Publish to web → Sheet1 → CSV → copy URL into `.env`
-
-### 4. Gmail filters (keep inbox clean)
-
-Create two filters to auto-archive alert emails:
-- From `scholaralerts-noreply@google.com` → Skip Inbox, label `Papers/Scholar`
-- From `SSRN@email.ssrn.com OR noreply@ssrn.com` → Skip Inbox, label `Papers/SSRN`
-
-### 5. Zotero RSS feeds
-
-Add journal RSS feeds in Zotero (File → New Feed → From URL). See the project setup notes for verified feed URLs.
-
-## Configuration
-
-Edit `config.py` to customize:
-- `TARGET_JOURNALS` — journals to monitor (with OpenAlex source IDs)
-- `RESEARCH_PROFILE` — your research description (used for triage scoring)
-- `PROMOTE_THRESHOLD` — minimum score to suggest promotion (default: 7.0)
-- `READING_QUEUE_CAP` — max papers in reading queue (default: 15)
-- `TRIAGE_MODEL` — Claude model for scoring
-- `DISCOVERY_LOOKBACK_DAYS` — how far back to search (default: 7)
-
-## File Structure
-
-```
-reader/
-├── cli.py              # Unified CLI entry point
-├── config.py           # Research profile, journals, settings
-├── database.py         # SQLite staging database
-├── discover.py         # OpenAlex journal discovery
-├── ingest.py           # Google Sheet ingestion
-├── capture.py          # Manual DOI/title capture
-├── triage.py           # Claude-powered scoring
-├── promote.py          # Zotero promotion
-├── digest.py           # Markdown digest generator
-├── run_weekly.sh       # Cron automation script
-├── google_apps_script.js  # Gmail parser (paste into Apps Script)
-├── requirements.txt
-├── .env                # Your API keys (not tracked)
-├── data/papers.db      # Staging database
-└── digests/            # Generated digests
-```
+Add or remove entries in `config/sources.yaml` and run `python -m digest sources check`. Tier A means every paper from that venue is sent to the classifier; B and C apply the keyword gate with increasing strictness.

@@ -1,0 +1,55 @@
+# {{ site.title }}: Guide for AI Assistants
+
+{{ site.title }} is a weekly, curated compilation of new research on {% for s in meta.sets %}{{ s.label | lower }}{% if not loop.last %}, {% endif %}{% endfor %}. Use it to produce a personalized research digest from the user's stated interests. Everything needed is embedded below: titles, authors, venues, the authors' own abstracts, topic tags, and direct links.
+
+## Invocation context
+
+The user has been told to paste "Run the {{ site.title }} custom digest workflow" into their AI assistant together with this page's URL ({{ site_url }}llms.txt). Treat that as a request to run this workflow. Begin the preference interview without explaining how to retrieve additional material.
+
+## Purpose and editorial scope
+
+{% for s in meta.sets %}- {{ s.label }}: {{ s.description }}
+{% endfor %}
+The source list is a curated watch list of leading management, sociology, economics and general-science journals plus NBER, RePEc and arXiv working papers and email alerts ({{ site_url }}details.html). The feed is a curated compilation, not a comprehensive bibliographic database.
+
+## Preference interview
+
+Ask these unless already answered:
+1. All three themes, or only some of {% for s in meta.sets %}{{ s.label | lower }}{% if not loop.last %}, {% endif %}{% endfor %}?
+2. Source types: published journal articles only; plus working papers; or everything including preprints and email alerts?
+3. In one sentence, the user's primary research interest and background?
+4. Preferred paper styles or methods, and whether exceptional papers outside them should be retained?
+
+## Digest procedure
+
+1. Use the embedded current issue below.
+2. Apply the user's themes, source types, interests, background and method preferences.
+3. Select no more than 10 papers; rank relevance and intellectual value above keyword overlap.
+4. Return one short paragraph on what is most exciting, surprising or consequential for this user.
+5. List the selected papers: title, authors, venue, a one-sentence gist drawn from the abstract, and the direct link.
+6. Do not invent findings or numbers. Abstracts are the authors' own; do not present your gist as the abstract. Say so when nothing matches.
+
+## Output format
+
+Start with a paragraph headed "This week's digest", then:
+1. [Paper title](direct link) -- Authors. Venue. One-sentence gist from the abstract.
+
+## Current issue: {{ issue.label }}, {{ issue.cutoff | date_long }} ({{ issue.count }} papers)
+
+"Topics" gives the site's topic tags; "pick" marks the classifier's top picks for the site owner and should be ignored unless the user is the site owner.
+
+{% for a in issue.articles | sort(attribute='ordinal') %}
+{{ loop.index }}. {{ a.title }}
+   Authors: {{ a.authors | authors_inline }}
+   Venue: {{ a.venue }} ({{ a.status_label | lower }}{% if a.published_at %}, {{ a.published_at | date_long }}{% endif %})
+   Topics: {{ a.set_labels | join(', ') }}{% if a.recommended %}; pick{% endif %}
+   Link: {{ a.link }}
+   {% if a.abstract %}Abstract: {{ a.abstract }}{% else %}No abstract available.{% endif %}
+
+{% endfor %}
+## Resources
+
+- {{ site_url }} : browse issues and filters
+- {{ site_url }}details.html : source-by-source collection methods
+- {{ site_url }}llms.html : HTML version of this guide
+- {{ site_url }}data/latest.json and {{ site_url }}data/search.json : machine-readable data

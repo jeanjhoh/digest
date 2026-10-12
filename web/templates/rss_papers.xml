@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+  <title>{{ site.title }} — papers</title>
+  <link>{{ site_url }}</link>
+  <description>{{ site.tagline }} (one item per paper)</description>
+  <language>en</language>
+  <lastBuildDate>{{ generated_at | rfc822 }}</lastBuildDate>
+  <atom:link href="{{ site_url }}feed-papers.xml" rel="self" type="application/rss+xml"/>
+  {% for a in papers %}
+  <item>
+    <title>{{ a.title }}</title>
+    <link>{{ a.link }}</link>
+    <guid isPermaLink="true">{{ site_url }}p/{{ a.slug }}.html</guid>
+    <pubDate>{{ (a.first_seen_at or a.published_at) | rfc822 }}</pubDate>
+    {% for n in a.authors %}<dc:creator>{{ n }}</dc:creator>
+    {% endfor %}
+    {% for s in a.set_labels %}<category>{{ s }}</category>
+    {% endfor %}
+    <category>{{ a.venue }}</category>
+    <description><![CDATA[<p><em>{{ a.authors | authors_inline | e }}</em> · {{ a.venue | e }} · Issue No. {{ '%03d' | format(a.issue_number) }}</p>{% if a.note %}<p>{{ a.note | e }}</p>{% endif %}<p>{% if a.abstract %}{{ a.abstract | e }}{% else %}No abstract available.{% endif %}</p>{% if a.doi %}<p><a href="https://doi.org/{{ a.doi }}">DOI</a></p>{% endif %}]]></description>
+  </item>
+  {% endfor %}
+</channel>
+</rss>

@@ -1,0 +1,242 @@
+{
+ "number": 2,
+ "cutoff": "2026-10-07",
+ "window_start": "2026-09-30",
+ "generated_at": "2026-10-07T10:31:00Z",
+ "articles": [
+  {
+   "canonical_key": "doi:10.1177/00018392262222222",
+   "title": "Algorithmic Managers and the Erosion of Discretion",
+   "authors": [
+    "Hannah Lee",
+    "Ravi Menon",
+    "Sofia Rossi"
+   ],
+   "venue": "Administrative Science Quarterly",
+   "source_slug": "asq",
+   "source_category": "management_journal",
+   "publication_status": "published",
+   "doi": "10.1177/00018392262222222",
+   "arxiv_id": null,
+   "nber_id": null,
+   "ssrn_id": null,
+   "primary_url": "https://doi.org/10.1177/00018392262222222",
+   "paper_url": null,
+   "pdf_url": null,
+   "published_at": "2026-10-03",
+   "first_seen_at": "2026-10-07T10:02:11Z",
+   "year": 2026,
+   "volume": null,
+   "issue": null,
+   "pages": null,
+   "issue_number": 2,
+   "sets": [
+    "ai_work"
+   ],
+   "relevance_score": 8,
+   "relevance_reasons": [
+    "ai_work:algorithmic management, worker"
+   ],
+   "recommended": true,
+   "note": "Ethnography of warehouse supervisors working under algorithmic scheduling tools.",
+   "abstract": "Drawing on 18 months of fieldwork in three distribution centers, we trace how algorithmic scheduling reshapes supervisory discretion. Supervisors retain formal authority but lose the informal levers that previously sustained worker loyalty.",
+   "abstract_source": "crossref",
+   "version_note": null
+  },
+  {
+   "canonical_key": "doi:10.1016/j.jbusvent.2026.106511",
+   "title": "Founders Who Use LLMs: Ideation Breadth and Venture Outcomes",
+   "authors": [
+    "Lucas Meyer",
+    "Aisha Bello"
+   ],
+   "venue": "Journal of Business Venturing",
+   "source_slug": "jbv",
+   "source_category": "management_journal",
+   "publication_status": "published",
+   "doi": "10.1016/j.jbusvent.2026.106511",
+   "arxiv_id": null,
+   "nber_id": null,
+   "ssrn_id": null,
+   "primary_url": "https://doi.org/10.1016/j.jbusvent.2026.106511",
+   "paper_url": null,
+   "pdf_url": null,
+   "published_at": "2026-10-05",
+   "first_seen_at": "2026-10-07T10:02:14Z",
+   "year": 2026,
+   "volume": null,
+   "issue": null,
+   "pages": null,
+   "issue_number": 2,
+   "sets": [
+    "entrepreneurship",
+    "ai_work"
+   ],
+   "relevance_score": 9,
+   "relevance_reasons": [
+    "entrepreneurship:founder, new venture",
+    "ai_work:llm"
+   ],
+   "recommended": true,
+   "note": "Field experiment giving nascent founders LLM access during ideation.",
+   "abstract": "In a field experiment with 612 nascent founders, random access to an LLM ideation assistant increased the number of distinct opportunity concepts by 38 percent but reduced the share of concepts founders rated as personally meaningful.",
+   "abstract_source": "crossref",
+   "version_note": null
+  },
+  {
+   "canonical_key": "doi:10.1177/00031224263333333",
+   "title": "Elite Reproduction Through Internships",
+   "authors": [
+    "Noor Haddad"
+   ],
+   "venue": "American Sociological Review",
+   "source_slug": "asr",
+   "source_category": "sociology_journal",
+   "publication_status": "published",
+   "doi": "10.1177/00031224263333333",
+   "arxiv_id": null,
+   "nber_id": null,
+   "ssrn_id": null,
+   "primary_url": "https://doi.org/10.1177/00031224263333333",
+   "paper_url": null,
+   "pdf_url": null,
+   "published_at": "2026-10-01",
+   "first_seen_at": "2026-10-07T10:02:20Z",
+   "year": 2026,
+   "volume": null,
+   "issue": null,
+   "pages": null,
+   "issue_number": 2,
+   "sets": [
+    "orgs_inequality"
+   ],
+   "relevance_score": 7,
+   "relevance_reasons": [
+    "orgs_inequality:elite, career"
+   ],
+   "recommended": false,
+   "note": "Longitudinal data on internship access and early-career placement by class origin.",
+   "abstract": null,
+   "abstract_source": null,
+   "version_note": null
+  },
+  {
+   "canonical_key": "doi:10.1257/aer.20264444",
+   "title": "Self-Employment Responses to Automation Shocks",
+   "authors": [
+    "Elena Petrova",
+    "Jonas Weber"
+   ],
+   "venue": "American Economic Review",
+   "source_slug": "aer",
+   "source_category": "economics_journal",
+   "publication_status": "published",
+   "doi": "10.1257/aer.20264444",
+   "arxiv_id": null,
+   "nber_id": null,
+   "ssrn_id": null,
+   "primary_url": "https://doi.org/10.1257/aer.20264444",
+   "paper_url": null,
+   "pdf_url": null,
+   "published_at": "2026-10-01",
+   "first_seen_at": "2026-10-07T10:02:31Z",
+   "year": 2026,
+   "volume": "116",
+   "issue": "10",
+   "pages": "2901-2940",
+   "issue_number": 2,
+   "sets": [
+    "entrepreneurship",
+    "ai_work"
+   ],
+   "relevance_score": 6,
+   "relevance_reasons": [
+    "entrepreneurship:self-employ",
+    "ai_work:automation, worker"
+   ],
+   "recommended": false,
+   "note": "Local labor-market study of displaced workers entering self-employment.",
+   "abstract": "Using matched employer-employee data for 2.1 million workers, we estimate that a one standard deviation increase in local robot exposure raises transitions into self-employment by 0.8 percentage points, concentrated in low-capital services.",
+   "abstract_source": "openalex",
+   "version_note": null
+  },
+  {
+   "canonical_key": "doi:10.3386/w34052",
+   "title": "Venture Capital and Regional Inequality",
+   "authors": [
+    "Carlos Ortega"
+   ],
+   "venue": "NBER Working Papers",
+   "source_slug": "nber",
+   "source_category": "working_paper",
+   "publication_status": "working_paper",
+   "doi": "10.3386/w34052",
+   "arxiv_id": null,
+   "nber_id": "w34052",
+   "ssrn_id": null,
+   "primary_url": "https://www.nber.org/papers/w34052",
+   "paper_url": null,
+   "pdf_url": "https://www.nber.org/system/files/working_papers/w34052/w34052.pdf",
+   "published_at": "2026-10-06",
+   "first_seen_at": "2026-10-07T10:03:02Z",
+   "year": 2026,
+   "volume": null,
+   "issue": null,
+   "pages": null,
+   "issue_number": 2,
+   "sets": [
+    "entrepreneurship",
+    "orgs_inequality"
+   ],
+   "relevance_score": 5,
+   "relevance_reasons": [
+    "entrepreneurship:venture capital",
+    "orgs_inequality:inequality"
+   ],
+   "recommended": false,
+   "note": "Regional panel linking venture funding concentration to income dispersion.",
+   "abstract": "Venture capital remains concentrated in a handful of metropolitan areas. We show that this concentration explains about a fifth of the rise in between-region income inequality since 2000.",
+   "abstract_source": "nber",
+   "version_note": null
+  },
+  {
+   "canonical_key": "arxiv:2610.01234",
+   "title": "Measuring Knowledge-Worker Productivity with LLM Assistants: A Multi-Firm Study",
+   "authors": [
+    "Yuki Tanaka",
+    "Omar Farouk",
+    "Lena Fischer"
+   ],
+   "venue": "arXiv cs.HC",
+   "source_slug": "arxiv-ai-work",
+   "source_category": "preprint",
+   "publication_status": "preprint",
+   "doi": null,
+   "arxiv_id": "2610.01234",
+   "nber_id": null,
+   "ssrn_id": null,
+   "primary_url": "https://arxiv.org/abs/2610.01234",
+   "paper_url": null,
+   "pdf_url": "https://arxiv.org/pdf/2610.01234",
+   "published_at": "2026-10-04",
+   "first_seen_at": "2026-10-07T10:03:40Z",
+   "year": 2026,
+   "volume": null,
+   "issue": null,
+   "pages": null,
+   "issue_number": 2,
+   "sets": [
+    "ai_work"
+   ],
+   "relevance_score": 5,
+   "relevance_reasons": [
+    "ai_work:llm, productivity, worker"
+   ],
+   "recommended": false,
+   "note": "Telemetry from 14 firms on LLM assistant use and output quality.",
+   "abstract": "We analyze telemetry from 14 firms covering 9,800 knowledge workers over 40 weeks. LLM assistant use is associated with 12 percent faster document completion, with no measurable change in reviewer-rated quality.",
+   "abstract_source": "arxiv",
+   "version_note": null
+  }
+ ]
+}

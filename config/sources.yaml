@@ -1,0 +1,73 @@
+# Watch list for the weekly digest.
+# tier A: every non-front-matter paper goes to the LLM classifier (top journals, by prestige)
+# tier B: keyword-gated (min_score 2)
+# tier C: strict keyword gate (min_score 5) for high-volume or mostly off-topic venues
+# kinds: crossref_journal (issn), crossref_prefix (prefix), arxiv (query), repec_nep (report), gsheet
+defaults:
+  kind: crossref_journal
+  enabled: true
+tiers:
+  A: {always_candidate: true, min_score: 0}
+  B: {always_candidate: false, min_score: 2}
+  C: {always_candidate: false, min_score: 5}
+
+sources:
+  # ---- Tier A: top journals ----
+  - {slug: asq,      name: Administrative Science Quarterly, category: management_journal, issn: ["0001-8392", "1930-3815"], tier: A, url: https://journals.sagepub.com/home/asq}
+  - {slug: amj,      name: Academy of Management Journal,    category: management_journal, issn: ["0001-4273", "1948-0989"], tier: A, url: https://journals.aom.org/journal/amj}
+  - {slug: amr,      name: Academy of Management Review,     category: management_journal, issn: ["0363-7425", "1930-3807"], tier: A, url: https://journals.aom.org/journal/amr}
+  - {slug: orgsci,   name: Organization Science,             category: management_journal, issn: ["1047-7039", "1526-5455"], tier: A, url: https://pubsonline.informs.org/journal/orsc}
+  - {slug: smj,      name: Strategic Management Journal,     category: management_journal, issn: ["0143-2095", "1097-0266"], tier: A, url: https://onlinelibrary.wiley.com/journal/10970266}
+  - {slug: mnsc,     name: Management Science,               category: management_journal, issn: ["0025-1909", "1526-5501"], tier: A, url: https://pubsonline.informs.org/journal/mnsc}
+  - {slug: asr,      name: American Sociological Review,     category: sociology_journal,  issn: ["0003-1224", "1939-8271"], tier: A, url: https://journals.sagepub.com/home/asr}
+  - {slug: ajs,      name: American Journal of Sociology,    category: sociology_journal,  issn: ["0002-9602", "1537-5390"], tier: A, url: https://www.journals.uchicago.edu/toc/ajs/current}
+  - {slug: aer,      name: American Economic Review,         category: economics_journal,  issn: ["0002-8282", "1944-7981"], tier: A, url: https://www.aeaweb.org/journals/aer}
+  - {slug: qje,      name: Quarterly Journal of Economics,   category: economics_journal,  issn: ["0033-5533", "1531-4650"], tier: A, url: https://academic.oup.com/qje}
+  - {slug: jpe,      name: Journal of Political Economy,     category: economics_journal,  issn: ["0022-3808", "1537-534X"], tier: A, url: https://www.journals.uchicago.edu/toc/jpe/current}
+  - {slug: restud,   name: Review of Economic Studies,       category: economics_journal,  issn: ["0034-6527", "1467-937X"], tier: A, url: https://academic.oup.com/restud}
+  - {slug: ecta,     name: Econometrica,                     category: economics_journal,  issn: ["0012-9682", "1468-0262"], tier: A, url: https://onlinelibrary.wiley.com/journal/14680262}
+
+  # ---- Tier B: field journals, keyword-gated ----
+  - {slug: jbv,      name: Journal of Business Venturing,              category: management_journal, issn: ["0883-9026"],              tier: B, url: https://www.sciencedirect.com/journal/journal-of-business-venturing}
+  - {slug: etp,      name: Entrepreneurship Theory and Practice,       category: management_journal, issn: ["1042-2587", "1540-6520"], tier: B, url: https://journals.sagepub.com/home/etp}
+  - {slug: sej,      name: Strategic Entrepreneurship Journal,         category: management_journal, issn: ["1932-4391", "1932-443X"], tier: B, url: https://onlinelibrary.wiley.com/journal/1932443x}
+  - {slug: jom,      name: Journal of Management,                      category: management_journal, issn: ["0149-2063", "1557-1211"], tier: B, url: https://journals.sagepub.com/home/jom}
+  - {slug: jms,      name: Journal of Management Studies,              category: management_journal, issn: ["0022-2380", "1467-6486"], tier: B, url: https://onlinelibrary.wiley.com/journal/14676486}
+  - {slug: orgstud,  name: Organization Studies,                       category: management_journal, issn: ["0170-8406", "1741-3044"], tier: B, url: https://journals.sagepub.com/home/oss}
+  - {slug: respol,   name: Research Policy,                            category: management_journal, issn: ["0048-7333"],              tier: B, url: https://www.sciencedirect.com/journal/research-policy}
+  - {slug: stratsci, name: Strategy Science,                           category: management_journal, issn: ["2333-2050", "2333-2077"], tier: B, url: https://pubsonline.informs.org/journal/stsc}
+  - {slug: annals,   name: Academy of Management Annals,               category: management_journal, issn: ["1941-6520", "1941-6067"], tier: B, url: https://journals.aom.org/journal/annals}
+  - {slug: amd,      name: Academy of Management Discoveries,          category: management_journal, issn: ["2168-1007"],              tier: B, url: https://journals.aom.org/journal/amd}
+  - {slug: jap,      name: Journal of Applied Psychology,              category: management_journal, issn: ["0021-9010", "1939-1854"], tier: B, url: https://psycnet.apa.org/PsycARTICLES/journal/apl}
+  - {slug: obhdp,    name: Organizational Behavior and Human Decision Processes, category: management_journal, issn: ["0749-5978"],    tier: B, url: https://www.sciencedirect.com/journal/organizational-behavior-and-human-decision-processes}
+  - {slug: misq,     name: MIS Quarterly,                              category: management_journal, issn: ["0276-7783", "2162-9730"], tier: B, url: https://misq.umn.edu/}
+  - {slug: isr,      name: Information Systems Research,               category: management_journal, issn: ["1047-7047", "1526-5536"], tier: B, url: https://pubsonline.informs.org/journal/isre}
+  - {slug: socforces, name: Social Forces,                             category: sociology_journal,  issn: ["0037-7732", "1534-7605"], tier: B, url: https://academic.oup.com/sf}
+  - {slug: arsoc,    name: Annual Review of Sociology,                 category: sociology_journal,  issn: ["0360-0572", "1545-2115"], tier: B, url: https://www.annualreviews.org/journal/soc}
+  - {slug: socsci,   name: Sociological Science,                       category: sociology_journal,  issn: ["2330-6696"],              tier: B, url: https://sociologicalscience.com/}
+  - {slug: ser,      name: Socio-Economic Review,                      category: sociology_journal,  issn: ["1475-1461", "1475-147X"], tier: B, url: https://academic.oup.com/ser}
+  - {slug: aeri,     name: "American Economic Review: Insights",       category: economics_journal,  issn: ["2640-205X", "2640-2068"], tier: B, url: https://www.aeaweb.org/journals/aeri}
+  - {slug: aejapp,   name: "American Economic Journal: Applied Economics", category: economics_journal, issn: ["1945-7782", "1945-7790"], tier: B, url: https://www.aeaweb.org/journals/app}
+  - {slug: jep,      name: Journal of Economic Perspectives,           category: economics_journal,  issn: ["0895-3309", "1944-7965"], tier: B, url: https://www.aeaweb.org/journals/jep}
+  - {slug: jole,     name: Journal of Labor Economics,                 category: economics_journal,  issn: ["0734-306X", "1537-5307"], tier: B, url: https://www.journals.uchicago.edu/toc/jole/current}
+  - {slug: restat,   name: Review of Economics and Statistics,         category: economics_journal,  issn: ["0034-6535", "1530-9142"], tier: B, url: https://direct.mit.edu/rest}
+  - {slug: jf,       name: Journal of Finance,                         category: economics_journal,  issn: ["0022-1082", "1540-6261"], tier: B, url: https://onlinelibrary.wiley.com/journal/15406261}
+  - {slug: jfe,      name: Journal of Financial Economics,             category: economics_journal,  issn: ["0304-405X"],              tier: B, url: https://www.sciencedirect.com/journal/journal-of-financial-economics}
+  - {slug: rfs,      name: Review of Financial Studies,                category: economics_journal,  issn: ["0893-9454", "1465-7368"], tier: B, url: https://academic.oup.com/rfs}
+  - {slug: nhb,      name: Nature Human Behaviour,                     category: science_journal,    issn: ["2397-3374"],              tier: B, url: https://www.nature.com/nathumbehav/}
+
+  # ---- Tier C: strict keyword gate ----
+  - {slug: sbe,      name: Small Business Economics,  category: management_journal, issn: ["0921-898X", "1573-0913"], tier: C, url: https://link.springer.com/journal/11187}
+  - {slug: wox,      name: Work and Occupations,      category: sociology_journal,  issn: ["0730-8884", "1552-8464"], tier: C, url: https://journals.sagepub.com/home/wox}
+  - {slug: nature,   name: Nature,                    category: science_journal,    issn: ["0028-0836", "1476-4687"], tier: C, url: https://www.nature.com/}
+  - {slug: science,  name: Science,                   category: science_journal,    issn: ["0036-8075", "1095-9203"], tier: C, url: https://www.science.org/journal/science}
+  - {slug: pnas,     name: Proceedings of the National Academy of Sciences, category: science_journal, issn: ["0027-8424", "1091-6490"], tier: C, url: https://www.pnas.org/}
+
+  # ---- Working papers, preprints, alerts ----
+  - {slug: alerts,   name: Email alerts (SSRN, Google Scholar), kind: gsheet,          category: alert,         tier: A, url: https://scholar.google.com/scholar_alerts}
+  - {slug: nep-ent,  name: "NEP: Entrepreneurship",             kind: repec_nep,       category: working_paper, tier: A, report: nep-ent, url: https://nep.repec.org/nep-ent.html}
+  - {slug: nber,     name: NBER Working Papers,                 kind: crossref_prefix, category: working_paper, tier: B, prefix: "10.3386", url: https://www.nber.org/papers}
+  - {slug: arxiv-econ-gn, name: "arXiv econ.GN",                kind: arxiv,           category: preprint,      tier: B, query: "cat:econ.GN", url: https://arxiv.org/list/econ.GN/recent}
+  - {slug: arxiv-ai-work, name: "arXiv cs.AI / cs.HC / cs.CL (work-related)", kind: arxiv, category: preprint, tier: C,
+     query: '(cat:cs.AI OR cat:cs.HC OR cat:cs.CL) AND (abs:"labor market" OR abs:workers OR abs:occupations OR abs:entrepreneurs OR abs:"knowledge work" OR abs:productivity OR abs:hiring OR abs:workplace OR abs:"future of work")',
+     url: https://arxiv.org/list/cs.AI/recent}
