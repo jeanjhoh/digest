@@ -281,15 +281,16 @@
   // ---------- forms ----------
   var filterForm = $('#filter-form'), searchForm = $('#search-form');
   if (filterForm) {
-    filterForm.addEventListener('submit', function (e) {
-      e.preventDefault();
+    function readFilterForm() {
       state.sets = $$('input[name="sets"]:checked', filterForm).map(function (i) { return i.value; });
       state.cats = $$('input[name="cats"]:checked', filterForm).map(function (i) { return i.value; });
       state.srcs = $$('input[name="srcs"]:checked', filterForm).map(function (i) { return i.value; });
       state.picks = !!$('input[name="picks"]:checked', filterForm);
-      closePanels(); applyView();
-    });
-    $('[data-clear-filters]', filterForm).addEventListener('click', function () { state.sets = []; state.cats = []; state.srcs = []; state.picks = false; closePanels(); applyView(); });
+    }
+    // filters apply as soon as a control changes; the button only closes the dialog
+    filterForm.addEventListener('change', function (e) { if (e.target && e.target.name) { readFilterForm(); applyView(); } });
+    filterForm.addEventListener('submit', function (e) { e.preventDefault(); readFilterForm(); closePanels(); applyView(); });
+    $('[data-clear-filters]', filterForm).addEventListener('click', function () { state.sets = []; state.cats = []; state.srcs = []; state.picks = false; syncBadges(); applyView(); });
     var ss = $('.source-search', filterForm);
     if (ss) ss.addEventListener('input', function () { var q = ss.value.toLowerCase().trim(); $$('.source-list label', filterForm).forEach(function (l) { l.hidden = q ? l.getAttribute('data-src-name').indexOf(q) < 0 : l.querySelector('.count').textContent === '0'; }); });
   }
