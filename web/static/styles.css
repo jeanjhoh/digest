@@ -24,6 +24,7 @@
   --set-entrepreneurship: #0b63a6; --set-ai_work: #0f766e; --set-orgs_inequality: #b45309; --pick: #b4432e;
 }
 * { box-sizing: border-box; }
+[hidden] { display: none !important; }   /* author display rules (grid, flex) must not override the hidden attribute */
 html { scroll-behavior: smooth; }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
 body {
