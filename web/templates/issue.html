@@ -6,7 +6,7 @@
 <header class="digest-head">
   <h2 class="digest-title">{{ site.title }}</h2>
   <p class="credit">Weekly collation of research in entrepreneurship, genAI &amp; work, and orgs &amp; inequality. Modeled after Kevin Bryan's <a href="https://kevinbryanecon.com/usefulknowledge" target="_blank" rel="noopener">Useful Knowledge</a>.</p>
-  <p class="issue-line"><strong>Issue {{ issue.label }}</strong> · {{ issue.cutoff | date_long }} · <span id="visible-count">{{ issue.count }}</span> papers{% if picks %} · {{ picks | length }} picks{% endif %}
+  <p class="issue-line"><strong>Issue {{ issue.label }}</strong> · {{ issue.cutoff | date_long }} · <span id="visible-count">{{ issue.count }}</span> papers{% if picks %} · {{ picks | length }} highlights{% endif %}
     <span class="issue-nav">{% if prev_issue %}<a href="{{ rel }}issues/{{ '%03d' | format(prev_issue.number) }}.html">← {{ prev_issue.label }}</a>{% endif %}{% if next_issue %} <a href="{{ rel }}issues/{{ '%03d' | format(next_issue.number) }}.html">{{ next_issue.label }} →</a>{% endif %}</span></p>
   <nav class="subnav" aria-label="Digest navigation">
     <a href="{{ rel }}issues/" data-panel="issues">Issues</a>
@@ -19,20 +19,10 @@
   </nav>
   <p class="set-chips">
     {% for s in meta.sets %}<button type="button" class="chip chip-{{ s.id }}" data-chip-set="{{ s.id }}">{{ s.label }} <span class="count">{{ set_counts[s.id] }}</span></button>{% endfor %}
-    <span class="js-only view-tools"><button type="button" class="linkish" data-toggle-notes>Hide AI summaries</button><span class="sep">·</span><button type="button" class="linkish" data-expand-all>Expand abstracts</button></span>
   </p>
+  <p class="view-tools"><span class="legend"><span class="legend-bar"></span>Highlight</span><span class="js-only"><span class="sep">·</span><button type="button" class="linkish" data-toggle-notes>Hide AI summaries</button><span class="sep">·</span><button type="button" class="linkish" data-expand-all>Expand abstracts</button></span></p>
 </header>
 
-{% if picks %}
-<section class="picks" id="picks">
-  <h2>Highlights</h2>
-  <ol class="picks-list">
-    {% for a in picks %}
-    <li><a href="#k-{{ a.slug }}">{{ a.title }}</a> <span class="muted">— {{ a.authors | authors_inline }}, <em>{{ a.venue }}</em></span></li>
-    {% endfor %}
-  </ol>
-</section>
-{% endif %}
 
 <div id="entries" data-issue="{{ issue.number }}">
   {% for g in groups %}

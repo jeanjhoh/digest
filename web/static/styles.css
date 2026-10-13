@@ -93,7 +93,8 @@ button.linkish:hover { color: var(--link-hover); text-decoration: underline; }
 .subnav .subnav-tools { margin-left: auto; text-transform: none; letter-spacing: 0; font-weight: 400; }
 .badge { display: inline-block; min-width: 1.1em; padding: 0 0.3em; margin-left: 0.3em; border-radius: 1em; background: var(--link); color: #fff; font-size: 0.65rem; text-align: center; letter-spacing: 0; }
 .set-chips { display: flex; flex-wrap: wrap; align-items: center; gap: 0.4rem; margin: 0; }
-.set-chips .view-tools { margin-left: auto; font-size: 0.8rem; white-space: nowrap; }
+.view-tools { font-size: 0.8rem; color: var(--muted); margin: 0.5rem 0 0; }
+.legend-bar { display: inline-block; width: 3px; height: 0.9em; background: var(--pick); vertical-align: -0.1em; margin-right: 0.4em; }
 .chip { font: inherit; font-size: 0.74rem; padding: 0.15rem 0.6rem; border: 1px solid var(--rule); border-radius: 1rem; background: var(--panel); color: var(--ink); cursor: pointer; }
 .chip .count { color: var(--muted); margin-left: 0.2em; }
 .chip.is-on { border-color: var(--link); background: var(--link); color: #fff; }
