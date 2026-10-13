@@ -154,7 +154,9 @@ jobs:
 
   deploy:
     needs: build
-    if: ${{ needs.build.outputs.has_data == 'true' }}
+    # !cancelled() is required: on push events the pipeline job is skipped, and without a status function
+    # every downstream job would be skipped as well.
+    if: ${{ !cancelled() && needs.build.result == 'success' && needs.build.outputs.has_data == 'true' }}
     runs-on: ubuntu-latest
     environment:
       name: github-pages
