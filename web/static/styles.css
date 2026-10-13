@@ -145,7 +145,8 @@ details.abstract[open] summary::after { content: "less"; color: var(--link); fon
 .cite-box pre, .cite-static pre { white-space: pre-wrap; font-size: 0.75rem; margin: 0.4rem 0; background: var(--panel); padding: 0.5rem; overflow-x: auto; }
 .cite-box p { margin: 0 0 0.3rem; }
 .entry.is-focused { outline: 2px solid var(--link); outline-offset: 6px; }
-.entry:target { background: #fffbe6; }
+.entry:target { animation: target-flash 2.5s ease-out; }
+@keyframes target-flash { from { background: #fffbe6; } to { background: transparent; } }
 .empty, .run-line { font-size: 0.82rem; }
 #results .results-issue { margin-bottom: 2rem; }
 #results .results-issue > h2 { font-size: 0.75rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.1em; color: var(--link); border-bottom: 1px solid var(--link); padding-bottom: 0.35rem; margin: 0 0 1.25rem; }
