@@ -1,0 +1,45 @@
+{% macro entry(a, with_coins=True, compact=False, rel="") -%}
+<article class="entry{% if a.recommended %} is-pick{% endif %}" id="k-{{ a.slug }}" data-key="{{ a.canonical_key }}" data-slug="{{ a.slug }}" data-sets="{{ a.sets | join(' ') }}" data-cat="{{ a.source_category }}" data-src="{{ a.source_slug }}" data-score="{{ a.relevance_score }}" data-issue="{{ a.issue_number }}"{% if a.recommended %} data-pick="1"{% endif %}>
+  {% if with_coins %}<span class="Z3988" title="{{ a.coins }}"></span>{% endif %}
+  <div class="entry-ord">{{ "%03d" | format(a.ordinal) }}</div>
+  <div class="entry-body">
+    <h4 class="entry-title"><a href="{{ a.link }}" target="_blank" rel="noopener">{{ a.title }}</a></h4>
+    <p class="entry-authors">{{ a.authors | authors_inline }}</p>
+    <p class="entry-meta">
+      <a class="venue" href="{{ rel }}details.html#src-{{ a.source_slug }}">{{ a.venue }}</a>
+      <span class="sep">·</span><span class="status">{{ a.status_label }}</span>
+      {% if a.published_at %}<span class="sep">·</span><span class="date">{{ a.published_at | date_long }}</span>{% endif %}
+      {% for s in a.sets %}<span class="tag tag-{{ s }}">{{ a.set_labels[loop.index0] }}</span>{% endfor %}
+      {% if a.recommended %}<span class="tag tag-pick">Pick</span>{% endif %}
+      {% if a.version_note %}<span class="version-note">{{ a.version_note }}</span>{% endif %}
+    </p>
+    {% if a.note %}<p class="entry-note">{{ a.note }}</p>{% endif %}
+    {% if not compact %}
+    {% if a.abstract %}
+    <details class="abstract">
+      <summary><span class="abstract-label">Abstract</span><span class="abstract-teaser">{{ a.abstract }}</span></summary>
+      <div class="abstract-full">{{ a.abstract }}</div>
+      {% if a.abstract_source %}<p class="abstract-src">Abstract via {{ a.abstract_source }}</p>{% endif %}
+    </details>
+    {% else %}
+    <p class="abstract abstract-none">No abstract available.</p>
+    {% endif %}
+    <p class="entry-links">
+      {% if a.doi %}<a href="https://doi.org/{{ a.doi }}" target="_blank" rel="noopener">DOI</a><span class="sep">·</span>{% endif %}
+      {% if a.pdf_url %}<a href="{{ a.pdf_url }}" target="_blank" rel="noopener">PDF</a><span class="sep">·</span>{% endif %}
+      {% if a.arxiv_id %}<a href="https://arxiv.org/abs/{{ a.arxiv_id }}" target="_blank" rel="noopener">arXiv</a><span class="sep">·</span>{% endif %}
+      <a href="{{ rel }}p/{{ a.slug }}.html" class="permalink">Permalink</a>
+      <span class="js-only"><span class="sep">·</span><button type="button" class="linkish" data-cite>Cite</button>
+      {% if a.doi %}<span class="sep">·</span><button type="button" class="linkish" data-copy="{{ a.doi }}" data-copied="DOI copied">Copy DOI</button>{% endif %}</span>
+    </p>
+    <div class="cite-box" hidden>
+      <p class="cite-plain">{{ a.plain_citation }}</p>
+      <pre class="cite-bibtex">{{ a.bibtex }}</pre>
+      <p class="cite-actions"><button type="button" class="linkish" data-copy-sel=".cite-plain" data-copied="Citation copied">Copy citation</button><span class="sep">·</span><button type="button" class="linkish" data-copy-sel=".cite-bibtex" data-copied="BibTeX copied">Copy BibTeX</button></p>
+    </div>
+    {% else %}
+    <p class="entry-links"><a href="#k-{{ a.slug }}" class="permalink">Jump to entry</a></p>
+    {% endif %}
+  </div>
+</article>
+{%- endmacro %}

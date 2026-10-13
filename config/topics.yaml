@@ -1,0 +1,122 @@
+# Topic sets and stage-1 keyword gates.
+# Scoring: text = title + abstract (lowercased). Each term counts once; a title hit scores 2*w, an abstract hit w.
+# A set's score = core hits (+ context hits only if at least one core term hit) - global negatives.
+sets:
+  entrepreneurship:
+    label: Entrepreneurship
+    short: Entrep.
+    description: >-
+      New venture creation and growth, founders and founding teams, self-employment and small business,
+      startup financing (venture capital, angels, accelerators, crowdfunding), firm entry and exit,
+      entrepreneurial ecosystems and policy, and who becomes an entrepreneur.
+    core:
+      - {t: entrepreneur, w: 3}
+      - {t: founder, w: 3}
+      - {t: startup, w: 3}
+      - {t: start-up, w: 3}
+      - {t: new venture, w: 3}
+      - {t: venture capital, w: 3}
+      - {t: self-employ, w: 3}
+      - {t: business formation, w: 3}
+      - {t: nascent, w: 2}
+      - {t: angel investor, w: 2}
+      - {t: accelerator, w: 2}
+      - {t: incubator, w: 2}
+      - {t: crowdfunding, w: 2}
+      - {t: spinout, w: 2}
+      - {t: spin-off, w: 2}
+      - {t: firm entry, w: 2}
+      - {t: small business, w: 2}
+      - {t: business owner, w: 2}
+      - {t: seed funding, w: 1}
+      - {t: unicorn, w: 1}
+  ai_work:
+    label: Generative AI & Work
+    short: AI & Work
+    description: >-
+      How generative AI, large language models, and foundation models change work, tasks, occupations,
+      labor markets, hiring, skills, productivity, creativity, management, and new venture creation.
+    require_context: true   # an AI core term alone scores 0; a work/labor context term must also appear
+    core:
+      - {t: generative ai, w: 3}
+      - {t: large language model, w: 3}
+      - {t: llm, w: 3, word: true}
+      - {t: llms, w: 3, word: true}
+      - {t: chatgpt, w: 3}
+      - {t: foundation model, w: 3}
+      - {t: algorithmic management, w: 3}
+      - {t: artificial intelligence, w: 2}
+      - {t: ai, w: 2, word: true}
+      - {t: automation, w: 2}
+      - {t: machine learning, w: 1}
+    context:
+      - {t: labor, w: 2}
+      - {t: labour, w: 2}
+      - {t: worker, w: 2}
+      - {t: job, w: 2}
+      - {t: occupation, w: 2}
+      - {t: productivity, w: 2}
+      - {t: hiring, w: 2}
+      - {t: employment, w: 2}
+      - {t: entrepreneur, w: 2}
+      - {t: workplace, w: 2}
+      - {t: workforce, w: 2}
+      - {t: skill, w: 1}
+      - {t: creativ, w: 1}
+      - {t: firm, w: 1}
+  orgs_inequality:
+    label: Organizations & Inequality
+    short: Orgs & Ineq.
+    description: >-
+      Class and socioeconomic origins, stratification and social mobility, careers and promotion inside
+      organizations, hiring and discrimination, pay gaps, elites, and how organizations and labor markets
+      reproduce or reduce inequality.
+    core:
+      - {t: inequality, w: 3}
+      - {t: stratification, w: 3}
+      - {t: social class, w: 3}
+      - {t: socioeconomic, w: 3}
+      - {t: socio-economic, w: 3}
+      - {t: social origin, w: 3}
+      - {t: class background, w: 3}
+      - {t: class origin, w: 3}
+      - {t: social mobility, w: 3}
+      - {t: intergenerational, w: 3}
+      - {t: first-generation, w: 2}
+      - {t: discrimination, w: 2}
+      - {t: gender gap, w: 2}
+      - {t: wage gap, w: 2}
+      - {t: pay gap, w: 2}
+      - {t: hiring, w: 2}
+      - {t: promotion, w: 2}
+      - {t: career, w: 2}
+      - {t: elite, w: 2}
+      - {t: privilege, w: 2}
+      - {t: disadvantage, w: 2}
+      - {t: meritocra, w: 2}
+      - {t: race, w: 1, word: true}
+      - {t: racial, w: 1}
+      - {t: gender, w: 1}
+      - {t: parental, w: 1}
+    context:
+      - {t: organization, w: 1}
+      - {t: firm, w: 1}
+      - {t: workplace, w: 1}
+      - {t: labor market, w: 2}
+      - {t: employer, w: 2}
+      - {t: occupation, w: 1}
+negative:
+  - {t: protein, w: 3}
+  - {t: genom, w: 3}
+  - {t: neuron, w: 3}
+  - {t: quantum, w: 3}
+  - {t: tumor, w: 3}
+  - {t: tumour, w: 3}
+  - {t: clinical trial, w: 3}
+  - {t: catalys, w: 3}
+  - {t: mice, w: 3, word: true}
+  - {t: graphene, w: 3}
+  - {t: photon, w: 3}
+  - {t: enzyme, w: 3}
+  - {t: receptor, w: 3}
+  - {t: galax, w: 3}

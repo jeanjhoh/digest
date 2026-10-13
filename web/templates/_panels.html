@@ -1,0 +1,71 @@
+<div class="overlay" id="panel-search" hidden role="dialog" aria-modal="true" aria-labelledby="panel-search-title">
+  <div class="dialog">
+    <div class="dialog-head"><h3 id="panel-search-title">Search</h3><button type="button" class="dialog-close" data-close aria-label="Close">Esc / Close ×</button></div>
+    <form id="search-form" autocomplete="off">
+      <label>Main search <input type="search" name="q" placeholder='e.g. founder AND (ai OR "language model") NOT survey'></label>
+      <p class="help">Searches every field. Supports AND, OR, NOT, parentheses and quoted phrases; adjacent words imply AND.</p>
+      <div class="field-grid">
+        <label>Author <input type="text" name="author"></label>
+        <label>Title <input type="text" name="title"></label>
+        <label>Abstract <input type="text" name="abstract"></label>
+        <label>Issue number <input type="text" name="issue" placeholder="e.g. 12"></label>
+        <label>Journal / series <input type="text" name="journal"></label>
+      </div>
+      <fieldset class="scope"><legend>Scope</legend>
+        <label><input type="radio" name="scope" value="issue" checked> This issue</label>
+        <label><input type="radio" name="scope" value="all"> All issues</label>
+      </fieldset>
+      <p class="search-error" hidden></p>
+      <p class="dialog-actions"><button type="submit" class="btn">Show matches</button> <button type="button" class="btn btn-secondary" data-clear-search>Clear</button></p>
+    </form>
+  </div>
+</div>
+
+<div class="overlay" id="panel-issues" hidden role="dialog" aria-modal="true" aria-labelledby="panel-issues-title">
+  <div class="dialog">
+    <div class="dialog-head"><h3 id="panel-issues-title">Issues</h3><button type="button" class="dialog-close" data-close aria-label="Close">Esc / Close ×</button></div>
+    <ul class="issue-list">
+      {% for i in issues | reverse %}
+      <li{% if issue and i.number == issue.number %} class="current"{% endif %}><a href="{{ rel }}issues/{{ '%03d' | format(i.number) }}.html">{{ i.label }}</a> <span class="muted">{{ i.cutoff | date_long }} · {{ i.count }} papers{% if loop.first %} · latest{% endif %}</span></li>
+      {% endfor %}
+    </ul>
+    <p class="muted"><a href="{{ rel }}issues/">Full archive</a></p>
+  </div>
+</div>
+
+<div class="overlay" id="panel-filter" hidden role="dialog" aria-modal="true" aria-labelledby="panel-filter-title">
+  <div class="dialog">
+    <div class="dialog-head"><h3 id="panel-filter-title">Filter</h3><button type="button" class="dialog-close" data-close aria-label="Close">Esc / Close ×</button></div>
+    <form id="filter-form">
+      <fieldset><legend>Topic</legend>
+        {% for s in meta.sets %}<label><input type="checkbox" name="sets" value="{{ s.id }}"> {{ s.label }} <span class="count" data-count-set="{{ s.id }}"></span></label>{% endfor %}
+      </fieldset>
+      <fieldset><legend>Source type</legend>
+        {% for c in meta.categories %}<label><input type="checkbox" name="cats" value="{{ c.id }}"> {{ c.label }} <span class="count" data-count-cat="{{ c.id }}"></span></label>{% endfor %}
+      </fieldset>
+      <fieldset><legend>Source</legend>
+        <input type="search" class="source-search" placeholder="Filter sources…" aria-label="Filter sources">
+        <div class="source-list">
+        {% for s in sources.values() | sort(attribute='name') %}<label data-src-name="{{ s.name | lower }}"><input type="checkbox" name="srcs" value="{{ s.slug }}"> {{ s.name }} <span class="count" data-count-src="{{ s.slug }}"></span></label>{% endfor %}
+        </div>
+      </fieldset>
+      <label class="picks-only"><input type="checkbox" name="picks" value="1"> Editor's picks only</label>
+      <p class="dialog-actions"><button type="submit" class="btn">Apply</button> <button type="button" class="btn btn-secondary" data-clear-filters>Reset</button></p>
+    </form>
+  </div>
+</div>
+
+<div class="overlay" id="panel-about" hidden role="dialog" aria-modal="true" aria-labelledby="panel-about-title">
+  <div class="dialog">
+    <div class="dialog-head"><h3 id="panel-about-title">About</h3><button type="button" class="dialog-close" data-close aria-label="Close">Esc / Close ×</button></div>
+    {% include "_about.html" %}
+  </div>
+</div>
+
+<div class="overlay" id="panel-keys" hidden role="dialog" aria-modal="true" aria-labelledby="panel-keys-title">
+  <div class="dialog">
+    <div class="dialog-head"><h3 id="panel-keys-title">Keyboard shortcuts</h3><button type="button" class="dialog-close" data-close aria-label="Close">Esc / Close ×</button></div>
+    <dl class="keys"><dt>/</dt><dd>Search</dd><dt>Esc</dt><dd>Close panel</dd><dt>j / k</dt><dd>Next / previous paper</dd><dt>o</dt><dd>Open paper</dd><dt>x</dt><dd>Toggle abstract</dd><dt>c</dt><dd>Cite</dd><dt>y</dt><dd>Copy permalink</dd><dt>?</dt><dd>This list</dd></dl>
+  </div>
+</div>
+<div class="toast" id="toast" hidden></div>

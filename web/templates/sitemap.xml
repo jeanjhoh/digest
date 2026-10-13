@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>{{ site_url }}</loc></url>
+  <url><loc>{{ site_url }}issues/</loc></url>
+  <url><loc>{{ site_url }}details.html</loc></url>
+  <url><loc>{{ site_url }}about.html</loc></url>
+  <url><loc>{{ site_url }}llms.html</loc></url>
+  {% for i in issues %}<url><loc>{{ site_url }}issues/{{ '%03d' | format(i.number) }}.html</loc></url>
+  {% endfor %}
+  {% for a in papers %}<url><loc>{{ site_url }}p/{{ a.slug }}.html</loc></url>
+  {% endfor %}
+</urlset>

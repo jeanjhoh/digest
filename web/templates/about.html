@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block main %}
+<header class="digest-head">
+  <h2 class="digest-title"><a href="{{ rel }}">{{ site.title }}</a></h2>
+  <p class="issue-line">About</p>
+</header>
+<section class="about-page" id="about">
+{% include "_about.html" %}
+<h2>Topics</h2>
+<dl class="topics">{% for s in meta.sets %}<dt>{{ s.label }}</dt><dd>{{ s.description }}</dd>{% endfor %}</dl>
+<h2 id="search">Search and filters</h2>
+<p>On any issue page, <em>Search</em> accepts AND, OR, NOT, parentheses and quoted phrases, with field boxes for author, title, abstract, issue number and journal. <em>Filter</em> narrows by topic, source type, source, or picks. Searching all issues loads the archive index on demand.</p>
+<h2 id="filter">Data</h2>
+<p>Machine-readable copies: <a href="{{ rel }}data/latest.json">latest issue</a>, <a href="{{ rel }}data/meta.json">issue list</a>, <a href="{{ rel }}data/sources.json">sources</a>, <a href="{{ rel }}data/search.json">search index</a>, and per-issue files under <code>data/issues/</code>. Feeds: <a href="{{ rel }}rss.xml">one item per issue</a> and <a href="{{ rel }}feed-papers.xml">one item per paper</a>.</p>
+</section>
+{% endblock %}

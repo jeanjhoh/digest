@@ -1,0 +1,123 @@
+{
+ "number": 1,
+ "cutoff": "2026-09-30",
+ "window_start": "2026-09-16",
+ "generated_at": "2026-09-30T10:30:00Z",
+ "articles": [
+  {
+   "canonical_key": "doi:10.1177/00018392261111111",
+   "title": "Class Signals in the Pitch: Socioeconomic Origins and Access to Seed Capital",
+   "authors": [
+    "Maria Alvarez",
+    "Daniel K. Park"
+   ],
+   "venue": "Administrative Science Quarterly",
+   "source_slug": "asq",
+   "source_category": "management_journal",
+   "publication_status": "published",
+   "doi": "10.1177/00018392261111111",
+   "arxiv_id": null,
+   "nber_id": null,
+   "ssrn_id": null,
+   "primary_url": "https://doi.org/10.1177/00018392261111111",
+   "paper_url": null,
+   "pdf_url": null,
+   "published_at": "2026-09-22",
+   "first_seen_at": "2026-09-23T10:02:11Z",
+   "year": 2026,
+   "volume": null,
+   "issue": null,
+   "pages": null,
+   "issue_number": 1,
+   "sets": [
+    "entrepreneurship",
+    "orgs_inequality"
+   ],
+   "relevance_score": 9,
+   "relevance_reasons": [
+    "entrepreneurship:founder, seed funding",
+    "orgs_inequality:socioeconomic"
+   ],
+   "recommended": true,
+   "note": "Archival founder records plus an investor experiment on class signals in early-stage financing.",
+   "abstract": "This study examines how entrepreneurs' socioeconomic origins shape access to early-stage capital. Using administrative records on 41,200 founders linked to parental income and 12 years of financing events, we find that founders from the top income decile raise 2.3 times more seed capital than otherwise similar founders from the bottom half, with the gap concentrated among ventures without prior revenue. A survey experiment with 1,104 angel investors shows that class signals in pitch narratives account for roughly a third of the difference.",
+   "abstract_source": "crossref",
+   "version_note": null
+  },
+  {
+   "canonical_key": "doi:10.1016/j.jbusvent.2026.106500",
+   "title": "Accelerator Cohorts and Founder Learning: Evidence from 300 Programs",
+   "authors": [
+    "Wei Zhang"
+   ],
+   "venue": "Journal of Business Venturing",
+   "source_slug": "jbv",
+   "source_category": "management_journal",
+   "publication_status": "published",
+   "doi": "10.1016/j.jbusvent.2026.106500",
+   "arxiv_id": null,
+   "nber_id": null,
+   "ssrn_id": null,
+   "primary_url": "https://doi.org/10.1016/j.jbusvent.2026.106500",
+   "paper_url": null,
+   "pdf_url": null,
+   "published_at": "2026-09-20",
+   "first_seen_at": "2026-09-23T10:02:14Z",
+   "year": 2026,
+   "volume": null,
+   "issue": null,
+   "pages": null,
+   "issue_number": 1,
+   "sets": [
+    "entrepreneurship"
+   ],
+   "relevance_score": 6,
+   "relevance_reasons": [
+    "entrepreneurship:accelerator, founder"
+   ],
+   "recommended": false,
+   "note": "Panel evidence on how accelerator cohort composition shapes founder learning.",
+   "abstract": "We study whether the composition of accelerator cohorts affects what founders learn. Combining program records from 300 accelerators with founder surveys, we show that cohort diversity in industry background predicts broader pivots but slower fundraising.",
+   "abstract_source": "openalex",
+   "version_note": null
+  },
+  {
+   "canonical_key": "doi:10.3386/w34001",
+   "title": "Generative AI and the Task Content of Jobs",
+   "authors": [
+    "Priya Natarajan",
+    "Tom Becker"
+   ],
+   "venue": "NBER Working Papers",
+   "source_slug": "nber",
+   "source_category": "working_paper",
+   "publication_status": "working_paper",
+   "doi": "10.3386/w34001",
+   "arxiv_id": null,
+   "nber_id": "w34001",
+   "ssrn_id": null,
+   "primary_url": "https://www.nber.org/papers/w34001",
+   "paper_url": null,
+   "pdf_url": "https://www.nber.org/system/files/working_papers/w34001/w34001.pdf",
+   "published_at": "2026-09-25",
+   "first_seen_at": "2026-09-26T10:03:02Z",
+   "year": 2026,
+   "volume": null,
+   "issue": null,
+   "pages": null,
+   "issue_number": 1,
+   "sets": [
+    "ai_work"
+   ],
+   "relevance_score": 7,
+   "relevance_reasons": [
+    "ai_work:generative ai, task"
+   ],
+   "recommended": false,
+   "note": "Task-level exposure measures for generative AI across occupations.",
+   "abstract": "We construct task-level measures of generative AI exposure for 870 occupations and link them to job postings from 2022 to 2026. Exposed occupations see a 9 percent decline in posted writing tasks and a 4 percent rise in supervisory tasks.",
+   "abstract_source": "nber",
+   "version_note": null
+  }
+ ]
+}

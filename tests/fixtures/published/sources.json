@@ -1,0 +1,155 @@
+[
+ {
+  "slug": "asq",
+  "name": "Administrative Science Quarterly",
+  "kind": "crossref_journal",
+  "category": "management_journal",
+  "tier": "A",
+  "url": "https://journals.sagepub.com/home/asq",
+  "issn": [
+   "0001-8392",
+   "1930-3815"
+  ],
+  "method": "Crossref works for ISSN 0001-8392 (journal-article type) created within the run window.",
+  "notes": null,
+  "enabled": true,
+  "last_checked_at": "2026-10-07T10:02:11Z",
+  "last_status": "ok",
+  "last_error": null,
+  "last_run": {
+   "pulled": 4,
+   "in_scope": 1
+  },
+  "totals": {
+   "pulled": 9,
+   "in_scope": 2
+  },
+  "latest_in_scope_at": "2026-10-03"
+ },
+ {
+  "slug": "jbv",
+  "name": "Journal of Business Venturing",
+  "kind": "crossref_journal",
+  "category": "management_journal",
+  "tier": "B",
+  "url": "https://www.sciencedirect.com/journal/journal-of-business-venturing",
+  "issn": [
+   "0883-9026"
+  ],
+  "method": "Crossref works for ISSN 0883-9026, keyword-gated (min score 2).",
+  "notes": null,
+  "enabled": true,
+  "last_checked_at": "2026-10-07T10:02:14Z",
+  "last_status": "ok",
+  "last_error": null,
+  "last_run": {
+   "pulled": 6,
+   "in_scope": 2
+  },
+  "totals": {
+   "pulled": 14,
+   "in_scope": 4
+  },
+  "latest_in_scope_at": "2026-10-05"
+ },
+ {
+  "slug": "asr",
+  "name": "American Sociological Review",
+  "kind": "crossref_journal",
+  "category": "sociology_journal",
+  "tier": "A",
+  "url": "https://journals.sagepub.com/home/asr",
+  "issn": [
+   "0003-1224"
+  ],
+  "method": "Crossref works for ISSN 0003-1224.",
+  "notes": null,
+  "enabled": true,
+  "last_checked_at": "2026-10-07T10:02:20Z",
+  "last_status": "ok",
+  "last_error": null,
+  "last_run": {
+   "pulled": 3,
+   "in_scope": 1
+  },
+  "totals": {
+   "pulled": 5,
+   "in_scope": 1
+  },
+  "latest_in_scope_at": "2026-10-01"
+ },
+ {
+  "slug": "aer",
+  "name": "American Economic Review",
+  "kind": "crossref_journal",
+  "category": "economics_journal",
+  "tier": "A",
+  "url": "https://www.aeaweb.org/journals/aer",
+  "issn": [
+   "0002-8282"
+  ],
+  "method": "Crossref works for ISSN 0002-8282.",
+  "notes": "Abstracts come from OpenAlex; Crossref carries none for AEA journals.",
+  "enabled": true,
+  "last_checked_at": "2026-10-07T10:02:31Z",
+  "last_status": "ok",
+  "last_error": null,
+  "last_run": {
+   "pulled": 11,
+   "in_scope": 1
+  },
+  "totals": {
+   "pulled": 20,
+   "in_scope": 1
+  },
+  "latest_in_scope_at": "2026-10-01"
+ },
+ {
+  "slug": "nber",
+  "name": "NBER Working Papers",
+  "kind": "crossref_prefix",
+  "category": "working_paper",
+  "tier": "B",
+  "url": "https://www.nber.org/papers",
+  "issn": [],
+  "method": "Crossref works with DOI prefix 10.3386 created within the run window; keyword-gated.",
+  "notes": null,
+  "enabled": true,
+  "last_checked_at": "2026-10-07T10:03:02Z",
+  "last_status": "ok",
+  "last_error": null,
+  "last_run": {
+   "pulled": 28,
+   "in_scope": 1
+  },
+  "totals": {
+   "pulled": 55,
+   "in_scope": 2
+  },
+  "latest_in_scope_at": "2026-10-06"
+ },
+ {
+  "slug": "arxiv-ai-work",
+  "name": "arXiv cs.AI / cs.HC / cs.CL (work-related)",
+  "kind": "arxiv",
+  "category": "preprint",
+  "tier": "C",
+  "url": "https://arxiv.org/list/cs.AI/recent",
+  "issn": [],
+  "method": "arXiv API query on cs.AI/cs.HC/cs.CL with work-related terms; strict keyword gate (min score 5).",
+  "notes": null,
+  "enabled": true,
+  "last_checked_at": "2026-10-07T10:03:40Z",
+  "last_status": "error",
+  "last_error": "TimeoutError: read timed out",
+  "last_run": {
+   "pulled": 0,
+   "in_scope": 0
+  },
+  "totals": {
+   "pulled": 40,
+   "in_scope": 1
+  },
+  "latest_in_scope_at": "2026-10-04"
+ }
+]

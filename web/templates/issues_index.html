@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% block main %}
+<header class="digest-head">
+  <h2 class="digest-title"><a href="{{ rel }}">{{ site.title }}</a></h2>
+  <p class="issue-line">All issues</p>
+</header>
+<table class="issues-table">
+  <thead><tr><th>Issue</th><th>Week ending</th><th>Papers</th><th>Picks</th><th>Topics</th><th>Run</th></tr></thead>
+  <tbody>
+  {% for i in issues | reverse %}
+  <tr>
+    <td><a href="{{ rel }}issues/{{ '%03d' | format(i.number) }}.html">{{ i.label }}</a>{% if loop.first %} <span class="tag tag-pick">latest</span>{% endif %}</td>
+    <td>{{ i.cutoff | date_long }}</td>
+    <td>{{ i.count }}</td>
+    <td>{{ i.picks | length }}</td>
+    <td class="muted">{% for s in meta.sets %}{{ meta.set_label(s.id, true) }} {{ i.meta.set_counts.get(s.id, 0) if i.meta.set_counts else '' }}{% if not loop.last %} · {% endif %}{% endfor %}</td>
+    <td><span class="status-pill status-{{ i.meta.run_status or 'unknown' }}">{{ i.meta.run_status or '—' }}</span></td>
+  </tr>
+  {% endfor %}
+  </tbody>
+</table>
+{% endblock %}

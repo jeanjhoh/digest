@@ -1,0 +1,29 @@
+window_days: 8
+bootstrap_window_days: 14
+enrich_max_age_days: 35
+llm:
+  model: claude-sonnet-5-5      # or claude-haiku-5-5 for ~10x cheaper
+  effort: low
+  batch_size: 20
+  max_tokens: 6000
+  max_abstract_words: 300
+  in_scope_min: 4
+  recommended_min: 8
+  max_recommended_per_issue: 12
+  max_candidates_per_run: 600
+http:
+  crossref_rps: 4
+  openalex_rps: 5
+  s2_rps: 1
+  arxiv_sleep: 3
+  user_agent: "research-digest/1.0 (+https://github.com/jeanjhoh/digest)"
+site:
+  title: Weekly Research Digest
+  nav_label: Digest
+  tagline: New research on entrepreneurship, generative AI and work, and organizations and inequality
+  url: https://jeanjhoh.github.io/digest/
+  parent_url: https://jeanoh.org/
+  owner: Jean Joohyun Oh
+  owner_role: Assistant Professor, Tepper School of Business, Carnegie Mellon University
+  publish_day: Wednesday
+  embed_issues: 104
