@@ -69,6 +69,6 @@ sources:
   - {slug: nep-ent,  name: "NEP: Entrepreneurship",             kind: repec_nep,       category: working_paper, tier: A, report: nep-ent, url: https://nep.repec.org/nep-ent.html}
   - {slug: nber,     name: NBER Working Papers,                 kind: crossref_prefix, category: working_paper, tier: B, prefix: "10.3386", url: https://www.nber.org/papers}
   - {slug: arxiv-econ-gn, name: "arXiv econ.GN",                kind: arxiv,           category: preprint,      tier: B, query: "cat:econ.GN", url: https://arxiv.org/list/econ.GN/recent}
-  - {slug: arxiv-ai-work, name: "arXiv cs.AI / cs.HC / cs.CL (work-related)", kind: arxiv, category: preprint, tier: C,
+  - {slug: arxiv-ai-work, name: "arXiv cs.AI / cs.HC / cs.CL (work-related)", kind: arxiv, category: preprint, tier: C, min_score: 10,
      query: '(cat:cs.AI OR cat:cs.HC OR cat:cs.CL) AND (abs:"labor market" OR abs:workers OR abs:occupations OR abs:entrepreneurs OR abs:"knowledge work" OR abs:productivity OR abs:hiring OR abs:workplace OR abs:"future of work")',
      url: https://arxiv.org/list/cs.AI/recent}

@@ -7,7 +7,7 @@ llm:
   batch_size: 20
   max_tokens: 6000
   max_abstract_words: 300
-  in_scope_min: 4
+  in_scope_min: 6
   recommended_min: 8
   max_recommended_per_issue: 12
   max_candidates_per_run: 600
