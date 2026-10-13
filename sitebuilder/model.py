@@ -218,15 +218,19 @@ class Meta:
 
 
 def group_issue(issue: Issue, sources: dict[str, Source], meta: Meta) -> list[dict]:
-    """Group articles by category (meta order) then source (name order)."""
+    """Group articles by category (meta order) then source (tier A first, then name)."""
     cat_order = {c["id"]: i for i, c in enumerate(meta.categories)}
+    tier_rank = {"A": 0, "B": 1, "C": 2}
     by_cat: dict[str, dict[str, list[Article]]] = {}
     for a in issue.articles:
         by_cat.setdefault(a.source_category, {}).setdefault(a.source_slug, []).append(a)
     out = []
     for cid in sorted(by_cat, key=lambda c: (cat_order.get(c, 999), c)):
         srcs = []
-        for slug in sorted(by_cat[cid], key=lambda s: (sources[s].name if s in sources else s).lower()):
+        def src_key(s: str) -> tuple:
+            src = sources.get(s)
+            return (tier_rank.get((src.tier or "").upper(), 9) if src else 9, (src.name if src else s).lower())
+        for slug in sorted(by_cat[cid], key=src_key):
             arts = sorted(by_cat[cid][slug], key=lambda a: (-a.relevance_score, a.title.lower()))
             srcs.append({"slug": slug, "name": sources[slug].name if slug in sources else slug, "articles": arts})
         out.append({"id": cid, "label": meta.category_label(cid), "sources": srcs,

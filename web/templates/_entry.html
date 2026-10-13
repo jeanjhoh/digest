@@ -7,17 +7,16 @@
     <p class="entry-authors">{{ a.authors | authors_inline }}</p>
     <p class="entry-meta">
       <a class="venue" href="{{ rel }}details.html#src-{{ a.source_slug }}">{{ a.venue }}</a>
-      <span class="sep">·</span><span class="status">{{ a.status_label }}</span>
+      {% if a.publication_status != 'published' %}<span class="sep">·</span><span class="status">{{ a.status_label }}</span>{% endif %}
       {% if a.published_at %}<span class="sep">·</span><span class="date">{{ a.published_at | date_long }}</span>{% endif %}
       {% for s in a.sets %}<span class="tag tag-{{ s }}">{{ a.set_labels[loop.index0] }}</span>{% endfor %}
-      {% if a.recommended %}<span class="tag tag-pick">Highlight</span>{% endif %}
       {% if a.version_note %}<span class="version-note">{{ a.version_note }}</span>{% endif %}
     </p>
     {% if a.note %}<p class="entry-note">{{ a.note }}</p>{% endif %}
     {% if not compact %}
     {% if a.abstract %}
     <details class="abstract">
-      <summary><span class="abstract-label">Abstract</span><span class="abstract-teaser">{{ a.abstract }}</span></summary>
+      <summary><span class="abstract-label visually-hidden">Abstract</span><span class="abstract-teaser">{{ a.abstract }}</span></summary>
       <div class="abstract-full">{{ a.abstract }}</div>
       {% if a.abstract_source %}<p class="abstract-src">Abstract via {{ a.abstract_source }}</p>{% endif %}
     </details>

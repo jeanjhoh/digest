@@ -49,7 +49,7 @@
   // ---------- notes toggle / expand all ----------
   if (store.get('digest.notes') === 'hidden') html.classList.add('notes-hidden');
   var notesBtn = $('[data-toggle-notes]');
-  function syncNotesBtn() { if (notesBtn) notesBtn.textContent = html.classList.contains('notes-hidden') ? 'Show notes' : 'Hide notes'; }
+  function syncNotesBtn() { if (notesBtn) notesBtn.textContent = html.classList.contains('notes-hidden') ? 'Show AI summaries' : 'Hide AI summaries'; }
   syncNotesBtn();
   if (notesBtn) notesBtn.addEventListener('click', function () { html.classList.toggle('notes-hidden'); store.set('digest.notes', html.classList.contains('notes-hidden') ? 'hidden' : 'shown'); syncNotesBtn(); });
   var expandBtn = $('[data-expand-all]'), expanded = false;
@@ -164,8 +164,7 @@
   // ---------- rendering (JS twin of _entry.html) ----------
   function entryHTML(a, ord) {
     var tags = a.sets.map(function (s, i) { return '<span class="tag tag-' + esc(s) + '">' + esc((a.set_labels || [])[i] || s) + '</span>'; }).join('');
-    if (a.recommended) tags += '<span class="tag tag-pick">Highlight</span>';
-    var abs = a.abstract ? '<details class="abstract"><summary><span class="abstract-label">Abstract</span><span class="abstract-teaser">' + esc(a.abstract) + '</span></summary><div class="abstract-full">' + esc(a.abstract) + '</div>' + (a.abstract_source ? '<p class="abstract-src">Abstract via ' + esc(a.abstract_source) + '</p>' : '') + '</details>' : '<p class="abstract abstract-none">No abstract available.</p>';
+    var abs = a.abstract ? '<details class="abstract"><summary><span class="abstract-label visually-hidden">Abstract</span><span class="abstract-teaser">' + esc(a.abstract) + '</span></summary><div class="abstract-full">' + esc(a.abstract) + '</div>' + (a.abstract_source ? '<p class="abstract-src">Abstract via ' + esc(a.abstract_source) + '</p>' : '') + '</details>' : '<p class="abstract abstract-none">No abstract available.</p>';
     var links = [];
     if (a.doi) links.push('<a href="https://doi.org/' + esc(a.doi) + '" target="_blank" rel="noopener">DOI</a>');
     links.push('<a href="' + REL + 'issues/' + String(a.issue_number).padStart(3, '0') + '.html#k-' + esc(a.slug) + '">Issue ' + esc(a.issue_number) + '</a>');
@@ -175,7 +174,7 @@
       '<div class="entry-ord">' + String(ord).padStart(3, '0') + '</div><div class="entry-body">' +
       '<h4 class="entry-title"><a href="' + esc(a.link) + '" target="_blank" rel="noopener">' + esc(a.title) + '</a></h4>' +
       '<p class="entry-authors">' + esc(a.authors.join(', ')) + '</p>' +
-      '<p class="entry-meta"><a class="venue" href="' + REL + 'details.html#src-' + esc(a.source_slug) + '">' + esc(a.venue) + '</a><span class="sep">·</span><span class="status">' + esc(a.status_label) + '</span>' + (a.published_at ? '<span class="sep">·</span><span class="date">' + esc(a.published_at) + '</span>' : '') + tags + '</p>' +
+      '<p class="entry-meta"><a class="venue" href="' + REL + 'details.html#src-' + esc(a.source_slug) + '">' + esc(a.venue) + '</a>' + (a.publication_status !== 'published' ? '<span class="sep">·</span><span class="status">' + esc(a.status_label) + '</span>' : '') + (a.published_at ? '<span class="sep">·</span><span class="date">' + esc(a.published_at) + '</span>' : '') + tags + '</p>' +
       (a.note ? '<p class="entry-note">' + esc(a.note) + '</p>' : '') + abs +
       '<p class="entry-links">' + links.join('<span class="sep">·</span>') + '</p>' +
       '<div class="cite-box" hidden><p class="cite-plain">' + esc(a.plain || '') + '</p><pre class="cite-bibtex">' + esc(a.bibtex || '') + '</pre><p class="cite-actions"><button type="button" class="linkish" data-copy-sel=".cite-plain" data-copied="Citation copied">Copy citation</button><span class="sep">·</span><button type="button" class="linkish" data-copy-sel=".cite-bibtex" data-copied="BibTeX copied">Copy BibTeX</button></p></div>' +

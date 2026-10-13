@@ -5,8 +5,8 @@
 {% block main %}
 <header class="digest-head">
   <h2 class="digest-title">{{ site.title }}</h2>
-  <p class="credit">Format modeled on Kevin Bryan's <a href="https://kevinbryanecon.com/usefulknowledge" target="_blank" rel="noopener">Useful Knowledge</a>.</p>
-  <p class="issue-line">Issue <strong>{{ issue.label }}</strong> · {{ issue.cutoff | date_long }} · <span id="visible-count">{{ issue.count }}</span> papers{% if picks %} · {{ picks | length }} picks{% endif %}
+  <p class="credit">Weekly collation of research in entrepreneurship, genAI &amp; work, and orgs &amp; inequality. Modeled after Kevin Bryan's <a href="https://kevinbryanecon.com/usefulknowledge" target="_blank" rel="noopener">Useful Knowledge</a>.</p>
+  <p class="issue-line"><strong>Issue {{ issue.label }}</strong> · {{ issue.cutoff | date_long }} · <span id="visible-count">{{ issue.count }}</span> papers{% if picks %} · {{ picks | length }} picks{% endif %}
     <span class="issue-nav">{% if prev_issue %}<a href="{{ rel }}issues/{{ '%03d' | format(prev_issue.number) }}.html">← {{ prev_issue.label }}</a>{% endif %}{% if next_issue %} <a href="{{ rel }}issues/{{ '%03d' | format(next_issue.number) }}.html">{{ next_issue.label }} →</a>{% endif %}</span></p>
   <nav class="subnav" aria-label="Digest navigation">
     <a href="{{ rel }}issues/" data-panel="issues">Issues</a>
@@ -16,7 +16,7 @@
     <a href="{{ rel }}about.html" data-panel="about">About</a>
     <a href="{{ rel }}rss.xml">RSS</a>
     <a href="{{ rel }}llms.html">For AI</a>
-    <span class="js-only subnav-tools"><button type="button" class="linkish" data-toggle-notes>Hide notes</button><span class="sep">·</span><button type="button" class="linkish" data-expand-all>Expand abstracts</button></span>
+    <span class="js-only subnav-tools"><button type="button" class="linkish" data-toggle-notes>Hide AI summaries</button><span class="sep">·</span><button type="button" class="linkish" data-expand-all>Expand abstracts</button></span>
   </nav>
   <p class="set-chips">
     {% for s in meta.sets %}<button type="button" class="chip chip-{{ s.id }}" data-chip-set="{{ s.id }}">{{ s.label }} <span class="count">{{ set_counts[s.id] }}</span></button>{% endfor %}
@@ -40,7 +40,6 @@
     <h2>{{ g.label }} <span class="count">{{ g.count }}</span></h2>
     {% for s in g.sources %}
     <section class="src" data-src="{{ s.slug }}" id="src-{{ s.slug }}">
-      <h3><a href="{{ rel }}details.html#src-{{ s.slug }}">{{ s.name }}</a> <span class="count">{{ s.articles | length }}</span></h3>
       {% for a in s.articles %}{{ entry(a, rel=rel) }}{% endfor %}
     </section>
     {% endfor %}

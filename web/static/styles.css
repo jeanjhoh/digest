@@ -101,7 +101,7 @@ button.linkish:hover { color: var(--link-hover); text-decoration: underline; }
 section { margin-bottom: 2.75rem; }
 section.cat > h2, .picks > h2, .about-page h2, .cite-static h2, .llms h2 { font-size: 0.75rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.1em; color: var(--link); border-bottom: 1px solid var(--link); padding-bottom: 0.35rem; margin: 0 0 1.25rem; }
 section.cat > h2 .count, section.src > h3 .count { color: var(--faint); font-weight: 400; letter-spacing: 0; }
-section.src { margin-bottom: 1.75rem; }
+section.src { margin-bottom: 0; }
 section.src > h3 { font-size: 0.78rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.07em; color: #555555; margin: 1.4rem 0 0.9rem; }
 section.src > h3 a { color: inherit; }
 .picks-list { margin: 0; padding-left: 1.4rem; font-size: 0.875rem; }
@@ -115,11 +115,11 @@ section.src > h3 a { color: inherit; }
 .entry-authors, .entry-meta { font-size: 0.875rem; color: var(--muted); line-height: 1.5; margin: 0; }
 .entry-meta { margin-bottom: 0.3rem; }
 .entry-meta .venue { color: var(--muted); }
-.tag { display: inline-block; font-size: 0.68rem; font-weight: 600; letter-spacing: 0.04em; text-transform: uppercase; padding: 0 0.4em; margin-left: 0.4em; border-radius: 2px; border: 1px solid var(--rule); color: var(--muted); vertical-align: 0.1em; }
-.tag-entrepreneurship { color: var(--set-entrepreneurship); border-color: currentColor; }
-.tag-ai_work { color: var(--set-ai_work); border-color: currentColor; }
-.tag-orgs_inequality { color: var(--set-orgs_inequality); border-color: currentColor; }
-.tag-pick { color: var(--pick); border-color: currentColor; }
+.tag { display: inline-block; font-size: 0.7rem; font-weight: 600; letter-spacing: 0.03em; padding: 0; margin-left: 0.55em; color: var(--muted); vertical-align: 0; }
+.tag-entrepreneurship { color: var(--set-entrepreneurship); }
+.tag-ai_work { color: var(--set-ai_work); }
+.tag-orgs_inequality { color: var(--set-orgs_inequality); }
+.tag-pick { color: var(--pick); }
 .entry-note { font-size: 0.8rem; color: var(--muted); font-style: italic; margin: 0 0 0.3rem; }
 html.notes-hidden .entry-note { display: none; }
 .version-note { font-size: 0.78rem; color: var(--pick); margin-left: 0.4em; }
@@ -209,3 +209,6 @@ details.abstract[open] summary::after { content: "less"; color: var(--link); fon
 @media (max-width: 600px) { .sources-page-list { columns: 1; } }
 .back-link { font-size: .95rem; }
 .credit { margin: -0.4rem 0 0.9rem; font-size: 0.85rem; color: var(--faint); }
+.visually-hidden { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+.entry { margin-bottom: 1.9rem; }
+.entry-links { font-size: 0.8rem; }
