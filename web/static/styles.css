@@ -112,14 +112,16 @@ section.src > h3 a { color: inherit; }
 .entry.is-pick .entry-body { border-left: 3px solid var(--pick); padding-left: 0.7rem; margin-left: -0.73rem; }
 .entry-ord { font-size: 0.78rem; color: var(--faint); line-height: 1.5; padding-top: 0.1rem; font-variant-numeric: tabular-nums; }
 .entry-title { font-size: 0.95rem; font-weight: 600; line-height: 1.4; margin: 0 0 0.15rem; }
-.entry-authors, .entry-meta { font-size: 0.875rem; color: var(--muted); line-height: 1.5; margin: 0; }
-.entry-meta { margin-bottom: 0.3rem; }
-.entry-meta .venue { color: var(--muted); }
-.tag { display: inline-block; font-size: 0.7rem; font-weight: 600; letter-spacing: 0.03em; padding: 0; margin-left: 0.55em; color: var(--muted); vertical-align: 0; }
-.tag-entrepreneurship { color: var(--set-entrepreneurship); }
-.tag-ai_work { color: var(--set-ai_work); }
-.tag-orgs_inequality { color: var(--set-orgs_inequality); }
-.tag-pick { color: var(--pick); }
+.entry-authors, .entry-meta { line-height: 1.5; margin: 0; }
+.entry-authors { font-size: 0.875rem; color: var(--ink); }
+.entry-meta { font-size: 0.8rem; color: var(--muted); margin-bottom: 0.3rem; }
+.entry-meta .venue { color: var(--muted); font-style: italic; }
+.entry-meta .date { font-variant-numeric: tabular-nums; }
+.tag { display: inline-block; font-size: 0.68rem; font-weight: 600; letter-spacing: 0.04em; text-transform: uppercase; padding: 0 0.4em; margin-left: 0.4em; border-radius: 2px; border: 1px solid var(--rule); color: var(--muted); vertical-align: 0.1em; }
+.tag-entrepreneurship { color: var(--set-entrepreneurship); border-color: currentColor; }
+.tag-ai_work { color: var(--set-ai_work); border-color: currentColor; }
+.tag-orgs_inequality { color: var(--set-orgs_inequality); border-color: currentColor; }
+.tag-pick { color: var(--pick); border-color: currentColor; }
 .entry-note { font-size: 0.8rem; color: var(--muted); font-style: italic; margin: 0 0 0.3rem; }
 html.notes-hidden .entry-note { display: none; }
 .version-note { font-size: 0.78rem; color: var(--pick); margin-left: 0.4em; }

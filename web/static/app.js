@@ -164,7 +164,7 @@
   // ---------- rendering (JS twin of _entry.html) ----------
   function entryHTML(a, ord) {
     var tags = a.sets.map(function (s, i) { return '<span class="tag tag-' + esc(s) + '">' + esc((a.set_labels || [])[i] || s) + '</span>'; }).join('');
-    var abs = a.abstract ? '<details class="abstract"><summary><span class="abstract-label visually-hidden">Abstract</span><span class="abstract-teaser">' + esc(a.abstract) + '</span></summary><div class="abstract-full">' + esc(a.abstract) + '</div>' + (a.abstract_source ? '<p class="abstract-src">Abstract via ' + esc(a.abstract_source) + '</p>' : '') + '</details>' : '<p class="abstract abstract-none">No abstract available.</p>';
+    var abs = a.abstract ? '<details class="abstract"><summary><span class="abstract-label">Abstract</span><span class="abstract-teaser">' + esc(a.abstract) + '</span></summary><div class="abstract-full">' + esc(a.abstract) + '</div>' + (a.abstract_source ? '<p class="abstract-src">Abstract via ' + esc(a.abstract_source) + '</p>' : '') + '</details>' : '<p class="abstract abstract-none">No abstract available.</p>';
     var links = [];
     if (a.doi) links.push('<a href="https://doi.org/' + esc(a.doi) + '" target="_blank" rel="noopener">DOI</a>');
     links.push('<a href="' + REL + 'issues/' + String(a.issue_number).padStart(3, '0') + '.html#k-' + esc(a.slug) + '">Issue ' + esc(a.issue_number) + '</a>');
