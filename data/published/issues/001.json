@@ -1,0 +1,1886 @@
+{
+ "number": 1,
+ "cutoff": "2026-10-13",
+ "window_start": "2026-09-29",
+ "generated_at": "2026-10-13T18:07:08Z",
+ "articles": [
+  {
+   "canonical_key": "doi:10.1257/aer.20231417",
+   "title": "Social Push and the Direction of Innovation",
+   "authors": [
+    "Elias Einiö",
+    "Josh Feng",
+    "Xavier Jaravel"
+   ],
+   "venue": "American Economic Review",
+   "source_slug": "aer",
+   "source_category": "economics_journal",
+   "publication_status": "published",
+   "doi": "10.1257/aer.20231417",
+   "arxiv_id": null,
+   "nber_id": null,
+   "ssrn_id": null,
+   "primary_url": "https://doi.org/10.1257/aer.20231417",
+   "paper_url": "https://doi.org/10.1257/aer.20231417",
+   "pdf_url": null,
+   "published_at": "2026-10-01",
+   "first_seen_at": "2026-10-13T18:00:33Z",
+   "year": 2026,
+   "volume": "116",
+   "issue": "10",
+   "pages": "3875-3909",
+   "issue_number": 1,
+   "sets": [
+    "entrepreneurship",
+    "orgs_inequality"
+   ],
+   "relevance_score": 10,
+   "relevance_reasons": [
+    "entrepreneurship:innovator, direction of innovation, innovation",
+    "orgs_inequality:inequality, socioeconomic, career, gender"
+   ],
+   "recommended": true,
+   "note": "Linked US and Finnish data: innovators create products for consumers like them; unequal access to innovation careers shapes innovation direction.",
+   "abstract": "What are the implications of unequal access to innovation careers for the direction of innovation and inequality? Leveraging novel linked datasets in the United States and Finland, we document that innovators create products more likely to be purchased by consumers like them in terms of gender, socioeconomic status, and age. Homophily exists both within narrow product categories and across industries and has been stable in recent decades. Incorporating this “social push” channel into a growth model, we estimate that unequal access to innovation careers has a large effect on cost of living inequality and long-run growth. (JEL D63, J16, L26, M13, O31, O33, O47)",
+   "abstract_source": "crossref",
+   "version_note": null
+  },
+  {
+   "canonical_key": "doi:10.1177/10422587261485969",
+   "title": "How Can We Research Social Mobility in Entrepreneurship?",
+   "authors": [
+    "Elsa T. Chan",
+    "Steven A. Brieger",
+    "Ngoc Luu",
+    "Marii Paskov",
+    "Mirela Xheneti"
+   ],
+   "venue": "Entrepreneurship Theory and Practice",
+   "source_slug": "etp",
+   "source_category": "management_journal",
+   "publication_status": "published",
+   "doi": "10.1177/10422587261485969",
+   "arxiv_id": null,
+   "nber_id": null,
+   "ssrn_id": null,
+   "primary_url": "https://doi.org/10.1177/10422587261485969",
+   "paper_url": "https://journals.sagepub.com/doi/pdf/10.1177/10422587261485969",
+   "pdf_url": "https://journals.sagepub.com/doi/pdf/10.1177/10422587261485969",
+   "published_at": "2026-09-28",
+   "first_seen_at": "2026-10-13T18:00:33Z",
+   "year": 2026,
+   "volume": null,
+   "issue": null,
+   "pages": null,
+   "issue_number": 1,
+   "sets": [
+    "entrepreneurship",
+    "orgs_inequality"
+   ],
+   "relevance_score": 9,
+   "relevance_reasons": [
+    "entrepreneurship:entrepreneur",
+    "orgs_inequality:social mobility"
+   ],
+   "recommended": true,
+   "note": "Methodological and conceptual guide to studying social mobility in entrepreneurship with multidimensional measures and mixed methods.",
+   "abstract": "Social mobility is a central concern in contemporary societies, yet its dynamics within entrepreneurship remain insufficiently understood. This paper’s purpose is to facilitate research on entrepreneurial social mobility by making three key contributions: first, we examine the distinct conceptual and methodological challenges related to capturing social mobility in entrepreneurship and provide strategies for solving them; second, we introduce multidimensional social mobility measures that move beyond the predominant focus on income-based metrics in existing quantitative research; third, we demonstrate how alternative quantitative and qualitative methods can produce more holistic evidence for understanding social mobility among entrepreneurs.",
+   "abstract_source": "crossref",
+   "version_note": null
+  },
+  {
+   "canonical_key": "doi:10.1257/aer.20231368",
+   "title": "Racial Promotion Gaps",
+   "authors": [
+    "Deepak Hegde",
+    "Alexander Ljungqvist",
+    "Manav Raj"
+   ],
+   "venue": "American Economic Review",
+   "source_slug": "aer",
+   "source_category": "economics_journal",
+   "publication_status": "published",
+   "doi": "10.1257/aer.20231368",
+   "arxiv_id": null,
+   "nber_id": null,
+   "ssrn_id": null,
+   "primary_url": "https://doi.org/10.1257/aer.20231368",
+   "paper_url": "https://doi.org/10.1257/aer.20231368",
+   "pdf_url": null,
+   "published_at": "2026-10-01",
+   "first_seen_at": "2026-10-13T18:00:33Z",
+   "year": 2026,
+   "volume": "116",
+   "issue": "10",
+   "pages": "3721-3767",
+   "issue_number": 1,
+   "sets": [
+    "orgs_inequality"
+   ],
+   "relevance_score": 9,
+   "relevance_reasons": [
+    "entrepreneurship:patent",
+    "orgs_inequality:discrimination, promotion, career, racial"
+   ],
+   "recommended": true,
+   "note": "Administrative data on Black patent examiners' delayed formulaic promotions; evidence fits belief-based discrimination in careers and earnings.",
+   "abstract": "We study racial disparities in promotions in a setting in which promotions are formulaic: the US patent office. Using detailed administrative data that allow us to observe who is eligible for promotion when, we document that Black patent examiners experience delays in promotions they are entitled to, slowing their climb to the top of the career ladder by a year and reducing career earnings by 2.5 percent. Institutional features rule out statistical discrimination with accurate priors. Slow promotions even under Black supervisors argue against taste-based animus. Instead, the patterns fit models of belief-based discrimination. (JEL J15, J41, J71, M12, M51, O34)",
+   "abstract_source": "crossref",
+   "version_note": null
+  },
+  {
+   "canonical_key": "doi:10.1002/smj.70134",
+   "title": "When money isn't everything: Identifying stage‐based patterns of entrepreneurial resource acquisition",
+   "authors": [
+    "Esther Leibel",
+    "Denise Falchetti",
+    "Siobhan O'Mahony"
+   ],
+   "venue": "Strategic Management Journal",
+   "source_slug": "smj",
+   "source_category": "management_journal",
+   "publication_status": "published",
+   "doi": "10.1002/smj.70134",
+   "arxiv_id": null,
+   "nber_id": null,
+   "ssrn_id": null,
+   "primary_url": "https://doi.org/10.1002/smj.70134",
+   "paper_url": "https://sms.onlinelibrary.wiley.com/doi/pdf/10.1002/smj.70134",
+   "pdf_url": "https://sms.onlinelibrary.wiley.com/doi/pdf/10.1002/smj.70134",
+   "published_at": "2026-10-01",
+   "first_seen_at": "2026-10-13T18:00:33Z",
+   "year": 2026,
+   "volume": null,
+   "issue": null,
+   "pages": null,
+   "issue_number": 1,
+   "sets": [
+    "entrepreneurship"
+   ],
+   "relevance_score": 9,
+   "relevance_reasons": [
+    "entrepreneurship:entrepreneur, founder"
+   ],
+   "recommended": true,
+   "note": "Analysis of social entrepreneurs' pitches to impact investors; stage-based framing and acquisition of capital and investor ties.",
+   "abstract": "Research Summary Scholars often examine how entrepreneurs' existing ties predict resource acquisition. We investigated the reverse: How does the act of pitching generate new ties with investors? Using the context of the Slow Money community, we analyzed social entrepreneurs' pitches to impact investors. Rather than identify a single strategy that benefited all firms, we found that “stage‐appropriate framing” facilitated resource acquisition by aligning with investors' expectations. Late‐stage entrepreneurs who emphasized financial process framing acquired more financial capital. Conversely, early‐stage entrepreneurs who emphasized social process framing developed more investor ties. By shifting attention from the importance of pre‐existing networks to the potential of entrepreneurial pitches, our research explains how pitch framing can facilitate the acquisition of both financial capital and investor ties, thereby mitigating liabilities for early‐stage firms. Managerial Summary Entrepreneurs know that pitches help raise money, but we discovered that they also foster investor ties. In studying pitch competitions in the Slow Money community, we found that different messages resonated with investors depending on a firm's stage. Early‐stage entrepreneurs gained more investor ties when their pitches highlighted a willingness to collaborate and engage in true partnerships. Late‐stage entrepreneurs attracted more funds when they focused on their business track record. In both cases, matching the pitch framing to the firm stage—and using engaging behavioral cues—helped founders attract stage‐appropriate resources. Our research shows that entrepreneurs can raise not just financial capital but also build investor ties without relying on pre‐existing networks—when their pitch aligns with their stage.",
+   "abstract_source": "crossref",
+   "version_note": null
+  },
+  {
+   "canonical_key": "doi:10.1287/orsc.2023.18371",
+   "title": "Early Environmental Shocks and Organizational Reconfiguration in High-Growth Ventures",
+   "authors": [
+    "Sunasir Dutta",
+    "Pyung Nahm",
+    "Luis Adrian Rios"
+   ],
+   "venue": "Organization Science",
+   "source_slug": "orgsci",
+   "source_category": "management_journal",
+   "publication_status": "published",
+   "doi": "10.1287/orsc.2023.18371",
+   "arxiv_id": null,
+   "nber_id": null,
+   "ssrn_id": null,
+   "primary_url": "https://doi.org/10.1287/orsc.2023.18371",
+   "paper_url": "https://doi.org/10.1287/orsc.2023.18371",
+   "pdf_url": null,
+   "published_at": "2026-10-05",
+   "first_seen_at": "2026-10-13T18:00:33Z",
+   "year": 2026,
+   "volume": null,
+   "issue": null,
+   "pages": null,
+   "issue_number": 1,
+   "sets": [
+    "entrepreneurship"
+   ],
+   "relevance_score": 8,
+   "relevance_reasons": [
+    "entrepreneurship:entrepreneur, startup"
+   ],
+   "recommended": true,
+   "note": "Panel of venture-backed US startups exposed to early natural disasters; failure, IPO, and organizational imprinting outcomes.",
+   "abstract": "We study whether shocks from local natural disasters can leave durable organizational traces in young high-growth ventures. In principle, such firms may be relatively resilient to localized disruption because they are designed to scale beyond local markets and rely heavily on knowledge-based assets. We examine this possibility using a panel of 19,984 U.S. startups founded between 1985 and 2010 that subsequently received venture financing. We identify ventures whose founding counties experience natural disasters within 12 months of founding using FEMA Major Disaster Declarations. Ventures exposed to disasters at an early stage exhibit higher subsequent failure hazards and no general advantage in follow-on financing, yet show higher IPO hazards in favorable market windows, a pattern consistent with greater responsiveness to opportunities requiring substantial organizational reconfiguration. Descriptive employee-level evidence further documents differences in organizational structure and composition consistent with greater retained fluidity among exposed ventures. Drawing on organization design and imprinting theory, we interpret these patterns as consistent with the possibility that disasters function as forcing environments that entrench early-stage coordination features such as flatness, role fluidity, and broader expertise that would otherwise attenuate as ventures mature. These durable organizational traces may, in turn, shape ventures’ subsequent capacity for reconfiguration. We discuss implications for organizational adaptation, imprinting, entrepreneurial geography, and organizational responses to crises.",
+   "abstract_source": "crossref",
+   "version_note": null
+  },
+  {
+   "canonical_key": "doi:10.1111/jofi.70089",
+   "title": "Generative AI and Firm Values",
+   "authors": [
+    "ANDREA L. EISFELDT",
+    "GREGOR SCHUBERT",
+    "MIAO BEN ZHANG",
+    "BLEDI TASKA"
+   ],
+   "venue": "The Journal of Finance",
+   "source_slug": "jf",
+   "source_category": "economics_journal",
+   "publication_status": "published",
+   "doi": "10.1111/jofi.70089",
+   "arxiv_id": null,
+   "nber_id": null,
+   "ssrn_id": null,
+   "primary_url": "https://doi.org/10.1111/jofi.70089",
+   "paper_url": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/jofi.70089",
+   "pdf_url": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/jofi.70089",
+   "published_at": "2026-10-08",
+   "first_seen_at": "2026-10-13T18:00:33Z",
+   "year": 2026,
+   "volume": null,
+   "issue": null,
+   "pages": null,
+   "issue_number": 1,
+   "sets": [
+    "ai_work"
+   ],
+   "relevance_score": 8,
+   "relevance_reasons": [
+    "ai_work:generative ai, chatgpt, artificial intelligence, ai"
+   ],
+   "recommended": true,
+   "note": "Measures firm workforce exposure to generative AI; ChatGPT release returns and labor demand support substitution channel.",
+   "abstract": "How do recent advances in Generative Artificial Intelligence (AI) affect firm value? We construct the first measure of firms' workforce exposures to Generative AI and show that an “Artificial‐Minus‐Human” portfolio earned 5% in the two weeks following the release of ChatGPT. The labor‐exposure effect is more pronounced for firms with greater data assets and is distinct from the effect of firms' product exposures to AI. We assess whether exposed workforces are substituted or complemented by Generative AI based on whether their exposed tasks are core or supplemental. Examining firms' labor demand and profitability following the release of ChatGPT supports a labor‐technology substitution channel.",
+   "abstract_source": "crossref",
+   "version_note": null
+  },
+  {
+   "canonical_key": "doi:10.3386/w35859",
+   "title": "How Heavily Are PhD Students Offloading Their Scientific Writing to AI? Evidence from US STEM PhD Dissertations",
+   "authors": [
+    "Daniel Gross",
+    "Dror Shvadron",
+    "Hansen Zhang"
+   ],
+   "venue": "NBER Working Papers",
+   "source_slug": "nber",
+   "source_category": "working_paper",
+   "publication_status": "working_paper",
+   "doi": "10.3386/w35859",
+   "arxiv_id": null,
+   "nber_id": "w35859",
+   "ssrn_id": null,
+   "primary_url": "https://doi.org/10.3386/w35859",
+   "paper_url": "https://doi.org/10.3386/w35859",
+   "pdf_url": "https://doi.org/10.3386/w35859",
+   "published_at": "2026-10-01",
+   "first_seen_at": "2026-10-13T18:00:33Z",
+   "year": 2026,
+   "volume": null,
+   "issue": null,
+   "pages": null,
+   "issue_number": 1,
+   "sets": [
+    "ai_work",
+    "orgs_inequality"
+   ],
+   "relevance_score": 8,
+   "relevance_reasons": [
+    "ai_work:large language model, ai, productivity, employment",
+    "orgs_inequality:career"
+   ],
+   "recommended": true,
+   "note": "Measures AI-generated writing in US STEM dissertations; links use to career outcomes, with differences by origin and program rank.",
+   "abstract": "Large language models are diffusing rapidly into science, raising concerns that delegating research writing to AI may undermine the development of expertise that scientific training is supposed to build.We measure AI-generated writing in the dissertations of a near-census of US STEM PhD graduates from 2019 to 2026 and link graduates to their subsequent employment.AI writing is absent before 2023, present in 29% of dissertations filed in 2026, and rapidly growing.Use is more common among students from non-English-speaking countries and at lower-ranked programs.Among graduates in the same program and cohort, those whose dissertations contain AI writing are less likely to enter academic research careers and more likely to enter non-tenure-track roles or industry, with this pattern strongest among US-origin students.At the same time as AI may increase research productivity, it thus appears to also be displacing a potentially important portion of the work through which scientific expertise is developed.",
+   "abstract_source": "openalex",
+   "version_note": null
+  },
+  {
+   "canonical_key": "doi:10.1177/00018392261484887",
+   "title": "In Pursuit of Ideal Data: Epistemic Enchantment and the Unintended Consequences of Datafying for Artificial Intelligence",
+   "authors": [
+    "Elmira van den Broek",
+    "Natalia Levina"
+   ],
+   "venue": "Administrative Science Quarterly",
+   "source_slug": "asq",
+   "source_category": "management_journal",
+   "publication_status": "published",
+   "doi": "10.1177/00018392261484887",
+   "arxiv_id": null,
+   "nber_id": null,
+   "ssrn_id": null,
+   "primary_url": "https://doi.org/10.1177/00018392261484887",
+   "paper_url": "https://journals.sagepub.com/doi/pdf/10.1177/00018392261484887",
+   "pdf_url": "https://journals.sagepub.com/doi/pdf/10.1177/00018392261484887",
+   "published_at": "2026-10-01",
+   "first_seen_at": "2026-10-13T18:00:33Z",
+   "year": 2026,
+   "volume": null,
+   "issue": null,
+   "pages": null,
+   "issue_number": 1,
+   "sets": [
+    "ai_work"
+   ],
+   "relevance_score": 8,
+   "relevance_reasons": [],
+   "recommended": true,
+   "note": "Three-year ethnography of an HR department adopting AI for candidate screening; datafication and organizational consequences in hiring.",
+   "abstract": "The increasing datafication of work has become a pervasive theme within organizations, particularly with the rise of artificial intelligence (AI) technologies that rely on data and machine learning to generate insights and decisions. Prior research has shown that datafication practices aimed at administrative control and accountability can transform organizations in profound and often unintended ways. Our research moves beyond investigating datafication for administrative purposes to explore how it unfolds when actors intend to extract knowledge through AI predictive modeling. Drawing on a three-year ethnography of a human resources (HR) department introducing AI for candidate screening, we find that datafication expanded far beyond the technology’s initially envisioned scope. We explain this scope expansion by introducing the concept of epistemic enchantment : a collective process through which organizational members become captivated and mobilized by AI’s promise to generate predictive, objective, and continuously improving insights from data, while overlooking the costs and risks involved. Our study reveals how datafication practices can expand endlessly as organizational members, enchanted by AI’s epistemic promises, pursue the notion of ideal data as an ever-desired but never reachable goal.",
+   "abstract_source": "crossref",
+   "version_note": null
+  },
+  {
+   "canonical_key": "doi:10.1007/s11187-026-01281-w",
+   "title": "Knowing when to quit: experience, binding financial constraints, and withdrawal from new venture creation",
+   "authors": [
+    "Scott Shane"
+   ],
+   "venue": "Small Business Economics",
+   "source_slug": "sbe",
+   "source_category": "management_journal",
+   "publication_status": "published",
+   "doi": "10.1007/s11187-026-01281-w",
+   "arxiv_id": null,
+   "nber_id": null,
+   "ssrn_id": null,
+   "primary_url": "https://doi.org/10.1007/s11187-026-01281-w",
+   "paper_url": "https://link.springer.com/content/pdf/10.1007/s11187-026-01281-w.pdf",
+   "pdf_url": "https://link.springer.com/content/pdf/10.1007/s11187-026-01281-w.pdf",
+   "published_at": "2026-10-07",
+   "first_seen_at": "2026-10-13T18:00:33Z",
+   "year": 2026,
+   "volume": null,
+   "issue": null,
+   "pages": null,
+   "issue_number": 1,
+   "sets": [
+    "entrepreneurship"
+   ],
+   "relevance_score": 8,
+   "relevance_reasons": [
+    "entrepreneurship:entrepreneur, founder, startup, new venture"
+   ],
+   "recommended": true,
+   "note": "Survey of nascent entrepreneurs on quitting venture creation; liquidity constraints and founder experience.",
+   "abstract": "Why do people quit the startup process before a business is formed? We treat withdrawal from new venture creation as a test of Evans and Jovanovic’s (1989) model of liquidity constraints at the pre-entry margin. In the model, constraints bind when desired capital deployment exceeds what personal finances can support. We test three predictions with Entrepreneurship in the Population (EPOP) Survey data from 2023 to 2025, comparing 3980 responses from continuing nascent entrepreneurs with 6903 responses from people who considered or pursued a business and then stopped. Experienced founders report deploying more than twice the startup capital of novices. The association between pre-existing financial constraints and stopping is stronger for experienced founders. The experience gap in stopping odds is large at one financial constraint, marginal at two, and no longer detectable at three. A further implication, that funding-rationed seekers stop at higher rates, is directionally positive but not robust across years. The results are consistent with liquidity constraints binding at the pre-entry margin and help reconcile weak wealth-entry relationships with evidence that constraints matter.",
+   "abstract_source": "crossref",
+   "version_note": null
+  },
+  {
+   "canonical_key": "doi:10.1287/mnsc.2024.08553",
+   "title": "More Monitoring, Less Pay: Active Ownership and Employee Compensation",
+   "authors": [
+    "Claudine Gartenberg",
+    "Elaine Pak"
+   ],
+   "venue": "Management Science",
+   "source_slug": "mnsc",
+   "source_category": "management_journal",
+   "publication_status": "published",
+   "doi": "10.1287/mnsc.2024.08553",
+   "arxiv_id": null,
+   "nber_id": null,
+   "ssrn_id": null,
+   "primary_url": "https://doi.org/10.1287/mnsc.2024.08553",
+   "paper_url": "https://doi.org/10.1287/mnsc.2024.08553",
+   "pdf_url": null,
+   "published_at": "2026-10-01",
+   "first_seen_at": "2026-10-13T18:00:33Z",
+   "year": 2026,
+   "volume": null,
+   "issue": null,
+   "pages": null,
+   "issue_number": 1,
+   "sets": [
+    "orgs_inequality"
+   ],
+   "relevance_score": 8,
+   "relevance_reasons": [],
+   "recommended": true,
+   "note": "Employee records across 896 firms show active owners pay 2-4% less for comparable work; pay determination and ownership.",
+   "abstract": "The rise of active owners—hedge funds and private equity firms—has raised questions about the influence of corporate owners on employee compensation. Prior research documents that active owners reduce overall compensation through workforce restructuring and slower wage growth. What remains unexplored is whether active owners also pay less for comparable work: whether they compensate the same jobs differently than other owners. Using detailed compensation from more than 20 million employee records across 896 U.S. firms, we compare pay within narrowly defined labor markets that hold constant year, region, occupation, and skill level. We find that firms with active owners pay 2%–4% less for comparable work than other firms. These differentials manifest as both lower base salary and flatter incentive pay and appear to reflect, at least in part, an owner treatment effect. Notably, the effects are concentrated in more monitorable contexts, including routine jobs, jobs with quantifiable outputs, and those in less knowledge-intensive industries. These patterns are consistent with active owners substituting compensation-based incentives with managerial oversight, particularly in quantifiable and routine settings. This suggests that, as work becomes more measurable, firm ownership may play a greater role in shaping employee outcomes. This paper was accepted by Isabel Fernandez-Mateo, organizations. Funding: C. Gartenberg and E. Pak recognize the generous financial support from the Wharton School at University of Pennsylvania. Supplemental Material: The online appendix and data files are available at https://doi.org/10.1287/mnsc.2024.08553 .",
+   "abstract_source": "crossref",
+   "version_note": null
+  },
+  {
+   "canonical_key": "doi:10.31235/osf.io/4vzjx_v1",
+   "title": "Occupational class inequality in non-monetary job quality in Europe, 1995-2024",
+   "authors": [
+    "Edvin Syk"
+   ],
+   "venue": "SocArXiv",
+   "source_slug": "socarxiv",
+   "source_category": "preprint",
+   "publication_status": "preprint",
+   "doi": "10.31235/osf.io/4vzjx_v1",
+   "arxiv_id": null,
+   "nber_id": null,
+   "ssrn_id": null,
+   "primary_url": "https://osf.io/preprints/socarxiv/4vzjx_v1/",
+   "paper_url": "https://osf.io/preprints/socarxiv/4vzjx_v1/",
+   "pdf_url": null,
+   "published_at": "2026-10-06",
+   "first_seen_at": "2026-10-13T18:00:33Z",
+   "year": 2026,
+   "volume": null,
+   "issue": null,
+   "pages": null,
+   "issue_number": 1,
+   "sets": [
+    "orgs_inequality"
+   ],
+   "relevance_score": 8,
+   "relevance_reasons": [
+    "orgs_inequality:inequality, occupation"
+   ],
+   "recommended": true,
+   "note": "European Working Conditions Survey 1995-2024 on occupational class gradients in autonomy, physical conditions, intensity, and work time across 14 countries.",
+   "abstract": "Occupational class is central to research on inequality, but we have limited knowledge about how it structures non-monetary job quality across countries and over time. We examine four dimensions of job quality—autonomy, physical working conditions, work intensity, and work time quality—across eight occupational classes in 14 European countries from 1995 to 2024, using the European Working Conditions Survey. We compare class profiles over time, decompose variation into within- and between-class components, and benchmark occupational class against country, country-year, and income. Most variation in job quality is within occupational classes, but gradients remain pronounced for physical working conditions and autonomy, while work intensity is only weakly structured by class. Cross-national differences are modest on average but substantially larger among lower-skill than higher-skill classes. Occupational class thus remains an important source of inequality in some dimensions of job quality, but captures only part of the broader variation in working conditions.",
+   "abstract_source": "osf",
+   "version_note": null
+  },
+  {
+   "canonical_key": "doi:10.31235/osf.io/273w4_v4",
+   "title": "Self-Employment in Mothers’ Careers After First Birth: A Comparison of South Korea and the United States",
+   "authors": [
+    "Wonjeong Jeong"
+   ],
+   "venue": "SocArXiv",
+   "source_slug": "socarxiv",
+   "source_category": "preprint",
+   "publication_status": "preprint",
+   "doi": "10.31235/osf.io/273w4_v4",
+   "arxiv_id": null,
+   "nber_id": null,
+   "ssrn_id": null,
+   "primary_url": "https://osf.io/preprints/socarxiv/273w4_v4/",
+   "paper_url": "https://osf.io/preprints/socarxiv/273w4_v4/",
+   "pdf_url": null,
+   "published_at": "2026-10-01",
+   "first_seen_at": "2026-10-13T18:00:33Z",
+   "year": 2026,
+   "volume": null,
+   "issue": null,
+   "pages": null,
+   "issue_number": 1,
+   "sets": [
+    "entrepreneurship",
+    "orgs_inequality"
+   ],
+   "relevance_score": 8,
+   "relevance_reasons": [
+    "entrepreneurship:self-employ",
+    "orgs_inequality:career, women"
+   ],
+   "recommended": true,
+   "note": "Sequence analysis of mothers' self-employment after first birth in South Korea and US panel data; gendered careers and institutions.",
+   "abstract": "Upon parenthood, women face pressure to reorganize their paid work and careers. In this process, self-employment can offer a distinct option, with a different set of risks and benefits than wage work. Yet research on mothers’ employment trajectories rarely examines self-employment as a distinct option. This paper examines how self-employment fits into mothers’ careers after their first birth and how this pattern differs between two institutional contexts: South Korea and the United States. Using the Korean Labor and Income Panel Study and the Panel Study of Income Dynamics, I track mothers’ employment history from their first birth through the following ten years. Descriptive and sequence analyses show that one in five mothers experiences self-employment at least once, but the way they leverage it differs by institutional context. In South Korea, self-employment more often follows nonemployment, is primarily full-time, and occurs within trajectories leading back to paid work. In the United States, mothers more often enter self-employment from wage work, while part-time self-employment appears intermittently in wage-centered trajectories. Thus, self-employment occupies different positions across these two contexts, where mothers’ counterfactual career options vary. As technology shifts, the potential importance of diverse forms of self-employment, including contract-based gig work, may increase, raising the need for future research to examine how self-employment fits into one’s career.",
+   "abstract_source": "osf",
+   "version_note": null
+  },
+  {
+   "canonical_key": "doi:10.3386/w35796",
+   "title": "The Early Impacts of AI on Employment among Recent College Graduates",
+   "authors": [
+    "Robert Fairlie",
+    "Jane Wu"
+   ],
+   "venue": "NBER Working Papers",
+   "source_slug": "nber",
+   "source_category": "working_paper",
+   "publication_status": "working_paper",
+   "doi": "10.3386/w35796",
+   "arxiv_id": null,
+   "nber_id": "w35796",
+   "ssrn_id": null,
+   "primary_url": "https://doi.org/10.3386/w35796",
+   "paper_url": "https://doi.org/10.3386/w35796",
+   "pdf_url": "https://doi.org/10.3386/w35796",
+   "published_at": "2026-09-01",
+   "first_seen_at": "2026-10-13T18:00:33Z",
+   "year": 2026,
+   "volume": null,
+   "issue": null,
+   "pages": null,
+   "issue_number": 1,
+   "sets": [
+    "ai_work"
+   ],
+   "relevance_score": 8,
+   "relevance_reasons": [
+    "ai_work:ai, worker, job, occupation"
+   ],
+   "recommended": false,
+   "note": "CPS difference-in-differences on AI exposure and unemployment of recent college graduates in 2026; finds no significant spike.",
+   "abstract": "The impact of AI on the employment prospects of recent college graduates is hotly debated with no consensus on the magnitude of impacts nor even the timing of those potential impacts.Using CPS microdata, we provide the first estimates of the effects of AI on the unemployment of recent college graduates in June, July and August 2026.We provide evidence suggesting that unemployment rates are especially high for summer months and that 2026 might be the first year of widespread enough AI use in the workplace to detect impacts of AI on recent college graduates, the group argued to be most vulnerable to AI replacement.Taking an agnostic approach to defining treatment timing, we find that unemployment rates did not spike in summer 2026 relative to summer months in previous years and did not rise in a significant way relative to older college graduates or young workers without a college degree.We also provide the first analysis of an expanded definition of unemployment that includes those who report \"wanting a job\" which adds nearly two percentage points to the unemployment rate of recent college graduates but we find no evidence of a statistically significant increase in summer 2026 even after adding these \"sidelined unemployed.\"We estimate difference-in-differences and event-study interaction models using both older college graduates and young non-college graduates as comparison groups and do not find evidence of an increase in relative unemployment rates.Finally, we estimate models in which we interact 2026 unemployment with AI exposure and remote work availability by occupation and find some evidence of a positive relationship with remote work availability.",
+   "abstract_source": "openalex",
+   "version_note": null
+  },
+  {
+   "canonical_key": "doi:10.5465/annals.2025.0093",
+   "title": "Toward a Framework of Social Marginalization: An Integrative Review and Research Agenda",
+   "authors": [
+    "McKenzie Preston",
+    "Y. Lillian Kim"
+   ],
+   "venue": "Academy of Management Annals",
+   "source_slug": "annals",
+   "source_category": "management_journal",
+   "publication_status": "published",
+   "doi": "10.5465/annals.2025.0093",
+   "arxiv_id": null,
+   "nber_id": null,
+   "ssrn_id": null,
+   "primary_url": "https://doi.org/10.5465/annals.2025.0093",
+   "paper_url": "https://doi.org/10.5465/annals.2025.0093",
+   "pdf_url": null,
+   "published_at": "2026-09-29",
+   "first_seen_at": "2026-10-13T18:00:33Z",
+   "year": 2026,
+   "volume": null,
+   "issue": null,
+   "pages": null,
+   "issue_number": 1,
+   "sets": [
+    "orgs_inequality"
+   ],
+   "relevance_score": 8,
+   "relevance_reasons": [
+    "orgs_inequality:disadvantage, organization"
+   ],
+   "recommended": false,
+   "note": "Integrative review of social marginalization in organizations, linking symbolic and material disadvantage across levels.",
+   "abstract": "Despite a growing body of research on social marginalization in organizations, this scholarship remains fragmented across identity groups and disciplinary silos. As a result, organizational scholars lack a coherent framework to explain how marginalization persists and evolves across contexts. In this integrative review, we synthesize research from management, psychology, and sociology to develop a multilevel framework that conceptualizes marginalization as a recursive cycle between symbolic disadvantage (e.g., stereotyping, stigma, delegitimization) and material disadvantage (e.g., restricted access to jobs, resources, and institutional protections). We identify recurring mechanisms that operate across micro, meso, and macro levels, demonstrating how these dynamics mutually reinforce one another over time. Our framework also explains why interventions that target only one dimension of disadvantage often fall short or produce unintended consequences. We conclude by outlining a research agenda that advances theoretical development and empirical investigation of marginalization, including approaches to multilevel dynamics, temporal change, and measurement, as well as implications for designing more effective organizational interventions. Together, this integrative framework provides a unifying lens for understanding and addressing the cyclical dynamics of marginalization in organizations.",
+   "abstract_source": "openalex",
+   "version_note": null
+  },
+  {
+   "canonical_key": "arxiv:2610.09608",
+   "title": "When My Skill Becomes Agent Skill: How Knowledge Workers Share Their Expertise with AI Systems",
+   "authors": [
+    "Tianqi Song",
+    "Zicheng Zhu",
+    "Hancheng Cao",
+    "Yi-Chieh Lee"
+   ],
+   "venue": "arXiv cs.HC",
+   "source_slug": "arxiv-ai-work",
+   "source_category": "preprint",
+   "publication_status": "preprint",
+   "doi": null,
+   "arxiv_id": "2610.09608",
+   "nber_id": null,
+   "ssrn_id": null,
+   "primary_url": "https://arxiv.org/abs/2610.09608",
+   "paper_url": "https://arxiv.org/pdf/2610.09608v1",
+   "pdf_url": "https://arxiv.org/pdf/2610.09608v1",
+   "published_at": "2026-10-07",
+   "first_seen_at": "2026-10-13T18:00:33Z",
+   "year": 2026,
+   "volume": null,
+   "issue": null,
+   "pages": null,
+   "issue_number": 1,
+   "sets": [
+    "ai_work"
+   ],
+   "relevance_score": 8,
+   "relevance_reasons": [
+    "ai_work:ai, worker, workplace, skill"
+   ],
+   "recommended": false,
+   "note": "Experiment with knowledge workers on authorizing human versus AI reuse of their expertise; workplace AI and knowledge sharing.",
+   "abstract": "Organizations have long sought to make workers' expertise reusable by others. Agentic AI changes the nature of such reuse by enabling AI systems to act on workers' knowledge with limited human involvement. This raises the question of how this shift shapes workers' willingness to share their expertise. We conducted an experiment with knowledge workers who created materials incorporating domain knowledge and decided whether to authorize human or AI reuse. We find that AI and human reuse differ primarily in whether workers choose to share their knowledge, rather than in what they choose to share. Participants' reasoning shifts from prosocial considerations when sharing with humans toward concerns about loss of control, replacement, and downstream governance when sharing with AI. These findings suggest that AI reuse may intensify tensions between organizational knowledge reuse and contributors' interests. We discuss implications for workplace AI and knowledge management policies that preserve workers' rights and agency.",
+   "abstract_source": "arxiv",
+   "version_note": null
+  },
+  {
+   "canonical_key": "doi:10.1016/j.jbusvent.2026.106657",
+   "title": "Who will I be? Refugee entrepreneurship and founder identity",
+   "authors": [
+    "Eunki Ro",
+    "E. Erin Powell",
+    "Ted Baker"
+   ],
+   "venue": "Journal of Business Venturing",
+   "source_slug": "jbv",
+   "source_category": "management_journal",
+   "publication_status": "published",
+   "doi": "10.1016/j.jbusvent.2026.106657",
+   "arxiv_id": null,
+   "nber_id": null,
+   "ssrn_id": null,
+   "primary_url": "https://doi.org/10.1016/j.jbusvent.2026.106657",
+   "paper_url": "https://doi.org/10.1016/j.jbusvent.2026.106657",
+   "pdf_url": null,
+   "published_at": "2027-01-01",
+   "first_seen_at": "2026-10-13T18:00:33Z",
+   "year": 2027,
+   "volume": "42",
+   "issue": "1",
+   "pages": "106657",
+   "issue_number": 1,
+   "sets": [
+    "entrepreneurship",
+    "orgs_inequality"
+   ],
+   "relevance_score": 8,
+   "relevance_reasons": [
+    "entrepreneurship:entrepreneur, founder",
+    "orgs_inequality:hiring"
+   ],
+   "recommended": false,
+   "note": "Field study of North Korean defector founders; social identity, founder identity, and refugee entrepreneurship under stigma.",
+   "abstract": "We conducted a 27-month field study of 23 North Korean Defector (NKD) founders. Founders responded in three different ways to the disparaging default social identities they encountered by self-categorizing into three “avowed” social identities, which served as aspirations for how they would build their ventures. Founders generated sensemaking narratives that explained their behavior – to themselves and to others – by anchoring on the past, present, or future circumstances and claiming individual capabilities to build their ventures. The resulting ventures were characterized by distinctive missions, branding, and hiring preferences and therefore by patterned differences in the roles founders played. We contribute to scholarly understanding of refugee entrepreneurship by showing that the ways in which refugee founders respond to being in a new country and constructing new identities is more varied – because it is embedded in their responses to local social evaluations – than prior research has portrayed. We contribute to the development of founder identity theory (FIDT) by expanding prior understanding of how social identities drive founder role creation. Overall, we show the extension of refugee founder agency as they move from self-categorizing into avowed social identities to embedding themselves in the concrete social relations required to perform a role.",
+   "abstract_source": "openalex",
+   "version_note": null
+  },
+  {
+   "canonical_key": "doi:10.31235/osf.io/r4wu2_v1",
+   "title": "A Productivity Fixated World in the Age of AI: Investigating The Purpose of Human Art",
+   "authors": [
+    "Bruce Tan"
+   ],
+   "venue": "SocArXiv",
+   "source_slug": "socarxiv",
+   "source_category": "preprint",
+   "publication_status": "preprint",
+   "doi": "10.31235/osf.io/r4wu2_v1",
+   "arxiv_id": null,
+   "nber_id": null,
+   "ssrn_id": null,
+   "primary_url": "https://osf.io/preprints/socarxiv/r4wu2_v1/",
+   "paper_url": "https://osf.io/preprints/socarxiv/r4wu2_v1/",
+   "pdf_url": null,
+   "published_at": "2026-10-06",
+   "first_seen_at": "2026-10-13T18:00:33Z",
+   "year": 2026,
+   "volume": null,
+   "issue": null,
+   "pages": null,
+   "issue_number": 1,
+   "sets": [
+    "ai_work"
+   ],
+   "relevance_score": 7,
+   "relevance_reasons": [
+    "ai_work:generative ai, ai, productivity, creativ"
+   ],
+   "recommended": false,
+   "note": "Survey in a 2x2 design of hobbyist and professional illustrators using or not using generative AI; well-being and fulfillment.",
+   "abstract": "Modern society increasingly prioritizes final products over the creative process, a trend exacerbated by the rapid adoption of generative AI. This study aims to explore the impact of AI integration into the creative process on subjective well-being and fulfillment, and to determine whether these effects differ between individuals creating for leisure versus those creating for a profession. Within this research, a quantitative-focused survey was conducted with 200 adults, categorized using a 2x2 design: acting as either a hobbyist or a professional illustrator, and either utilizing or not utilizing AI. The data reveals a consistent drop in a person’s well-being across both hobbyist and professional groups when AI is utilized. The differences in fulfillment between hobbyist and professional groups were not statistically significant. While a positive correlation was found between a product-focused mindset and satisfaction among professionals using AI, the overall satisfaction for AI users across the board remained significantly lower than for those who didn’t use AI. These findings suggest that AI integration into creative tasks carries measurable psychological costs by separating the creator from the intrinsically beneficial creative process, along with social costs that taint the creator-audience relationship. These findings underscore the value of human creation, suggesting that the ongoing conversation surrounding AI adoption must extend beyond efficiency to account for value within the human process. An avenue for further research lies within AI use in other fields less traditionally considered a “creative” discipline, such as STEM, which show evidence of having similar psychological benefits arising from the process.",
+   "abstract_source": "osf",
+   "version_note": null
+  },
+  {
+   "canonical_key": "doi:10.1016/j.jbusvent.2026.106659",
+   "title": "Co-founder selection from a marriage market perspective: How the dark triad shapes judgments of interpersonal attraction, resources, and equity demand",
+   "authors": [
+    "Yannick Nicolai Amend",
+    "Petrit Ademi",
+    "Matthew S. Wood",
+    "Monika Christine Schuhmacher"
+   ],
+   "venue": "Journal of Business Venturing",
+   "source_slug": "jbv",
+   "source_category": "management_journal",
+   "publication_status": "published",
+   "doi": "10.1016/j.jbusvent.2026.106659",
+   "arxiv_id": null,
+   "nber_id": null,
+   "ssrn_id": null,
+   "primary_url": "https://doi.org/10.1016/j.jbusvent.2026.106659",
+   "paper_url": "https://www.sciencedirect.com/science/article/pii/S0883902626000893/pdf",
+   "pdf_url": "https://www.sciencedirect.com/science/article/pii/S0883902626000893/pdf",
+   "published_at": "2027-01-01",
+   "first_seen_at": "2026-10-13T18:00:33Z",
+   "year": 2027,
+   "volume": "42",
+   "issue": "1",
+   "pages": "106659",
+   "issue_number": 1,
+   "sets": [
+    "entrepreneurship"
+   ],
+   "relevance_score": 7,
+   "relevance_reasons": [
+    "entrepreneurship:entrepreneur, founder, new venture"
+   ],
+   "recommended": false,
+   "note": "Conjoint experiment with entrepreneurs on co-founder selection; dark triad shapes attraction, resources, and equity demand judgments.",
+   "abstract": "Co-founder selection is a pivotal decision in new venture formation, yet how lead founders evaluate potential partners remains underexplored. Drawing on insights from marriage market theory, we conceptualize co-founder selection as an act of individuated judgment guided by cooperative logic and associated joint utility projection, wherein lead founders assess co-founder candidates based on social-emotional, instrumental, and distributive considerations reflected in interpersonal attraction, resource contributions, and equity demand. We further propose that lead founders' dark triad shifts this judgmental process from joint utility logic to personal utility maximization. Using a conjoint experiment with 206 entrepreneurs making 3296 co-founder selection decisions, we find that interpersonal attraction and resource contributions positively influence willingness to select a co-founder candidate, whereas higher equity demand reduces candidate attractiveness. Critically, lead founders higher in the dark triad display distinct patterns: they discount interpersonal attraction and display heightened sensitivity to equity dilution—assessments that indicate their prioritization of personal over joint value creation. Taken together, these findings reveal how dispositional tendencies influence the judgments underlying co-founder selection, indicating a shift away from the cooperative logic assumed in marriage market theory and co-founder selection toward greater emphasis on personal utility considerations. We discuss theoretical implications of these findings and offer practical guidance for navigating the complexities of co-founder selection.",
+   "abstract_source": "openalex",
+   "version_note": null
+  },
+  {
+   "canonical_key": "doi:10.31235/osf.io/yj4he_v3",
+   "title": "Corporate Hierarchy",
+   "authors": [
+    "Michael Ewens",
+    "Xavier Giroud"
+   ],
+   "venue": "SocArXiv",
+   "source_slug": "socarxiv",
+   "source_category": "preprint",
+   "publication_status": "preprint",
+   "doi": "10.31235/osf.io/yj4he_v3",
+   "arxiv_id": null,
+   "nber_id": null,
+   "ssrn_id": null,
+   "primary_url": "https://osf.io/preprints/socarxiv/yj4he_v3/",
+   "paper_url": "https://osf.io/preprints/socarxiv/yj4he_v3/",
+   "pdf_url": null,
+   "published_at": "2026-10-06",
+   "first_seen_at": "2026-10-13T18:00:33Z",
+   "year": 2026,
+   "volume": null,
+   "issue": null,
+   "pages": null,
+   "issue_number": 1,
+   "sets": [
+    "orgs_inequality",
+    "ai_work"
+   ],
+   "relevance_score": 7,
+   "relevance_reasons": [
+    "ai_work:artificial intelligence, ai, firm",
+    "entrepreneurship:patent",
+    "orgs_inequality:promotion, organization, firm"
+   ],
+   "recommended": false,
+   "note": "Resume-based measure of hierarchical layers in 3,454 US public firms; links to promotion rates, performance, and flattening after AI adoption.",
+   "abstract": "We introduce a novel measure of corporate hierarchy for 3,454 U.S. public firms. We construct this measure using online resumes of 18.1 million employees and a network estimation technique that allows us to identify hierarchical layers. Equipped with this measure, we document several facts about corporate hierarchies. Firms have on average six hierarchical layers and a pyramidal organizational structure. Firms with more layers have higher internal promotion rates and longer employee tenure. They exhibit higher operating performance and produce more patents, but not higher-quality patents. They also exhibit lower stock return volatility and operating asset volatility. At the same time, flatter firms fared better in response to the COVID-19 shock, consistent with greater organizational agility. We also examine potential determinants of hierarchical structures. Firms facing greater product market threats adopt flatter hierarchies. Moreover, firms increase their number of layers after going public, while they flatten their hierarchies following the adoption of artificial intelligence (AI). These findings are consistent with the theoretical predictions of existing models of corporate hierarchies and suggest that firms adjust their organizational structures to balance the benefits and costs of hierarchical layers.",
+   "abstract_source": "osf",
+   "version_note": null
+  },
+  {
+   "canonical_key": "doi:10.1093/rfs/hhag090",
+   "title": "Directing the Labor Market: Shared Directors and Employee Flows",
+   "authors": [
+    "Taylor A Begley",
+    "Peter Haslag",
+    "Daniel Weagley"
+   ],
+   "venue": "The Review of Financial Studies",
+   "source_slug": "rfs",
+   "source_category": "economics_journal",
+   "publication_status": "published",
+   "doi": "10.1093/rfs/hhag090",
+   "arxiv_id": null,
+   "nber_id": null,
+   "ssrn_id": null,
+   "primary_url": "https://doi.org/10.1093/rfs/hhag090",
+   "paper_url": "https://academic.oup.com/rfs/advance-article-pdf/doi/10.1093/rfs/hhag090/71627593/hhag090.pdf",
+   "pdf_url": "https://academic.oup.com/rfs/advance-article-pdf/doi/10.1093/rfs/hhag090/71627593/hhag090.pdf",
+   "published_at": "2026-10-06",
+   "first_seen_at": "2026-10-13T18:00:33Z",
+   "year": 2026,
+   "volume": null,
+   "issue": null,
+   "pages": null,
+   "issue_number": 1,
+   "sets": [
+    "orgs_inequality"
+   ],
+   "relevance_score": 7,
+   "relevance_reasons": [
+    "orgs_inequality:promotion, firm, labor market"
+   ],
+   "recommended": false,
+   "note": "Resume data show shared directors reduce employee flows between firms and lower internal promotion; labor market coordination.",
+   "abstract": "Using résumé data on over 20 million U.S. workers, we find that the flow of employees between a pair of firms sharply drops by about 20% during periods in which the firms share a board director. This relationship is stronger in settings where firms have greater potential gains from limiting worker mobility and is most pronounced for higher-skilled employees. Moreover, we find more connected firms have lower rates of internal promotion and no improvements in employee satisfaction. The evidence is consistent with shared directors serving as a mechanism for labor market coordination. (JEL G34, G38, J42, J62, J08, K21, K31, M50)",
+   "abstract_source": "crossref",
+   "version_note": null
+  },
+  {
+   "canonical_key": "doi:10.1016/j.jbusvent.2026.106656",
+   "title": "From breakdown to breakthrough: How entrepreneurs craft vulnerability narratives on social media",
+   "authors": [
+    "Gabriella Cacciotti",
+    "Marianna Marino",
+    "Deniz Ucbasaran",
+    "Ali Ahmed"
+   ],
+   "venue": "Journal of Business Venturing",
+   "source_slug": "jbv",
+   "source_category": "management_journal",
+   "publication_status": "published",
+   "doi": "10.1016/j.jbusvent.2026.106656",
+   "arxiv_id": null,
+   "nber_id": null,
+   "ssrn_id": null,
+   "primary_url": "https://doi.org/10.1016/j.jbusvent.2026.106656",
+   "paper_url": "https://doi.org/10.1016/j.jbusvent.2026.106656",
+   "pdf_url": null,
+   "published_at": "2027-01-01",
+   "first_seen_at": "2026-10-13T18:00:33Z",
+   "year": 2027,
+   "volume": "42",
+   "issue": "1",
+   "pages": "106656",
+   "issue_number": 1,
+   "sets": [
+    "entrepreneurship",
+    "orgs_inequality"
+   ],
+   "relevance_score": 7,
+   "relevance_reasons": [
+    "entrepreneurship:entrepreneur",
+    "orgs_inequality:gender, women"
+   ],
+   "recommended": false,
+   "note": "Interviews and Instagram observation of women entrepreneurs' vulnerability narratives; gendered biases and legitimacy in digital contexts.",
+   "abstract": "Entrepreneurial narratives are widely understood as strategic tools for building legitimacy and mobilizing resources. Yet we observed that some entrepreneurs openly share stories of fear, doubt, and struggle on social media - foregrounding emotional exposure rather than demonstrating strategic purpose. We conceptualize these as entrepreneurial vulnerability narratives: a distinct narrative form through which the lived consequences of entrepreneurial uncertainty are publicly shared and opened to social negotiation. These disclosures expose entrepreneurs to interpersonal risks, heightened for women entrepreneurs who contend with gendered biases and less supportive social contexts. To examine this phenomenon, we conducted interviews with 33 women entrepreneurs and a 21-month observation of their Instagram activity. Our analysis reveals that women entrepreneurs hold multiple and coexisting motivations for disclosure - self-oriented, relational, and normative - oscillating between them as needed, while developing narrative-crafting tactics that sustain the benefits of sharing while managing interpersonal risks. Our study contributes by theorizing entrepreneurial vulnerability narratives as a distinct narrative form; by challenging the view that entrepreneurial narratives serve primarily persuasive functions; and by showing how entrepreneurs actively construct precarious holding environments in fragmented digital contexts.",
+   "abstract_source": "openalex",
+   "version_note": null
+  },
+  {
+   "canonical_key": "doi:10.1007/s11187-026-01289-2",
+   "title": "High-growth firms and their habitats: Business climate and the geography of high-growth firms",
+   "authors": [
+    "Martin Andersson",
+    "Johan Karlsson",
+    "Johan P Larsson"
+   ],
+   "venue": "Small Business Economics",
+   "source_slug": "sbe",
+   "source_category": "management_journal",
+   "publication_status": "published",
+   "doi": "10.1007/s11187-026-01289-2",
+   "arxiv_id": null,
+   "nber_id": null,
+   "ssrn_id": null,
+   "primary_url": "https://doi.org/10.1007/s11187-026-01289-2",
+   "paper_url": "https://link.springer.com/content/pdf/10.1007/s11187-026-01289-2.pdf",
+   "pdf_url": "https://link.springer.com/content/pdf/10.1007/s11187-026-01289-2.pdf",
+   "published_at": "2026-10-03",
+   "first_seen_at": "2026-10-13T18:00:33Z",
+   "year": 2026,
+   "volume": null,
+   "issue": null,
+   "pages": null,
+   "issue_number": 1,
+   "sets": [
+    "entrepreneurship"
+   ],
+   "relevance_score": 7,
+   "relevance_reasons": [
+    "entrepreneurship:entrepreneur, start-up"
+   ],
+   "recommended": false,
+   "note": "Swedish municipality data on high-growth firms versus start-ups; local business climate predicts scaling more than entry.",
+   "abstract": "We examine how the geography of entrepreneurial quality differs from the geography of entrepreneurial quantity by analyzing spatial variation in high-growth firms (HGFs) across Swedish municipalities during 2002–2022. Using longitudinal firm-level data matched to survey measures of local business climate, we compare the determinants of start-up rates and firm scaling. Standard supply- and demand-side factors — population size, human capital and economic structure — are associated with both outcomes, though not uniformly. In contrast, local business climate, capturing entrepreneurs’ assessments of how local authorities function in practice, is a substantially stronger predictor of HGFs than of start-ups. The association is economically meaningful and varies with local economic structure. The findings point to a micro-level mechanism that may link local framework conditions to aggregate outcomes: interactions between growth-oriented firms and local institutions during scaling. These patterns suggest that local institutional conditions are related not only to how many firms are created, but to which firms are able to grow.",
+   "abstract_source": "crossref",
+   "version_note": null
+  },
+  {
+   "canonical_key": "doi:10.31235/osf.io/t53pn_v1",
+   "title": "Immigrant wages are lower in immigrant-dense areas, and the limited-English differential is mostly occupational: metropolitan Philadelphia, 2012–2024",
+   "authors": [
+    "Hebe Liu"
+   ],
+   "venue": "SocArXiv",
+   "source_slug": "socarxiv",
+   "source_category": "preprint",
+   "publication_status": "preprint",
+   "doi": "10.31235/osf.io/t53pn_v1",
+   "arxiv_id": null,
+   "nber_id": null,
+   "ssrn_id": null,
+   "primary_url": "https://osf.io/preprints/socarxiv/t53pn_v1/",
+   "paper_url": "https://osf.io/preprints/socarxiv/t53pn_v1/",
+   "pdf_url": null,
+   "published_at": "2026-10-04",
+   "first_seen_at": "2026-10-13T18:00:33Z",
+   "year": 2026,
+   "volume": null,
+   "issue": null,
+   "pages": null,
+   "issue_number": 1,
+   "sets": [
+    "orgs_inequality"
+   ],
+   "relevance_score": 7,
+   "relevance_reasons": [
+    "orgs_inequality:immigrant, employer, occupation"
+   ],
+   "recommended": false,
+   "note": "ACS multilevel analysis of immigrant wages, area immigrant density, and limited English; differential largely occupational, Philadelphia.",
+   "abstract": "Immigrants who speak limited English earn less than those who speak it well. On the protective view of residential concentration, that differential should be smaller where immigrants are concentrated, because concentration supplies employers and customers who do not require English. On the isolation view it should be larger. This study tests both views in metropolitan Philadelphia, a former gateway whose immigrant population has grown again, with American Community Survey microdata for 2012 to 2024 and a two-level model of 7,355 foreign-born workers in 48 Public Use Microdata Areas. Hourly wages are about 8 percent lower per standard deviation of area immigrant density for foreign-born workers who speak English well and about 3 percent lower, an estimate not distinguishable from zero, for those who speak it poorly. Native-born workers in the same areas show a gradient of 2 percent, so most of the difference is specific to immigrants. The interaction between density and limited English is 0.049 (standard error 0.029) and disappears once occupation is held constant. The limited-English differential is 21 percent overall and 9 percent within an occupation, so most of it is associated with the occupations limited-English workers hold. An exploratory measure of the density of the worker’s own home language gives a positive interaction of 0.046 (0.022), driven by lower wages for proficient workers rather than higher wages for limited-English workers, and the same specification in the New York metropolitan area gives 0.045 (0.009). Higher earners move from the city to the suburbs.",
+   "abstract_source": "osf",
+   "version_note": null
+  },
+  {
+   "canonical_key": "doi:10.1257/aer.20230714",
+   "title": "Knowledge Spillovers, Competition, and Individual Careers",
+   "authors": [
+    "Thomas Cornelissen",
+    "Christian Dustmann",
+    "Uta Schönberg"
+   ],
+   "venue": "American Economic Review",
+   "source_slug": "aer",
+   "source_category": "economics_journal",
+   "publication_status": "published",
+   "doi": "10.1257/aer.20230714",
+   "arxiv_id": null,
+   "nber_id": null,
+   "ssrn_id": null,
+   "primary_url": "https://doi.org/10.1257/aer.20230714",
+   "paper_url": "https://doi.org/10.1257/aer.20230714",
+   "pdf_url": null,
+   "published_at": "2026-10-01",
+   "first_seen_at": "2026-10-13T18:00:33Z",
+   "year": 2026,
+   "volume": "116",
+   "issue": "10",
+   "pages": "3910-3941",
+   "issue_number": 1,
+   "sets": [
+    "orgs_inequality"
+   ],
+   "relevance_score": 7,
+   "relevance_reasons": [
+    "orgs_inequality:career, women, workplace, labor market"
+   ],
+   "recommended": false,
+   "note": "Coworker knowledge spillovers versus competition for advancement in early careers, with larger effects for men than women.",
+   "abstract": "Exposure to better peers in the workplace can influence career trajectories through two opposing channels: positively, via knowledge spillovers, and negatively, through competition for advancement. We disentangle these effects by studying untrained labor market entrants and distinguishing between coworkers in the same occupation with whom they are likely to compete versus those with whom they are unlikely to compete. We find robust evidence of persistent knowledge spillovers but also identify countervailing competition effects of comparable magnitude. Both effects are more pronounced for men than for women. (JEL D83, J16, J24, M53, M54, O33)",
+   "abstract_source": "crossref",
+   "version_note": null
+  },
+  {
+   "canonical_key": "doi:10.3386/w35810",
+   "title": "Like a Good Neighbor: Childhood Neighbors Influence Occupation Choice",
+   "authors": [
+    "Michael Andrews",
+    "Ryan Hill",
+    "Joseph Price",
+    "Riley Wilson"
+   ],
+   "venue": "NBER Working Papers",
+   "source_slug": "nber",
+   "source_category": "working_paper",
+   "publication_status": "working_paper",
+   "doi": "10.3386/w35810",
+   "arxiv_id": null,
+   "nber_id": "w35810",
+   "ssrn_id": null,
+   "primary_url": "https://doi.org/10.3386/w35810",
+   "paper_url": "https://doi.org/10.3386/w35810",
+   "pdf_url": "https://doi.org/10.3386/w35810",
+   "published_at": "2026-09-01",
+   "first_seen_at": "2026-10-13T18:00:33Z",
+   "year": 2026,
+   "volume": null,
+   "issue": null,
+   "pages": null,
+   "issue_number": 1,
+   "sets": [
+    "orgs_inequality"
+   ],
+   "relevance_score": 7,
+   "relevance_reasons": [
+    "orgs_inequality:intergenerational, occupation"
+   ],
+   "recommended": false,
+   "note": "Linked historical census data on childhood neighbors' occupations shaping occupational choice, income, and intergenerational mobility.",
+   "abstract": "Occupation choice is a key determinant of economic mobility.This paper studies how childhood neighbors influence occupational choices and later-life earnings.Using linked historical U.S. census records for over six million boys and four million girls, we reconstruct neighborhood microgeography to identify childhood neighbors and their occupations.We find that living next door to someone in a given occupation increases the probability of working in that same occupation 30 years later by about 10 percent relative to other children on the same street.The transmission effect is higher with more intense exposure, in more connected neighborhoods, and when neighboring families are more similar.Exposure to high-income or highly educated neighbors has lasting economic effects, leading to significant gains in adult income and education even compared to other children from the same street.These findings suggest that neighborhood networks play an important role in shaping intergenerational economic mobility.",
+   "abstract_source": "openalex",
+   "version_note": null
+  },
+  {
+   "canonical_key": "doi:10.1002/sej.70056",
+   "title": "New wine, old bottles? Effective strategies of new GenAI firms",
+   "authors": [
+    "Kathleen M. Eisenhardt",
+    "Xilan Zhang"
+   ],
+   "venue": "Strategic Entrepreneurship Journal",
+   "source_slug": "sej",
+   "source_category": "management_journal",
+   "publication_status": "published",
+   "doi": "10.1002/sej.70056",
+   "arxiv_id": null,
+   "nber_id": null,
+   "ssrn_id": null,
+   "primary_url": "https://doi.org/10.1002/sej.70056",
+   "paper_url": "https://sms.onlinelibrary.wiley.com/doi/pdf/10.1002/sej.70056",
+   "pdf_url": "https://sms.onlinelibrary.wiley.com/doi/pdf/10.1002/sej.70056",
+   "published_at": "2026-10-12",
+   "first_seen_at": "2026-10-13T18:00:33Z",
+   "year": 2026,
+   "volume": null,
+   "issue": null,
+   "pages": null,
+   "issue_number": 1,
+   "sets": [
+    "entrepreneurship",
+    "ai_work"
+   ],
+   "relevance_score": 7,
+   "relevance_reasons": [
+    "ai_work:llms, ai, entrepreneur, firm",
+    "entrepreneurship:entrepreneur, nascent, innovation"
+   ],
+   "recommended": false,
+   "note": "Theoretical framework on strategies of new GenAI ventures, drawing on five illustrative cases; uncertainty and resources.",
+   "abstract": "Research Summary Blending insights from GenAI, strategic reasoning, and empirical grounding in five illustrative ventures, we contribute a theoretical framework for effective strategies of new GenAI firms. They face bifurcated uncertainty (i.e., high uncertainty of a nascent market, moderate uncertainty of a somewhat predictable technology trajectory) such that two complementary strategic logics —Process Perspective (PP) and Resource‐based View (RBV)—are relevant. Second, we identify process‐based (i.e., well‐designed business model and product innovation process) and resource‐based (i.e., superior data, efficient orchestration, complementary resources) advantages. Some relate to GenAI, some generalize. Third, we address what is unique about GenAI entrepreneurship, including strategic implications of GenAI, technology strategy when there is upstream technical dominance and many downstream firms, and a cross‐technology comparison with technologies like software and predictive AI. Managerial Summary The rapid trajectory of GenAI is stunning. Yet many new GenAI firms are simply thin wrappers around well‐known LLMs. Drawing on five illustrative ventures, we contribute a framework for effective strategies for new GenAI firms. These firms face bifurcated uncertainty (i.e., high uncertainty of a nascent market, moderate uncertainty of a somewhat predictable technology trajectory). This calls for creating advantage by navigating high uncertainty markets to accomplish key strategic tasks and relying on foresight to build strategically valuable resources. Specifically, we identify process‐based (well‐designed business model and product innovation process) and resource‐based (i.e., superior data, efficient orchestration, complementary resources) advantages. We also address what is unique about GenAI entrepreneurship, including strategic implications of GenAI and a cross‐technology comparison with technologies like software, predictive AI, and quantum.",
+   "abstract_source": "crossref",
+   "version_note": null
+  },
+  {
+   "canonical_key": "doi:10.1002/sej.70047",
+   "title": "Re‐thinking academic entrepreneurship: Micro, meso, and macro perspectives",
+   "authors": [
+    "Maribel Guerrero",
+    "Donald Siegel",
+    "Mirjam Knockaert",
+    "Phillip Phan",
+    "Miriam Erez"
+   ],
+   "venue": "Strategic Entrepreneurship Journal",
+   "source_slug": "sej",
+   "source_category": "management_journal",
+   "publication_status": "published",
+   "doi": "10.1002/sej.70047",
+   "arxiv_id": null,
+   "nber_id": null,
+   "ssrn_id": null,
+   "primary_url": "https://doi.org/10.1002/sej.70047",
+   "paper_url": "https://sms.onlinelibrary.wiley.com/doi/pdf/10.1002/sej.70047",
+   "pdf_url": "https://sms.onlinelibrary.wiley.com/doi/pdf/10.1002/sej.70047",
+   "published_at": "2026-10-04",
+   "first_seen_at": "2026-10-13T18:00:33Z",
+   "year": 2026,
+   "volume": null,
+   "issue": null,
+   "pages": null,
+   "issue_number": 1,
+   "sets": [
+    "entrepreneurship"
+   ],
+   "relevance_score": 7,
+   "relevance_reasons": [
+    "entrepreneurship:entrepreneur, academic entrepreneur"
+   ],
+   "recommended": false,
+   "note": "Special issue synthesis on academic entrepreneurship across scientist, university, and ecosystem levels; science-based ventures and policy.",
+   "abstract": "Research Summary We summarize and synthesize the papers contained in the special issue and use these studies to illustrate key micro, meso, and macro dimensions of academic entrepreneurship, where micro focuses on the scientist, meso is concerned with the university ecosystem, and macro refers to the broader entrepreneurial ecosystem. A key finding from our special issue is that routines, pivots, and intellectual property, which determine venture viability, emerge from granular individual action, including identity formation and evolution. We also find that macro instruments such as public funding/grants and institutional governance appear to steer resources toward viable science‐based ventures. Our essay concludes by presenting numerous additional micro, meso, and macro research questions to motivate future research on the managerial and public policy implications of academic entrepreneurship. Managerial Summary There are several key managerial implications of our essay and this special issue. “Managers” and those who supervise academic entrepreneurs need to develop and support their scientists entrepreneurial identity formation and evolution. Managers also need to enhance incentives for academic entrepreneurship and foster a culture within their academic departments, schools, and colleges that support these activities. Policymakers need to design entrepreneurial training for scientists with both “micro” and “macro” issues in mind.",
+   "abstract_source": "crossref",
+   "version_note": null
+  },
+  {
+   "canonical_key": "doi:10.31235/osf.io/sdch9_v1",
+   "title": "Social Networks and Unequal Income Returns to Education: Gender Differences and Cross-National Context",
+   "authors": [
+    "Emmi Mäkeläinen",
+    "Aki Koivula"
+   ],
+   "venue": "SocArXiv",
+   "source_slug": "socarxiv",
+   "source_category": "preprint",
+   "publication_status": "preprint",
+   "doi": "10.31235/osf.io/sdch9_v1",
+   "arxiv_id": null,
+   "nber_id": null,
+   "ssrn_id": null,
+   "primary_url": "https://osf.io/preprints/socarxiv/sdch9_v1/",
+   "paper_url": "https://osf.io/preprints/socarxiv/sdch9_v1/",
+   "pdf_url": null,
+   "published_at": "2026-09-29",
+   "first_seen_at": "2026-10-13T18:00:33Z",
+   "year": 2026,
+   "volume": null,
+   "issue": null,
+   "pages": null,
+   "issue_number": 1,
+   "sets": [
+    "orgs_inequality"
+   ],
+   "relevance_score": 7,
+   "relevance_reasons": [
+    "orgs_inequality:inequality, stratification, gender, women"
+   ],
+   "recommended": false,
+   "note": "Cross-national survey analysis of social ties to upper middle class and income returns to education, by gender.",
+   "abstract": "This study examines how social networks are associated with unequal income returns to education and whether these associations vary by gender and across national contexts. Using data from the International Social Survey Programme (ISSP) 2017 from representative samples in 15 countries, the study analyses the interrelations between educational attainment, social ties, and personal income. The analyses distinguish both the status of social contacts and the type of ties to the upper middle class, while also examining variation by gender and country-level income inequality. The results show that access to upper-middle-class contacts is associated with wider educational differences in income, and that close ties, especially family members, relatives, and close friends, are more strongly associated with income than weaker ties. These patterns also vary by gender, with educated men’s income more strongly associated with upper-middle-class ties than educated women’s. In addition, educational differences in the association between social networks and income are more pronounced in countries with higher levels of income inequality. The study contributes to research on social stratification by showing that income returns to education are socially embedded and also vary by gender and national context.",
+   "abstract_source": "osf",
+   "version_note": null
+  },
+  {
+   "canonical_key": "doi:10.3386/w35854",
+   "title": "Taxing Entrepreneurial Wealth: Evidence from Norway, 2021–2025",
+   "authors": [
+    "Marius Ring"
+   ],
+   "venue": "NBER Working Papers",
+   "source_slug": "nber",
+   "source_category": "working_paper",
+   "publication_status": "working_paper",
+   "doi": "10.3386/w35854",
+   "arxiv_id": null,
+   "nber_id": "w35854",
+   "ssrn_id": null,
+   "primary_url": "https://doi.org/10.3386/w35854",
+   "paper_url": "https://doi.org/10.3386/w35854",
+   "pdf_url": "https://doi.org/10.3386/w35854",
+   "published_at": "2026-10-01",
+   "first_seen_at": "2026-10-13T18:00:33Z",
+   "year": 2026,
+   "volume": null,
+   "issue": null,
+   "pages": null,
+   "issue_number": 1,
+   "sets": [
+    "entrepreneurship"
+   ],
+   "relevance_score": 7,
+   "relevance_reasons": [
+    "entrepreneurship:entrepreneur, founder, startup, business owner"
+   ],
+   "recommended": false,
+   "note": "Norwegian wealth tax reforms; effects on migration of founders and inventors, firm investment, and bankruptcies among business owners.",
+   "abstract": "Whether imposing higher taxes on business owners adversely affects business activity by constraining investment and inducing capitalist flight is a central question in the ongoing debate on how to tax the ultra wealthy.To shed new light, I exploit a series of related Norwegian reforms during 2021-2024 that increased dividend tax rates, removed migration-related capital gains tax loopholes, and nearly doubled the effective marginal tax rate on business wealth.These reforms spurred international debate and, allegedly, an \"exodus\" of Norwegian billionaires (Financial Times, 2023).While I document clear effects on migration, these responses are concentrated among the top 0.1% of the wealth distribution and mostly confined to 2022 and 2023.My results indicate that at most 100 individuals left due to the reforms.I find no evidence of significant outmigration or reduced inflows of startup founders or inventors.I estimate that absent any outmigration, wealth tax revenues would have increased by 75%from 2021 to 2024.Reform-driven outmigration lowers the revenue gain to 71.5%.My findings further show that outmigrating owners' firms remain economically active and do not reduce investment.In a broader set of analyses, I examine whether business outcomes are affected, regardless of whether owners outmigrate, since firms may reduce investment both due to liquidity constraints or distortions to owners' savings decisions.I compare firms owned by Norwegian individuals subject to the wealth tax with firms owned by foreigners and other tax-exempt entities.By merging historical ownership data from Orbis with the Norwegian shareholder register, I perform these analyses on both Norwegian and foreign-domiciled firms.Across settings, I find no evidence that Norwegianowned firms pay out more dividends or invest less after the reforms, nor is there any evidence that the reform induced more bankruptcies.These findings indicate that the short-run economic costs of wealth taxation, in terms of migration and firm investment, are more limited than the public debate implies.",
+   "abstract_source": "openalex",
+   "version_note": null
+  },
+  {
+   "canonical_key": "repec:RePEc:ces:ceswps:_13014",
+   "title": "The Contribution of International Master Students to Entrepreneurship in the World",
+   "authors": [
+    "Lilie Timricht"
+   ],
+   "venue": "RePEc NEP: Entrepreneurship",
+   "source_slug": "nep-ent",
+   "source_category": "working_paper",
+   "publication_status": "working_paper",
+   "doi": null,
+   "arxiv_id": null,
+   "nber_id": null,
+   "ssrn_id": null,
+   "primary_url": "https://d.repec.org/n?u=RePEc:ces:ceswps:_13014&r=&r=ent",
+   "paper_url": "https://d.repec.org/n?u=RePEc:ces:ceswps:_13014&r=&r=ent",
+   "pdf_url": null,
+   "published_at": "2026-10-12",
+   "first_seen_at": "2026-10-13T18:00:33Z",
+   "year": 2026,
+   "volume": null,
+   "issue": null,
+   "pages": null,
+   "issue_number": 1,
+   "sets": [
+    "entrepreneurship",
+    "orgs_inequality"
+   ],
+   "relevance_score": 7,
+   "relevance_reasons": [
+    "entrepreneurship:entrepreneur, innovation",
+    "orgs_inequality:gender, firm"
+   ],
+   "recommended": false,
+   "note": "LinkedIn/Revelio data on firm creation by international master's graduates, varying by gender, field, and country; immigrant entrepreneurship.",
+   "abstract": "We provide the first global empirical evidence on the relationship between international master’s education and entrepreneurship. Using large-scale longitudinal data from LinkedIn/Revelio, we document that international master’s graduates are systematically more likely than domestic graduates to create firms across the world’s leading destinations for international students. We further show how this entrepreneurial advantage varies across fields of study, gender, origin and destination countries. In addition, we document the geography of post-graduation firm creation, highlighting the international mobility of entrepreneurial activity among former international students. Taken together, the results offer a new global perspective on the economic impact of international student mobility and the contribution of international master’s graduates to entrepreneurship, innovation, and business dynamism worldwide.",
+   "abstract_source": "repec",
+   "version_note": null
+  },
+  {
+   "canonical_key": "doi:10.1287/mnsc.2024.04789",
+   "title": "Trading Off Business and Family Investments: Evidence from U.S. Entrepreneurial Households",
+   "authors": [
+    "Olivia S. Kim"
+   ],
+   "venue": "Management Science",
+   "source_slug": "mnsc",
+   "source_category": "management_journal",
+   "publication_status": "published",
+   "doi": "10.1287/mnsc.2024.04789",
+   "arxiv_id": null,
+   "nber_id": null,
+   "ssrn_id": null,
+   "primary_url": "https://doi.org/10.1287/mnsc.2024.04789",
+   "paper_url": "https://doi.org/10.1287/mnsc.2024.04789",
+   "pdf_url": null,
+   "published_at": "2026-10-06",
+   "first_seen_at": "2026-10-13T18:00:33Z",
+   "year": 2026,
+   "volume": null,
+   "issue": null,
+   "pages": null,
+   "issue_number": 1,
+   "sets": [
+    "entrepreneurship"
+   ],
+   "relevance_score": 7,
+   "relevance_reasons": [
+    "entrepreneurship:entrepreneur, small business"
+   ],
+   "recommended": false,
+   "note": "Regression discontinuity on small-business owners' finances: business investment falls when children reach college age, showing household-firm resource competition.",
+   "abstract": "Investing in children’s human capital reduces business investments for U.S. entrepreneurial households. Using financial account data of 90,000 small businesses linked to their owners and a regression discontinuity design that compares the business performance of households with college-aged dependents (18–22) to those with near-college-aged dependents (14–17), I show that business revenues and expenses decline sharply when owners’ children reach age 18. Despite the declines, profitability and productivity remain largely unaffected, suggesting a general downsizing rather than a loss in efficiency. Heterogeneity analysis shows that downsizing is concentrated among highly indebted owner households and businesses with volatile cash flows. For each dollar increase in household spending associated with a child turning 18, business expenses decline by $2.26. These findings are consistent with entrepreneurial parents reallocating capital from business investments toward their children’s human capital, as both compete for the same pool of internal family financial resources. This paper was accepted by Camelia Kuhnen, finance. Supplemental Material: The data files are available at https://doi.org/10.1287/mnsc.2024.04789 .",
+   "abstract_source": "crossref",
+   "version_note": null
+  },
+  {
+   "canonical_key": "doi:10.1177/10422587261485972",
+   "title": "Transitional Path or Optimal State? Hybrid Entrepreneurship and the Decisions to Enter and Exit Entrepreneurship",
+   "authors": [
+    "Sandra Graf",
+    "Matthias Schulz"
+   ],
+   "venue": "Entrepreneurship Theory and Practice",
+   "source_slug": "etp",
+   "source_category": "management_journal",
+   "publication_status": "published",
+   "doi": "10.1177/10422587261485972",
+   "arxiv_id": null,
+   "nber_id": null,
+   "ssrn_id": null,
+   "primary_url": "https://doi.org/10.1177/10422587261485972",
+   "paper_url": "https://journals.sagepub.com/doi/pdf/10.1177/10422587261485972",
+   "pdf_url": "https://journals.sagepub.com/doi/pdf/10.1177/10422587261485972",
+   "published_at": "2026-09-30",
+   "first_seen_at": "2026-10-13T18:00:33Z",
+   "year": 2026,
+   "volume": null,
+   "issue": null,
+   "pages": null,
+   "issue_number": 1,
+   "sets": [
+    "entrepreneurship"
+   ],
+   "relevance_score": 7,
+   "relevance_reasons": [
+    "entrepreneurship:entrepreneur"
+   ],
+   "recommended": false,
+   "note": "Hybrid entrepreneurship as transition versus stable state; entry and exit decisions in large-scale US data.",
+   "abstract": "Real-options-based research suggests that hybrid entrepreneurship serves as a transitional path to full-time entrepreneurship. Other theories posit that hybrid entrepreneurship is an optimal state. We refer to these opposing perspectives as the transition and state perspectives, respectively, and identify their differing implications. To this end, we examine how hybrid entrepreneurship influences the impact of switching costs on full-time entrepreneurship entry and entrepreneurship exit. Our empirical results, based on large-scale U.S. data, reveal patterns more consistent with the state perspective. We highlight the need to consider variety among hybrid entrepreneurs and discuss how the state perspective can improve our understanding of hybrid entrepreneurship.",
+   "abstract_source": "crossref",
+   "version_note": null
+  },
+  {
+   "canonical_key": "doi:10.1287/orsc.2023.17369",
+   "title": "When Data Scientists Meet Domain Experts: Artificial Intelligence, Epistemic Conflict, and Knowledge Transformation",
+   "authors": [
+    "Mayur Joshi",
+    "Ning Su",
+    "Mark Zbaracki"
+   ],
+   "venue": "Organization Science",
+   "source_slug": "orgsci",
+   "source_category": "management_journal",
+   "publication_status": "published",
+   "doi": "10.1287/orsc.2023.17369",
+   "arxiv_id": null,
+   "nber_id": null,
+   "ssrn_id": null,
+   "primary_url": "https://doi.org/10.1287/orsc.2023.17369",
+   "paper_url": "https://doi.org/10.1287/orsc.2023.17369",
+   "pdf_url": null,
+   "published_at": "2026-10-08",
+   "first_seen_at": "2026-10-13T18:00:33Z",
+   "year": 2026,
+   "volume": null,
+   "issue": null,
+   "pages": null,
+   "issue_number": 1,
+   "sets": [
+    "ai_work"
+   ],
+   "relevance_score": 7,
+   "relevance_reasons": [],
+   "recommended": false,
+   "note": "Inductive study in Indian banks of data scientists and domain experts working with predictive AI; knowledge conflict.",
+   "abstract": "Predictive AI models developed by data scientists promise to transform organizational knowledge, yet in practice the predictions remain inscrutable to domain experts. Existing explanations situate the problems in the opacity of the AI tools, failed adoption, or jurisdictional conflict, but offer limited insight into how to make the knowledge accessible. Here we show how the problem emerges from the competing epistemic stances of data scientists and domain experts, which create conflict over how to produce and evaluate knowledge. We then ask how data scientists and domain experts address that conflict so that their work with AI satisfies each group’s standards for producing and evaluating knowledge. Drawing on an 18-month inductive study of three large Indian banks, we show that the data scientists produce new knowledge, but domain experts hold the power to decide whether it is deployed. Our findings distinguish between epistemic and jurisdictional conflict. We show that data scientists first try to address the epistemic conflict directly through assimilative practices that follow one epistemic stance or the other. When these practices fail to transform knowledge, data scientists learn to address the conflict indirectly through four bridging practices. These practices help the domain experts transform knowledge by embedding the data scientists’ predictions in the boundary objects and practices that the domain experts already use. Our findings reveal how power based on expertise rather than jurisdictional control can make possible the coproduction of knowledge.",
+   "abstract_source": "crossref",
+   "version_note": null
+  },
+  {
+   "canonical_key": "doi:10.31235/osf.io/s9der_v1",
+   "title": "\"I don't give a shit anymore\" – Future-Oriented Career Agency and Precarity at the Postdoc Stage",
+   "authors": [
+    "Julian Hamann",
+    "Kathia Serrano Velarde",
+    "Tim Fenkner",
+    "Jonas Gottschalk-Rayling",
+    "Sven Boniger",
+    "Michi Hügel"
+   ],
+   "venue": "SocArXiv",
+   "source_slug": "socarxiv",
+   "source_category": "preprint",
+   "publication_status": "preprint",
+   "doi": "10.31235/osf.io/s9der_v1",
+   "arxiv_id": null,
+   "nber_id": null,
+   "ssrn_id": null,
+   "primary_url": "https://osf.io/preprints/socarxiv/s9der_v1/",
+   "paper_url": "https://osf.io/preprints/socarxiv/s9der_v1/",
+   "pdf_url": null,
+   "published_at": "2026-10-05",
+   "first_seen_at": "2026-10-13T18:00:33Z",
+   "year": 2026,
+   "volume": null,
+   "issue": null,
+   "pages": null,
+   "issue_number": 1,
+   "sets": [
+    "orgs_inequality"
+   ],
+   "relevance_score": 6,
+   "relevance_reasons": [
+    "orgs_inequality:career"
+   ],
+   "recommended": false,
+   "note": "Longitudinal interviews with postdocs on career agency and precarity; academic careers and precarious employment.",
+   "abstract": "This paper examines how postdoctoral researchers navigate precarious employment conditions and claim career agency during an uncertain career stage. Drawing on a longitudinal qualitative interview panel of 35 postdocs from particle physics and modern history, the study distinguishes between two forms of agency: empowered strategizing and restricted drifting. Strategizing postdocs actively align short- to mid-term career goals with opportunities arising from fixed-term contracts and grant funding cycles, while drifting postdocs prioritize present research activities over long-term planning. Through in-depth interviews conducted in three waves, the analysis reveals how temporal horizons are compressed by the cyclical nature of academic recruitment and funding. The findings highlight the dynamic interplay between structural constraints and different forms of individual agency. This work contributes a processual perspective on career agency and precarity and adds to career research and studies of precarious working conditions.",
+   "abstract_source": "osf",
+   "version_note": null
+  },
+  {
+   "canonical_key": "doi:10.31235/osf.io/xjw6s_v1",
+   "title": "AI Systems for Filmmaking: A Survey of HCI Research from a Labor-Centered Perspective",
+   "authors": [
+    "YUYING TANG",
+    "Lin Gao",
+    "Haotian Li",
+    "Baiqiao Zhang",
+    "Rebecca Fiebrink",
+    "Sebastian Deterding",
+    "Xiaojuan Ma",
+    "Huamin Qu"
+   ],
+   "venue": "SocArXiv",
+   "source_slug": "socarxiv",
+   "source_category": "preprint",
+   "publication_status": "preprint",
+   "doi": "10.31235/osf.io/xjw6s_v1",
+   "arxiv_id": null,
+   "nber_id": null,
+   "ssrn_id": null,
+   "primary_url": "https://osf.io/preprints/socarxiv/xjw6s_v1/",
+   "paper_url": "https://osf.io/preprints/socarxiv/xjw6s_v1/",
+   "pdf_url": null,
+   "published_at": "2026-10-04",
+   "first_seen_at": "2026-10-13T18:00:33Z",
+   "year": 2026,
+   "volume": null,
+   "issue": null,
+   "pages": null,
+   "issue_number": 1,
+   "sets": [
+    "ai_work"
+   ],
+   "relevance_score": 6,
+   "relevance_reasons": [
+    "ai_work:artificial intelligence, ai, labor, creativ"
+   ],
+   "recommended": false,
+   "note": "Review of 31 HCI papers on AI filmmaking systems, with taxonomy of labor sites, types, and human-AI allocation.",
+   "abstract": "Artificial intelligence is integrated into filmmaking and has attracted attention in human-computer interaction (HCI). Existing studies have primarily characterized AI systems for filmmaking by their capabilities and supported tasks, with limited attention to the organisation of filmmaking labor during system use. We review 31 HCI system papers and develop a three-layer taxonomy of labor sites, labor types, and human-AI allocation, examining where AI systems are positioned, what types of labor are involved during system use, and how those labor types are allocated between humans and AI. Our analysis reveals a concentration on individual below-the-line contexts, increasing attention to structural and meaning-making labor beyond execution, comparatively limited relational labor, and substantial variation in human-AI allocation across labor types. We further identify opportunities for the design and evaluation of AI systems that account for the broader organization of filmmaking labor. This review provides a labor-centered taxonomy for synthesizing AI systems for filmmaking and a basis for examining how AI may become involved in broader organizations of creative labor.",
+   "abstract_source": "osf",
+   "version_note": null
+  },
+  {
+   "canonical_key": "repec:RePEc:hal:journl:hal-05772720",
+   "title": "Behind the Scenes: Placemaking and Preferential Circulation in the Making of an Innovative Micro-Cluster (Off-Off-Broadway, 1958-1976)",
+   "authors": [
+    "Raphaël Suire"
+   ],
+   "venue": "RePEc NEP: Entrepreneurship",
+   "source_slug": "nep-ent",
+   "source_category": "working_paper",
+   "publication_status": "working_paper",
+   "doi": null,
+   "arxiv_id": null,
+   "nber_id": null,
+   "ssrn_id": null,
+   "primary_url": "https://d.repec.org/n?u=RePEc:hal:journl:hal-05772720&r=&r=ent",
+   "paper_url": "https://d.repec.org/n?u=RePEc:hal:journl:hal-05772720&r=&r=ent",
+   "pdf_url": null,
+   "published_at": "2026-10-12",
+   "first_seen_at": "2026-10-13T18:00:33Z",
+   "year": 2026,
+   "volume": null,
+   "issue": null,
+   "pages": null,
+   "issue_number": 1,
+   "sets": [
+    "entrepreneurship"
+   ],
+   "relevance_score": 6,
+   "relevance_reasons": [
+    "entrepreneurship:entrepreneur, innovator, innovation"
+   ],
+   "recommended": false,
+   "note": "Historical case of Off-Off-Broadway theater: entrepreneurs' placemaking and the formation of an innovative micro-cluster.",
+   "abstract": "While the geography of innovation is often studied at the level of city-regions, main conclusions provide only a partial account of the dynamics unfolding within cities. In this article, we examine how a set of proximate organizational sites located within a city comes to foster innovation. Specifically, we study how the placemaking practices of the entrepreneurs who originate these sites shape the localized landscape of resources that innovators mobilize to innovate. Drawing on the historical case of the Off-Off-Broadway theater (1958-1976), we show that these distributed, independent practices embedded an array of non-redundant resources within a small geographical area and, by fostering the patterning of innovators' attendance across proximate venues, cohered into an innovative micro-cluster. Our findings suggest that entrepreneurs who originate such organizational sites play an active role in infrastructuring innovation within cities, with implications for how we understand the spatial organization of innovation.",
+   "abstract_source": "repec",
+   "version_note": null
+  },
+  {
+   "canonical_key": "arxiv:2609.38279",
+   "title": "How People Use ChatGPT: Conversation-Level Evidence from India, Nigeria, Brazil, and Pakistan",
+   "authors": [
+    "Shreyasi Roy Chowdhury",
+    "Kiran Garimella"
+   ],
+   "venue": "arXiv cs.CY",
+   "source_slug": "arxiv-ai-work",
+   "source_category": "preprint",
+   "publication_status": "preprint",
+   "doi": null,
+   "arxiv_id": "2609.38279",
+   "nber_id": null,
+   "ssrn_id": null,
+   "primary_url": "https://arxiv.org/abs/2609.38279",
+   "paper_url": "https://arxiv.org/pdf/2609.38279v1",
+   "pdf_url": "https://arxiv.org/pdf/2609.38279v1",
+   "published_at": "2026-09-29",
+   "first_seen_at": "2026-10-13T18:00:33Z",
+   "year": 2026,
+   "volume": null,
+   "issue": null,
+   "pages": null,
+   "issue_number": 1,
+   "sets": [
+    "ai_work"
+   ],
+   "relevance_score": 6,
+   "relevance_reasons": [
+    "ai_work:llm, chatgpt, ai, productivity",
+    "orgs_inequality:gender, minority, workplace"
+   ],
+   "recommended": false,
+   "note": "Conversation-level analysis of ChatGPT use across four countries; work-related use is a minority, with country-specific and demographic patterns.",
+   "abstract": "Public understanding of how people use LLM-based conversational AI assistants comes primarily from aggregate platform reports by OpenAI and Anthropic, which apply fixed taxonomies and inferred demographics to hundreds of millions of users and release only summary statistics that outside researchers cannot re-analyze. We provide a complementary, conversation-level view: complete ChatGPT exports comprising 202,590 conversations from 1,252 users across India, Nigeria, Brazil, and Pakistan, paired with self-reported age and gender and spanning December 2022 to February 2026. To our knowledge this is the first conversation-level, demographically grounded comparison of ChatGPT use across multiple non-Western countries. We ask what these users use ChatGPT for (purpose), what they talk about (topics), and how they engage with it (mode of interaction), using the platform's own classifiers, unsupervised topic discovery, and a thematic analysis of expressive conversations. Personal use accounts for 55-64% of conversations in every country and coursework is about as common as work, so workplace productivity describes a minority of use. Unsupervised topic discovery surfaces country-specific uses that the OpenAI taxonomy folds into generic categories: health and wellness in India and Brazil, Urdu-English translation in Pakistan, current affairs in Nigeria, religious questions in Nigeria and Pakistan, and self-reflection in Brazil. Over three years, the share of conversations that seek information declined only modestly and the share that delegate a task did not grow, while conversations in which users express themselves rose from a few percent to roughly a fifth or more in every country. The same product is thus attached to different local needs in each country, and understanding what adoption means requires conversation-level, country-sensitive measurement alongside global aggregates.",
+   "abstract_source": "arxiv",
+   "version_note": null
+  },
+  {
+   "canonical_key": "doi:10.1002/sej.70049",
+   "title": "How ventures maintain stakeholder support amidst operational legitimacy threats",
+   "authors": [
+    "Alex Murray",
+    "Susan Cohen",
+    "Farhan Iqbal"
+   ],
+   "venue": "Strategic Entrepreneurship Journal",
+   "source_slug": "sej",
+   "source_category": "management_journal",
+   "publication_status": "published",
+   "doi": "10.1002/sej.70049",
+   "arxiv_id": null,
+   "nber_id": null,
+   "ssrn_id": null,
+   "primary_url": "https://doi.org/10.1002/sej.70049",
+   "paper_url": "https://sms.onlinelibrary.wiley.com/doi/pdf/10.1002/sej.70049",
+   "pdf_url": "https://sms.onlinelibrary.wiley.com/doi/pdf/10.1002/sej.70049",
+   "published_at": "2026-10-07",
+   "first_seen_at": "2026-10-13T18:00:33Z",
+   "year": 2026,
+   "volume": null,
+   "issue": null,
+   "pages": null,
+   "issue_number": 1,
+   "sets": [
+    "entrepreneurship"
+   ],
+   "relevance_score": 6,
+   "relevance_reasons": [
+    "entrepreneurship:entrepreneur, crowdfunding"
+   ],
+   "recommended": false,
+   "note": "Inductive study of four crowdfunded ventures' rhetorical practices for sustaining stakeholder support amid operational legitimacy threats.",
+   "abstract": "Research Summary We explore how ventures mitigate operational legitimacy threats— threats that originate within the venture and challenge claims relating to the venture's ability to deliver on its promised value proposition . Through an inductive study of four ventures working to deliver their promised products following successful crowdfunding campaigns, we reveal a process of three rhetorical practices that ventures can use to maintain stakeholder support: humanizing the venture , normalizing setbacks and resolutions , and revising pragmatic claims . The first two practices contribute to the formation of dispositional legitimacy buffers that allow the third practice to be effective in mitigating fallout from exposed operational legitimacy threats. We conclude by offering contributions to the cultural entrepreneurship literature and to research on venture–stakeholder communication. Managerial Summary Entrepreneurs must often determine whether to disclose operational issues to stakeholders. On one hand, entrepreneurs may resolve these operational issues without stakeholders ever knowing of their occurrence. On the other hand, such issues could balloon to negatively impact whether a venture can deliver its promised offering. We identify three rhetorical practices, two of which entrepreneurs can utilize before an operational issue even occurs, to generate favorable judgments with stakeholders and increase the likelihood that their ventures will be able to maintain support if an operational issue becomes exposed.",
+   "abstract_source": "crossref",
+   "version_note": null
+  },
+  {
+   "canonical_key": "doi:10.31235/osf.io/4t8fm_v1",
+   "title": "Larger, younger, faster, harder: expansion, transformation, and inequality in YouTube’s creator economy (2019–2026)",
+   "authors": [
+    "Bernhard Rieder",
+    "Adrian Padilla",
+    "Ariadna Matamoros-Fernández",
+    "Òscar Coromina"
+   ],
+   "venue": "SocArXiv",
+   "source_slug": "socarxiv",
+   "source_category": "preprint",
+   "publication_status": "preprint",
+   "doi": "10.31235/osf.io/4t8fm_v1",
+   "arxiv_id": null,
+   "nber_id": null,
+   "ssrn_id": null,
+   "primary_url": "https://osf.io/preprints/socarxiv/4t8fm_v1/",
+   "paper_url": "https://osf.io/preprints/socarxiv/4t8fm_v1/",
+   "pdf_url": null,
+   "published_at": "2026-10-07",
+   "first_seen_at": "2026-10-13T18:00:33Z",
+   "year": 2026,
+   "volume": null,
+   "issue": null,
+   "pages": null,
+   "issue_number": 1,
+   "sets": [
+    "orgs_inequality",
+    "entrepreneurship"
+   ],
+   "relevance_score": 6,
+   "relevance_reasons": [
+    "orgs_inequality:inequality"
+   ],
+   "recommended": false,
+   "note": "Population-scale YouTube crawls 2019 and 2026 on creator entry, turnover, and attention concentration; platform labor inequality.",
+   "abstract": "The growth of YouTube's creator economy raises a question that accounts of individual success and precarity cannot settle: how are the conditions of participation changing across the platform? Comparing two population-scale crawls from 2019 and 2026, we examine expansion, changes in production, and the distribution of attention across millions of channels. The population above the 1,000-subscriber threshold for advertising monetization grew from 4.4 million to 24.5 million, while its video catalogues grew ninefold. Expansion was strongest in South, Southeast, and East Asia, with India's share of channels declaring a country rising from 10 to 27 percent. This growth accompanied substantial turnover: most channels recorded in 2019 had no recent upload in 2026, and continued participation differed sharply by prior standing. Production also changed fundamentally. Median video duration fell from 247 to 60 seconds, with shortening across every content category and channel size. Among channels above 100,000 subscribers, new entrants accounted for most of the shift toward short form, while most continuing incumbents also shortened their output. Attention became more concentrated even among the same channels observed at both dates, and advertising revenue grew more slowly than the population meeting the subscriber threshold. These findings show how the output imperative extends from producing more to adapting what is produced, while sustained participation remains sharply unequal. They also place the increasingly Asian geography of the creator economy at the center of questions about platform labor, opportunity, and precarity.",
+   "abstract_source": "osf",
+   "version_note": null
+  },
+  {
+   "canonical_key": "arxiv:2609.38459",
+   "title": "Maintaining Human Verification Capacity under Automation",
+   "authors": [
+    "Li Gan",
+    "Eric Gan"
+   ],
+   "venue": "arXiv econ.GN",
+   "source_slug": "arxiv-econ-gn",
+   "source_category": "preprint",
+   "publication_status": "preprint",
+   "doi": null,
+   "arxiv_id": "2609.38459",
+   "nber_id": null,
+   "ssrn_id": null,
+   "primary_url": "https://arxiv.org/abs/2609.38459",
+   "paper_url": "https://arxiv.org/pdf/2609.38459v1",
+   "pdf_url": "https://arxiv.org/pdf/2609.38459v1",
+   "published_at": "2026-09-29",
+   "first_seen_at": "2026-10-13T18:00:33Z",
+   "year": 2026,
+   "volume": null,
+   "issue": null,
+   "pages": null,
+   "issue_number": 1,
+   "sets": [
+    "ai_work"
+   ],
+   "relevance_score": 6,
+   "relevance_reasons": [
+    "ai_work:automation, skill"
+   ],
+   "recommended": false,
+   "note": "Theory of how automated checking erodes maintained human expertise and skill investment in organizations.",
+   "abstract": "Human verification depends on expertise that must be maintained before it is needed. This paper links reliance on automated checks, investment in human checking ability, and performance during an interruption. Better checking lowers the error reduction gained from an extra unit of human skill while the checker works. It can therefore reduce the incentive to preserve independent expertise, even when it lowers the best achievable expected cost of maintenance and errors. In an illustration, a more informative checker raises detection while it works from \\hoPowWorkA{} to \\hoPowWorkC{} percent, but the organization then keeps no routine practice and detects \\hoPowOnsetC{} percent of errors when the checker first fails, against \\hoPowOnsetA{} percent with a less informative checker. A detection requirement therefore concerns both current capability and its survival until new training becomes effective. Evidence from colonoscopy and aviation documents weaker unaided performance under routine automation, without isolating the mechanism. The framework connects a detection target to an explicit reserve of expertise and a training pipeline. Standard detection tests estimate each quantity and reveal automation bias and silent checker failures. The framework distinguishes the requirement from minimizing expected loss and proposes a longitudinal test.",
+   "abstract_source": "arxiv",
+   "version_note": null
+  },
+  {
+   "canonical_key": "arxiv:2609.38563",
+   "title": "Navigating the Changing Landscape of Online Knowledge Consumption and Production in the Age of Generative AI: Evidence from Stack Overflow",
+   "authors": [
+    "Ji Eun Kim",
+    "Léa Vitale",
+    "Libby Hemphill",
+    "Yulin Yu"
+   ],
+   "venue": "arXiv cs.CY",
+   "source_slug": "arxiv-ai-work",
+   "source_category": "preprint",
+   "publication_status": "preprint",
+   "doi": null,
+   "arxiv_id": "2609.38563",
+   "nber_id": null,
+   "ssrn_id": null,
+   "primary_url": "https://arxiv.org/abs/2609.38563",
+   "paper_url": "https://arxiv.org/pdf/2609.38563v1",
+   "pdf_url": "https://arxiv.org/pdf/2609.38563v1",
+   "published_at": "2026-09-29",
+   "first_seen_at": "2026-10-13T18:00:33Z",
+   "year": 2026,
+   "volume": null,
+   "issue": null,
+   "pages": null,
+   "issue_number": 1,
+   "sets": [
+    "ai_work"
+   ],
+   "relevance_score": 6,
+   "relevance_reasons": [
+    "ai_work:generative ai, chatgpt, ai, labor"
+   ],
+   "recommended": false,
+   "note": "Archival analysis of Stack Overflow after ChatGPT release; shifts in asking and answering by user group and unequal recognition of contributions.",
+   "abstract": "Online knowledge communities rely on a division of epistemic labor between users who seek information and those who produce it. Generative AI may blur these roles, but how it reallocates knowledge-seeking and knowledge-producing activities and reshapes the nature and returns of participation remains unclear. We examine changes in question-asking and answering among Stack Overflow user groups, focusing on consumers and producers, following the release of ChatGPT. Consumers shifted from asking questions to producing answers, but their answers were less likely to be accepted relative to the pre-ChatGPT period, suggesting that increased production did not yield equal standing in the community. By contrast, producers did not change the number of questions they asked, but increasingly asked about novel and emerging topics. Although they produced fewer answers, their answers received greater recognition. These findings show that access to generative AI does not necessarily translate into equal opportunities for successful participation.",
+   "abstract_source": "arxiv",
+   "version_note": null
+  },
+  {
+   "canonical_key": "arxiv:2610.03250",
+   "title": "No Women No Innovation? The Effect of Women on Boards on Hard and Soft Innovation in SMEs",
+   "authors": [
+    "Giulio Ferrigno"
+   ],
+   "venue": "RePEc NEP: Entrepreneurship",
+   "source_slug": "nep-ent",
+   "source_category": "working_paper",
+   "publication_status": "preprint",
+   "doi": null,
+   "arxiv_id": "2610.03250",
+   "nber_id": null,
+   "ssrn_id": null,
+   "primary_url": "https://arxiv.org/abs/2610.03250",
+   "paper_url": "https://arxiv.org/pdf/2610.03250v1",
+   "pdf_url": "https://arxiv.org/pdf/2610.03250v1",
+   "published_at": "2026-10-12",
+   "first_seen_at": "2026-10-13T18:00:33Z",
+   "year": 2026,
+   "volume": null,
+   "issue": null,
+   "pages": null,
+   "issue_number": 1,
+   "sets": [
+    "orgs_inequality",
+    "entrepreneurship"
+   ],
+   "relevance_score": 6,
+   "relevance_reasons": [
+    "entrepreneurship:innovation",
+    "orgs_inequality:women, firm"
+   ],
+   "recommended": false,
+   "note": "2SLS on Italian innovative SMEs: women on boards and technological and non-technological innovation; gender diversity in governance.",
+   "abstract": "The role of women on corporate boards and its impact on innovation remains heavily debated. While existing literature offers conflicting perspectives on whether female board representation spurs or hinders innovaiton, most research has focused exlusively on large firms. This studt adresses this gap by investigating the causal impact of women on boards on both \"hard\" (technological) and \"soft\" (non-technological) innovation within SMEs. Using a longitudinal dataset f 2762 Italian innovative SMEs from 2015 to 2024 and a 2SLS identification strategy, we find highly nuanced patterns. For hard innovation, the instrumented model reveals a robust positive causal impacr, reversing a negative baseline coefficient and exposing a severe negative selection bias. For soft innovation, a stable positive impact is confirmed. Our findings provide crucial causal evidence for SMEs' governance, while offering tailored insights for policymakers and practitioners to incentivize women' management roles in SMES.",
+   "abstract_source": "repec",
+   "version_note": null
+  },
+  {
+   "canonical_key": "doi:10.1111/joms.70168",
+   "title": "Reframing Bricolage as a Way of Inhabiting the World: Beyond Scarcity and Innovation with Lévi‐Strauss",
+   "authors": [
+    "Raffi Duymedjian",
+    "Frank Janssen",
+    "Sophie Bacq",
+    "Guillaume Ferrante"
+   ],
+   "venue": "Journal of Management Studies",
+   "source_slug": "jms",
+   "source_category": "management_journal",
+   "publication_status": "published",
+   "doi": "10.1111/joms.70168",
+   "arxiv_id": null,
+   "nber_id": null,
+   "ssrn_id": null,
+   "primary_url": "https://doi.org/10.1111/joms.70168",
+   "paper_url": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/joms.70168",
+   "pdf_url": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/joms.70168",
+   "published_at": "2026-09-30",
+   "first_seen_at": "2026-10-13T18:00:33Z",
+   "year": 2026,
+   "volume": null,
+   "issue": null,
+   "pages": null,
+   "issue_number": 1,
+   "sets": [
+    "entrepreneurship"
+   ],
+   "relevance_score": 6,
+   "relevance_reasons": [
+    "entrepreneurship:entrepreneur, innovation"
+   ],
+   "recommended": false,
+   "note": "Systematic review and conceptual reframing of entrepreneurial bricolage via Lévi-Strauss; resource mobilization under scarcity.",
+   "abstract": "This paper reframes the concept of bricolage by returning to its foundational roots in Claude Lévi‐Strauss's seminal 1962 work, The Savage Mind . By conducting a systematic review of entrepreneurial bricolage, which represents more than two thirds of management research on bricolage, alongside a close reading of Lévi‐Strauss, we uncover three core divergences regarding contexts, process, and outcomes. Although contemporary literature typically frames bricolage as an innovation‐driven response to resource scarcity, the original anthropological text conceptualized it as an experiential way of inhabiting the world aimed at preserving social structures. To bridge this theoretical gap, we construct a six‐dimensional model of Lévi‐Straussian bricolage that integrates sensory perception, intimate knowledge, perceived abundance, relational composition, mutual help, and system preservation. Returning to the Lévi‐Straussian perspective broadens our understanding of bricolage from a tactical method for resource mobilization to a relational and experiential way of inhabiting the world, emphasizing maintenance, preservation, and creative construction alongside innovation. Finally, our proposed research agenda illustrates how this foundational reframing expands theoretical boundaries for both entrepreneurship and management scholarship, opening new avenues for studying resourcefulness as embodied perception, organizing as relational composition, and entrepreneurial and managerial action as care for resilient and enduring worlds.",
+   "abstract_source": "crossref",
+   "version_note": null
+  },
+  {
+   "canonical_key": "arxiv:2610.02492",
+   "title": "Right Order, Wrong Scale: Auditing LLM Judges for Occupational AI Measurement",
+   "authors": [
+    "Harry Lyu",
+    "Neil Thompson"
+   ],
+   "venue": "arXiv cs.AI",
+   "source_slug": "arxiv-econ-gn",
+   "source_category": "preprint",
+   "publication_status": "preprint",
+   "doi": null,
+   "arxiv_id": "2610.02492",
+   "nber_id": null,
+   "ssrn_id": null,
+   "primary_url": "https://arxiv.org/abs/2610.02492",
+   "paper_url": "https://arxiv.org/pdf/2610.02492v1",
+   "pdf_url": "https://arxiv.org/pdf/2610.02492v1",
+   "published_at": "2026-10-01",
+   "first_seen_at": "2026-10-13T18:00:33Z",
+   "year": 2026,
+   "volume": null,
+   "issue": null,
+   "pages": null,
+   "issue_number": 1,
+   "sets": [
+    "ai_work"
+   ],
+   "relevance_score": 6,
+   "relevance_reasons": [
+    "ai_work:llm, ai, worker, occupation"
+   ],
+   "recommended": false,
+   "note": "Audits LLM judges against worker ratings for occupational AI measurement across tasks and occupations.",
+   "abstract": "LLM judges are increasingly used to assess whether AI outputs meet workplace requirements, but agreement on response rankings does not establish agreement on acceptance rates or occupational aggregates. We introduce O*NET-BENCH, an audit suite derived from an existing survey of 45,796 worker ratings, and evaluate 33 pre-existing judge configurations across six model families on 4,501 test ratings. Twenty-five configurations achieve tie-aware pair accuracy of at least 0.60, although a train-fitted response-only TF-IDF baseline nearly matches the strongest judge. Despite this ordering agreement, judges estimate that 3.0%-97.9% of responses are acceptable, compared with 61.1% for occupation-matched workers. In one fine-tuned lineage, changing from pointwise scoring to a bundled few-shot/listwise protocol improves response ordering while reducing agreement with worker means at the task and occupation levels; this reversal replicates on a task- and worker-disjoint validation split under prespecified criteria. Cross-validated calibration largely removes mean bias, but calibrated scores explain at most 8.5% of individual worker-rating variance. Prediction-assisted estimation yields at most small precision gains at the studied label budgets. These results show that ranking agreement alone is insufficient for occupational measurement. Judges should be validated against the acceptance rates and aggregates their scores will be used to estimate.",
+   "abstract_source": "arxiv",
+   "version_note": null
+  },
+  {
+   "canonical_key": "repec:RePEc:jrp:jrpwrp:2026-010",
+   "title": "Self-Employment and Regional Development in Disruptive Times - Germany 1895 - 2020",
+   "authors": [
+    "Michael Wyrwich"
+   ],
+   "venue": "RePEc NEP: Entrepreneurship",
+   "source_slug": "nep-ent",
+   "source_category": "working_paper",
+   "publication_status": "working_paper",
+   "doi": null,
+   "arxiv_id": null,
+   "nber_id": null,
+   "ssrn_id": null,
+   "primary_url": "https://d.repec.org/n?u=RePEc:jrp:jrpwrp:2026-010&r=&r=ent",
+   "paper_url": "https://d.repec.org/n?u=RePEc:jrp:jrpwrp:2026-010&r=&r=ent",
+   "pdf_url": null,
+   "published_at": "2026-10-12",
+   "first_seen_at": "2026-10-13T18:00:33Z",
+   "year": 2026,
+   "volume": null,
+   "issue": null,
+   "pages": null,
+   "issue_number": 1,
+   "sets": [
+    "entrepreneurship"
+   ],
+   "relevance_score": 6,
+   "relevance_reasons": [
+    "entrepreneurship:entrepreneur, self-employ, patent"
+   ],
+   "recommended": false,
+   "note": "Century-long regional self-employment rates in Germany and links to GDP and patenting, with East-West contrast.",
+   "abstract": "We examine the long-term relationship between historical levels of self-employment and economic performance in different regions of Germany. A particular distinction is made between West Germany and the eastern part of the country, that came after WWII for forty years under socialist regime. Regional self-employment rates exhibit high correlation over time periods exceeding a century. In West Germany, high and increasing levels of self-employment are significantly associated with high current levels of Gross Domestic Product (GDP) per population, despite several major historical shocks. That such a relationship cannot be found in East Germany could be a legacy of the socialist period where the government performed anti-entrepreneurial policies. We also find a positive relationship between historical self-employment and patenting in both parts of the country. This relationship is, however, somewhat weaker in East Germany, which experienced considerably more historical shocks than West Germany.",
+   "abstract_source": "repec",
+   "version_note": null
+  },
+  {
+   "canonical_key": "doi:10.31235/osf.io/ca2uv_v1",
+   "title": "Social Origin and the Baccalauréat: Curriculum, Sex, Teachers and Sector in French Upper-Secondary Schools, 2017–2023",
+   "authors": [
+    "Adrien Dufour"
+   ],
+   "venue": "SocArXiv",
+   "source_slug": "socarxiv",
+   "source_category": "preprint",
+   "publication_status": "preprint",
+   "doi": "10.31235/osf.io/ca2uv_v1",
+   "arxiv_id": null,
+   "nber_id": null,
+   "ssrn_id": null,
+   "primary_url": "https://osf.io/preprints/socarxiv/ca2uv_v1/",
+   "paper_url": "https://osf.io/preprints/socarxiv/ca2uv_v1/",
+   "pdf_url": null,
+   "published_at": "2026-10-04",
+   "first_seen_at": "2026-10-13T18:00:33Z",
+   "year": 2026,
+   "volume": null,
+   "issue": null,
+   "pages": null,
+   "issue_number": 1,
+   "sets": [
+    "orgs_inequality"
+   ],
+   "relevance_score": 6,
+   "relevance_reasons": [
+    "orgs_inequality:inequality, social origin"
+   ],
+   "recommended": false,
+   "note": "School-level panel on social origin, curriculum, sex, and sector in French baccalauréat outcomes; educational stratification.",
+   "abstract": "2022–23, an index of the social composition of each school’s pupils. We use these sources, combined into a panel of 2,394 general and technological lycées observed over the seven sessions from 2017 to 2023, to ask how far social origin still determines what pupils obtain at the end of secondary school, and through which parts of the system that determination passes. At national level, passing the baccalauréat has become close to universal, but the gap between the children of senior managers and the children of manual workers has not narrowed since 1998. Between schools, social composition orders results with considerable force: a ten-point difference in the social index corresponds to about eight percentage points in the share of candidates passing with distinction, and this single relationship accounts for more than half of the variation between establishments. The two pandemic sessions of 2020 and 2021, awarded largely on continuous assessment, temporarily compressed this relationship; it returned to its earlier level after the 2021 reform of the examination. We then examine four further lines of division. Curricular choice is the strongest: the technological streams are offered where the pupils served are least advantaged, and since the reform replaced the general-track streams with a menu of specialisms, mathematics has become the clearest social marker in the system. Sex produces a second, largely independent segregation that is greater in curricular terms than the social one. Teaching staff are distributed unequally in a way that closely follows pupils’ social origin, but this inequality accounts for little of the outcome gap once pupils’ social origin is held constant. The gap between the public and the subsidised private sector is about half a matter of the pupils each sector serves; the remainder resists every adjustment we can make. We conclude that the published indicators describe social sorting more than institutional quality, and that the additions needed to change this are known and modest.",
+   "abstract_source": "osf",
+   "version_note": null
+  },
+  {
+   "canonical_key": "arxiv:2610.10606",
+   "title": "The Gendered Impacts of Perceived Skin Tone: Evidence from African American Siblings in 1870-1940",
+   "authors": [
+    "Ran Abramitzky",
+    "Jacob Conway",
+    "Roy Mill",
+    "Luke C. D. Stein"
+   ],
+   "venue": "arXiv econ.GN",
+   "source_slug": "arxiv-econ-gn",
+   "source_category": "preprint",
+   "publication_status": "preprint",
+   "doi": null,
+   "arxiv_id": "2610.10606",
+   "nber_id": null,
+   "ssrn_id": null,
+   "primary_url": "https://arxiv.org/abs/2610.10606",
+   "paper_url": "https://arxiv.org/pdf/2610.10606v2",
+   "pdf_url": "https://arxiv.org/pdf/2610.10606v2",
+   "published_at": "2026-10-07",
+   "first_seen_at": "2026-10-13T18:00:33Z",
+   "year": 2026,
+   "volume": null,
+   "issue": null,
+   "pages": null,
+   "issue_number": 1,
+   "sets": [
+    "orgs_inequality"
+   ],
+   "relevance_score": 6,
+   "relevance_reasons": [
+    "orgs_inequality:discrimination, racial, gender, women"
+   ],
+   "recommended": false,
+   "note": "Census-linked sibling comparisons by perceived skin tone among African Americans, 1870-1940; gendered discrimination in education, marriage, and income.",
+   "abstract": "We study differences in economic outcomes by perceived skin tone among African Americans using full-count U.S. decennial census data from the late-19th and early-20th centuries. Comparing children coded as \"Black\" or \"Mulatto\" by census enumerators and linking these children across population censuses, we first document large gaps in educational attainment and income among African Americans with darker and lighter perceived skin tones. To disentangle the drivers of these gaps, we identify all 35,992 families in which enumerators assigned same-gender siblings different Black/Mulatto classifications. Relative to sisters coded as Mulatto, sisters coded as Black had lower educational attainment, were less likely to marry, and had less-educated, likely lower-earning husbands. These patterns are consistent with more severe contemporaneous discrimination against African American women with darker perceived skin tones. In contrast, we find similar educational attainment, marital outcomes, and incomes among differently-classified brothers. Men perceived as African Americans of any skin tone faced similar contemporaneous discrimination, consistent with the \"one-drop\" racial classification rule that grouped together individuals with any known Black ancestry. Lower incomes for African American men perceived as having darker skin tone in the general population were driven by differences in opportunities and resources that varied across families, likely reflecting the impacts of historical or family-level discrimination.",
+   "abstract_source": "arxiv",
+   "version_note": null
+  },
+  {
+   "canonical_key": "arxiv:2610.08264",
+   "title": "Understanding Interfirm AI Talent Flow Networks through Online Professional Profiles",
+   "authors": [
+    "Donghang Li",
+    "Yunhan Zheng",
+    "Alok Prakash",
+    "Shenhao Wang",
+    "Jinhua Zhao"
+   ],
+   "venue": "arXiv cs.SI",
+   "source_slug": "arxiv-econ-gn",
+   "source_category": "preprint",
+   "publication_status": "preprint",
+   "doi": null,
+   "arxiv_id": "2610.08264",
+   "nber_id": null,
+   "ssrn_id": null,
+   "primary_url": "https://arxiv.org/abs/2610.08264",
+   "paper_url": "https://arxiv.org/pdf/2610.08264v1",
+   "pdf_url": "https://arxiv.org/pdf/2610.08264v1",
+   "published_at": "2026-10-06",
+   "first_seen_at": "2026-10-13T18:00:33Z",
+   "year": 2026,
+   "volume": null,
+   "issue": null,
+   "pages": null,
+   "issue_number": 1,
+   "sets": [
+    "ai_work"
+   ],
+   "relevance_score": 6,
+   "relevance_reasons": [
+    "ai_work:artificial intelligence, ai, labor, worker"
+   ],
+   "recommended": false,
+   "note": "Network analysis of inter-firm AI worker mobility using employment records; links talent flow centrality to firm value.",
+   "abstract": "Artificial intelligence capabilities are often measured as resources accumulated within firms, yet they also circulate across organizational boundaries through worker mobility. Drawing on a database of approximately 535 million employment records across 58 countries, we reconstruct the inter-firm network of AI talent flows over 2010--2022. We find that AI talent inflows are becoming increasingly concentrated among a small set of leading firms, with stronger preferential attachment than in general labor mobility. Yet the network core remains contestable: central positions in AI networks change hands far more often than in non-AI networks. Network position also carries information that goes beyond workforce size. This network position is economically consequential: AI network centrality is associated with higher enterprise value, after accounting for workforce scale, assets, and fixed effects. Event-study estimates further indicate that sharp improvements in network position are followed by higher enterprise value relative to matched firms with similar pre-event trajectories. Together, these findings suggest that corporate AI advantage depends not only on how much talent firms accumulate, but also on where they sit in its circulation.",
+   "abstract_source": "arxiv",
+   "version_note": null
+  }
+ ]
+}

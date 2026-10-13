@@ -1,0 +1,110 @@
+{
+ "schema_version": 1,
+ "generated_at": "2026-10-13T18:07:08Z",
+ "site": {
+  "title": "Weekly Research Digest",
+  "nav_label": "Digest",
+  "tagline": "New research on entrepreneurship, generative AI and work, and organizations and inequality",
+  "url": "https://jeanoh.org/digest/",
+  "parent_url": "https://jeanoh.org/",
+  "owner": "Jean Joohyun Oh",
+  "owner_role": "Assistant Professor, Tepper School of Business, Carnegie Mellon University",
+  "publish_day": "Wednesday"
+ },
+ "sets": [
+  {
+   "id": "entrepreneurship",
+   "label": "Entrepreneurship",
+   "short": "Entrep.",
+   "description": "New venture creation and growth, founders and founding teams, self-employment and small business, startup financing (venture capital, angels, accelerators, crowdfunding), firm entry and exit, entrepreneurial ecosystems and policy, who becomes an entrepreneur, and innovation and society: who becomes an inventor or innovator, the direction of innovation and whose needs it serves, social and institutional determinants of invention, and science-based and university ventures."
+  },
+  {
+   "id": "ai_work",
+   "label": "Generative AI & Work",
+   "short": "AI & Work",
+   "description": "How generative AI, large language models, and foundation models change work, tasks, occupations, labor markets, hiring, skills, productivity, creativity, management, and new venture creation."
+  },
+  {
+   "id": "orgs_inequality",
+   "label": "Organizations & Inequality",
+   "short": "Orgs & Ineq.",
+   "description": "Class and socioeconomic origins, stratification and social mobility, careers and promotion inside organizations, hiring and discrimination, pay gaps, elites, and how organizations and labor markets reproduce or reduce inequality; also inequality by race, ethnicity, gender, and immigrant status, income and wage inequality, occupational segregation, and diversity in organizations."
+  }
+ ],
+ "categories": [
+  {
+   "id": "management_journal",
+   "label": "Management journals",
+   "order": 1
+  },
+  {
+   "id": "sociology_journal",
+   "label": "Sociology journals",
+   "order": 2
+  },
+  {
+   "id": "economics_journal",
+   "label": "Economics journals",
+   "order": 3
+  },
+  {
+   "id": "science_journal",
+   "label": "General science journals",
+   "order": 4
+  },
+  {
+   "id": "working_paper",
+   "label": "Working papers",
+   "order": 5
+  },
+  {
+   "id": "preprint",
+   "label": "Preprints",
+   "order": 6
+  },
+  {
+   "id": "alert",
+   "label": "SSRN & Scholar alerts",
+   "order": 7
+  }
+ ],
+ "publication_statuses": {
+  "published": "Published",
+  "working_paper": "Working paper",
+  "preprint": "Preprint"
+ },
+ "latest_issue": 1,
+ "issues": [
+  {
+   "number": 1,
+   "cutoff": "2026-10-13",
+   "window_start": "2026-09-29",
+   "published_at": "2026-10-13T18:00:33Z",
+   "count": 48,
+   "recommended_count": 12,
+   "set_counts": {
+    "entrepreneurship": 22,
+    "ai_work": 15,
+    "orgs_inequality": 22
+   },
+   "category_counts": {
+    "economics_journal": 5,
+    "management_journal": 18,
+    "working_paper": 8,
+    "preprint": 17
+   },
+   "run_status": "success",
+   "run_errors": [],
+   "stats": {
+    "seen": 1236,
+    "in_scope": 48,
+    "est_cost_usd": 0.4859
+   }
+  }
+ ],
+ "stats": {
+  "issue_count": 1,
+  "article_count": 48,
+  "source_count": 51
+ }
+}

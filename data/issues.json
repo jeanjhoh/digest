@@ -1,0 +1,33 @@
+{
+ "issues": [
+  {
+   "number": 1,
+   "key": "2026-W42",
+   "window_start": "2026-09-29T18:00:33Z",
+   "cutoff_at": "2026-10-13T18:00:33Z",
+   "created_at": "2026-10-13T18:00:33Z",
+   "counts": {
+    "in_scope": 48,
+    "recommended": 12,
+    "by_set": {
+     "entrepreneurship": 22,
+     "ai_work": 15,
+     "orgs_inequality": 22
+    },
+    "by_category": {
+     "management_journal": 18,
+     "economics_journal": 5,
+     "preprint": 17,
+     "working_paper": 8
+    }
+   },
+   "run_status": "success",
+   "run_errors": [],
+   "stats": {
+    "seen": 1236,
+    "in_scope": 48,
+    "est_cost_usd": 0.4859
+   }
+  }
+ ]
+}

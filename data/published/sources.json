@@ -1,0 +1,1354 @@
+[
+ {
+  "slug": "asq",
+  "name": "Administrative Science Quarterly",
+  "kind": "crossref_journal",
+  "category": "management_journal",
+  "tier": "A",
+  "url": "https://journals.sagepub.com/home/asq",
+  "issn": [
+   "0001-8392",
+   "1930-3815"
+  ],
+  "method": "Crossref works for ISSN 0001-8392, 1930-3815 (journal-article type) created within the run window; every paper is classified.",
+  "notes": null,
+  "enabled": true,
+  "last_checked_at": "2026-10-13T18:00:33Z",
+  "last_status": "ok",
+  "last_error": null,
+  "last_run": {
+   "in_scope": 1,
+   "pulled": 1
+  },
+  "totals": {
+   "in_scope": 1,
+   "pulled": 1
+  },
+  "latest_in_scope_at": "2026-10-01"
+ },
+ {
+  "slug": "amj",
+  "name": "Academy of Management Journal",
+  "kind": "crossref_journal",
+  "category": "management_journal",
+  "tier": "A",
+  "url": "https://journals.aom.org/journal/amj",
+  "issn": [
+   "0001-4273",
+   "1948-0989"
+  ],
+  "method": "Crossref works for ISSN 0001-4273, 1948-0989 (journal-article type) created within the run window; every paper is classified.",
+  "notes": null,
+  "enabled": true,
+  "last_checked_at": "2026-10-13T18:00:33Z",
+  "last_status": "ok",
+  "last_error": null,
+  "last_run": {
+   "in_scope": 0,
+   "pulled": 2
+  },
+  "totals": {
+   "in_scope": 0,
+   "pulled": 2
+  },
+  "latest_in_scope_at": null
+ },
+ {
+  "slug": "amr",
+  "name": "Academy of Management Review",
+  "kind": "crossref_journal",
+  "category": "management_journal",
+  "tier": "A",
+  "url": "https://journals.aom.org/journal/amr",
+  "issn": [
+   "0363-7425",
+   "1930-3807"
+  ],
+  "method": "Crossref works for ISSN 0363-7425, 1930-3807 (journal-article type) created within the run window; every paper is classified.",
+  "notes": null,
+  "enabled": true,
+  "last_checked_at": "2026-10-13T18:00:33Z",
+  "last_status": "ok",
+  "last_error": null,
+  "last_run": {
+   "in_scope": 0,
+   "pulled": 1
+  },
+  "totals": {
+   "in_scope": 0,
+   "pulled": 1
+  },
+  "latest_in_scope_at": null
+ },
+ {
+  "slug": "orgsci",
+  "name": "Organization Science",
+  "kind": "crossref_journal",
+  "category": "management_journal",
+  "tier": "A",
+  "url": "https://pubsonline.informs.org/journal/orsc",
+  "issn": [
+   "1047-7039",
+   "1526-5455"
+  ],
+  "method": "Crossref works for ISSN 1047-7039, 1526-5455 (journal-article type) created within the run window; every paper is classified.",
+  "notes": null,
+  "enabled": true,
+  "last_checked_at": "2026-10-13T18:00:33Z",
+  "last_status": "ok",
+  "last_error": null,
+  "last_run": {
+   "in_scope": 2,
+   "pulled": 6
+  },
+  "totals": {
+   "in_scope": 2,
+   "pulled": 6
+  },
+  "latest_in_scope_at": "2026-10-08"
+ },
+ {
+  "slug": "smj",
+  "name": "Strategic Management Journal",
+  "kind": "crossref_journal",
+  "category": "management_journal",
+  "tier": "A",
+  "url": "https://onlinelibrary.wiley.com/journal/10970266",
+  "issn": [
+   "0143-2095",
+   "1097-0266"
+  ],
+  "method": "Crossref works for ISSN 0143-2095, 1097-0266 (journal-article type) created within the run window; every paper is classified.",
+  "notes": null,
+  "enabled": true,
+  "last_checked_at": "2026-10-13T18:00:33Z",
+  "last_status": "ok",
+  "last_error": null,
+  "last_run": {
+   "in_scope": 1,
+   "pulled": 2
+  },
+  "totals": {
+   "in_scope": 1,
+   "pulled": 2
+  },
+  "latest_in_scope_at": "2026-10-01"
+ },
+ {
+  "slug": "mnsc",
+  "name": "Management Science",
+  "kind": "crossref_journal",
+  "category": "management_journal",
+  "tier": "A",
+  "url": "https://pubsonline.informs.org/journal/mnsc",
+  "issn": [
+   "0025-1909",
+   "1526-5501"
+  ],
+  "method": "Crossref works for ISSN 0025-1909, 1526-5501 (journal-article type) created within the run window; every paper is classified.",
+  "notes": null,
+  "enabled": true,
+  "last_checked_at": "2026-10-13T18:00:33Z",
+  "last_status": "ok",
+  "last_error": null,
+  "last_run": {
+   "in_scope": 2,
+   "pulled": 16
+  },
+  "totals": {
+   "in_scope": 2,
+   "pulled": 16
+  },
+  "latest_in_scope_at": "2026-10-06"
+ },
+ {
+  "slug": "asr",
+  "name": "American Sociological Review",
+  "kind": "crossref_journal",
+  "category": "sociology_journal",
+  "tier": "A",
+  "url": "https://journals.sagepub.com/home/asr",
+  "issn": [
+   "0003-1224",
+   "1939-8271"
+  ],
+  "method": "Crossref works for ISSN 0003-1224, 1939-8271 (journal-article type) created within the run window; every paper is classified.",
+  "notes": null,
+  "enabled": true,
+  "last_checked_at": "2026-10-13T18:00:33Z",
+  "last_status": "ok",
+  "last_error": null,
+  "last_run": {
+   "in_scope": 0,
+   "pulled": 1
+  },
+  "totals": {
+   "in_scope": 0,
+   "pulled": 1
+  },
+  "latest_in_scope_at": null
+ },
+ {
+  "slug": "ajs",
+  "name": "American Journal of Sociology",
+  "kind": "crossref_journal",
+  "category": "sociology_journal",
+  "tier": "A",
+  "url": "https://www.journals.uchicago.edu/toc/ajs/current",
+  "issn": [
+   "0002-9602",
+   "1537-5390"
+  ],
+  "method": "Crossref works for ISSN 0002-9602, 1537-5390 (journal-article type) created within the run window; every paper is classified.",
+  "notes": null,
+  "enabled": true,
+  "last_checked_at": "2026-10-13T18:00:33Z",
+  "last_status": "ok",
+  "last_error": null,
+  "last_run": {
+   "in_scope": 0,
+   "pulled": 0
+  },
+  "totals": {
+   "in_scope": 0,
+   "pulled": 0
+  },
+  "latest_in_scope_at": null
+ },
+ {
+  "slug": "aer",
+  "name": "American Economic Review",
+  "kind": "crossref_journal",
+  "category": "economics_journal",
+  "tier": "A",
+  "url": "https://www.aeaweb.org/journals/aer",
+  "issn": [
+   "0002-8282",
+   "1944-7981"
+  ],
+  "method": "Crossref works for ISSN 0002-8282, 1944-7981 (journal-article type) created within the run window; every paper is classified.",
+  "notes": null,
+  "enabled": true,
+  "last_checked_at": "2026-10-13T18:00:33Z",
+  "last_status": "ok",
+  "last_error": null,
+  "last_run": {
+   "in_scope": 3,
+   "pulled": 9
+  },
+  "totals": {
+   "in_scope": 3,
+   "pulled": 9
+  },
+  "latest_in_scope_at": "2026-10-01"
+ },
+ {
+  "slug": "qje",
+  "name": "Quarterly Journal of Economics",
+  "kind": "crossref_journal",
+  "category": "economics_journal",
+  "tier": "A",
+  "url": "https://academic.oup.com/qje",
+  "issn": [
+   "0033-5533",
+   "1531-4650"
+  ],
+  "method": "Crossref works for ISSN 0033-5533, 1531-4650 (journal-article type) created within the run window; every paper is classified.",
+  "notes": null,
+  "enabled": true,
+  "last_checked_at": "2026-10-13T18:00:33Z",
+  "last_status": "ok",
+  "last_error": null,
+  "last_run": {
+   "in_scope": 0,
+   "pulled": 2
+  },
+  "totals": {
+   "in_scope": 0,
+   "pulled": 2
+  },
+  "latest_in_scope_at": null
+ },
+ {
+  "slug": "jpe",
+  "name": "Journal of Political Economy",
+  "kind": "crossref_journal",
+  "category": "economics_journal",
+  "tier": "A",
+  "url": "https://www.journals.uchicago.edu/toc/jpe/current",
+  "issn": [
+   "0022-3808",
+   "1537-534X"
+  ],
+  "method": "Crossref works for ISSN 0022-3808, 1537-534X (journal-article type) created within the run window; every paper is classified.",
+  "notes": null,
+  "enabled": true,
+  "last_checked_at": "2026-10-13T18:00:33Z",
+  "last_status": "ok",
+  "last_error": null,
+  "last_run": {
+   "in_scope": 0,
+   "pulled": 2
+  },
+  "totals": {
+   "in_scope": 0,
+   "pulled": 2
+  },
+  "latest_in_scope_at": null
+ },
+ {
+  "slug": "restud",
+  "name": "Review of Economic Studies",
+  "kind": "crossref_journal",
+  "category": "economics_journal",
+  "tier": "A",
+  "url": "https://academic.oup.com/restud",
+  "issn": [
+   "0034-6527",
+   "1467-937X"
+  ],
+  "method": "Crossref works for ISSN 0034-6527, 1467-937X (journal-article type) created within the run window; every paper is classified.",
+  "notes": null,
+  "enabled": true,
+  "last_checked_at": "2026-10-13T18:00:33Z",
+  "last_status": "ok",
+  "last_error": null,
+  "last_run": {
+   "in_scope": 0,
+   "pulled": 4
+  },
+  "totals": {
+   "in_scope": 0,
+   "pulled": 4
+  },
+  "latest_in_scope_at": null
+ },
+ {
+  "slug": "ecta",
+  "name": "Econometrica",
+  "kind": "crossref_journal",
+  "category": "economics_journal",
+  "tier": "A",
+  "url": "https://onlinelibrary.wiley.com/journal/14680262",
+  "issn": [
+   "0012-9682",
+   "1468-0262"
+  ],
+  "method": "Crossref works for ISSN 0012-9682, 1468-0262 (journal-article type) created within the run window; every paper is classified.",
+  "notes": null,
+  "enabled": true,
+  "last_checked_at": "2026-10-13T18:00:33Z",
+  "last_status": "ok",
+  "last_error": null,
+  "last_run": {
+   "in_scope": 0,
+   "pulled": 0
+  },
+  "totals": {
+   "in_scope": 0,
+   "pulled": 0
+  },
+  "latest_in_scope_at": null
+ },
+ {
+  "slug": "jbv",
+  "name": "Journal of Business Venturing",
+  "kind": "crossref_journal",
+  "category": "management_journal",
+  "tier": "B",
+  "url": "https://www.sciencedirect.com/journal/journal-of-business-venturing",
+  "issn": [
+   "0883-9026"
+  ],
+  "method": "Crossref works for ISSN 0883-9026 (journal-article type) created within the run window; keyword-gated (min score 2).",
+  "notes": null,
+  "enabled": true,
+  "last_checked_at": "2026-10-13T18:00:33Z",
+  "last_status": "ok",
+  "last_error": null,
+  "last_run": {
+   "in_scope": 3,
+   "pulled": 4
+  },
+  "totals": {
+   "in_scope": 3,
+   "pulled": 4
+  },
+  "latest_in_scope_at": "2027-01-01"
+ },
+ {
+  "slug": "etp",
+  "name": "Entrepreneurship Theory and Practice",
+  "kind": "crossref_journal",
+  "category": "management_journal",
+  "tier": "B",
+  "url": "https://journals.sagepub.com/home/etp",
+  "issn": [
+   "1042-2587",
+   "1540-6520"
+  ],
+  "method": "Crossref works for ISSN 1042-2587, 1540-6520 (journal-article type) created within the run window; keyword-gated (min score 2).",
+  "notes": null,
+  "enabled": true,
+  "last_checked_at": "2026-10-13T18:00:33Z",
+  "last_status": "ok",
+  "last_error": null,
+  "last_run": {
+   "in_scope": 2,
+   "pulled": 2
+  },
+  "totals": {
+   "in_scope": 2,
+   "pulled": 2
+  },
+  "latest_in_scope_at": "2026-09-30"
+ },
+ {
+  "slug": "sej",
+  "name": "Strategic Entrepreneurship Journal",
+  "kind": "crossref_journal",
+  "category": "management_journal",
+  "tier": "B",
+  "url": "https://onlinelibrary.wiley.com/journal/1932443x",
+  "issn": [
+   "1932-4391",
+   "1932-443X"
+  ],
+  "method": "Crossref works for ISSN 1932-4391, 1932-443X (journal-article type) created within the run window; keyword-gated (min score 2).",
+  "notes": null,
+  "enabled": true,
+  "last_checked_at": "2026-10-13T18:00:33Z",
+  "last_status": "ok",
+  "last_error": null,
+  "last_run": {
+   "in_scope": 3,
+   "pulled": 8
+  },
+  "totals": {
+   "in_scope": 3,
+   "pulled": 8
+  },
+  "latest_in_scope_at": "2026-10-12"
+ },
+ {
+  "slug": "jom",
+  "name": "Journal of Management",
+  "kind": "crossref_journal",
+  "category": "management_journal",
+  "tier": "B",
+  "url": "https://journals.sagepub.com/home/jom",
+  "issn": [
+   "0149-2063",
+   "1557-1211"
+  ],
+  "method": "Crossref works for ISSN 0149-2063, 1557-1211 (journal-article type) created within the run window; keyword-gated (min score 2).",
+  "notes": null,
+  "enabled": true,
+  "last_checked_at": "2026-10-13T18:00:33Z",
+  "last_status": "ok",
+  "last_error": null,
+  "last_run": {
+   "in_scope": 0,
+   "pulled": 2
+  },
+  "totals": {
+   "in_scope": 0,
+   "pulled": 2
+  },
+  "latest_in_scope_at": null
+ },
+ {
+  "slug": "jms",
+  "name": "Journal of Management Studies",
+  "kind": "crossref_journal",
+  "category": "management_journal",
+  "tier": "B",
+  "url": "https://onlinelibrary.wiley.com/journal/14676486",
+  "issn": [
+   "0022-2380",
+   "1467-6486"
+  ],
+  "method": "Crossref works for ISSN 0022-2380, 1467-6486 (journal-article type) created within the run window; keyword-gated (min score 2).",
+  "notes": null,
+  "enabled": true,
+  "last_checked_at": "2026-10-13T18:00:33Z",
+  "last_status": "ok",
+  "last_error": null,
+  "last_run": {
+   "in_scope": 1,
+   "pulled": 8
+  },
+  "totals": {
+   "in_scope": 1,
+   "pulled": 8
+  },
+  "latest_in_scope_at": "2026-09-30"
+ },
+ {
+  "slug": "orgstud",
+  "name": "Organization Studies",
+  "kind": "crossref_journal",
+  "category": "management_journal",
+  "tier": "B",
+  "url": "https://journals.sagepub.com/home/oss",
+  "issn": [
+   "0170-8406",
+   "1741-3044"
+  ],
+  "method": "Crossref works for ISSN 0170-8406, 1741-3044 (journal-article type) created within the run window; keyword-gated (min score 2).",
+  "notes": null,
+  "enabled": true,
+  "last_checked_at": "2026-10-13T18:00:33Z",
+  "last_status": "ok",
+  "last_error": null,
+  "last_run": {
+   "in_scope": 0,
+   "pulled": 0
+  },
+  "totals": {
+   "in_scope": 0,
+   "pulled": 0
+  },
+  "latest_in_scope_at": null
+ },
+ {
+  "slug": "respol",
+  "name": "Research Policy",
+  "kind": "crossref_journal",
+  "category": "management_journal",
+  "tier": "B",
+  "url": "https://www.sciencedirect.com/journal/research-policy",
+  "issn": [
+   "0048-7333"
+  ],
+  "method": "Crossref works for ISSN 0048-7333 (journal-article type) created within the run window; keyword-gated (min score 2).",
+  "notes": null,
+  "enabled": true,
+  "last_checked_at": "2026-10-13T18:00:33Z",
+  "last_status": "ok",
+  "last_error": null,
+  "last_run": {
+   "in_scope": 0,
+   "pulled": 5
+  },
+  "totals": {
+   "in_scope": 0,
+   "pulled": 5
+  },
+  "latest_in_scope_at": null
+ },
+ {
+  "slug": "stratsci",
+  "name": "Strategy Science",
+  "kind": "crossref_journal",
+  "category": "management_journal",
+  "tier": "B",
+  "url": "https://pubsonline.informs.org/journal/stsc",
+  "issn": [
+   "2333-2050",
+   "2333-2077"
+  ],
+  "method": "Crossref works for ISSN 2333-2050, 2333-2077 (journal-article type) created within the run window; keyword-gated (min score 2).",
+  "notes": null,
+  "enabled": true,
+  "last_checked_at": "2026-10-13T18:00:33Z",
+  "last_status": "ok",
+  "last_error": null,
+  "last_run": {
+   "in_scope": 0,
+   "pulled": 0
+  },
+  "totals": {
+   "in_scope": 0,
+   "pulled": 0
+  },
+  "latest_in_scope_at": null
+ },
+ {
+  "slug": "annals",
+  "name": "Academy of Management Annals",
+  "kind": "crossref_journal",
+  "category": "management_journal",
+  "tier": "B",
+  "url": "https://journals.aom.org/journal/annals",
+  "issn": [
+   "1941-6520",
+   "1941-6067"
+  ],
+  "method": "Crossref works for ISSN 1941-6520, 1941-6067 (journal-article type) created within the run window; keyword-gated (min score 2).",
+  "notes": null,
+  "enabled": true,
+  "last_checked_at": "2026-10-13T18:00:33Z",
+  "last_status": "ok",
+  "last_error": null,
+  "last_run": {
+   "in_scope": 1,
+   "pulled": 5
+  },
+  "totals": {
+   "in_scope": 1,
+   "pulled": 5
+  },
+  "latest_in_scope_at": "2026-09-29"
+ },
+ {
+  "slug": "amd",
+  "name": "Academy of Management Discoveries",
+  "kind": "crossref_journal",
+  "category": "management_journal",
+  "tier": "B",
+  "url": "https://journals.aom.org/journal/amd",
+  "issn": [
+   "2168-1007"
+  ],
+  "method": "Crossref works for ISSN 2168-1007 (journal-article type) created within the run window; keyword-gated (min score 2).",
+  "notes": null,
+  "enabled": true,
+  "last_checked_at": "2026-10-13T18:00:33Z",
+  "last_status": "ok",
+  "last_error": null,
+  "last_run": {
+   "in_scope": 0,
+   "pulled": 1
+  },
+  "totals": {
+   "in_scope": 0,
+   "pulled": 1
+  },
+  "latest_in_scope_at": null
+ },
+ {
+  "slug": "jap",
+  "name": "Journal of Applied Psychology",
+  "kind": "crossref_journal",
+  "category": "management_journal",
+  "tier": "B",
+  "url": "https://psycnet.apa.org/PsycARTICLES/journal/apl",
+  "issn": [
+   "0021-9010",
+   "1939-1854"
+  ],
+  "method": "Crossref works for ISSN 0021-9010, 1939-1854 (journal-article type) created within the run window; keyword-gated (min score 2).",
+  "notes": null,
+  "enabled": true,
+  "last_checked_at": "2026-10-13T18:00:33Z",
+  "last_status": "ok",
+  "last_error": null,
+  "last_run": {
+   "in_scope": 0,
+   "pulled": 2
+  },
+  "totals": {
+   "in_scope": 0,
+   "pulled": 2
+  },
+  "latest_in_scope_at": null
+ },
+ {
+  "slug": "obhdp",
+  "name": "Organizational Behavior and Human Decision Processes",
+  "kind": "crossref_journal",
+  "category": "management_journal",
+  "tier": "B",
+  "url": "https://www.sciencedirect.com/journal/organizational-behavior-and-human-decision-processes",
+  "issn": [
+   "0749-5978"
+  ],
+  "method": "Crossref works for ISSN 0749-5978 (journal-article type) created within the run window; keyword-gated (min score 2).",
+  "notes": null,
+  "enabled": true,
+  "last_checked_at": "2026-10-13T18:00:33Z",
+  "last_status": "ok",
+  "last_error": null,
+  "last_run": {
+   "in_scope": 0,
+   "pulled": 1
+  },
+  "totals": {
+   "in_scope": 0,
+   "pulled": 1
+  },
+  "latest_in_scope_at": null
+ },
+ {
+  "slug": "misq",
+  "name": "MIS Quarterly",
+  "kind": "crossref_journal",
+  "category": "management_journal",
+  "tier": "B",
+  "url": "https://misq.umn.edu/",
+  "issn": [
+   "0276-7783",
+   "2162-9730"
+  ],
+  "method": "Crossref works for ISSN 0276-7783, 2162-9730 (journal-article type) created within the run window; keyword-gated (min score 2).",
+  "notes": null,
+  "enabled": true,
+  "last_checked_at": "2026-10-13T18:00:33Z",
+  "last_status": "ok",
+  "last_error": null,
+  "last_run": {
+   "in_scope": 0,
+   "pulled": 0
+  },
+  "totals": {
+   "in_scope": 0,
+   "pulled": 0
+  },
+  "latest_in_scope_at": null
+ },
+ {
+  "slug": "isr",
+  "name": "Information Systems Research",
+  "kind": "crossref_journal",
+  "category": "management_journal",
+  "tier": "B",
+  "url": "https://pubsonline.informs.org/journal/isre",
+  "issn": [
+   "1047-7047",
+   "1526-5536"
+  ],
+  "method": "Crossref works for ISSN 1047-7047, 1526-5536 (journal-article type) created within the run window; keyword-gated (min score 2).",
+  "notes": null,
+  "enabled": true,
+  "last_checked_at": "2026-10-13T18:00:33Z",
+  "last_status": "ok",
+  "last_error": null,
+  "last_run": {
+   "in_scope": 0,
+   "pulled": 3
+  },
+  "totals": {
+   "in_scope": 0,
+   "pulled": 3
+  },
+  "latest_in_scope_at": null
+ },
+ {
+  "slug": "socforces",
+  "name": "Social Forces",
+  "kind": "crossref_journal",
+  "category": "sociology_journal",
+  "tier": "B",
+  "url": "https://academic.oup.com/sf",
+  "issn": [
+   "0037-7732",
+   "1534-7605"
+  ],
+  "method": "Crossref works for ISSN 0037-7732, 1534-7605 (journal-article type) created within the run window; keyword-gated (min score 2).",
+  "notes": null,
+  "enabled": true,
+  "last_checked_at": "2026-10-13T18:00:33Z",
+  "last_status": "ok",
+  "last_error": null,
+  "last_run": {
+   "in_scope": 0,
+   "pulled": 0
+  },
+  "totals": {
+   "in_scope": 0,
+   "pulled": 0
+  },
+  "latest_in_scope_at": null
+ },
+ {
+  "slug": "arsoc",
+  "name": "Annual Review of Sociology",
+  "kind": "crossref_journal",
+  "category": "sociology_journal",
+  "tier": "B",
+  "url": "https://www.annualreviews.org/journal/soc",
+  "issn": [
+   "0360-0572",
+   "1545-2115"
+  ],
+  "method": "Crossref works for ISSN 0360-0572, 1545-2115 (journal-article type) created within the run window; keyword-gated (min score 2).",
+  "notes": null,
+  "enabled": true,
+  "last_checked_at": "2026-10-13T18:00:33Z",
+  "last_status": "ok",
+  "last_error": null,
+  "last_run": {
+   "in_scope": 0,
+   "pulled": 0
+  },
+  "totals": {
+   "in_scope": 0,
+   "pulled": 0
+  },
+  "latest_in_scope_at": null
+ },
+ {
+  "slug": "socsci",
+  "name": "Sociological Science",
+  "kind": "crossref_journal",
+  "category": "sociology_journal",
+  "tier": "B",
+  "url": "https://sociologicalscience.com/",
+  "issn": [
+   "2330-6696"
+  ],
+  "method": "Crossref works for ISSN 2330-6696 (journal-article type) created within the run window; keyword-gated (min score 2).",
+  "notes": null,
+  "enabled": true,
+  "last_checked_at": "2026-10-13T18:00:33Z",
+  "last_status": "ok",
+  "last_error": null,
+  "last_run": {
+   "in_scope": 0,
+   "pulled": 0
+  },
+  "totals": {
+   "in_scope": 0,
+   "pulled": 0
+  },
+  "latest_in_scope_at": null
+ },
+ {
+  "slug": "ser",
+  "name": "Socio-Economic Review",
+  "kind": "crossref_journal",
+  "category": "sociology_journal",
+  "tier": "B",
+  "url": "https://academic.oup.com/ser",
+  "issn": [
+   "1475-1461",
+   "1475-147X"
+  ],
+  "method": "Crossref works for ISSN 1475-1461, 1475-147X (journal-article type) created within the run window; keyword-gated (min score 2).",
+  "notes": null,
+  "enabled": true,
+  "last_checked_at": "2026-10-13T18:00:33Z",
+  "last_status": "ok",
+  "last_error": null,
+  "last_run": {
+   "in_scope": 0,
+   "pulled": 0
+  },
+  "totals": {
+   "in_scope": 0,
+   "pulled": 0
+  },
+  "latest_in_scope_at": null
+ },
+ {
+  "slug": "aeri",
+  "name": "American Economic Review: Insights",
+  "kind": "crossref_journal",
+  "category": "economics_journal",
+  "tier": "B",
+  "url": "https://www.aeaweb.org/journals/aeri",
+  "issn": [
+   "2640-205X",
+   "2640-2068"
+  ],
+  "method": "Crossref works for ISSN 2640-205X, 2640-2068 (journal-article type) created within the run window; keyword-gated (min score 2).",
+  "notes": null,
+  "enabled": true,
+  "last_checked_at": "2026-10-13T18:00:33Z",
+  "last_status": "ok",
+  "last_error": null,
+  "last_run": {
+   "in_scope": 0,
+   "pulled": 0
+  },
+  "totals": {
+   "in_scope": 0,
+   "pulled": 0
+  },
+  "latest_in_scope_at": null
+ },
+ {
+  "slug": "aejapp",
+  "name": "American Economic Journal: Applied Economics",
+  "kind": "crossref_journal",
+  "category": "economics_journal",
+  "tier": "B",
+  "url": "https://www.aeaweb.org/journals/app",
+  "issn": [
+   "1945-7782",
+   "1945-7790"
+  ],
+  "method": "Crossref works for ISSN 1945-7782, 1945-7790 (journal-article type) created within the run window; keyword-gated (min score 2).",
+  "notes": null,
+  "enabled": true,
+  "last_checked_at": "2026-10-13T18:00:33Z",
+  "last_status": "ok",
+  "last_error": null,
+  "last_run": {
+   "in_scope": 0,
+   "pulled": 0
+  },
+  "totals": {
+   "in_scope": 0,
+   "pulled": 0
+  },
+  "latest_in_scope_at": null
+ },
+ {
+  "slug": "jep",
+  "name": "Journal of Economic Perspectives",
+  "kind": "crossref_journal",
+  "category": "economics_journal",
+  "tier": "B",
+  "url": "https://www.aeaweb.org/journals/jep",
+  "issn": [
+   "0895-3309",
+   "1944-7965"
+  ],
+  "method": "Crossref works for ISSN 0895-3309, 1944-7965 (journal-article type) created within the run window; keyword-gated (min score 2).",
+  "notes": null,
+  "enabled": true,
+  "last_checked_at": "2026-10-13T18:00:33Z",
+  "last_status": "ok",
+  "last_error": null,
+  "last_run": {
+   "in_scope": 0,
+   "pulled": 0
+  },
+  "totals": {
+   "in_scope": 0,
+   "pulled": 0
+  },
+  "latest_in_scope_at": null
+ },
+ {
+  "slug": "jole",
+  "name": "Journal of Labor Economics",
+  "kind": "crossref_journal",
+  "category": "economics_journal",
+  "tier": "B",
+  "url": "https://www.journals.uchicago.edu/toc/jole/current",
+  "issn": [
+   "0734-306X",
+   "1537-5307"
+  ],
+  "method": "Crossref works for ISSN 0734-306X, 1537-5307 (journal-article type) created within the run window; keyword-gated (min score 2).",
+  "notes": null,
+  "enabled": true,
+  "last_checked_at": "2026-10-13T18:00:33Z",
+  "last_status": "ok",
+  "last_error": null,
+  "last_run": {
+   "in_scope": 0,
+   "pulled": 0
+  },
+  "totals": {
+   "in_scope": 0,
+   "pulled": 0
+  },
+  "latest_in_scope_at": null
+ },
+ {
+  "slug": "restat",
+  "name": "Review of Economics and Statistics",
+  "kind": "crossref_journal",
+  "category": "economics_journal",
+  "tier": "B",
+  "url": "https://direct.mit.edu/rest",
+  "issn": [
+   "0034-6535",
+   "1530-9142"
+  ],
+  "method": "Crossref works for ISSN 0034-6535, 1530-9142 (journal-article type) created within the run window; keyword-gated (min score 2).",
+  "notes": null,
+  "enabled": true,
+  "last_checked_at": "2026-10-13T18:00:33Z",
+  "last_status": "ok",
+  "last_error": null,
+  "last_run": {
+   "in_scope": 0,
+   "pulled": 0
+  },
+  "totals": {
+   "in_scope": 0,
+   "pulled": 0
+  },
+  "latest_in_scope_at": null
+ },
+ {
+  "slug": "jf",
+  "name": "Journal of Finance",
+  "kind": "crossref_journal",
+  "category": "economics_journal",
+  "tier": "B",
+  "url": "https://onlinelibrary.wiley.com/journal/15406261",
+  "issn": [
+   "0022-1082",
+   "1540-6261"
+  ],
+  "method": "Crossref works for ISSN 0022-1082, 1540-6261 (journal-article type) created within the run window; keyword-gated (min score 2).",
+  "notes": null,
+  "enabled": true,
+  "last_checked_at": "2026-10-13T18:00:33Z",
+  "last_status": "ok",
+  "last_error": null,
+  "last_run": {
+   "in_scope": 1,
+   "pulled": 12
+  },
+  "totals": {
+   "in_scope": 1,
+   "pulled": 12
+  },
+  "latest_in_scope_at": "2026-10-08"
+ },
+ {
+  "slug": "jfe",
+  "name": "Journal of Financial Economics",
+  "kind": "crossref_journal",
+  "category": "economics_journal",
+  "tier": "B",
+  "url": "https://www.sciencedirect.com/journal/journal-of-financial-economics",
+  "issn": [
+   "0304-405X"
+  ],
+  "method": "Crossref works for ISSN 0304-405X (journal-article type) created within the run window; keyword-gated (min score 2).",
+  "notes": null,
+  "enabled": true,
+  "last_checked_at": "2026-10-13T18:00:33Z",
+  "last_status": "ok",
+  "last_error": null,
+  "last_run": {
+   "in_scope": 0,
+   "pulled": 5
+  },
+  "totals": {
+   "in_scope": 0,
+   "pulled": 5
+  },
+  "latest_in_scope_at": null
+ },
+ {
+  "slug": "rfs",
+  "name": "Review of Financial Studies",
+  "kind": "crossref_journal",
+  "category": "economics_journal",
+  "tier": "B",
+  "url": "https://academic.oup.com/rfs",
+  "issn": [
+   "0893-9454",
+   "1465-7368"
+  ],
+  "method": "Crossref works for ISSN 0893-9454, 1465-7368 (journal-article type) created within the run window; keyword-gated (min score 2).",
+  "notes": null,
+  "enabled": true,
+  "last_checked_at": "2026-10-13T18:00:33Z",
+  "last_status": "ok",
+  "last_error": null,
+  "last_run": {
+   "in_scope": 1,
+   "pulled": 2
+  },
+  "totals": {
+   "in_scope": 1,
+   "pulled": 2
+  },
+  "latest_in_scope_at": "2026-10-06"
+ },
+ {
+  "slug": "nhb",
+  "name": "Nature Human Behaviour",
+  "kind": "crossref_journal",
+  "category": "science_journal",
+  "tier": "B",
+  "url": "https://www.nature.com/nathumbehav/",
+  "issn": [
+   "2397-3374"
+  ],
+  "method": "Crossref works for ISSN 2397-3374 (journal-article type) created within the run window; keyword-gated (min score 2).",
+  "notes": null,
+  "enabled": true,
+  "last_checked_at": "2026-10-13T18:00:33Z",
+  "last_status": "ok",
+  "last_error": null,
+  "last_run": {
+   "in_scope": 0,
+   "pulled": 12
+  },
+  "totals": {
+   "in_scope": 0,
+   "pulled": 12
+  },
+  "latest_in_scope_at": null
+ },
+ {
+  "slug": "sbe",
+  "name": "Small Business Economics",
+  "kind": "crossref_journal",
+  "category": "management_journal",
+  "tier": "C",
+  "url": "https://link.springer.com/journal/11187",
+  "issn": [
+   "0921-898X",
+   "1573-0913"
+  ],
+  "method": "Crossref works for ISSN 0921-898X, 1573-0913 (journal-article type) created within the run window; keyword-gated (min score 5).",
+  "notes": null,
+  "enabled": true,
+  "last_checked_at": "2026-10-13T18:00:33Z",
+  "last_status": "ok",
+  "last_error": null,
+  "last_run": {
+   "in_scope": 2,
+   "pulled": 3
+  },
+  "totals": {
+   "in_scope": 2,
+   "pulled": 3
+  },
+  "latest_in_scope_at": "2026-10-07"
+ },
+ {
+  "slug": "wox",
+  "name": "Work and Occupations",
+  "kind": "crossref_journal",
+  "category": "sociology_journal",
+  "tier": "C",
+  "url": "https://journals.sagepub.com/home/wox",
+  "issn": [
+   "0730-8884",
+   "1552-8464"
+  ],
+  "method": "Crossref works for ISSN 0730-8884, 1552-8464 (journal-article type) created within the run window; keyword-gated (min score 5).",
+  "notes": null,
+  "enabled": true,
+  "last_checked_at": "2026-10-13T18:00:33Z",
+  "last_status": "ok",
+  "last_error": null,
+  "last_run": {
+   "in_scope": 0,
+   "pulled": 0
+  },
+  "totals": {
+   "in_scope": 0,
+   "pulled": 0
+  },
+  "latest_in_scope_at": null
+ },
+ {
+  "slug": "nature",
+  "name": "Nature",
+  "kind": "crossref_journal",
+  "category": "science_journal",
+  "tier": "C",
+  "url": "https://www.nature.com/",
+  "issn": [
+   "0028-0836",
+   "1476-4687"
+  ],
+  "method": "Crossref works for ISSN 0028-0836, 1476-4687 (journal-article type) created within the run window; keyword-gated (min score 5).",
+  "notes": null,
+  "enabled": true,
+  "last_checked_at": "2026-10-13T18:00:33Z",
+  "last_status": "ok",
+  "last_error": null,
+  "last_run": {
+   "in_scope": 0,
+   "pulled": 153
+  },
+  "totals": {
+   "in_scope": 0,
+   "pulled": 153
+  },
+  "latest_in_scope_at": null
+ },
+ {
+  "slug": "science",
+  "name": "Science",
+  "kind": "crossref_journal",
+  "category": "science_journal",
+  "tier": "C",
+  "url": "https://www.science.org/journal/science",
+  "issn": [
+   "0036-8075",
+   "1095-9203"
+  ],
+  "method": "Crossref works for ISSN 0036-8075, 1095-9203 (journal-article type) created within the run window; keyword-gated (min score 5).",
+  "notes": null,
+  "enabled": true,
+  "last_checked_at": "2026-10-13T18:00:33Z",
+  "last_status": "ok",
+  "last_error": null,
+  "last_run": {
+   "in_scope": 0,
+   "pulled": 82
+  },
+  "totals": {
+   "in_scope": 0,
+   "pulled": 82
+  },
+  "latest_in_scope_at": null
+ },
+ {
+  "slug": "pnas",
+  "name": "Proceedings of the National Academy of Sciences",
+  "kind": "crossref_journal",
+  "category": "science_journal",
+  "tier": "C",
+  "url": "https://www.pnas.org/",
+  "issn": [
+   "0027-8424",
+   "1091-6490"
+  ],
+  "method": "Crossref works for ISSN 0027-8424, 1091-6490 (journal-article type) created within the run window; keyword-gated (min score 5).",
+  "notes": null,
+  "enabled": true,
+  "last_checked_at": "2026-10-13T18:00:33Z",
+  "last_status": "ok",
+  "last_error": null,
+  "last_run": {
+   "in_scope": 0,
+   "pulled": 191
+  },
+  "totals": {
+   "in_scope": 0,
+   "pulled": 191
+  },
+  "latest_in_scope_at": null
+ },
+ {
+  "slug": "alerts",
+  "name": "SSRN and Google Scholar alerts",
+  "kind": "gsheet",
+  "category": "alert",
+  "tier": "A",
+  "url": "https://www.ssrn.com/",
+  "issn": [],
+  "method": "Google Sheet of SSRN and Google Scholar alert emails, resolved via Crossref by DOI or title; every paper is classified.",
+  "notes": null,
+  "enabled": true,
+  "last_checked_at": "2026-10-13T18:00:33Z",
+  "last_status": "ok",
+  "last_error": null,
+  "last_run": {
+   "in_scope": 0,
+   "pulled": 1
+  },
+  "totals": {
+   "in_scope": 0,
+   "pulled": 1
+  },
+  "latest_in_scope_at": null
+ },
+ {
+  "slug": "socarxiv",
+  "name": "SocArXiv",
+  "kind": "osf_preprints",
+  "category": "preprint",
+  "tier": "B",
+  "url": "https://osf.io/preprints/socarxiv",
+  "issn": [],
+  "method": "OSF preprints API for provider socarxiv, created within the run window; keyword-gated (min score 2).",
+  "notes": null,
+  "enabled": true,
+  "last_checked_at": "2026-10-13T18:00:33Z",
+  "last_status": "ok",
+  "last_error": null,
+  "last_run": {
+   "in_scope": 10,
+   "pulled": 251
+  },
+  "totals": {
+   "in_scope": 10,
+   "pulled": 251
+  },
+  "latest_in_scope_at": "2026-10-07"
+ },
+ {
+  "slug": "nep-ent",
+  "name": "NEP: Entrepreneurship",
+  "kind": "repec_nep",
+  "category": "working_paper",
+  "tier": "A",
+  "url": "https://nep.repec.org/nep-ent.html",
+  "issn": [],
+  "method": "RePEc NEP report nep-ent RSS feed (latest issue); every paper is classified.",
+  "notes": null,
+  "enabled": true,
+  "last_checked_at": "2026-10-13T18:00:33Z",
+  "last_status": "ok",
+  "last_error": null,
+  "last_run": {
+   "in_scope": 4,
+   "pulled": 8
+  },
+  "totals": {
+   "in_scope": 4,
+   "pulled": 8
+  },
+  "latest_in_scope_at": "2026-10-12"
+ },
+ {
+  "slug": "nber",
+  "name": "NBER Working Papers",
+  "kind": "crossref_prefix",
+  "category": "working_paper",
+  "tier": "B",
+  "url": "https://www.nber.org/papers",
+  "issn": [],
+  "method": "Crossref works with DOI prefix 10.3386 created within the run window; keyword-gated (min score 2).",
+  "notes": null,
+  "enabled": true,
+  "last_checked_at": "2026-10-13T18:00:33Z",
+  "last_status": "ok",
+  "last_error": null,
+  "last_run": {
+   "in_scope": 4,
+   "pulled": 89
+  },
+  "totals": {
+   "in_scope": 4,
+   "pulled": 89
+  },
+  "latest_in_scope_at": "2026-10-01"
+ },
+ {
+  "slug": "arxiv-econ-gn",
+  "name": "arXiv econ.GN",
+  "kind": "arxiv",
+  "category": "preprint",
+  "tier": "B",
+  "url": "https://arxiv.org/list/econ.GN/recent",
+  "issn": [],
+  "method": "arXiv API query `cat:econ.GN` sorted by submission date within the run window; keyword-gated (min score 2).",
+  "notes": null,
+  "enabled": true,
+  "last_checked_at": "2026-10-13T18:00:33Z",
+  "last_status": "ok",
+  "last_error": null,
+  "last_run": {
+   "in_scope": 4,
+   "pulled": 49
+  },
+  "totals": {
+   "in_scope": 4,
+   "pulled": 49
+  },
+  "latest_in_scope_at": "2026-10-07"
+ },
+ {
+  "slug": "arxiv-ai-work",
+  "name": "arXiv cs.AI / cs.HC / cs.CL (work-related)",
+  "kind": "arxiv",
+  "category": "preprint",
+  "tier": "C",
+  "url": "https://arxiv.org/list/cs.AI/recent",
+  "issn": [],
+  "method": "arXiv API query `(cat:cs.AI OR cat:cs.HC OR cat:cs.CL) AND (abs:\"labor market\" OR abs:workers OR abs:occupations OR abs:entrepreneurs OR abs:\"knowledge work\" OR abs:productivity OR abs:hiring OR abs:workplace OR abs:\"future of work\")` sorted by submission date within the run window; keyword-gated (min score 10).",
+  "notes": null,
+  "enabled": true,
+  "last_checked_at": "2026-10-13T18:00:33Z",
+  "last_status": "ok",
+  "last_error": null,
+  "last_run": {
+   "in_scope": 3,
+   "pulled": 224
+  },
+  "totals": {
+   "in_scope": 3,
+   "pulled": 224
+  },
+  "latest_in_scope_at": "2026-10-07"
+ }
+]
