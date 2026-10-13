@@ -19,7 +19,7 @@ def verdict_schema(set_ids: list[str], with_note: bool = True) -> dict[str, Any]
     props: dict[str, Any] = {
         "id": {"type": "string"},
         "sets": {"type": "array", "items": {"type": "string", "enum": set_ids}},
-        "relevance": {"type": "integer", "minimum": 0, "maximum": 10},
+        "relevance": {"type": "integer", "enum": list(range(0, 11))},  # structured outputs reject minimum/maximum
         "flags": {"type": "array", "items": {"type": "string", "enum": FLAGS}},
     }
     required = ["id", "sets", "relevance", "flags"]
@@ -36,7 +36,7 @@ def verdict_schema(set_ids: list[str], with_note: bool = True) -> dict[str, Any]
 def build_system_prompt(profile: str, sets: list[dict[str, str]], with_note: bool = True) -> str:
     topics = "\n".join(f"- {s['id']} ({s['label']}): {s['description']}" for s in sets)
     note_rules = """
-- note: ONE line, at most 20 words, describing the paper's fit to the named topic set(s) in topical terms
+- note: ONE line, strictly at most 20 words (count them), describing the paper's fit to the named topic set(s) in topical terms
   (design, setting, finding). Example: "Field experiment on LLM assistance in recruiting; speaks to AI & work
   and hiring." The note is published on a public website for any visitor. It must NEVER mention the reader,
   "you", the site owner, their projects, affiliation, or why they would care. No evaluative adjectives
@@ -206,7 +206,7 @@ class Classifier:
                 msg = str(e)
                 if "output_config" in msg or "format" in msg or "json_schema" in msg:
                     self.structured = False
-                    print(f"  warning: API rejected structured output ({msg[:100]}); falling back to plain JSON")
+                    print(f"  warning: API rejected structured output ({msg[:400]}); falling back to plain JSON")
                 else:
                     raise
         kwargs.pop("output_config", None)
