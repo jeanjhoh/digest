@@ -5,3 +5,4 @@ __pycache__/
 .pytest_cache/
 site/
 .DS_Store
+.preview-data/

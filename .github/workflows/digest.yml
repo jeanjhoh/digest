@@ -6,8 +6,8 @@ on:
   workflow_dispatch:
     inputs:
       days:
-        description: "Lookback window in days"
-        default: "8"
+        description: "Lookback window in days (blank = settings default 8, or 14 with bootstrap)"
+        default: ""
       dry_run:
         description: "Fetch and classify but do not commit or deploy"
         type: boolean
@@ -78,7 +78,8 @@ jobs:
         run: python -m digest sources check
       - name: Run pipeline
         run: |
-          ARGS="--days ${{ inputs.days || '8' }}"
+          ARGS=""
+          if [ -n "${{ inputs.days }}" ]; then ARGS="$ARGS --days ${{ inputs.days }}"; fi
           if [ "${{ inputs.dry_run }}" = "true" ]; then ARGS="$ARGS --dry-run"; fi
           if [ "${{ inputs.bootstrap }}" = "true" ]; then ARGS="$ARGS --bootstrap"; fi
           if [ "${{ inputs.no_llm }}" = "true" ]; then ARGS="$ARGS --no-llm"; fi
