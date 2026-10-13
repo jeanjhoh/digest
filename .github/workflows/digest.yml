@@ -26,6 +26,10 @@ on:
       llm_limit:
         description: "Max LLM batches (blank = all); use 1 with dry_run to preview notes cheaply"
         default: ""
+      preview:
+        description: "Run for real but upload data/ as an artifact instead of committing; no deploy"
+        type: boolean
+        default: false
   push:
     branches: [main]
     paths:
@@ -85,8 +89,15 @@ jobs:
       - name: Publish site data
         if: ${{ inputs.dry_run != true }}
         run: python -m digest publish
+      - name: Upload data as preview artifact
+        if: ${{ inputs.preview == true && inputs.dry_run != true }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: digest-data
+          path: data
+          retention-days: 7
       - name: Commit data
-        if: ${{ inputs.dry_run != true }}
+        if: ${{ inputs.dry_run != true && inputs.preview != true }}
         run: |
           git config user.name "digest-bot"
           git config user.email "digest-bot@users.noreply.github.com"
@@ -101,7 +112,7 @@ jobs:
 
   build:
     needs: pipeline
-    if: ${{ always() && (needs.pipeline.result == 'success' || needs.pipeline.result == 'skipped') && inputs.dry_run != true }}
+    if: ${{ always() && (needs.pipeline.result == 'success' || needs.pipeline.result == 'skipped') && inputs.dry_run != true && inputs.preview != true }}
     runs-on: ubuntu-latest
     timeout-minutes: 15
     outputs:
