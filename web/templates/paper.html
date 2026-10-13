@@ -7,7 +7,7 @@
 {% endblock %}
 {% block main %}
 <header class="digest-head">
-  <h2 class="digest-title"><a href="{{ rel }}">{{ site.title }}</a></h2>
+  <h2 class="digest-title"><a href="{{ rel }}index.html">{{ site.title }}</a></h2>
   <p class="issue-line">Issue <a href="{{ rel }}issues/{{ '%03d' | format(issue.number) }}.html#k-{{ article.slug }}">{{ issue.label }}</a> · {{ issue.cutoff | date_long }}</p>
 </header>
 <div id="entries" class="single">

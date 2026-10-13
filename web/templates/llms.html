@@ -2,7 +2,7 @@
 {% block description %}Guide for AI assistants: how to turn the current issue of {{ site.title }} into a personalized reading list.{% endblock %}
 {% block main %}
 <header class="digest-head">
-  <h2 class="digest-title"><a href="{{ rel }}">{{ site.title }}</a>: Guide for AI Assistants</h2>
+  <h2 class="digest-title"><a href="{{ rel }}index.html">{{ site.title }}</a>: Guide for AI Assistants</h2>
 </header>
 <section class="llms">
 <p>{{ site.title }} is a weekly, curated compilation of new research on {% for s in meta.sets %}{{ s.label | lower }}{% if not loop.last %}, {% endif %}{% endfor %}. Use it to produce a personalized research digest from the user's stated interests. Everything needed is embedded below: titles, authors, venues, the authors' own abstracts, topic tags, and direct links.</p>

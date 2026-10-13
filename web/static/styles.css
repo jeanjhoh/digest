@@ -204,7 +204,8 @@ details.abstract[open] summary::after { content: "less"; color: var(--link); fon
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
 
 /* sources page */
-.source-list { list-style: none; padding: 0; margin: 0 0 1rem; columns: 2; column-gap: 2rem; }
-.source-list li { break-inside: avoid; padding: .15rem 0; }
-@media (max-width: 600px) { .source-list { columns: 1; } }
+.sources-page-list { list-style: none; padding: 0; margin: 0 0 1rem; columns: 2; column-gap: 2rem; }
+.sources-page-list li { break-inside: avoid; padding: .15rem 0; }
+@media (max-width: 600px) { .sources-page-list { columns: 1; } }
 .back-link { font-size: .95rem; }
+.credit { margin: -0.4rem 0 0.9rem; font-size: 0.85rem; color: var(--faint); }

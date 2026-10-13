@@ -1,14 +1,14 @@
 {% extends "base.html" %}
 {% block main %}
 <header class="digest-head">
-  <h2 class="digest-title"><a href="{{ rel }}">{{ site.title }}</a></h2>
+  <h2 class="digest-title"><a href="{{ rel }}index.html">{{ site.title }}</a></h2>
   <p class="issue-line">Sources</p>
-  <p><a href="{{ rel }}" class="back-link">&larr; Back to the latest issue</a></p>
+  <p><a href="{{ rel }}index.html" class="back-link">&larr; Back to the latest issue</a></p>
 </header>
 {% for g in source_groups %}
 <section class="cat">
   <h2>{{ g.label }}</h2>
-  <ul class="source-list">
+  <ul class="sources-page-list">
   {% for s in g.sources if s.enabled %}
     <li id="src-{{ s.slug }}">{% if s.url %}<a href="{{ s.url }}" target="_blank" rel="noopener">{{ s.name }}</a>{% else %}{{ s.name }}{% endif %}</li>
   {% endfor %}

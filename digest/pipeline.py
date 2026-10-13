@@ -236,6 +236,11 @@ def write_step_summary(stats: RunStats) -> None:
         lines.append(f"| {slug} | {st.seen} | {st.inserted} | {st.candidates} | {st.in_scope} | {status} |")
     with open(path, "a", encoding="utf-8") as fh:
         fh.write("\n".join(lines) + "\n")
+    out = os.environ.get("GITHUB_OUTPUT")
+    if out:
+        with open(out, "a", encoding="utf-8") as fh:
+            fh.write(f"source_errors={len(stats.errors)}\n")
+            fh.write("failed_sources=" + ", ".join(e.get("source_slug", "?") for e in stats.errors) + "\n")
     for e in stats.errors:
         print(f"::warning title=Source fetch failed::{e.get('source_slug', '?')}: {str(e.get('message', ''))[:200]}")
 
