@@ -46,8 +46,10 @@ Other commands: `python -m digest status`, `python -m digest add-doi <doi>`, `py
 
 Repository settings:
 - **Pages** → Source: GitHub Actions
-- **Secrets**: `ANTHROPIC_API_KEY`, `GSHEET_CSV_URL` (optional `S2_API_KEY`)
+- **Secrets**: `GSHEET_CSV_URL` (optional `S2_API_KEY`)
 - **Variables**: `CROSSREF_MAILTO`, optional `SITE_URL`
+
+Anthropic authentication on Actions uses [Workload Identity Federation](https://platform.claude.com/docs/en/manage-claude/wif-providers/github-actions): the job's GitHub OIDC token is exchanged for a short-lived access token, so no API key is stored in the repo. The federation rule (Claude Console → Settings → Workload identity) is pinned to `repo:jeanjhoh/digest:ref:refs/heads/main`; its IDs live in `.github/workflows/digest.yml`. A local `ANTHROPIC_API_KEY` in `.env` takes precedence when present.
 
 `.github/workflows/digest.yml` runs the pipeline weekly, commits `data/`, builds the site, and deploys. Trigger it manually from the Actions tab with `dry_run` to test, or `bootstrap` for the first issue. Pushes to `main` that touch `web/`, `sitebuilder/`, or `data/published/` rebuild and redeploy without re-running the pipeline.
 

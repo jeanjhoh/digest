@@ -11,7 +11,7 @@ from typing import Any
 from .abstracts import enrich
 from .issues import Issues
 from .keywords import KeywordScorer, is_candidate
-from .llm import Classifier, apply_verdict
+from .llm import Classifier, apply_verdict, credential_source
 from .models import RunStats, iso, utcnow
 from .normalize import is_front_matter
 from .settings import Settings
@@ -144,9 +144,13 @@ def run(settings: Settings, *, days: int | None = None, dry_run: bool = False, n
     else:
         clf = Classifier(settings, client=client)
         if not clf.available:
-            print("LLM: skipped — ANTHROPIC_API_KEY not set; candidates stay unclassified until the next run")
+            print("LLM: skipped — no Anthropic credentials (set ANTHROPIC_API_KEY or the ANTHROPIC_FEDERATION_* "
+                  "variables); candidates stay unclassified until the next run")
         else:
+            print(f"LLM: {clf.model} via {credential_source(settings)}")
             verdicts = clf.classify_all(cands, limit_batches=llm_limit)
+            if dry_run:
+                print_verdicts(cands, verdicts)
             cfg = settings.llm or {}
             for a in cands:
                 v = verdicts.get(a.key)
@@ -215,6 +219,19 @@ def run(settings: Settings, *, days: int | None = None, dry_run: bool = False, n
         print(f"Saved {len(store)} articles, {len(issues.items)} issues")
     print_funnel(stats)
     return stats
+
+
+def print_verdicts(cands: list, verdicts: dict) -> None:
+    """Dry-run review aid: one line per classified paper so notes can be checked in the log."""
+    rows = [(verdicts[a.key], a) for a in cands if a.key in verdicts]
+    rows.sort(key=lambda r: -int(r[0].get("relevance", 0)))
+    print(f"Verdicts ({len(rows)}):")
+    for v, a in rows:
+        sets = ",".join(v.get("sets") or []) or "-"
+        flags = ("  [" + ",".join(v["flags"]) + "]") if v.get("flags") else ""
+        print(f"  {int(v.get('relevance', 0)):2d} {sets:<32} {a.source_slug:<14} {a.title[:90]}{flags}")
+        if v.get("note"):
+            print(f"      note: {v['note']}")
 
 
 def print_funnel(stats: RunStats) -> None:

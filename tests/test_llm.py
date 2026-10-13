@@ -3,7 +3,7 @@ from types import SimpleNamespace
 
 import pytest
 
-from digest.llm import BatchFailed, Classifier, apply_verdict, build_system_prompt, estimate_cost, render_batch
+from digest.llm import BatchFailed, Classifier, apply_verdict, build_system_prompt, estimate_cost, render_batch, credential_source
 from digest.models import Article
 from digest.settings import load_settings
 
@@ -96,9 +96,30 @@ def test_prompt_has_public_safe_note_rules(settings):
     assert txt.count("w ") <= 11 and "id: doi:10.1/a" in txt
 
 
-def test_no_key_means_unavailable(settings, monkeypatch):
+def test_no_credentials_means_unavailable(settings, monkeypatch):
     monkeypatch.setattr(settings, "anthropic_api_key", "")
+    monkeypatch.setattr(settings, "anthropic_federation", {})
+    assert credential_source(settings) == ""
     assert not Classifier(settings).available
+
+
+def test_federation_credentials_selected(settings, monkeypatch):
+    monkeypatch.setattr(settings, "anthropic_api_key", "")
+    fed = {"rule_id": "fdrl_x", "organization_id": "org", "service_account_id": "svac_x", "workspace_id": "wrkspc_x",
+           "token_file": "", "gha_request_url": "https://example.invalid/token", "gha_request_token": "t",
+           "audience": "https://api.anthropic.com"}
+    monkeypatch.setattr(settings, "anthropic_federation", fed)
+    assert credential_source(settings) == "federation"
+    clf = Classifier(settings)          # builds the client; no token exchange happens until the first request
+    assert clf.available
+
+
+def test_api_key_wins_over_federation(settings, monkeypatch):
+    monkeypatch.setattr(settings, "anthropic_api_key", "sk-ant-test")
+    monkeypatch.setattr(settings, "anthropic_federation", {"rule_id": "fdrl_x", "organization_id": "org",
+                                                          "gha_request_url": "u", "gha_request_token": "t",
+                                                          "audience": "a", "token_file": ""})
+    assert credential_source(settings) == "api_key"
 
 
 def test_cost_estimate():

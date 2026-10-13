@@ -116,6 +116,55 @@ class BatchFailed(Exception):
     pass
 
 
+def _github_actions_jwt_provider(request_url: str, request_token: str, audience: str) -> Any:
+    """Return a callable that fetches a fresh OIDC token from the GitHub Actions runner on every call.
+
+    GitHub identity tokens are single-use for the exchange (jti check) and expire after ~5 minutes,
+    so each refresh must present a new one rather than re-reading a file written at job start.
+    """
+    def provider() -> str:
+        import requests
+        resp = requests.get(request_url, params={"audience": audience},
+                            headers={"Authorization": f"Bearer {request_token}"}, timeout=30)
+        resp.raise_for_status()
+        return resp.json()["value"]
+    return provider
+
+
+def credential_source(settings: Any) -> str:
+    """Which Anthropic credential the run will use: 'api_key', 'federation', or ''."""
+    if settings.anthropic_api_key:
+        return "api_key"
+    fed = getattr(settings, "anthropic_federation", None) or {}
+    if fed.get("rule_id") and fed.get("organization_id") and (fed.get("token_file") or fed.get("gha_request_url")):
+        return "federation"
+    return ""
+
+
+def make_client(settings: Any) -> Any:
+    """Build an Anthropic client from an API key or Workload Identity Federation; None if neither is configured."""
+    src = credential_source(settings)
+    if not src:
+        return None
+    import anthropic
+    if src == "api_key":
+        return anthropic.Anthropic(api_key=settings.anthropic_api_key)
+    from anthropic.lib.credentials import IdentityTokenFile, WorkloadIdentityCredentials
+    fed = settings.anthropic_federation
+    if fed.get("gha_request_url"):
+        provider = _github_actions_jwt_provider(fed["gha_request_url"], fed["gha_request_token"], fed["audience"])
+    else:
+        provider = IdentityTokenFile(fed["token_file"])
+    creds = WorkloadIdentityCredentials(
+        identity_token_provider=provider,
+        federation_rule_id=fed["rule_id"],
+        organization_id=fed["organization_id"],
+        service_account_id=fed.get("service_account_id") or None,
+        workspace_id=fed.get("workspace_id") or None,
+    )
+    return anthropic.Anthropic(credentials=creds)
+
+
 class Classifier:
     """Wraps an Anthropic client. Pass `client` explicitly for tests (any object with .messages.create)."""
 
@@ -134,10 +183,7 @@ class Classifier:
         self.calls = 0
         self.errors = 0
         self.structured = True
-        self._client = client
-        if client is None and settings.anthropic_api_key:
-            import anthropic
-            self._client = anthropic.Anthropic(api_key=settings.anthropic_api_key)
+        self._client = client if client is not None else make_client(settings)
 
     @property
     def available(self) -> bool:

@@ -80,6 +80,7 @@ class Settings:
     topics: dict[str, Any]
     profile: str
     anthropic_api_key: str
+    anthropic_federation: dict[str, str]
     crossref_mailto: str
     gsheet_csv_url: str
     s2_api_key: str
@@ -121,6 +122,25 @@ def _parse_sources(raw: dict[str, Any]) -> list[Source]:
     return out
 
 
+def _federation_from_env() -> dict[str, str]:
+    """Workload Identity Federation settings (used when ANTHROPIC_API_KEY is absent).
+
+    On GitHub Actions the runner's OIDC endpoint is used directly so every token exchange
+    presents a fresh JWT; elsewhere a projected token file (ANTHROPIC_IDENTITY_TOKEN_FILE) is read.
+    """
+    e = os.environ.get
+    return {
+        "rule_id": e("ANTHROPIC_FEDERATION_RULE_ID", ""),
+        "organization_id": e("ANTHROPIC_ORGANIZATION_ID", ""),
+        "service_account_id": e("ANTHROPIC_SERVICE_ACCOUNT_ID", ""),
+        "workspace_id": e("ANTHROPIC_WORKSPACE_ID", ""),
+        "token_file": e("ANTHROPIC_IDENTITY_TOKEN_FILE", ""),
+        "gha_request_url": e("ACTIONS_ID_TOKEN_REQUEST_URL", ""),
+        "gha_request_token": e("ACTIONS_ID_TOKEN_REQUEST_TOKEN", ""),
+        "audience": e("ANTHROPIC_FEDERATION_AUDIENCE", "https://api.anthropic.com"),
+    }
+
+
 def load_settings(config_dir: Path = CONFIG_DIR, data_dir: Path = DATA_DIR) -> Settings:
     _load_env()
     settings_raw = yaml.safe_load((config_dir / "settings.yaml").read_text()) or {}
@@ -142,6 +162,7 @@ def load_settings(config_dir: Path = CONFIG_DIR, data_dir: Path = DATA_DIR) -> S
         topics=topics,
         profile=profile,
         anthropic_api_key=os.environ.get("ANTHROPIC_API_KEY", ""),
+        anthropic_federation=_federation_from_env(),
         crossref_mailto=mailto,
         gsheet_csv_url=os.environ.get("GSHEET_CSV_URL", ""),
         s2_api_key=os.environ.get("S2_API_KEY", ""),
