@@ -108,20 +108,21 @@ section.src > h3 a { color: inherit; }
 .picks-list li { margin-bottom: 0.35rem; }
 
 .Z3988 { display: none; }
-.entry { position: relative; display: grid; grid-template-columns: 2.4rem minmax(0, 1fr); gap: 0 0.4rem; margin-bottom: 1.5rem; }
+.entry { position: relative; display: grid; grid-template-columns: 2.4rem minmax(0, 1fr) 9rem; gap: 0 1.1rem; margin-bottom: 1.5rem; }
 .entry.is-pick .entry-body { border-left: 3px solid var(--pick); padding-left: 0.7rem; margin-left: -0.73rem; }
 .entry-ord { font-size: 0.78rem; color: var(--faint); line-height: 1.5; padding-top: 0.1rem; font-variant-numeric: tabular-nums; }
 .entry-title { font-size: 0.95rem; font-weight: 600; line-height: 1.4; margin: 0 0 0.15rem; }
-.entry-authors, .entry-meta { line-height: 1.5; margin: 0; }
-.entry-authors { font-size: 0.875rem; color: var(--ink); }
-.entry-meta { font-size: 0.8rem; color: var(--muted); margin-bottom: 0.3rem; }
-.entry-meta .venue { color: var(--muted); font-style: italic; }
-.entry-meta .date { font-variant-numeric: tabular-nums; }
-.tag { display: inline-block; font-size: 0.68rem; font-weight: 600; letter-spacing: 0.04em; text-transform: uppercase; padding: 0 0.4em; margin-left: 0.4em; border-radius: 2px; border: 1px solid var(--rule); color: var(--muted); vertical-align: 0.1em; }
-.tag-entrepreneurship { color: var(--set-entrepreneurship); border-color: currentColor; }
-.tag-ai_work { color: var(--set-ai_work); border-color: currentColor; }
-.tag-orgs_inequality { color: var(--set-orgs_inequality); border-color: currentColor; }
-.tag-pick { color: var(--pick); border-color: currentColor; }
+.entry-authors { font-size: 0.875rem; color: var(--muted); font-style: italic; line-height: 1.5; margin: 0 0 0.45rem; }
+.entry-side { font-size: 0.74rem; line-height: 1.55; color: var(--muted); padding-top: 0.25rem; }
+.entry-side > * { display: block; }
+.entry-side .venue { color: var(--ink); }
+.entry-side .status { color: var(--faint); }
+.entry-side .entry-links { margin-top: 0.3rem; }
+.tag { display: block; font-size: 0.74rem; color: var(--muted); }
+.tag-entrepreneurship { color: var(--set-entrepreneurship); }
+.tag-ai_work { color: var(--set-ai_work); }
+.tag-orgs_inequality { color: var(--set-orgs_inequality); }
+.tag-pick { color: var(--pick); }
 .entry-note { font-size: 0.8rem; color: var(--muted); font-style: italic; margin: 0 0 0.3rem; }
 html.notes-hidden .entry-note { display: none; }
 .version-note { font-size: 0.78rem; color: var(--pick); margin-left: 0.4em; }
@@ -137,7 +138,7 @@ details.abstract[open] summary::after { content: "less"; color: var(--link); fon
 .abstract-full { margin-top: 0.2rem; }
 .abstract-src { font-size: 0.72rem; color: var(--faint); margin: 0.2rem 0 0; }
 .abstract-none { font-size: 0.82rem; color: var(--faint); font-style: italic; margin: 0.1rem 0 0.35rem; }
-.entry-links { font-size: 0.78rem; margin: 0; }
+.entry-links { margin: 0; }
 .cite-box { margin: 0.5rem 0 0; padding: 0.6rem 0.8rem; background: var(--panel); border: 1px solid var(--hair); font-size: 0.8rem; }
 .cite-box pre, .cite-static pre { white-space: pre-wrap; font-size: 0.75rem; margin: 0.4rem 0; background: var(--panel); padding: 0.5rem; overflow-x: auto; }
 .cite-box p { margin: 0 0 0.3rem; }
@@ -213,4 +214,9 @@ details.abstract[open] summary::after { content: "less"; color: var(--link); fon
 .credit { margin: -0.4rem 0 0.9rem; font-size: 0.85rem; color: var(--faint); }
 .visually-hidden { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
 .entry { margin-bottom: 1.9rem; }
-.entry-links { font-size: 0.8rem; }
+@media (max-width: 767.98px) {
+  .entry { grid-template-columns: 2.4rem minmax(0, 1fr); gap: 0 0.4rem; }
+  .entry-side { grid-column: 2; padding-top: 0; margin-top: 0.2rem; }
+  .entry-side > * { display: inline; }
+  .entry-side > * + *::before { content: " · "; color: var(--faint); }
+}

@@ -5,13 +5,6 @@
   <div class="entry-body">
     <h4 class="entry-title"><a href="{{ a.link }}" target="_blank" rel="noopener">{{ a.title }}</a></h4>
     <p class="entry-authors">{{ a.authors | authors_inline }}</p>
-    <p class="entry-meta">
-      <a class="venue" href="{{ rel }}details.html#src-{{ a.source_slug }}">{{ a.venue }}</a>
-      {% if a.publication_status != 'published' %}<span class="sep">·</span><span class="status">{{ a.status_label }}</span>{% endif %}
-      {% if a.published_at %}<span class="sep">·</span><span class="date">{{ a.published_at | date_long }}</span>{% endif %}
-      {% for s in a.sets %}<span class="tag tag-{{ s }}">{{ a.set_labels[loop.index0] }}</span>{% endfor %}
-      {% if a.version_note %}<span class="version-note">{{ a.version_note }}</span>{% endif %}
-    </p>
     {% if a.note %}<p class="entry-note">{{ a.note }}</p>{% endif %}
     {% if not compact %}
     {% if a.abstract %}
@@ -23,14 +16,16 @@
     {% else %}
     <p class="abstract abstract-none">No abstract available.</p>
     {% endif %}
-    <p class="entry-links">
-      {% if a.doi %}<a href="https://doi.org/{{ a.doi }}" target="_blank" rel="noopener">DOI</a><span class="sep">·</span>{% endif %}
-      {% if a.arxiv_id %}<a href="https://arxiv.org/abs/{{ a.arxiv_id }}" target="_blank" rel="noopener">arXiv</a><span class="sep">·</span>{% endif %}
-      {% if a.doi %}<span class="js-only"><button type="button" class="linkish" data-copy="{{ a.doi }}" data-copied="DOI copied">Copy DOI</button></span>{% endif %}
-    </p>
-    {% else %}
-    <p class="entry-links"><a href="#k-{{ a.slug }}" class="permalink">Jump to entry</a></p>
     {% endif %}
   </div>
+  <aside class="entry-side">
+    <a class="venue" href="{{ rel }}details.html#src-{{ a.source_slug }}">{{ a.venue }}</a>
+    {% if a.publication_status != 'published' %}<span class="status">{{ a.status_label }}</span>{% endif %}
+    {% for s in a.sets %}<span class="tag tag-{{ s }}">{{ a.set_labels[loop.index0] }}</span>{% endfor %}
+    {% if compact %}<a href="#k-{{ a.slug }}" class="permalink">Jump to entry</a>{% else %}
+    {% if a.doi %}<span class="entry-links"><a href="https://doi.org/{{ a.doi }}" target="_blank" rel="noopener">DOI</a><span class="js-only"><span class="sep">·</span><button type="button" class="linkish" data-copy="{{ a.doi }}" data-copied="DOI copied">Copy</button></span></span>{% endif %}
+    {% if a.arxiv_id and not a.doi %}<a href="https://arxiv.org/abs/{{ a.arxiv_id }}" target="_blank" rel="noopener">arXiv</a>{% endif %}
+    {% endif %}
+  </aside>
 </article>
 {%- endmacro %}

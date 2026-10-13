@@ -87,7 +87,7 @@ class Renderer:
                 if a.slug in slugs:
                     a.slug = f"{a.slug}-{issue.number}"
                 slugs.add(a.slug)
-                a.set_labels = [self.meta.set_label(s, short=True) for s in a.sets]
+                a.set_labels = [self.meta.set_label(s) for s in a.sets]
                 a.status_label = self.meta.status_label(a.publication_status)
                 a.link = a.paper_url or a.primary_url or (f"https://doi.org/{a.doi}" if a.doi else "")
                 src = self.sources.get(a.source_slug)
