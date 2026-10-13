@@ -20,7 +20,7 @@ CATEGORY_LABELS = [
     ("science_journal", "General science journals"),
     ("working_paper", "Working papers"),
     ("preprint", "Preprints"),
-    ("alert", "Email alerts"),
+    ("alert", "SSRN & Scholar alerts"),
 ]
 PUBLICATION_STATUSES = {"published": "Published", "working_paper": "Working paper", "preprint": "Preprint"}
 
