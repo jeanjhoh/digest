@@ -92,7 +92,8 @@ button.linkish:hover { color: var(--link-hover); text-decoration: underline; }
 .subnav a:hover { color: var(--ink); text-decoration: none; }
 .subnav .subnav-tools { margin-left: auto; text-transform: none; letter-spacing: 0; font-weight: 400; }
 .badge { display: inline-block; min-width: 1.1em; padding: 0 0.3em; margin-left: 0.3em; border-radius: 1em; background: var(--link); color: #fff; font-size: 0.65rem; text-align: center; letter-spacing: 0; }
-.set-chips { display: flex; flex-wrap: wrap; gap: 0.4rem; margin: 0; }
+.set-chips { display: flex; flex-wrap: wrap; align-items: center; gap: 0.4rem; margin: 0; }
+.set-chips .view-tools { margin-left: auto; font-size: 0.8rem; white-space: nowrap; }
 .chip { font: inherit; font-size: 0.74rem; padding: 0.15rem 0.6rem; border: 1px solid var(--rule); border-radius: 1rem; background: var(--panel); color: var(--ink); cursor: pointer; }
 .chip .count { color: var(--muted); margin-left: 0.2em; }
 .chip.is-on { border-color: var(--link); background: var(--link); color: #fff; }
@@ -211,7 +212,7 @@ details.abstract[open] summary::after { content: "less"; color: var(--link); fon
 .sources-page-list li { break-inside: avoid; padding: .15rem 0; }
 @media (max-width: 600px) { .sources-page-list { columns: 1; } }
 .back-link { font-size: .95rem; }
-.credit { margin: -0.4rem 0 0.9rem; font-size: 0.85rem; color: var(--faint); }
+.credit { margin: 0.35rem 0 1rem; font-size: 0.85rem; color: var(--faint); }
 .visually-hidden { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
 .entry { margin-bottom: 1.9rem; }
 @media (max-width: 767.98px) {

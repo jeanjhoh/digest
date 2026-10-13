@@ -16,10 +16,10 @@
     <a href="{{ rel }}about.html" data-panel="about">About</a>
     <a href="{{ rel }}rss.xml">RSS</a>
     <a href="{{ rel }}llms.html">For AI</a>
-    <span class="js-only subnav-tools"><button type="button" class="linkish" data-toggle-notes>Hide AI summaries</button><span class="sep">·</span><button type="button" class="linkish" data-expand-all>Expand abstracts</button></span>
   </nav>
   <p class="set-chips">
     {% for s in meta.sets %}<button type="button" class="chip chip-{{ s.id }}" data-chip-set="{{ s.id }}">{{ s.label }} <span class="count">{{ set_counts[s.id] }}</span></button>{% endfor %}
+    <span class="js-only view-tools"><button type="button" class="linkish" data-toggle-notes>Hide AI summaries</button><span class="sep">·</span><button type="button" class="linkish" data-expand-all>Expand abstracts</button></span>
   </p>
 </header>
 
