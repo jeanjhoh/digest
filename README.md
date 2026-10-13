@@ -1,6 +1,6 @@
 # Weekly Research Digest
 
-A weekly, numbered digest of new papers on entrepreneurship, generative AI and work, and organizations and inequality, published as a static site at <https://jeanjhoh.github.io/digest/> (served under the personal site as `/digest/`). Modeled on Kevin Bryan's [Useful Knowledge](https://kevinbryanecon.com/usefulknowledge).
+A weekly, numbered digest of new papers on entrepreneurship, generative AI and work, and organizations and inequality, published as a static site at <https://jeanoh.org/digest/> (a project page served under the personal site's domain). Modeled on Kevin Bryan's [Useful Knowledge](https://kevinbryanecon.com/usefulknowledge).
 
 Each entry shows the paper's original abstract (from Crossref, OpenAlex, Semantic Scholar, or the source), a one-line topical note, links, and a one-click Zotero save via the Zotero Connector.
 

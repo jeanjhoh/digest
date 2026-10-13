@@ -25,7 +25,7 @@
 }
 * { box-sizing: border-box; }
 [hidden] { display: none !important; }   /* author display rules (grid, flex) must not override the hidden attribute */
-html { scroll-behavior: smooth; }
+html { font-size: 17px; scroll-behavior: smooth; }   /* jeanoh.org renders at 17px (Bootstrap cosmo); match so rem sizes agree */
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
 body {
   margin: 0; padding: 0 16px; background-color: var(--bg); color: var(--fg);

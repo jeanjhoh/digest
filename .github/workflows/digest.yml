@@ -145,7 +145,7 @@ jobs:
       - name: Build site
         if: steps.data.outputs.has_data == 'true'
         run: |
-          python -m sitebuilder build --data data/published --out site --site-url "${{ vars.SITE_URL || 'https://jeanjhoh.github.io/digest/' }}"
+          python -m sitebuilder build --data data/published --out site --site-url "${{ vars.SITE_URL || 'https://jeanoh.org/digest/' }}"
           python -m sitebuilder check site
       - uses: actions/upload-pages-artifact@v3
         if: steps.data.outputs.has_data == 'true'
