@@ -8,7 +8,9 @@ sets:
     description: >-
       New venture creation and growth, founders and founding teams, self-employment and small business,
       startup financing (venture capital, angels, accelerators, crowdfunding), firm entry and exit,
-      entrepreneurial ecosystems and policy, and who becomes an entrepreneur.
+      entrepreneurial ecosystems and policy, who becomes an entrepreneur, and innovation and society:
+      who becomes an inventor or innovator, the direction of innovation and whose needs it serves,
+      social and institutional determinants of invention, and science-based and university ventures.
     core:
       - {t: entrepreneur, w: 3}
       - {t: founder, w: 3}
@@ -30,6 +32,18 @@ sets:
       - {t: business owner, w: 2}
       - {t: seed funding, w: 1}
       - {t: unicorn, w: 1}
+      - {t: inventor, w: 3}
+      - {t: innovator, w: 3}
+      - {t: direction of innovation, w: 3}
+      - {t: innovation, w: 2}
+      - {t: invention, w: 2}
+      - {t: patent, w: 2}
+      - {t: r&d, w: 1}
+      - {t: creative destruction, w: 2}
+      - {t: technology commercialization, w: 2}
+      - {t: academic entrepreneur, w: 3}
+      - {t: science-based, w: 2}
+      - {t: university spin, w: 2}
   ai_work:
     label: Generative AI & Work
     short: AI & Work
@@ -70,7 +84,8 @@ sets:
     description: >-
       Class and socioeconomic origins, stratification and social mobility, careers and promotion inside
       organizations, hiring and discrimination, pay gaps, elites, and how organizations and labor markets
-      reproduce or reduce inequality.
+      reproduce or reduce inequality; also inequality by race, ethnicity, gender, and immigrant status,
+      income and wage inequality, occupational segregation, and diversity in organizations.
     core:
       - {t: inequality, w: 3}
       - {t: stratification, w: 3}
@@ -94,9 +109,20 @@ sets:
       - {t: privilege, w: 2}
       - {t: disadvantage, w: 2}
       - {t: meritocra, w: 2}
-      - {t: race, w: 1, word: true}
-      - {t: racial, w: 1}
-      - {t: gender, w: 1}
+      - {t: race, w: 2, word: true}
+      - {t: racial, w: 2}
+      - {t: ethnic, w: 2}
+      - {t: gender, w: 2}
+      - {t: women, w: 2}
+      - {t: immigrant, w: 2}
+      - {t: income inequality, w: 2}
+      - {t: wage inequality, w: 2}
+      - {t: earnings inequality, w: 2}
+      - {t: top income, w: 2}
+      - {t: occupational segregation, w: 2}
+      - {t: glass ceiling, w: 2}
+      - {t: diversity, w: 2}
+      - {t: minority, w: 2}
       - {t: parental, w: 1}
     context:
       - {t: organization, w: 1}

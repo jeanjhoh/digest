@@ -2,26 +2,17 @@
 {% block main %}
 <header class="digest-head">
   <h2 class="digest-title"><a href="{{ rel }}">{{ site.title }}</a></h2>
-  <p class="issue-line">Sources and collection methods{% if latest.meta.stats %} · last run {{ (latest.generated_at or generated_at) | date_long }}: {{ latest.meta.stats.seen }} papers seen, {{ latest.count }} in scope{% endif %}</p>
-  {% if latest.meta.run_errors %}<p class="run-errors">Errors in the last run: {% for e in latest.meta.run_errors %}<a href="#src-{{ e.source_slug }}">{{ e.source_slug }}</a>{% if not loop.last %}, {% endif %}{% endfor %}</p>{% endif %}
-  <p class="js-only"><input type="search" id="source-filter" placeholder="Filter sources…" aria-label="Filter sources"> <label><input type="checkbox" id="errors-only"> errors only</label></p>
+  <p class="issue-line">Sources</p>
+  <p><a href="{{ rel }}" class="back-link">&larr; Back to the latest issue</a></p>
 </header>
 {% for g in source_groups %}
 <section class="cat">
   <h2>{{ g.label }}</h2>
-  {% for s in g.sources %}
-  <article class="source{% if s.last_status == 'error' %} has-error{% endif %}" id="src-{{ s.slug }}" data-name="{{ s.name | lower }}" data-status="{{ s.last_status or '' }}">
-    <h3>{% if s.url %}<a href="{{ s.url }}" target="_blank" rel="noopener">{{ s.name }}</a>{% else %}{{ s.name }}{% endif %}
-      {% if s.tier %}<span class="tag">Tier {{ s.tier }}</span>{% endif %}
-      <span class="status-pill status-{{ s.last_status or 'unknown' }}">{{ s.last_status or 'never run' }}</span>
-      {% if not s.enabled %}<span class="tag">disabled</span>{% endif %}</h3>
-    <p class="muted">{{ s.kind }}{% if s.issn %} · ISSN {{ s.issn | join(', ') }}{% endif %}{% if s.last_checked_at %} · checked {{ s.last_checked_at | date_long }}{% endif %}</p>
-    {% if s.method %}<p>{{ s.method }}</p>{% endif %}
-    {% if s.notes %}<p class="muted">{{ s.notes }}</p>{% endif %}
-    {% if s.last_error %}<p class="error">{{ s.last_error }}</p>{% endif %}
-    <p class="muted">Last run: {{ s.last_run.get('pulled', 0) }} pulled, {{ s.last_run.get('in_scope', 0) }} in scope · Total: {{ s.totals.get('pulled', 0) }} pulled, {{ s.totals.get('in_scope', 0) }} in scope{% if s.latest_in_scope_at %} · latest in scope {{ s.latest_in_scope_at | date_long }}{% endif %}</p>
-  </article>
+  <ul class="source-list">
+  {% for s in g.sources if s.enabled %}
+    <li id="src-{{ s.slug }}">{% if s.url %}<a href="{{ s.url }}" target="_blank" rel="noopener">{{ s.name }}</a>{% else %}{{ s.name }}{% endif %}</li>
   {% endfor %}
+  </ul>
 </section>
 {% endfor %}
 {% endblock %}

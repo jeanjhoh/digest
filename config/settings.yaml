@@ -8,7 +8,7 @@ llm:
   max_tokens: 6000
   max_abstract_words: 300
   in_scope_min: 4
-  recommended_min: 8
+  recommended_min: 9
   max_recommended_per_issue: 12
   max_candidates_per_run: 600
 http:

@@ -7,6 +7,7 @@ from typing import Any
 
 from .issues import Issues
 from .keywords import reasons_list
+from .llm import apply_highlights
 from .models import Article, iso, utcnow
 from .pipeline import load_source_state
 from .settings import CATEGORY_LABELS, PUBLICATION_STATUSES, Settings
@@ -54,6 +55,7 @@ def publish(settings: Settings, out_dir: Path | None = None, store: Store | None
     issue_meta = []
     total_articles = 0
     for issue in sorted(issues.items, key=lambda i: i.number):
+        apply_highlights(settings, list(store.iter_issue(issue.number)))
         arts = sorted(store.iter_issue(issue.number),
                       key=lambda a: (not a.recommended, -((a.classification or {}).get("relevance", 0)), a.title.lower()))
         records = [article_record(a) for a in arts]

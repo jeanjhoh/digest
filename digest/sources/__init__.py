@@ -1,7 +1,7 @@
 """Source fetchers. REGISTRY maps a source kind to a fetch(source, window, ctx) callable."""
 from __future__ import annotations
 
-from . import arxiv, crossref, gsheet, repec
+from . import arxiv, crossref, gsheet, osf, repec
 
 REGISTRY = {
     "crossref_journal": crossref.fetch_journal,
@@ -9,4 +9,5 @@ REGISTRY = {
     "arxiv": arxiv.fetch,
     "repec_nep": repec.fetch,
     "gsheet": gsheet.fetch,
+    "osf_preprints": osf.fetch,
 }

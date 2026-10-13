@@ -24,7 +24,7 @@
 
 {% if picks %}
 <section class="picks" id="picks">
-  <h2>Editor's picks</h2>
+  <h2>Highlights</h2>
   <ol class="picks-list">
     {% for a in picks %}
     <li><a href="#k-{{ a.slug }}">{{ a.title }}</a> <span class="muted">— {{ a.authors | authors_inline }}, <em>{{ a.venue }}</em></span></li>

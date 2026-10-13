@@ -58,9 +58,7 @@
   // ---------- cite / copy (event delegation) ----------
   doc.addEventListener('click', function (e) {
     var t = e.target.closest ? e.target.closest('button') : null; if (!t) return;
-    if (t.hasAttribute('data-cite')) { var box = t.closest('.entry').querySelector('.cite-box'); if (box) box.hidden = !box.hidden; }
-    else if (t.hasAttribute('data-copy')) copyText(t.getAttribute('data-copy'), t.getAttribute('data-copied'));
-    else if (t.hasAttribute('data-copy-sel')) { var el = t.closest('.cite-box').querySelector(t.getAttribute('data-copy-sel')); if (el) copyText(el.textContent, t.getAttribute('data-copied')); }
+    if (t.hasAttribute('data-copy')) copyText(t.getAttribute('data-copy'), t.getAttribute('data-copied'));
   });
 
   // ---------- details page ----------
@@ -166,14 +164,11 @@
   // ---------- rendering (JS twin of _entry.html) ----------
   function entryHTML(a, ord) {
     var tags = a.sets.map(function (s, i) { return '<span class="tag tag-' + esc(s) + '">' + esc((a.set_labels || [])[i] || s) + '</span>'; }).join('');
-    if (a.recommended) tags += '<span class="tag tag-pick">Pick</span>';
+    if (a.recommended) tags += '<span class="tag tag-pick">Highlight</span>';
     var abs = a.abstract ? '<details class="abstract"><summary><span class="abstract-label">Abstract</span><span class="abstract-teaser">' + esc(a.abstract) + '</span></summary><div class="abstract-full">' + esc(a.abstract) + '</div>' + (a.abstract_source ? '<p class="abstract-src">Abstract via ' + esc(a.abstract_source) + '</p>' : '') + '</details>' : '<p class="abstract abstract-none">No abstract available.</p>';
     var links = [];
     if (a.doi) links.push('<a href="https://doi.org/' + esc(a.doi) + '" target="_blank" rel="noopener">DOI</a>');
-    if (a.pdf_url) links.push('<a href="' + esc(a.pdf_url) + '" target="_blank" rel="noopener">PDF</a>');
     links.push('<a href="' + REL + 'issues/' + String(a.issue_number).padStart(3, '0') + '.html#k-' + esc(a.slug) + '">Issue ' + esc(a.issue_number) + '</a>');
-    links.push('<a href="' + REL + 'p/' + esc(a.slug) + '.html" class="permalink">Permalink</a>');
-    links.push('<button type="button" class="linkish" data-cite>Cite</button>');
     if (a.doi) links.push('<button type="button" class="linkish" data-copy="' + esc(a.doi) + '" data-copied="DOI copied">Copy DOI</button>');
     return '<article class="entry' + (a.recommended ? ' is-pick' : '') + '" id="r-' + esc(a.slug) + '" data-key="' + esc(a.key) + '" data-slug="' + esc(a.slug) + '" data-sets="' + esc(a.sets.join(' ')) + '" data-cat="' + esc(a.source_category) + '" data-src="' + esc(a.source_slug) + '" data-issue="' + esc(a.issue_number) + '">' +
       '<span class="Z3988" title="' + esc(a.coins) + '"></span>' +
@@ -338,8 +333,6 @@
       case 'k': focusEntry(focusIdx - 1); break;
       case 'o': if (cur) { var a = cur.querySelector('.entry-title a'); if (a) window.open(a.href, '_blank', 'noopener'); } break;
       case 'x': if (cur) { var d = cur.querySelector('details.abstract'); if (d) d.open = !d.open; } break;
-      case 'c': if (cur) { var b = cur.querySelector('.cite-box'); if (b) b.hidden = !b.hidden; } break;
-      case 'y': if (cur) copyText(location.origin + location.pathname.replace(/[^/]*$/, '') + 'p/' + cur.getAttribute('data-slug') + '.html', 'Permalink copied'); break;
     }
   });
 

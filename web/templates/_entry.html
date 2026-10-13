@@ -10,7 +10,7 @@
       <span class="sep">·</span><span class="status">{{ a.status_label }}</span>
       {% if a.published_at %}<span class="sep">·</span><span class="date">{{ a.published_at | date_long }}</span>{% endif %}
       {% for s in a.sets %}<span class="tag tag-{{ s }}">{{ a.set_labels[loop.index0] }}</span>{% endfor %}
-      {% if a.recommended %}<span class="tag tag-pick">Pick</span>{% endif %}
+      {% if a.recommended %}<span class="tag tag-pick">Highlight</span>{% endif %}
       {% if a.version_note %}<span class="version-note">{{ a.version_note }}</span>{% endif %}
     </p>
     {% if a.note %}<p class="entry-note">{{ a.note }}</p>{% endif %}
@@ -26,17 +26,9 @@
     {% endif %}
     <p class="entry-links">
       {% if a.doi %}<a href="https://doi.org/{{ a.doi }}" target="_blank" rel="noopener">DOI</a><span class="sep">·</span>{% endif %}
-      {% if a.pdf_url %}<a href="{{ a.pdf_url }}" target="_blank" rel="noopener">PDF</a><span class="sep">·</span>{% endif %}
       {% if a.arxiv_id %}<a href="https://arxiv.org/abs/{{ a.arxiv_id }}" target="_blank" rel="noopener">arXiv</a><span class="sep">·</span>{% endif %}
-      <a href="{{ rel }}p/{{ a.slug }}.html" class="permalink">Permalink</a>
-      <span class="js-only"><span class="sep">·</span><button type="button" class="linkish" data-cite>Cite</button>
-      {% if a.doi %}<span class="sep">·</span><button type="button" class="linkish" data-copy="{{ a.doi }}" data-copied="DOI copied">Copy DOI</button>{% endif %}</span>
+      {% if a.doi %}<span class="js-only"><button type="button" class="linkish" data-copy="{{ a.doi }}" data-copied="DOI copied">Copy DOI</button></span>{% endif %}
     </p>
-    <div class="cite-box" hidden>
-      <p class="cite-plain">{{ a.plain_citation }}</p>
-      <pre class="cite-bibtex">{{ a.bibtex }}</pre>
-      <p class="cite-actions"><button type="button" class="linkish" data-copy-sel=".cite-plain" data-copied="Citation copied">Copy citation</button><span class="sep">·</span><button type="button" class="linkish" data-copy-sel=".cite-bibtex" data-copied="BibTeX copied">Copy BibTeX</button></p>
-    </div>
     {% else %}
     <p class="entry-links"><a href="#k-{{ a.slug }}" class="permalink">Jump to entry</a></p>
     {% endif %}

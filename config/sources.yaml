@@ -64,7 +64,8 @@ sources:
   - {slug: pnas,     name: Proceedings of the National Academy of Sciences, category: science_journal, issn: ["0027-8424", "1091-6490"], tier: C, url: https://www.pnas.org/}
 
   # ---- Working papers, preprints, alerts ----
-  - {slug: alerts,   name: Email alerts (SSRN, Google Scholar), kind: gsheet,          category: alert,         tier: A, url: https://scholar.google.com/scholar_alerts}
+  - {slug: alerts,   name: SSRN and Google Scholar alerts,    kind: gsheet,          category: alert,         tier: A, url: https://www.ssrn.com/}
+  - {slug: socarxiv, name: SocArXiv,                            kind: osf_preprints,   category: preprint,      tier: B, provider: socarxiv, url: https://osf.io/preprints/socarxiv}
   - {slug: nep-ent,  name: "NEP: Entrepreneurship",             kind: repec_nep,       category: working_paper, tier: A, report: nep-ent, url: https://nep.repec.org/nep-ent.html}
   - {slug: nber,     name: NBER Working Papers,                 kind: crossref_prefix, category: working_paper, tier: B, prefix: "10.3386", url: https://www.nber.org/papers}
   - {slug: arxiv-econ-gn, name: "arXiv econ.GN",                kind: arxiv,           category: preprint,      tier: B, query: "cat:econ.GN", url: https://arxiv.org/list/econ.GN/recent}

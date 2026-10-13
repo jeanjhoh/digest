@@ -11,7 +11,7 @@ from typing import Any
 from .abstracts import enrich
 from .issues import Issues
 from .keywords import KeywordScorer, is_candidate
-from .llm import Classifier, apply_verdict, credential_source
+from .llm import Classifier, apply_highlights, apply_verdict, credential_source
 from .models import RunStats, iso, utcnow
 from .normalize import is_front_matter
 from .settings import Settings
@@ -165,12 +165,7 @@ def run(settings: Settings, *, days: int | None = None, dry_run: bool = False, n
     if bootstrap and created:
         issue.window_start = iso(window.start)
     assigned = Issues.assign(store, issue)
-    # cap recommended per issue
-    max_rec = int((settings.llm or {}).get("max_recommended_per_issue", 12))
-    recs = sorted(store.iter_issue(issue.number), key=lambda a: -((a.classification or {}).get("relevance", 0)))
-    for i, a in enumerate([a for a in recs if a.recommended]):
-        if i >= max_rec:
-            a.recommended = False
+    apply_highlights(settings, list(store.iter_issue(issue.number)))
     set_ids = [s["id"] for s in settings.sets]
     Issues.finalize(issue, store, set_ids)
     stats.issue_number = issue.number
@@ -218,7 +213,31 @@ def run(settings: Settings, *, days: int | None = None, dry_run: bool = False, n
             fh.write(json.dumps(stats.to_dict(), ensure_ascii=False) + "\n")
         print(f"Saved {len(store)} articles, {len(issues.items)} issues")
     print_funnel(stats)
+    write_step_summary(stats)
     return stats
+
+
+def write_step_summary(stats: RunStats) -> None:
+    """On GitHub Actions, append a run-health table to the job summary and raise a warning per source error."""
+    import os
+    path = os.environ.get("GITHUB_STEP_SUMMARY")
+    if not path:
+        return
+    fm = sum(s.filtered for s in stats.sources.values())
+    ins = sum(s.inserted for s in stats.sources.values())
+    cost = (stats.llm or {}).get("est_cost_usd", 0)
+    lines = [f"## Digest run {stats.run_id}{' (dry run)' if stats.dry_run else ''}", "",
+             f"Window {stats.window_start[:10]} → {stats.window_end[:10]} · seen {stats.seen} · front matter {fm} · "
+             f"new {ins} · candidates {stats.candidates} · classified {stats.classified} · in scope {stats.in_scope} · "
+             f"highlights {stats.recommended} · LLM est. ${cost} · errors {len(stats.errors)}", "",
+             "| Source | Seen | New | Candidates | In scope | Status |", "|---|---:|---:|---:|---:|---|"]
+    for slug, st in sorted(stats.sources.items(), key=lambda kv: (kv[1].status != "error", -kv[1].seen, kv[0])):
+        status = f"error: {st.error}" if st.error else st.status
+        lines.append(f"| {slug} | {st.seen} | {st.inserted} | {st.candidates} | {st.in_scope} | {status} |")
+    with open(path, "a", encoding="utf-8") as fh:
+        fh.write("\n".join(lines) + "\n")
+    for e in stats.errors:
+        print(f"::warning title=Source fetch failed::{e.get('source_slug', '?')}: {str(e.get('message', ''))[:200]}")
 
 
 def print_verdicts(cands: list, verdicts: dict) -> None:

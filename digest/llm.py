@@ -290,3 +290,16 @@ def apply_verdict(a: Article, v: dict[str, Any], model: str, in_scope_min: int, 
     a.hidden = "not_research" in flags
     a.in_scope = bool(sets) and rel >= in_scope_min and not a.hidden
     a.recommended = a.in_scope and rel >= recommended_min
+
+
+def apply_highlights(settings: Any, articles: list[Article]) -> int:
+    """Set `recommended` from the current threshold and per-issue cap (settings.llm). Returns the count."""
+    cfg = settings.llm or {}
+    rec_min = int(cfg.get("recommended_min", 8))
+    max_rec = int(cfg.get("max_recommended_per_issue", 12))
+    n = 0
+    for a in sorted(articles, key=lambda a: (-int((a.classification or {}).get("relevance", 0)), a.title.lower())):
+        rel = int((a.classification or {}).get("relevance", 0))
+        a.recommended = rel >= rec_min and n < max_rec
+        n += int(a.recommended)
+    return n

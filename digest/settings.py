@@ -48,6 +48,7 @@ class Source:
     prefix: str | None = None
     query: str | None = None
     report: str | None = None
+    provider: str | None = None
     url: str | None = None
     min_score: int = 2
     always_candidate: bool = False
@@ -59,6 +60,8 @@ class Source:
             return f"Crossref works for ISSN {', '.join(self.issn)} (journal-article type) created within the run window; {gate}."
         if self.kind == "crossref_prefix":
             return f"Crossref works with DOI prefix {self.prefix} created within the run window; {gate}."
+        if self.kind == "osf_preprints":
+            return f"OSF preprints API for provider {self.provider}, created within the run window; {gate}."
         if self.kind == "arxiv":
             return f"arXiv API query `{self.query}` sorted by submission date within the run window; {gate}."
         if self.kind == "repec_nep":
@@ -115,7 +118,7 @@ def _parse_sources(raw: dict[str, Any]) -> list[Source]:
         out.append(Source(
             slug=d["slug"], name=d["name"], kind=d.get("kind", "crossref_journal"), category=d["category"],
             tier=tier, enabled=bool(d.get("enabled", True)), issn=[str(x) for x in issn],
-            prefix=d.get("prefix"), query=d.get("query"), report=d.get("report"), url=d.get("url"),
+            prefix=d.get("prefix"), query=d.get("query"), report=d.get("report"), provider=d.get("provider"), url=d.get("url"),
             min_score=int(d.get("min_score", t.get("min_score", 2))),
             always_candidate=bool(d.get("always_candidate", t.get("always_candidate", False))),
         ))

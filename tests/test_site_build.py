@@ -59,7 +59,7 @@ def test_entry_markup(site):
     assert 'class="score"' not in index  # relevance score is never displayed
     assert 'id="issue-data"' in index
     assert "rft.genre=report" in index and "rft.genre=article" in index
-    assert "Editor" in index and "picks" in index
+    assert "Highlights" in index
 
 
 def test_permalink_highwire(site):

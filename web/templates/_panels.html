@@ -49,7 +49,7 @@
         {% for s in sources.values() | sort(attribute='name') %}<label data-src-name="{{ s.name | lower }}"><input type="checkbox" name="srcs" value="{{ s.slug }}"> {{ s.name }} <span class="count" data-count-src="{{ s.slug }}"></span></label>{% endfor %}
         </div>
       </fieldset>
-      <label class="picks-only"><input type="checkbox" name="picks" value="1"> Editor's picks only</label>
+      <label class="picks-only"><input type="checkbox" name="picks" value="1"> Highlights only</label>
       <p class="dialog-actions"><button type="submit" class="btn">Apply</button> <button type="button" class="btn btn-secondary" data-clear-filters>Reset</button></p>
     </form>
   </div>
@@ -65,7 +65,7 @@
 <div class="overlay" id="panel-keys" hidden role="dialog" aria-modal="true" aria-labelledby="panel-keys-title">
   <div class="dialog">
     <div class="dialog-head"><h3 id="panel-keys-title">Keyboard shortcuts</h3><button type="button" class="dialog-close" data-close aria-label="Close">Esc / Close ×</button></div>
-    <dl class="keys"><dt>/</dt><dd>Search</dd><dt>Esc</dt><dd>Close panel</dd><dt>j / k</dt><dd>Next / previous paper</dd><dt>o</dt><dd>Open paper</dd><dt>x</dt><dd>Toggle abstract</dd><dt>c</dt><dd>Cite</dd><dt>y</dt><dd>Copy permalink</dd><dt>?</dt><dd>This list</dd></dl>
+    <dl class="keys"><dt>/</dt><dd>Search</dd><dt>Esc</dt><dd>Close panel</dd><dt>j / k</dt><dd>Next / previous paper</dd><dt>o</dt><dd>Open paper</dd><dt>x</dt><dd>Toggle abstract</dd><dt>?</dt><dd>This list</dd></dl>
   </div>
 </div>
 <div class="toast" id="toast" hidden></div>
