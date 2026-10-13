@@ -13,24 +13,32 @@
   <link rel="icon" href="{{ rel }}favicon.png">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }} — issues" href="{{ site_url }}rss.xml">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }} — papers" href="{{ site_url }}feed-papers.xml">
-  <link rel="stylesheet" href="{{ icons_css }}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400;1,6..72,500&family=Source+Sans+3:ital,wght@0,400;0,500;0,600;1,400&display=swap">
   <link rel="stylesheet" href="{{ rel }}styles.css?v={{ versions.get('styles.css', '') }}">
   {% block head %}{% endblock %}
 </head>
 <body data-page="{{ page }}"{% block body_attrs %}{% endblock %}>
-<div class="site-wrap">
-  <div class="row g-0">
-    {% include "_sidebar.html" %}
-    <div class="col-12 col-md-9 main-col">
-      <div class="main-inner">
-        {% block main %}{% endblock %}
-      </div>
-    </div>
+{# Top bar mirrors jeanoh.org/index.qmd; keep in sync. Section links point at the parent site. #}
+<header class="topbar">
+  <div class="wrap">
+    <a class="brand" href="{{ site.parent_url }}">{{ site.owner }}</a>
+    <nav class="topnav" aria-label="Site">
+      <a href="{{ site.parent_url }}#about">About</a>
+      <a href="{{ site.parent_url }}#research">Research</a>
+      <a href="{{ site.parent_url }}#teaching">Teaching</a>
+      <a class="cv" href="{{ site.parent_url }}cv.pdf" target="_blank" rel="noopener noreferrer">CV <span class="ext">↗</span></a>
+      <a class="on" href="{{ rel }}index.html" aria-current="page">{{ site.nav_label }}</a>
+    </nav>
   </div>
-  <footer class="site-footer">
-    <p>&copy; {{ now_year }} {{ site.owner }}</p>
-  </footer>
-</div>
+</header>
+<main class="wrap" id="top">
+{% block main %}{% endblock %}
+</main>
+<footer class="footbar">
+  <div class="wrap"><span class="copy">&copy; {{ now_year }} {{ site.owner }}</span></div>
+</footer>
 {% block panels %}{% endblock %}
 <script src="{{ rel }}app.js?v={{ versions.get('app.js', '') }}" defer></script>
 </body>

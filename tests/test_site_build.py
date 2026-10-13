@@ -54,7 +54,7 @@ def test_entry_markup(site):
     assert '<details class="abstract">' in index
     assert "No abstract available." in index  # the ASR article has no abstract
     assert 'class="entry-note"' in index
-    assert 'class="is-active" aria-current="page">Digest' in index
+    assert 'class="on" href="index.html" aria-current="page">Digest' in index
     assert "data-score" in index
     assert 'class="score"' not in index  # relevance score is never displayed
     assert 'id="issue-data"' in index

@@ -4,7 +4,7 @@
 {% block body_attrs %} data-issue-number="{{ issue.number }}"{% endblock %}
 {% block main %}
 <header class="digest-head">
-  <h2 class="digest-title">{{ site.title }}</h2>
+  <h1 class="digest-title">{{ site.title }}</h1>
   <p class="credit">Weekly collation of research in entrepreneurship, genAI &amp; work, and orgs &amp; inequality. Modeled after Kevin Bryan's <a href="https://kevinbryanecon.com/usefulknowledge" target="_blank" rel="noopener">Useful Knowledge</a>.</p>
   <p class="issue-line"><strong>Issue {{ issue.label }}</strong> · {{ issue.cutoff | date_long }} · <span id="visible-count">{{ issue.count }}</span> papers{% if picks %} · {{ picks | length }} highlights{% endif %}
     <span class="issue-nav">{% if prev_issue %}<a href="{{ rel }}issues/{{ '%03d' | format(prev_issue.number) }}.html">← {{ prev_issue.label }}</a>{% endif %}{% if next_issue %} <a href="{{ rel }}issues/{{ '%03d' | format(next_issue.number) }}.html">{{ next_issue.label }} →</a>{% endif %}</span></p>
@@ -28,11 +28,13 @@
   {% for g in groups %}
   <section class="cat" data-cat="{{ g.id }}" id="cat-{{ g.id }}">
     <h2>{{ g.label }} <span class="count">{{ g.count }}</span></h2>
+    <div class="cat-body">
     {% for s in g.sources %}
     <section class="src" data-src="{{ s.slug }}" id="src-{{ s.slug }}">
       {% for a in s.articles %}{{ entry(a, rel=rel) }}{% endfor %}
     </section>
     {% endfor %}
+    </div>
   </section>
   {% endfor %}
 </div>
