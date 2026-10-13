@@ -11,7 +11,7 @@ STATIC_DIR = ROOT_DIR / "web" / "static"
 
 # Size budgets enforced by ``sitebuilder check``.
 BUDGETS = {
-    "index.html": 400_000,
+    "index.html": 1_000_000,   # a 14-day bootstrap issue of ~50 papers is ~410 KB
     "app.js": 40_000,
     "styles.css": 40_000,
 }
