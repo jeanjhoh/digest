@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-13T18:07:08Z",
+ "generated_at": "2026-10-14T14:59:20Z",
  "site": {
   "title": "Weekly Research Digest",
   "nav_label": "Digest",
@@ -80,31 +80,31 @@
    "cutoff": "2026-10-13",
    "window_start": "2026-09-29",
    "published_at": "2026-10-13T18:00:33Z",
-   "count": 48,
+   "count": 55,
    "recommended_count": 12,
    "set_counts": {
     "entrepreneurship": 22,
-    "ai_work": 15,
-    "orgs_inequality": 22
+    "ai_work": 18,
+    "orgs_inequality": 27
    },
    "category_counts": {
     "economics_journal": 5,
     "management_journal": 18,
-    "working_paper": 8,
-    "preprint": 17
+    "preprint": 23,
+    "working_paper": 9
    },
    "run_status": "success",
    "run_errors": [],
    "stats": {
-    "seen": 1236,
-    "in_scope": 48,
-    "est_cost_usd": 0.4859
+    "seen": 743,
+    "in_scope": 55,
+    "est_cost_usd": 0.0532
    }
   }
  ],
  "stats": {
   "issue_count": 1,
-  "article_count": 48,
+  "article_count": 55,
   "source_count": 51
  }
 }

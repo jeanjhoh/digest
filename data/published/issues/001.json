@@ -2,7 +2,7 @@
  "number": 1,
  "cutoff": "2026-10-13",
  "window_start": "2026-09-29",
- "generated_at": "2026-10-13T18:07:08Z",
+ "generated_at": "2026-10-14T14:59:20Z",
  "articles": [
   {
    "canonical_key": "doi:10.1257/aer.20231417",
@@ -126,6 +126,46 @@
    "note": "Administrative data on Black patent examiners' delayed formulaic promotions; evidence fits belief-based discrimination in careers and earnings.",
    "abstract": "We study racial disparities in promotions in a setting in which promotions are formulaic: the US patent office. Using detailed administrative data that allow us to observe who is eligible for promotion when, we document that Black patent examiners experience delays in promotions they are entitled to, slowing their climb to the top of the career ladder by a year and reducing career earnings by 2.5 percent. Institutional features rule out statistical discrimination with accurate priors. Slow promotions even under Black supervisors argue against taste-based animus. Instead, the patterns fit models of belief-based discrimination. (JEL J15, J41, J71, M12, M51, O34)",
    "abstract_source": "crossref",
+   "version_note": null
+  },
+  {
+   "canonical_key": "arxiv:2610.14984",
+   "title": "Too Late to Prune: Generative AI, the Screen, and Team Creative Decisions",
+   "authors": [
+    "Difang Huang",
+    "Shumin Yu",
+    "Fadong Chen",
+    "Weihua Zhou"
+   ],
+   "venue": "arXiv econ.GN",
+   "source_slug": "arxiv-econ-gn",
+   "source_category": "preprint",
+   "publication_status": "preprint",
+   "doi": null,
+   "arxiv_id": "2610.14984",
+   "nber_id": null,
+   "ssrn_id": null,
+   "primary_url": "https://arxiv.org/abs/2610.14984",
+   "paper_url": "https://arxiv.org/pdf/2610.14984v1",
+   "pdf_url": "https://arxiv.org/pdf/2610.14984v1",
+   "published_at": "2026-10-10",
+   "first_seen_at": "2026-10-14T14:55:52Z",
+   "year": 2026,
+   "volume": null,
+   "issue": null,
+   "pages": null,
+   "issue_number": 1,
+   "sets": [
+    "ai_work"
+   ],
+   "relevance_score": 9,
+   "relevance_reasons": [
+    "ai_work:generative ai, ai, creativ"
+   ],
+   "recommended": true,
+   "note": "Preregistered experiment with 148 teams on timing of LLM access in product design; effects on team creativity and screening.",
+   "abstract": "Generative AI makes options cheap and shifts the bottleneck of creative work from generating options to screening them. We argue that AI's value depends on whether its options arrive before or after the team's screen. In our model, early options compete for a place in the portfolio; late options arrive after that competition and are kept unscreened. In a preregistered experiment, we randomly assigned 148 three-person teams to five schedules of access to the same language model during a product-design task with timed search and selection stages. Moving the same 15 minutes of access from search to selection lowered expert-rated creativity by 0.62 standard deviations, although teams used the model at similar rates. Platform logs locate the difference at the screen. Early access enlarged the pool of ideas fivefold, and teams pruned it. Late-access teams reached the screen with the same small pool as teams without AI and then searched again, devoting 29% of their selection-stage queries to generating new options, compared with 11% for teams with access throughout. Late access added breadth, not quality: these teams submitted 73% more proposals than did teams without AI. Language-model judges detected the benefit of access but not the cost of late timing.",
+   "abstract_source": "arxiv",
    "version_note": null
   },
   {
@@ -466,7 +506,7 @@
     "entrepreneurship:self-employ",
     "orgs_inequality:career, women"
    ],
-   "recommended": true,
+   "recommended": false,
    "note": "Sequence analysis of mothers' self-employment after first birth in South Korea and US panel data; gendered careers and institutions.",
    "abstract": "Upon parenthood, women face pressure to reorganize their paid work and careers. In this process, self-employment can offer a distinct option, with a different set of risks and benefits than wage work. Yet research on mothers’ employment trajectories rarely examines self-employment as a distinct option. This paper examines how self-employment fits into mothers’ careers after their first birth and how this pattern differs between two institutional contexts: South Korea and the United States. Using the Korean Labor and Income Panel Study and the Panel Study of Income Dynamics, I track mothers’ employment history from their first birth through the following ten years. Descriptive and sequence analyses show that one in five mothers experiences self-employment at least once, but the way they leverage it differs by institutional context. In South Korea, self-employment more often follows nonemployment, is primarily full-time, and occurs within trajectories leading back to paid work. In the United States, mothers more often enter self-employment from wage work, while part-time self-employment appears intermittently in wage-centered trajectories. Thus, self-employment occupies different positions across these two contexts, where mothers’ counterfactual career options vary. As technology shifts, the potential importance of diverse forms of self-employment, including contract-based gig work, may increase, raising the need for future research to examine how self-employment fits into one’s career.",
    "abstract_source": "osf",
@@ -787,6 +827,45 @@
    "version_note": null
   },
   {
+   "canonical_key": "arxiv:2610.14850",
+   "title": "Displacement Is Endogenous: AI Workers in a Search-and-Matching Labor Market",
+   "authors": [
+    "Ibrahim Denis Fofanah"
+   ],
+   "venue": "arXiv econ.GN",
+   "source_slug": "arxiv-econ-gn",
+   "source_category": "preprint",
+   "publication_status": "preprint",
+   "doi": null,
+   "arxiv_id": "2610.14850",
+   "nber_id": null,
+   "ssrn_id": null,
+   "primary_url": "https://arxiv.org/abs/2610.14850",
+   "paper_url": "https://arxiv.org/pdf/2610.14850v1",
+   "pdf_url": "https://arxiv.org/pdf/2610.14850v1",
+   "published_at": "2026-10-10",
+   "first_seen_at": "2026-10-14T14:55:52Z",
+   "year": 2026,
+   "volume": null,
+   "issue": null,
+   "pages": null,
+   "issue_number": 1,
+   "sets": [
+    "ai_work",
+    "orgs_inequality"
+   ],
+   "relevance_score": 7,
+   "relevance_reasons": [
+    "ai_work:ai, labor, worker, job",
+    "orgs_inequality:hiring, firm, labor market"
+   ],
+   "recommended": false,
+   "note": "Agent-based search-and-matching model with AI entering as workers; effects on unemployment, hiring, layoffs, and displacement.",
+   "abstract": "We build a labor market in which AI systems enter as workers: they apply for jobs, pass screenings, get hired, and get dismissed, alongside humans. Firms post vacancies, workers search with friction, and product demand slopes downward. Across 30 seeded runs per configuration, AI entry at 70% of the human wage raises unemployment by 4.1 percentage points (95% CI 3.5 to 4.6) and leaves 12.2 fewer humans employed (CI 10.5 to 13.9). Layoffs dominate when AI is much cheaper than humans: the layoff margin accounts for 7.2 of the lost jobs and reduced hiring for 5.0, though most dismissed workers find work again. A wider price gap reduces displacement, because cheap AI makes firms expand: at price parity, with zero dismissals, the unemployment effect is largest at 9.2 points (CI 8.6 to 9.9), all of it through hiring. That parity result survives cutting AI applications from five per period to one. Demand elasticity decides how many workers AI displaces. Screening changes who gets hired and leaves the displacement total unchanged.",
+   "abstract_source": "arxiv",
+   "version_note": null
+  },
+  {
    "canonical_key": "doi:10.1016/j.jbusvent.2026.106656",
    "title": "From breakdown to breakthrough: How entrepreneurs craft vulnerability narratives on social media",
    "authors": [
@@ -829,6 +908,45 @@
    "version_note": null
   },
   {
+   "canonical_key": "doi:10.31235/osf.io/q5cb8_v2",
+   "title": "Gender and long-term trends in educational attainment, income and returns to education in Norway",
+   "authors": [
+    "Liza Reisel",
+    "Adrian F. Rogne",
+    "Sara Seehuus"
+   ],
+   "venue": "SocArXiv",
+   "source_slug": "socarxiv",
+   "source_category": "preprint",
+   "publication_status": "preprint",
+   "doi": "10.31235/osf.io/q5cb8_v2",
+   "arxiv_id": null,
+   "nber_id": null,
+   "ssrn_id": null,
+   "primary_url": "https://osf.io/preprints/socarxiv/q5cb8_v2/",
+   "paper_url": "https://osf.io/preprints/socarxiv/q5cb8_v2/",
+   "pdf_url": null,
+   "published_at": "2026-10-13",
+   "first_seen_at": "2026-10-14T14:55:52Z",
+   "year": 2026,
+   "volume": null,
+   "issue": null,
+   "pages": null,
+   "issue_number": 1,
+   "sets": [
+    "orgs_inequality"
+   ],
+   "relevance_score": 7,
+   "relevance_reasons": [
+    "orgs_inequality:gender, women"
+   ],
+   "recommended": false,
+   "note": "Norwegian register data on gender income gap, educational attainment, and returns to education across five decades.",
+   "abstract": "This study addresses the economic returns to education among men and women in Norway, during five decades of changing and widening gender disparities in educational attainment. We ask how gender differences in educational attainment and returns have contributed to change and persistence in the gender income gap, and whether young men have started trailing behind due to women’s relative gains in higher education. Analyses based on Norwegian register data show that while rising real incomes have contributed to a narrowing relative income gap, the absolute gap has decreased more slowly. In the past decade, both real incomes and the gender income gap have stagnated. While both men and women in Norway have increased their education levels, women’s gains have been mainly in higher education, while men’s gains have disproportionately been in vocational upper secondary education. Contrary to the situation in the US and other liberal market economies, income growth among younger cohorts of men with vocational education in Norway has recently outpaced every other group, resulting in a decreasing college premium. Women’s relative gains in higher education are partly offset by their lower incomes at all education levels, and the relatively strong income growth among men with vocational degrees.",
+   "abstract_source": "osf",
+   "version_note": null
+  },
+  {
    "canonical_key": "doi:10.1007/s11187-026-01289-2",
    "title": "High-growth firms and their habitats: Business climate and the geography of high-growth firms",
    "authors": [
@@ -868,6 +986,45 @@
    "version_note": null
   },
   {
+   "canonical_key": "doi:10.31235/osf.io/rvsyn_v1",
+   "title": "How is Social Status Distributed? A Conjoint Experiment on Social Status Judgements in Great Britain",
+   "authors": [
+    "Jonathan Mellon",
+    "Jack Bailey",
+    "Geoffrey Evans"
+   ],
+   "venue": "SocArXiv",
+   "source_slug": "socarxiv",
+   "source_category": "preprint",
+   "publication_status": "preprint",
+   "doi": "10.31235/osf.io/rvsyn_v1",
+   "arxiv_id": null,
+   "nber_id": null,
+   "ssrn_id": null,
+   "primary_url": "https://osf.io/preprints/socarxiv/rvsyn_v1/",
+   "paper_url": "https://osf.io/preprints/socarxiv/rvsyn_v1/",
+   "pdf_url": null,
+   "published_at": "2026-10-14",
+   "first_seen_at": "2026-10-14T14:55:52Z",
+   "year": 2026,
+   "volume": null,
+   "issue": null,
+   "pages": null,
+   "issue_number": 1,
+   "sets": [
+    "orgs_inequality"
+   ],
+   "relevance_score": 7,
+   "relevance_reasons": [
+    "orgs_inequality:class background, racial, ethnic, gender"
+   ],
+   "recommended": false,
+   "note": "Conjoint experiment on social status judgments in Britain by class background, ethnicity, gender, income, and cultural capital; stratification.",
+   "abstract": "Social status is a core aspect of societal inequalities, yet its determinants and distribution remain understudied. We investigate the factors that shape social status judgments in Great Britain using a conjoint survey experiment with 7,680 respondents making 30,720 status assessments. Drawing on the extant literature, we test economic (occupation, income, wealth, education), cultural (leisure activities and supermarket choice), and ascribed (gender, class background, and ethnicity) factors as determinants of social status. Income has a substantial positive effect on status judgments, as do pro-social occupations (teaching and healthcare). Cultural capital, measured through leisure activities and supermarket preferences, plays a major role in status assessments. We also find that housing wealth, private schooling, higher education, and being White British all increase perceived status. We also contribute to understanding what factors distribute the most status by combining our experimental estimates with data on the prevalence of status predictors in the British population. We find that economic factors, particularly income and wealth distribute the most status. Cultural factors distribute less status, with ascribed characteristics like ethnicity and gender distributing the least status across the whole population, despite sizeable individual-level status penalties for ethnic minorities. Finally, we show that while women, ethnic minorities, and people from working class backgrounds have lower status descriptively in the population, the causes of this lower status differ with ethnic minorities and those from working class backgrounds suffering direct ascribed penalties, whereas women’s lower status derives almost entirely from their worse economic situation (particularly lower income). Our findings support multiple sociological theories of status, demonstrating the importance of occupation, economic resources, cultural capital, and racial hierarchies in status judgments. However, economic factors dominate the distribution of status across society.",
+   "abstract_source": "osf",
+   "version_note": null
+  },
+  {
    "canonical_key": "doi:10.31235/osf.io/t53pn_v1",
    "title": "Immigrant wages are lower in immigrant-dense areas, and the limited-English differential is mostly occupational: metropolitan Philadelphia, 2012–2024",
    "authors": [
@@ -902,6 +1059,50 @@
    "note": "ACS multilevel analysis of immigrant wages, area immigrant density, and limited English; differential largely occupational, Philadelphia.",
    "abstract": "Immigrants who speak limited English earn less than those who speak it well. On the protective view of residential concentration, that differential should be smaller where immigrants are concentrated, because concentration supplies employers and customers who do not require English. On the isolation view it should be larger. This study tests both views in metropolitan Philadelphia, a former gateway whose immigrant population has grown again, with American Community Survey microdata for 2012 to 2024 and a two-level model of 7,355 foreign-born workers in 48 Public Use Microdata Areas. Hourly wages are about 8 percent lower per standard deviation of area immigrant density for foreign-born workers who speak English well and about 3 percent lower, an estimate not distinguishable from zero, for those who speak it poorly. Native-born workers in the same areas show a gradient of 2 percent, so most of the difference is specific to immigrants. The interaction between density and limited English is 0.049 (standard error 0.029) and disappears once occupation is held constant. The limited-English differential is 21 percent overall and 9 percent within an occupation, so most of it is associated with the occupations limited-English workers hold. An exploratory measure of the density of the worker’s own home language gives a positive interaction of 0.046 (0.022), driven by lower wages for proficient workers rather than higher wages for limited-English workers, and the same specification in the New York metropolitan area gives 0.045 (0.009). Higher earners move from the city to the suburbs.",
    "abstract_source": "osf",
+   "version_note": null
+  },
+  {
+   "canonical_key": "arxiv:2610.14660",
+   "title": "Impact of Expertise and Trust on AI-assisted Work",
+   "authors": [
+    "Qianou Ma",
+    "Pranav Khape",
+    "Rock Pang",
+    "Ken Koedinger",
+    "Tongshuang Wu",
+    "Siddarth Suri",
+    "Shamsi Iqbal"
+   ],
+   "venue": "arXiv cs.HC",
+   "source_slug": "arxiv-ai-work",
+   "source_category": "preprint",
+   "publication_status": "preprint",
+   "doi": null,
+   "arxiv_id": "2610.14660",
+   "nber_id": null,
+   "ssrn_id": null,
+   "primary_url": "https://arxiv.org/abs/2610.14660",
+   "paper_url": "https://arxiv.org/pdf/2610.14660v1",
+   "pdf_url": "https://arxiv.org/pdf/2610.14660v1",
+   "published_at": "2026-10-10",
+   "first_seen_at": "2026-10-14T14:55:52Z",
+   "year": 2026,
+   "volume": null,
+   "issue": null,
+   "pages": null,
+   "issue_number": 1,
+   "sets": [
+    "ai_work"
+   ],
+   "relevance_score": 7,
+   "relevance_reasons": [
+    "ai_work:artificial intelligence, ai, productivity, hiring",
+    "orgs_inequality:hiring"
+   ],
+   "recommended": false,
+   "note": "Think-aloud study of 20 professionals using an agentic AI tool on a data-science assessment; examines expertise, trust, delegation, and productivity.",
+   "abstract": "Artificial intelligence (AI) agents promise to extend what users can accomplish beyond their existing expertise, but they also raise the risk of producing plausible-looking work that users may struggle to evaluate. We ask how task-relevant expertise and trust in AI shape agent-assisted work. To isolate these factors, we conduct a think-aloud study in which 20 professionals with varying data-science expertise use the same agentic tool to complete the same data-science hiring assessment, used at a major U.S. company. We find that surface productivity can come at the expense of understanding: participants who delegated more completed more of the task, but were also more likely to produce invalid solutions. Experts more often resisted this tradeoff, sacrificing completion to decompose the task and scrutinize agent outputs. Our findings call for evaluating agentic assistance not only by how much it accomplishes, but by whether users remain able to evaluate the work they produce.",
+   "abstract_source": "arxiv",
    "version_note": null
   },
   {
@@ -1880,6 +2081,84 @@
    "note": "Network analysis of inter-firm AI worker mobility using employment records; links talent flow centrality to firm value.",
    "abstract": "Artificial intelligence capabilities are often measured as resources accumulated within firms, yet they also circulate across organizational boundaries through worker mobility. Drawing on a database of approximately 535 million employment records across 58 countries, we reconstruct the inter-firm network of AI talent flows over 2010--2022. We find that AI talent inflows are becoming increasingly concentrated among a small set of leading firms, with stronger preferential attachment than in general labor mobility. Yet the network core remains contestable: central positions in AI networks change hands far more often than in non-AI networks. Network position also carries information that goes beyond workforce size. This network position is economically consequential: AI network centrality is associated with higher enterprise value, after accounting for workforce scale, assets, and fixed effects. Event-study estimates further indicate that sharp improvements in network position are followed by higher enterprise value relative to matched firms with similar pre-event trajectories. Together, these findings suggest that corporate AI advantage depends not only on how much talent firms accumulate, but also on where they sit in its circulation.",
    "abstract_source": "arxiv",
+   "version_note": null
+  },
+  {
+   "canonical_key": "doi:10.31235/osf.io/e7qv5_v1",
+   "title": "Unequal Parenting across Childhood: How Class Differences in Parental Control of Screen Use Reverse with the Child's Age",
+   "authors": [
+    "Abel Aussant",
+    "Andreas Roaldsnes"
+   ],
+   "venue": "SocArXiv",
+   "source_slug": "socarxiv",
+   "source_category": "preprint",
+   "publication_status": "preprint",
+   "doi": "10.31235/osf.io/e7qv5_v1",
+   "arxiv_id": null,
+   "nber_id": null,
+   "ssrn_id": null,
+   "primary_url": "https://osf.io/preprints/socarxiv/e7qv5_v1/",
+   "paper_url": "https://osf.io/preprints/socarxiv/e7qv5_v1/",
+   "pdf_url": null,
+   "published_at": "2026-10-13",
+   "first_seen_at": "2026-10-14T14:55:52Z",
+   "year": 2026,
+   "volume": null,
+   "issue": null,
+   "pages": null,
+   "issue_number": 1,
+   "sets": [
+    "orgs_inequality"
+   ],
+   "relevance_score": 6,
+   "relevance_reasons": [
+    "orgs_inequality:parental"
+   ],
+   "recommended": false,
+   "note": "Survey of Norwegian households showing class differences in parental screen control reverse with child age; class reproduction.",
+   "abstract": "Research usually treats class differences in parenting style as constant throughout childhood. We show instead that they can reverse with the child's age. Our case is parental control of children's screen use, for which expert advice is restrictive when children are young and divided when they are adolescents. We draw on an original survey of 20,670 Norwegian households with children aged 3 to 17 to estimate class differences in time limits, control of content and the negotiation of rules at each age. We find that better-resourced parents are stricter than others with young children, but more permissive with adolescents. The composition of the resources available to the household shapes the pattern: income and education have different, complementary associations with parental control. The observed reversal across childhood suggests that the advantage of well-resourced families in child rearing lies less in a fixed repertoire of practices than in adaptability, a capacity to adjust as the appropriate practice changes with the child's age.",
+   "abstract_source": "osf",
+   "version_note": null
+  },
+  {
+   "canonical_key": "doi:10.3386/w35882",
+   "title": "What Can (and Cannot) Be Learned about Systemic Racial Discrimination from Randomized Controlled Trials?",
+   "authors": [
+    "Dania Francis",
+    "Rob Gillezeau",
+    "Damon Jones",
+    "Angelino Viceisza"
+   ],
+   "venue": "NBER Working Papers",
+   "source_slug": "nber",
+   "source_category": "working_paper",
+   "publication_status": "working_paper",
+   "doi": "10.3386/w35882",
+   "arxiv_id": null,
+   "nber_id": "w35882",
+   "ssrn_id": null,
+   "primary_url": "https://doi.org/10.3386/w35882",
+   "paper_url": "https://doi.org/10.3386/w35882",
+   "pdf_url": null,
+   "published_at": "2026-10-01",
+   "first_seen_at": "2026-10-14T14:55:52Z",
+   "year": 2026,
+   "volume": null,
+   "issue": null,
+   "pages": null,
+   "issue_number": 1,
+   "sets": [
+    "orgs_inequality"
+   ],
+   "relevance_score": 6,
+   "relevance_reasons": [
+    "orgs_inequality:discrimination, racial"
+   ],
+   "recommended": false,
+   "note": "Assesses what randomized controlled trials can reveal about systemic racial discrimination.",
+   "abstract": null,
+   "abstract_source": null,
    "version_note": null
   }
  ]
