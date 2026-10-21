@@ -2,7 +2,7 @@
  "number": 1,
  "cutoff": "2026-10-13",
  "window_start": "2026-09-29",
- "generated_at": "2026-10-14T14:59:20Z",
+ "generated_at": "2026-10-21T14:57:38Z",
  "articles": [
   {
    "canonical_key": "doi:10.1257/aer.20231417",
@@ -2140,7 +2140,7 @@
    "ssrn_id": null,
    "primary_url": "https://doi.org/10.3386/w35882",
    "paper_url": "https://doi.org/10.3386/w35882",
-   "pdf_url": null,
+   "pdf_url": "https://doi.org/10.3386/w35882",
    "published_at": "2026-10-01",
    "first_seen_at": "2026-10-14T14:55:52Z",
    "year": 2026,
@@ -2156,9 +2156,9 @@
     "orgs_inequality:discrimination, racial"
    ],
    "recommended": false,
-   "note": "Assesses what randomized controlled trials can reveal about systemic racial discrimination.",
-   "abstract": null,
-   "abstract_source": null,
+   "note": "Conceptual essay on what randomized trials can reveal about systemic racial discrimination, building on audit-style designs.",
+   "abstract": "Randomized Controlled Trials (RCTs) have played a major role in detecting direct forms of racial discrimination.In this essay, we ask whether RCTs can (or cannot) play an equally important role in the case of systemic racial discrimination.We propose a conceptual model of systemic racial discrimination drawing from prior definitions of systemic racism.We then consider a range of possibilities and limitations for how RCTs can help understand systemic racial discrimination, including: (1) the feasibility of manipulating systemic racial discrimination on a large scale; (2) smaller scale approaches; (3) conducting RCTs across different structural settings; (4) the manipulation of the salience of systemic forces; (5) the role of information in reducing systemic racial discrimination; (6) the manipulation of the salience of racial identity; and, finally, (7) examination of strategic responses to systemic racial discrimination.In discussing limitations, we point to other approaches that may fill in the gaps left by RCTs in studying systemic racial discrimination.",
+   "abstract_source": "openalex",
    "version_note": null
   }
  ]

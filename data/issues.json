@@ -28,6 +28,35 @@
     "in_scope": 55,
     "est_cost_usd": 0.0532
    }
+  },
+  {
+   "number": 2,
+   "key": "2026-W43",
+   "window_start": "2026-10-13T18:00:33Z",
+   "cutoff_at": "2026-10-21T14:55:30Z",
+   "created_at": "2026-10-21T14:55:30Z",
+   "counts": {
+    "in_scope": 22,
+    "recommended": 9,
+    "by_set": {
+     "entrepreneurship": 10,
+     "ai_work": 8,
+     "orgs_inequality": 11
+    },
+    "by_category": {
+     "sociology_journal": 1,
+     "working_paper": 4,
+     "management_journal": 9,
+     "preprint": 8
+    }
+   },
+   "run_status": "success",
+   "run_errors": [],
+   "stats": {
+    "seen": 698,
+    "in_scope": 22,
+    "est_cost_usd": 0.2315
+   }
   }
  ]
 }

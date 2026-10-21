@@ -1,0 +1,879 @@
+{
+ "number": 2,
+ "cutoff": "2026-10-21",
+ "window_start": "2026-10-13",
+ "generated_at": "2026-10-21T14:57:38Z",
+ "articles": [
+  {
+   "canonical_key": "doi:10.1016/j.respol.2026.105642",
+   "title": "Who Gains from creative destruction? Evidence from high-quality entrepreneurship in the United States",
+   "authors": [
+    "Astrid Marinoni",
+    "John Voorheis"
+   ],
+   "venue": "Research Policy",
+   "source_slug": "respol",
+   "source_category": "management_journal",
+   "publication_status": "published",
+   "doi": "10.1016/j.respol.2026.105642",
+   "arxiv_id": null,
+   "nber_id": null,
+   "ssrn_id": null,
+   "primary_url": "https://doi.org/10.1016/j.respol.2026.105642",
+   "paper_url": "https://doi.org/10.1016/j.respol.2026.105642",
+   "pdf_url": null,
+   "published_at": "2027-01-01",
+   "first_seen_at": "2026-10-21T14:55:30Z",
+   "year": 2027,
+   "volume": "56",
+   "issue": "1",
+   "pages": "105642",
+   "issue_number": 2,
+   "sets": [
+    "entrepreneurship",
+    "orgs_inequality"
+   ],
+   "relevance_score": 10,
+   "relevance_reasons": [
+    "entrepreneurship:entrepreneur, startup, creative destruction",
+    "orgs_inequality:inequality, income inequality, firm"
+   ],
+   "recommended": true,
+   "note": "IRS and Census microdata on high-quality entrepreneurship's effects on local income inequality, average incomes, and mobility across demographic groups.",
+   "abstract": "The question of who gains from high-quality entrepreneurship is crucial to understanding whether investments in innovative startup firms produce socially beneficial outcomes. Although entrepreneurship is widely viewed as a central driver of economic growth, recent research has raised concerns that it may also exacerbate inequality and other undesirable social outcomes. We bring new evidence to this debate by analyzing the impact of entrepreneurship on a variety of local economic outcomes, including income inequality, average incomes, and income mobility, using IRS and U.S. Census Bureau microdata. We find that entrepreneurship indeed increases income inequality, although this effect fades in the years after firm founding. While entrepreneurship produces statistically significant income gains across the distribution, the economic magnitude of these effects varies dramatically, with benefits concentrated among top earners. We also find that entrepreneurship can serve as a mobility tool for less well-off individuals, increasing their probability of rising to the top of the income distribution. These income and mobility gains, however, are uneven across demographic groups.",
+   "abstract_source": "openalex",
+   "version_note": null
+  },
+  {
+   "canonical_key": "doi:10.1287/mnsc.2024.06740",
+   "title": "AI-Driven Human Task Substitution: Evidence from Google Translate and ChatGPT",
+   "authors": [
+    "Erdem Dogukan Yilmaz",
+    "Ivana Naumovska",
+    "Vikas A. Aggarwal"
+   ],
+   "venue": "Management Science",
+   "source_slug": "mnsc",
+   "source_category": "management_journal",
+   "publication_status": "published",
+   "doi": "10.1287/mnsc.2024.06740",
+   "arxiv_id": null,
+   "nber_id": null,
+   "ssrn_id": null,
+   "primary_url": "https://doi.org/10.1287/mnsc.2024.06740",
+   "paper_url": "https://doi.org/10.1287/mnsc.2024.06740",
+   "pdf_url": null,
+   "published_at": "2026-10-14",
+   "first_seen_at": "2026-10-21T14:55:30Z",
+   "year": 2026,
+   "volume": null,
+   "issue": null,
+   "pages": null,
+   "issue_number": 2,
+   "sets": [
+    "ai_work"
+   ],
+   "relevance_score": 9,
+   "relevance_reasons": [
+    "ai_work:generative ai, chatgpt, artificial intelligence, ai"
+   ],
+   "recommended": true,
+   "note": "Difference-in-differences on online translation labor market comparing Google Translate and ChatGPT substitution of analytical and intuitive tasks.",
+   "abstract": "We examine how different generations of artificial intelligence (AI) substitute for human knowledge worker tasks, leveraging two sequential natural experiments in the translation industry. We study the introduction of Google Neural Machine Translation (GNMT), a predictive, task-specific AI, as well as ChatGPT, a broad, general-purpose generative AI, in a major online labor market. Distinguishing between analytical tasks (regular translations) and intuitive tasks (transcreations, which require creative and cultural adaptation), we estimate difference-in-differences models on transaction-level data from 2016 to 2017 and 2022 to 2023. We find that GNMT reduced the demand for analytical tasks by economically meaningful magnitudes, while having no detectable effect on intuitive tasks. By contrast, ChatGPT produced substantially larger and more uniform reductions for both analytical and intuitive tasks, indicating a marked expansion in the scope and magnitude of AI substitution. By comparing these two technological shocks within the same labor market, we show that conclusions about which types of human work are resilient to automation do not straightforwardly generalize from predictive to generative AI. This paper was accepted by Joshua Gans, business strategy. Supplemental Material: The online appendix and data files are available at https://doi.org/10.1287/mnsc.2024.06740 .",
+   "abstract_source": "crossref",
+   "version_note": null
+  },
+  {
+   "canonical_key": "doi:10.1002/sej.70060",
+   "title": "Entrepreneurial theorizing with generative artificial intelligence",
+   "authors": [
+    "Sung Ho Park",
+    "Alex Murray"
+   ],
+   "venue": "Strategic Entrepreneurship Journal",
+   "source_slug": "sej",
+   "source_category": "management_journal",
+   "publication_status": "published",
+   "doi": "10.1002/sej.70060",
+   "arxiv_id": null,
+   "nber_id": null,
+   "ssrn_id": null,
+   "primary_url": "https://doi.org/10.1002/sej.70060",
+   "paper_url": "https://sms.onlinelibrary.wiley.com/doi/pdf/10.1002/sej.70060",
+   "pdf_url": "https://sms.onlinelibrary.wiley.com/doi/pdf/10.1002/sej.70060",
+   "published_at": "2026-10-14",
+   "first_seen_at": "2026-10-21T14:55:30Z",
+   "year": 2026,
+   "volume": null,
+   "issue": null,
+   "pages": null,
+   "issue_number": 2,
+   "sets": [
+    "ai_work",
+    "entrepreneurship"
+   ],
+   "relevance_score": 9,
+   "relevance_reasons": [
+    "ai_work:large language model, llm, llms, artificial intelligence",
+    "entrepreneurship:entrepreneur"
+   ],
+   "recommended": true,
+   "note": "Within-subject experiment with 199 participants on LLM assistance in entrepreneurs' theorizing; effects differ by unaided theory quality.",
+   "abstract": "Research Summary Whether large language model (LLM) assistance changes how entrepreneurs construct theories remains unclear. On the one hand, LLMs may help entrepreneurs build more developed causal structures and surface diverse information that supports the formulation of distinctive theories. On the other hand, LLMs may steer causal structures toward conventional forms and discourage the counterintuitive reasoning needed to develop distinctive theories. In a within‐subject experiment with 199 participants theorizing both with and without LLM assistance, we find no significant average treatment effect on either structural or content properties. However, this null average effect masks a redistribution effect, where LLM assistance supplemented theorizing when unaided theories were less developed or distinctive but displaced participants' own theorizing when their theories were already more developed or distinctive. Managerial Summary Large language models (LLMs) can help entrepreneurs develop business ideas by surfacing knowledge across domains and sharpening causal logic. At the same time, LLMs may also push reasoning toward conventional patterns and away from the counterintuitive ideas that are a source of breakthrough opportunities. In a study of 199 participants theorizing with and without LLM assistance, we find that LLMs supported the development of causal structure and content distinctiveness when unaided theories were less developed or distinctive, whereas they had the opposite effect when those theories were already more developed or distinctive. This suggests that while LLMs can scaffold entrepreneurs still developing their theories, greater caution is warranted for those whose theories are already more developed or distinctive, as assistance may diminish those properties.",
+   "abstract_source": "crossref",
+   "version_note": null
+  },
+  {
+   "canonical_key": "arxiv:2610.25603",
+   "title": "When Better Opportunities Backfire: Service Worker Responses to Parallel AI Deployment in Customer Acquisition",
+   "authors": [
+    "Xinyu Fu",
+    "Shulong Luo",
+    "Narayan Ramasubbu",
+    "Peng Shen",
+    "Xincheng Wang",
+    "Yucheng Wang"
+   ],
+   "venue": "arXiv econ.GN",
+   "source_slug": "arxiv-econ-gn",
+   "source_category": "preprint",
+   "publication_status": "preprint",
+   "doi": null,
+   "arxiv_id": "2610.25603",
+   "nber_id": null,
+   "ssrn_id": null,
+   "primary_url": "https://arxiv.org/abs/2610.25603",
+   "paper_url": "https://arxiv.org/pdf/2610.25603v1",
+   "pdf_url": "https://arxiv.org/pdf/2610.25603v1",
+   "published_at": "2026-10-19",
+   "first_seen_at": "2026-10-21T14:55:30Z",
+   "year": 2026,
+   "volume": null,
+   "issue": null,
+   "pages": null,
+   "issue_number": 2,
+   "sets": [
+    "ai_work"
+   ],
+   "relevance_score": 9,
+   "relevance_reasons": [
+    "ai_work:ai, worker, firm"
+   ],
+   "recommended": true,
+   "note": "Regression-discontinuity study of AI voice-agent deployment in a contact center, showing changes in human workers' lead handling and sales.",
+   "abstract": "As AI voice agents get deployed in high-volume contact centers, firms can route low-intent leads to AI and allocate high-intent leads to human workers. Drawing on sequential search theory, we posit that AI-induced task allocation reshapes work, enriching opportunities facing human workers but also raising their reservation value for continuing with the lead in hand, making them less willing to persist. We study the effects of an AI voice-agent deployment at a Chinese online health-insurance brokerage using more than a half million customer outreach records surrounding the rollout. Adopting a regression-discontinuity-in-time design, we trace how worker behavior changes across the workday. Results show that the enrichment of human-facing opportunities concentrates early in the workday, raising the probability that a call is a high-intent lead by about 23 percentage points on the first three calls and fading to zero later. However, customer acquisition by human workers declines precisely where the enrichment is greatest, falling about 5 percentage points on the first three calls and flattening over the day. Consistent with the theorized reservation value mechanism, workers reallocate their earliest leads about 8 percentage points more often and persist less with them, shortening those calls by about 13%. A calibrated decomposition analysis further shows that the modest gain from improved lead ordering is outweighed by a much larger negative behavioral response. By reshaping the quality and within-workday distribution of opportunities, parallel AI deployment alters how workers pursue tasks, highlighting opportunity distribution as an important service operations state variable beyond workload and congestion.",
+   "abstract_source": "arxiv",
+   "version_note": null
+  },
+  {
+   "canonical_key": "repec:RePEc:fip:fednls:103899",
+   "title": "AI Adoption and Employment Expectations: Evidence from a Survey of Small Business Owners",
+   "authors": [
+    "Asani Sarkar"
+   ],
+   "venue": "RePEc NEP: Entrepreneurship",
+   "source_slug": "nep-ent",
+   "source_category": "working_paper",
+   "publication_status": "working_paper",
+   "doi": null,
+   "arxiv_id": null,
+   "nber_id": null,
+   "ssrn_id": null,
+   "primary_url": "https://d.repec.org/n?u=RePEc:fip:fednls:103899&r=&r=ent",
+   "paper_url": "https://d.repec.org/n?u=RePEc:fip:fednls:103899&r=&r=ent",
+   "pdf_url": null,
+   "published_at": "2026-10-19",
+   "first_seen_at": "2026-10-21T14:55:30Z",
+   "year": 2026,
+   "volume": null,
+   "issue": null,
+   "pages": null,
+   "issue_number": 2,
+   "sets": [
+    "ai_work",
+    "entrepreneurship"
+   ],
+   "relevance_score": 8,
+   "relevance_reasons": [
+    "ai_work:ai, worker, occupation, hiring",
+    "entrepreneurship:small business, business owner",
+    "orgs_inequality:hiring, career, firm, occupation"
+   ],
+   "recommended": true,
+   "note": "Small Business Credit Survey evidence that AI-using small firms expect higher employment and revenue; AI adoption and employment expectations.",
+   "abstract": "There is little consensus on the effect of AI adoption on employment. Economy-wide measures of pay and headcount have moved little even as AI adoption has spread rapidly, yet narrower measures document declining hiring for workers at the start of their careers or in AI-exposed occupations. In this post, we revisit this topic for U.S. small businesses. We use data from the 2025 Small Business Credit Survey (SBCS) to examine the twelve-month-forward employment and revenue expectations of AI users. We find that firms currently using AI are significantly more likely than non-users to expect increased employment and revenues over the next year, even after accounting for firm and owner characteristics and location. Revenue expectations are most optimistic for AI users that report facing operational challenges in utilizing technology.",
+   "abstract_source": "repec",
+   "version_note": null
+  },
+  {
+   "canonical_key": "doi:10.1002/sej.70054",
+   "title": "Artificial intelligence and venture capital: Revisiting sourcing, selection, and nurturing activities",
+   "authors": [
+    "Gary Dushnitsky"
+   ],
+   "venue": "Strategic Entrepreneurship Journal",
+   "source_slug": "sej",
+   "source_category": "management_journal",
+   "publication_status": "published",
+   "doi": "10.1002/sej.70054",
+   "arxiv_id": null,
+   "nber_id": null,
+   "ssrn_id": null,
+   "primary_url": "https://doi.org/10.1002/sej.70054",
+   "paper_url": "https://sms.onlinelibrary.wiley.com/doi/pdf/10.1002/sej.70054",
+   "pdf_url": "https://sms.onlinelibrary.wiley.com/doi/pdf/10.1002/sej.70054",
+   "published_at": "2026-10-14",
+   "first_seen_at": "2026-10-21T14:55:30Z",
+   "year": 2026,
+   "volume": null,
+   "issue": null,
+   "pages": null,
+   "issue_number": 2,
+   "sets": [
+    "entrepreneurship",
+    "ai_work"
+   ],
+   "relevance_score": 8,
+   "relevance_reasons": [
+    "ai_work:generative ai, artificial intelligence, ai, hiring",
+    "entrepreneurship:entrepreneur, founder, venture capital",
+    "orgs_inequality:hiring, organization, firm"
+   ],
+   "recommended": true,
+   "note": "Conceptual framework on how data and AI reshape venture capital sourcing, selection, and nurturing, with propositions.",
+   "abstract": "Research Summary Venture capital (VC) is an information‐intensive form of entrepreneurial finance conducted under extreme uncertainty. Investors must originate promising opportunities, select ventures with sparse and strategically disclosed information, and monitor and support firms after investment. Prior research documents both formal mechanisms (e.g., staged financing, syndication) and informal mechanisms built on referrals, reputation, and constant interaction. Geographic and social proximity enable these mechanisms by lowering the cost of obtaining contextual information and coordinating action. We develop a mechanism‐based account of how data and Artificial Intelligence (AI) reconfigure this established model. Our framework yields propositions on geographic dispersion in sourcing, portfolio selection, and the distinct effects of AI on monitoring versus value‐added support. It also identifies boundary conditions associated with institutional setting and heterogeneous AI adoption. Managerial Summary For venture capital firms, AI is not a single tool and adoption is not a binary choice. A fund may use data systems to identify founders, machine‐learning models to organize deal flow, generative AI to summarize diligence materials, or analytics to monitor portfolio companies. Each application changes a different part of the VC process. In sourcing, AI can widen the funnel beyond warm introductions and local ecosystems, especially in sectors such as software and e‐commerce where hiring, product, and customer signals are visible. In selection, AI can make diligence faster and more consistent, but models trained on past investments may favor ventures that resemble previously funded companies and may miss novel opportunities for which historical analogues are weak. In post‐investment activity, continuous operational data can partly replace physical presence for monitoring, while value‐add support such as customer introductions, recruiting, strategy advice, and founder coaching remain relationship‐intensive. The practical implication is a task‐level approach: automate codifiable search and processing, retain independent human judgment where uncertainty is fundamental, and use AI to strengthen rather than erode trusted investor–founder relationships. Funds also face organizational choices about building proprietary infrastructure, buying external tools, or combining the two. The appropriate configuration depends on data access, strategy, scale, and the activity in which the fund seeks advantage.",
+   "abstract_source": "crossref",
+   "version_note": null
+  },
+  {
+   "canonical_key": "doi:10.31235/osf.io/vdkf2_v1",
+   "title": "The Dynamics of Rent-Sharing across Occupations",
+   "authors": [
+    "Marta Fana",
+    "Luca Giangregorio",
+    "Matteo Targa"
+   ],
+   "venue": "SocArXiv",
+   "source_slug": "socarxiv",
+   "source_category": "preprint",
+   "publication_status": "preprint",
+   "doi": "10.31235/osf.io/vdkf2_v1",
+   "arxiv_id": null,
+   "nber_id": null,
+   "ssrn_id": null,
+   "primary_url": "https://osf.io/preprints/socarxiv/vdkf2_v1/",
+   "paper_url": "https://osf.io/preprints/socarxiv/vdkf2_v1/",
+   "pdf_url": null,
+   "published_at": "2026-10-20",
+   "first_seen_at": "2026-10-21T14:55:30Z",
+   "year": 2026,
+   "volume": null,
+   "issue": null,
+   "pages": null,
+   "issue_number": 2,
+   "sets": [
+    "orgs_inequality"
+   ],
+   "relevance_score": 8,
+   "relevance_reasons": [
+    "orgs_inequality:inequality, socio-economic, firm, employer"
+   ],
+   "recommended": true,
+   "note": "Portuguese matched employer-employee data on rent-sharing by occupation; widening within-firm pay inequality along the job ladder.",
+   "abstract": "We study how firm-level productivity gains are shared across the occupational hierarchy. Using Portuguese matched employer-employee data linked to firm balance sheets (2004–2019), we develop an algorithm that identifies permanent shocks to firm value added and estimate occupation-specific rent-sharing elasticities in an event-study design. Pass-through declines steeply along the job ladder: the elasticity of pay premia to value added per worker is about 0.20 for managers and supervisors, 0.11 for qualified workers, and 0.06 for low-qualified workers. This gap has widened over time, increasing within-firm inequality, as pass-through to low-qualified workers has halved. This decline is consistent with de-unionization, while we show that minimum wage increases do not crowd out rent sharing at the bottom. (Stone Center on Socio-Economic Inequality Working Paper)",
+   "abstract_source": "osf",
+   "version_note": null
+  },
+  {
+   "canonical_key": "doi:10.31235/osf.io/tva49_v1",
+   "title": "Too old for the job? Two preregistered experiments on age bias in hiring",
+   "authors": [
+    "Adrian F. Rogne",
+    "Edvard N. Larsen",
+    "Anne Skevik Grødem",
+    "Ragni Hege Kitterød"
+   ],
+   "venue": "SocArXiv",
+   "source_slug": "socarxiv",
+   "source_category": "preprint",
+   "publication_status": "preprint",
+   "doi": "10.31235/osf.io/tva49_v1",
+   "arxiv_id": null,
+   "nber_id": null,
+   "ssrn_id": null,
+   "primary_url": "https://osf.io/preprints/socarxiv/tva49_v1/",
+   "paper_url": "https://osf.io/preprints/socarxiv/tva49_v1/",
+   "pdf_url": null,
+   "published_at": "2026-10-19",
+   "first_seen_at": "2026-10-21T14:55:30Z",
+   "year": 2026,
+   "volume": null,
+   "issue": null,
+   "pages": null,
+   "issue_number": 2,
+   "sets": [
+    "orgs_inequality"
+   ],
+   "relevance_score": 8,
+   "relevance_reasons": [
+    "orgs_inequality:hiring, career, gender, women"
+   ],
+   "recommended": true,
+   "note": "Preregistered vignette experiments with Norwegian managers on age bias in hiring, with gender and experience variation.",
+   "abstract": "Faced with ongoing population ageing, many governments are aiming to prolong the careers of senior workers. In Norway this is done through diverse means, ranging from economic incentives and pension reforms to labour market policies and the support of campaigns promoting senior employment. Despite incentives and pressures to work longer, many seniors face barriers to prolonged employment and transitions in their late careers, which may undermine policy efforts. One such important obstacle is that managers may hold biased and stereotypical views concerning older workers, and discriminate against them. In this study, we assess age bias through vignette experiments conducted among 2,264 managers in 1,664 Norwegian firms and organizations. We first successfully replicate an international landmark study in the field (Lössbroek et al., 2021), confirming their finding that the average manager has biases against older job applicants, and that providing stereotype-rejecting information does not reduce this bias. We further assess the role of applicants’ gender, finding a slight advantage for younger women but substantively small gender differences in the impact of age. We also find limited heterogeneity among managers, except for more bias in industries associated with the private sector. Finally, we assess whether having more relevant work experience may compensate for seniority among job applicants. We find that older applicants with more relevant experience are preferred over older applicants with less relevant experience. However, employers on average still prefer younger applicants with less relevant experience over experienced seniors.",
+   "abstract_source": "osf",
+   "version_note": null
+  },
+  {
+   "canonical_key": "doi:10.3386/w35919",
+   "title": "Venture Capital and Customer Capital",
+   "authors": [
+    "Martin Aragoneses",
+    "Young Soo Jang",
+    "Amir Sufi"
+   ],
+   "venue": "NBER Working Papers",
+   "source_slug": "nber",
+   "source_category": "working_paper",
+   "publication_status": "working_paper",
+   "doi": "10.3386/w35919",
+   "arxiv_id": null,
+   "nber_id": "w35919",
+   "ssrn_id": null,
+   "primary_url": "https://doi.org/10.3386/w35919",
+   "paper_url": "https://doi.org/10.3386/w35919",
+   "pdf_url": "https://doi.org/10.3386/w35919",
+   "published_at": "2026-10-01",
+   "first_seen_at": "2026-10-21T14:55:30Z",
+   "year": 2026,
+   "volume": null,
+   "issue": null,
+   "pages": null,
+   "issue_number": 2,
+   "sets": [
+    "entrepreneurship"
+   ],
+   "relevance_score": 8,
+   "relevance_reasons": [
+    "entrepreneurship:venture capital"
+   ],
+   "recommended": true,
+   "note": "Venture capital investment patterns toward customer-capital-intensive startups versus knowledge-capital firms; VC strategy and firm scaling.",
+   "abstract": "Venture capital specializes in the financing of customer capital intensive firms-firms with higher sales and marketing expense to revenue ratios, a higher wage bill for sales and marketing employees, and a higher tendency to apply for trademarks-and they do so more than other financial intermediaries.Venture capitalists target high customer capital industries with low knowledge capital but avoid high knowledge capital industries that lack customer capital.Firms tilt investment toward customer capital leading up to the initial venture capital investment, after which their scale accelerates rapidly.Venture capitalists focus on financing customer capital because such investments require tolerance for substantial risks of failure in pursuit of extreme upside potential, as characterized by power law returns.This return profile fits customer capital investments more closely than investments in knowledge capital.Venture capitalists that sprinkle small investments across a large number of firms, colloquially referred to as the \"spray and pray\" strategy, target customer capital industries for investment, whereas venture capitalists that commit larger amounts to a small number of firms target knowledge capital industries.The venture capital focus on customer capital reflects a shift away from its traditional focus on knowledge capital intensive firms over the past 30 years.",
+   "abstract_source": "openalex",
+   "version_note": null
+  },
+  {
+   "canonical_key": "doi:10.1016/j.jbusvent.2026.106658",
+   "title": "Competing against whom? Competitor identification and opportunity belief revision",
+   "authors": [
+    "Alex Tyulyupo",
+    "Balázs Kovács"
+   ],
+   "venue": "Journal of Business Venturing",
+   "source_slug": "jbv",
+   "source_category": "management_journal",
+   "publication_status": "published",
+   "doi": "10.1016/j.jbusvent.2026.106658",
+   "arxiv_id": null,
+   "nber_id": null,
+   "ssrn_id": null,
+   "primary_url": "https://doi.org/10.1016/j.jbusvent.2026.106658",
+   "paper_url": "https://doi.org/10.1016/j.jbusvent.2026.106658",
+   "pdf_url": null,
+   "published_at": "2027-01-01",
+   "first_seen_at": "2026-10-21T14:55:30Z",
+   "year": 2027,
+   "volume": "42",
+   "issue": "1",
+   "pages": "106658",
+   "issue_number": 2,
+   "sets": [
+    "entrepreneurship"
+   ],
+   "relevance_score": 7,
+   "relevance_reasons": [
+    "entrepreneurship:entrepreneur"
+   ],
+   "recommended": false,
+   "note": "Experiment and behavioral simulation on how entrepreneurs identify competitors and revise opportunity beliefs and venture concepts.",
+   "abstract": "Entrepreneurship theories acknowledge that competitive conditions matter for opportunity beliefs, yet how entrepreneurs identify competitors and how this identification shapes venture concept development have received little theoretical or empirical attention. We develop a process account of how entrepreneurs identify competitors and revise opportunity beliefs and venture concepts in response. Unlike market demand or technological feasibility, competitors are strategic agents who can adapt in response to entry, and as the venture concept evolves, so does the set of competitors it faces. We theorize an adaptive cycle in which encountering a competitor prompts threat assessment, which raises perceived competitive pressure and lowers confidence in venture success while motivating venture concept adaptation that can partly restore perceived viability. A controlled experiment isolates the cycle's components and shows that identical competitive information produces widely divergent threat assessments. A behavioral simulation in which participants develop their own ventures and search for competitors shows that entrepreneurs starting from similar concepts identify largely non-overlapping competitor sets. Some reposition their ventures spontaneously in response to what they find, and adaptation attenuates the link between threat and perceived competitive pressure.",
+   "abstract_source": "openalex",
+   "version_note": null
+  },
+  {
+   "canonical_key": "doi:10.1002/sej.70053",
+   "title": "Framing the unknowable: The role of language and frame multiplicity in early‐stage startup pitches",
+   "authors": [
+    "Ann‐Sophie Kowalewski"
+   ],
+   "venue": "Strategic Entrepreneurship Journal",
+   "source_slug": "sej",
+   "source_category": "management_journal",
+   "publication_status": "published",
+   "doi": "10.1002/sej.70053",
+   "arxiv_id": null,
+   "nber_id": null,
+   "ssrn_id": null,
+   "primary_url": "https://doi.org/10.1002/sej.70053",
+   "paper_url": "https://sms.onlinelibrary.wiley.com/doi/pdf/10.1002/sej.70053",
+   "pdf_url": "https://sms.onlinelibrary.wiley.com/doi/pdf/10.1002/sej.70053",
+   "published_at": "2026-10-20",
+   "first_seen_at": "2026-10-21T14:55:30Z",
+   "year": 2026,
+   "volume": null,
+   "issue": null,
+   "pages": null,
+   "issue_number": 2,
+   "sets": [
+    "entrepreneurship"
+   ],
+   "relevance_score": 7,
+   "relevance_reasons": [
+    "entrepreneurship:entrepreneur, founder, startup, new venture"
+   ],
+   "recommended": false,
+   "note": "Analysis of 618 startup pitches on growth, concreteness, and novelty framing and investor evaluations.",
+   "abstract": "Research Summary Early‐stage startup pitches must make largely unknowable futures plausible. As such, they bear a rhetorical burden. This study theorizes how multiple frames jointly shape this burden and, consequently, affect investor evaluations. Specifically, it considers how future growth frames interact with concreteness and novelty frames. Evidence from 618 startup pitches and ad‐hoc investor evaluations reveals that growth frames relying more on entrepreneurs' own assertions than on established grounds tend to receive lower investor evaluations. This evaluative discount is alleviated when growth is expressed concretely but becomes more pronounced when the pitch emphasizes novelty. These findings extend framing theory by explaining the relevance and possible implications of frame multiplicity in pitches and entrepreneurial communication more broadly. Managerial Summary Mobilizing support for a new venture is difficult because founders must often describe a future that does not yet exist. This study of 618 startup pitches shows that growth‐related messages can shape investor evaluations even at the earliest stage, but only if configured well. Because growth frames must appear plausible amid the uncertainty surrounding new startups, framing early‐stage startups around growth is rhetorically burdensome. Findings show that pitches are evaluated less favorably when they rely more on founders' own projections and reasoning than on established grounds such as market analyses. Concrete language can alleviate this burden, while novelty framing intensifies it. As such, this study reveals intricate and potentially unintended interactions among multiple frames within a single pitch.",
+   "abstract_source": "crossref",
+   "version_note": null
+  },
+  {
+   "canonical_key": "arxiv:2610.24267",
+   "title": "How exposed is work to robotics? Occupational, industry, and geographic measures",
+   "authors": [
+    "Sebastian Sartor",
+    "Robert Seamans",
+    "Neil Thompson"
+   ],
+   "venue": "arXiv cs.RO",
+   "source_slug": "arxiv-econ-gn",
+   "source_category": "preprint",
+   "publication_status": "preprint",
+   "doi": null,
+   "arxiv_id": "2610.24267",
+   "nber_id": null,
+   "ssrn_id": null,
+   "primary_url": "https://arxiv.org/abs/2610.24267",
+   "paper_url": "https://arxiv.org/pdf/2610.24267v1",
+   "pdf_url": "https://arxiv.org/pdf/2610.24267v1",
+   "published_at": "2026-10-16",
+   "first_seen_at": "2026-10-21T14:55:30Z",
+   "year": 2026,
+   "volume": null,
+   "issue": null,
+   "pages": null,
+   "issue_number": 2,
+   "sets": [
+    "ai_work",
+    "orgs_inequality"
+   ],
+   "relevance_score": 7,
+   "relevance_reasons": [
+    "ai_work:large language model, ai, automation, labor",
+    "entrepreneurship:patent"
+   ],
+   "recommended": false,
+   "note": "LLM-scored robotics exposure measures across occupations, industries, and counties; exposure is higher in lower-wage, lower-education occupations.",
+   "abstract": "Exposure indices that map technical capabilities onto occupational abilities have become a standard tool for anticipating how AI may reshape work, but existing measures either cover software AI or proxy robotics through patents and installation data that reflect the industrial robots of past decades. We construct the first abilities-based exposure measures for robotics and physical AI, and the first to span occupations, industries, and geographies. Following the framework of Felten et al. (2018, 2021), we build a robotics capability taxonomy of 16 capabilities in eight domains from 78 academic, industry, and standards sources, use a large language model to score the relatedness of each capability to the 52 ONET work abilities, and aggregate to Robotics Occupational Exposure (ROE) for 774 occupations, Robotics Industry Exposure (RIE) for 250 NAICS industries, and county-level Robotics Geographic Exposure (RGE). We find that robotics exposure concentrates in physically intensive work such as construction, farming, transportation, and production, and in industries such as logging, mining, trucking, and warehousing. Unlike generative-AI exposure, ROE is higher in occupations with lower wages, lower education requirements, and less creative-ability content. Physical collaboration and assistance, terrain-based locomotion, grasping and handling, and task and functional reasoning move the exposure ranking most, yet no single capability carries the index. Because the measures capture technical relatedness rather than readiness, cost, or adoption, they should be read as an upper bound on where physical automation could affect work.",
+   "abstract_source": "arxiv",
+   "version_note": null
+  },
+  {
+   "canonical_key": "doi:10.1002/sej.70062",
+   "title": "When machines learn with organizations: AI ‐enabled knowledge creation and entrepreneurship",
+   "authors": [
+    "Linhui Wu",
+    "Shaker A. Zahra",
+    "Niron Hashai"
+   ],
+   "venue": "Strategic Entrepreneurship Journal",
+   "source_slug": "sej",
+   "source_category": "management_journal",
+   "publication_status": "published",
+   "doi": "10.1002/sej.70062",
+   "arxiv_id": null,
+   "nber_id": null,
+   "ssrn_id": null,
+   "primary_url": "https://doi.org/10.1002/sej.70062",
+   "paper_url": "https://sms.onlinelibrary.wiley.com/doi/pdf/10.1002/sej.70062",
+   "pdf_url": "https://sms.onlinelibrary.wiley.com/doi/pdf/10.1002/sej.70062",
+   "published_at": "2026-10-20",
+   "first_seen_at": "2026-10-21T14:55:30Z",
+   "year": 2026,
+   "volume": null,
+   "issue": null,
+   "pages": null,
+   "issue_number": 2,
+   "sets": [
+    "ai_work",
+    "entrepreneurship"
+   ],
+   "relevance_score": 7,
+   "relevance_reasons": [
+    "ai_work:generative ai, artificial intelligence, ai, labor",
+    "entrepreneurship:entrepreneur, innovation"
+   ],
+   "recommended": false,
+   "note": "Conceptual paper on firm-specific generative AI in organizational knowledge creation and corporate entrepreneurship, with research agenda.",
+   "abstract": "Research Summary To promote entrepreneurship and new business development, firms will increasingly rely on new forms of knowledge creation to manage environments marked by technological change and radical uncertainty. We argue that as generative artificial intelligence (Gen‐AI) becomes embedded in organizational processes, knowledge creation will no longer remain solely a human activity. Instead, it will increasingly emerge from hybrid interactions between human actors and firm‐specific, closed Gen‐AI systems. These systems begin to participate directly in how knowledge is generated, recombined, internalized, shared, and converted into entrepreneurial initiatives such as corporate entrepreneurship, spin‐offs, and new business models. We also reconceptualize organizational knowledge creation as a hybrid human–AI process and propose a reordered knowledge creation cycle that induces multiple knowledge spirals, captures the emergence of new agents, and the generation of diverse types of knowledge, with faster temporal dynamics. Building on this perspective, we offer a research agenda for future scholarship. Managerial Summary We discuss how firm‐specific generative AI systems are likely to fundamentally alter the ways firms generate knowledge, respond to change, and sustain long‐term renewal. We propose that rather than replacing human judgment, closed Gen‐AI changes where knowledge originates as well as how quickly it evolves, and how broadly it circulates across organizational boundaries. This means that the managerial challenge is less about adopting AI and more about designing knowledge systems and structuring knowledge flows. Executives and entrepreneurs alike need to decide how to structure human–AI collaborations, how much autonomy to grant closed Gen‐AI systems, and how to prevent speed from overwhelming sensemaking. Our work underscores that although hybrid knowledge creation promises faster and more diverse learning, it also introduces risks related to opacity, trust, and cognitive lock‐in. Firms that deliberately orchestrate the role of closed Gen‐AI in their learning systems will be better positioned to shape future advantage by promoting innovation and entrepreneurial activities of different types.",
+   "abstract_source": "crossref",
+   "version_note": null
+  },
+  {
+   "canonical_key": "doi:10.3386/w35893",
+   "title": "Affirmative Action in Centralized College Admissions Systems",
+   "authors": [
+    "Nano Barahona",
+    "Cauê Dobbin",
+    "Sebastián Otero"
+   ],
+   "venue": "NBER Working Papers",
+   "source_slug": "nber",
+   "source_category": "working_paper",
+   "publication_status": "working_paper",
+   "doi": "10.3386/w35893",
+   "arxiv_id": null,
+   "nber_id": "w35893",
+   "ssrn_id": null,
+   "primary_url": "https://doi.org/10.3386/w35893",
+   "paper_url": "https://doi.org/10.3386/w35893",
+   "pdf_url": "https://doi.org/10.3386/w35893",
+   "published_at": "2026-10-01",
+   "first_seen_at": "2026-10-14T14:55:52Z",
+   "year": 2026,
+   "volume": null,
+   "issue": null,
+   "pages": null,
+   "issue_number": 2,
+   "sets": [
+    "orgs_inequality"
+   ],
+   "relevance_score": 6,
+   "relevance_reasons": [
+    "orgs_inequality:socioeconomic, disadvantage, racial, firm"
+   ],
+   "recommended": false,
+   "note": "Brazilian college admissions quotas for racially and socioeconomically disadvantaged applicants; regression discontinuity and equilibrium reallocation effects.",
+   "abstract": "We study the consequences of affirmative action in college admissions.We develop an empirical framework that distinguishes the effects on marginally benefited and displaced students from the overall effects of the policy.The overall effects include equilibrium reallocations as benefited students leave seats that others fill and displaced students take seats elsewhere, displacing others in turn.We apply this framework to a large-scale policy in Brazil that required all federal institutions to reserve half their seats for racially and socioeconomically disadvantaged applicants.Exploiting admissions cutoffs, we find that marginally benefited targeted students attend and graduate from higher-quality programs.Their graduation gains are about twice the losses of marginally displaced non-targeted students, reflecting targeted students' weaker outside options.To evaluate the overall effects, we estimate a model of degree choices and potential outcomes.Among all reallocated students, benefited students still gain nearly twice what displaced students lose, but equilibrium reallocations make the policy displace about 30%more students than it benefits.Non-targeted students' losses therefore offset about two-thirds of targeted students' graduation gains, leaving a modest net gain across all students.",
+   "abstract_source": "openalex",
+   "version_note": null
+  },
+  {
+   "canonical_key": "repec:RePEc:bdi:opques:qef_1061_26",
+   "title": "Capital for growth: the evolution, structure and role of private equity and venture capital in Italy",
+   "authors": [
+    "Pietro Tramontano"
+   ],
+   "venue": "RePEc NEP: Entrepreneurship",
+   "source_slug": "nep-ent",
+   "source_category": "working_paper",
+   "publication_status": "working_paper",
+   "doi": null,
+   "arxiv_id": null,
+   "nber_id": null,
+   "ssrn_id": null,
+   "primary_url": "https://d.repec.org/n?u=RePEc:bdi:opques:qef_1061_26&r=&r=ent",
+   "paper_url": "https://d.repec.org/n?u=RePEc:bdi:opques:qef_1061_26&r=&r=ent",
+   "pdf_url": null,
+   "published_at": "2026-10-19",
+   "first_seen_at": "2026-10-21T14:55:30Z",
+   "year": 2026,
+   "volume": null,
+   "issue": null,
+   "pages": null,
+   "issue_number": 2,
+   "sets": [
+    "entrepreneurship"
+   ],
+   "relevance_score": 6,
+   "relevance_reasons": [
+    "entrepreneurship:venture capital, innovation"
+   ],
+   "recommended": false,
+   "note": "Describes Italian private equity and venture capital market; target firms grow faster in assets, employment, and investment after deals.",
+   "abstract": "This paper analyses the Italian private equity and venture capital market. Although total investment more than doubled between 2015 and 2025, the Italian market remains less developed than those of the other main European economies. Private equity investment is strongly oriented towards technology- and knowledge-intensive sectors, with significant participation by foreign funds. The public sector plays a prominent role in fundraising by Italian operators, whereas the contribution of private institutional investors remains relatively limited. Compared with firms in the same sector, size class and geographical area, private equity target firms are larger, more profitable and better capitalized; after turning to private equity, they record faster growth in total assets, employment, and investment, particularly in intangible assets. The further development of private capital markets in Italy could be fostered by a greater involvement of private investors and a wider availability of patient capital to support firms' growth and innovation.",
+   "abstract_source": "repec",
+   "version_note": null
+  },
+  {
+   "canonical_key": "doi:10.15195/v13.a45",
+   "title": "Even More Unequal Childhoods: 45 Years of Widening Income Gaps in Parental Investments in the United States",
+   "authors": [
+    "Orestes Hastings"
+   ],
+   "venue": "Sociological Science",
+   "source_slug": "socsci",
+   "source_category": "sociology_journal",
+   "publication_status": "published",
+   "doi": "10.15195/v13.a45",
+   "arxiv_id": null,
+   "nber_id": null,
+   "ssrn_id": null,
+   "primary_url": "https://doi.org/10.15195/v13.a45",
+   "paper_url": "https://doi.org/10.15195/v13.a45",
+   "pdf_url": null,
+   "published_at": "2026-01-01",
+   "first_seen_at": "2026-10-14T14:55:52Z",
+   "year": 2026,
+   "volume": "13",
+   "issue": null,
+   "pages": "1179-1203",
+   "issue_number": 2,
+   "sets": [
+    "orgs_inequality"
+   ],
+   "relevance_score": 6,
+   "relevance_reasons": [
+    "orgs_inequality:parental"
+   ],
+   "recommended": false,
+   "note": "Consumer Expenditure Survey trends showing widening income-group gaps in parental spending on children, 1980-2024; class stratification.",
+   "abstract": "Parents convert economic resources into advantages for their children through spending on goods, services, and experiences. Using the 1980–2024 Consumer Expenditure Survey, this study offers the most comprehensive account to date of income-group trends in parental financial investments in childcare, education, and extracurriculars. Income gaps widened over these 45 years: per-child spending among the top decile quadrupled, while bottom-quartile spending was slightly lower in 2024 than in 1980. The top decile spent about three times as much per child as the bottom quartile in the early 1980s but more than 13 times as much by 2024. This widening appears across all three categories, in the household budget share devoted to children, and more in how much families spend than whether they spend at all. These findings document a sustained widening of income gaps in parental investments, pointing to these expenditures as an increasingly important dimension of unequal childhoods.",
+   "abstract_source": "openalex",
+   "version_note": null
+  },
+  {
+   "canonical_key": "doi:10.31235/osf.io/tehqg_v3",
+   "title": "Intersectional Inequalities in Educational Attainment – Cohort Trends in West Germany (1970-2008) and Comparison of Analysis Methods",
+   "authors": [
+    "Jascha Dräger",
+    "Tom Hartl"
+   ],
+   "venue": "SocArXiv",
+   "source_slug": "socarxiv",
+   "source_category": "preprint",
+   "publication_status": "preprint",
+   "doi": "10.31235/osf.io/tehqg_v3",
+   "arxiv_id": null,
+   "nber_id": null,
+   "ssrn_id": null,
+   "primary_url": "https://osf.io/preprints/socarxiv/tehqg_v3/",
+   "paper_url": "https://osf.io/preprints/socarxiv/tehqg_v3/",
+   "pdf_url": null,
+   "published_at": "2026-10-19",
+   "first_seen_at": "2026-10-21T14:55:30Z",
+   "year": 2026,
+   "volume": null,
+   "issue": null,
+   "pages": null,
+   "issue_number": 2,
+   "sets": [
+    "orgs_inequality"
+   ],
+   "relevance_score": 6,
+   "relevance_reasons": [
+    "orgs_inequality:socio-economic, social origin, disadvantage, gender"
+   ],
+   "recommended": false,
+   "note": "Cohort trends in intersectional educational inequality by social origin, gender, migration background in West Germany; compares methods.",
+   "abstract": "Despite educational expansion, educational attainment still depends strongly on factors beyond individuals’ control, such as social origin, gender, and migration background. These social categories may intersect to produce compounded forms of disadvantage, but most existing research has studied them in isolation. This study describes trends in intersectional inequalities of educational opportunity at the intersection of social origin, gender, and migration background for the 1970-2008 birth cohorts in West Germany using data from the Socio-Economic Panel. We use three quantitative approaches to evaluate intersectional inequalities: regressions with interaction terms, the “multilevel analysis of individual heterogeneity and discriminatory accuracy” (MAIHDA) approach, and a machine-learning approach, namely Conditional Inference Forests (CIF). Across analysis methods, the results show that intersectional inequalities remained stable across cohorts. Social origin is the dominant social category: no combination of gender and migration background compensates for low parental education. Intersectional interaction effects are negligible or very small. MAIHDA and regression analysis yield similar results. CIF suggests that Gymnasium attendance is more strongly determined by intersectional strata membership than suggested by the other two methods. Moreover, CIF suggests that intra-categorical interaction effects are more important for Gymnasium attendance than inter-categorical interaction effects. We discuss the substantive implications of these results and provide guidance on choosing an analysis method for quantitative intersectional research.",
+   "abstract_source": "osf",
+   "version_note": null
+  },
+  {
+   "canonical_key": "arxiv:2610.21109",
+   "title": "Kolab: Benchmarking Human-Agent Collaboration in Long-Horizon Workflows",
+   "authors": [
+    "Shirley Anugrah Hayati",
+    "Patricia Anugrah Setiani",
+    "Ruizi Wang",
+    "Zhouyi Li",
+    "Khanh Chi Le",
+    "Young-Jun Lee",
+    "Dongyeop Kang"
+   ],
+   "venue": "arXiv cs.AI",
+   "source_slug": "arxiv-ai-work",
+   "source_category": "preprint",
+   "publication_status": "preprint",
+   "doi": null,
+   "arxiv_id": "2610.21109",
+   "nber_id": null,
+   "ssrn_id": null,
+   "primary_url": "https://arxiv.org/abs/2610.21109",
+   "paper_url": "https://arxiv.org/pdf/2610.21109v1",
+   "pdf_url": "https://arxiv.org/pdf/2610.21109v1",
+   "published_at": "2026-10-15",
+   "first_seen_at": "2026-10-21T14:55:30Z",
+   "year": 2026,
+   "volume": null,
+   "issue": null,
+   "pages": null,
+   "issue_number": 2,
+   "sets": [
+    "ai_work"
+   ],
+   "relevance_score": 6,
+   "relevance_reasons": [
+    "ai_work:ai, automation, labor, occupation"
+   ],
+   "recommended": false,
+   "note": "Dataset of screen recordings of professionals from 40 occupations collaborating with AI agents; benchmarks prediction of collaboration quality.",
+   "abstract": "When humans collaborate with AI agents on long-horizon tasks, what happens to the agents' contributions? For solving long-horizon tasks, humans place greater importance on ongoing interaction with AI agents (e.g., revising plans) than on an agent's ability to complete the task in a single attempt. However, most agentic benchmarks have focused more on automation. Strong performance on such benchmarks does not imply effective real-world collaboration. Professional workflows offer a useful setting, as they often involve interdependent steps. To address this gap, we introduce Kolab, a new dataset of 115+ hours of screen recordings of 50 professionals from 40 occupations collaborating with agents on realistic, long-horizon problems. Kolab also contains participants' collaboration and output quality judgments. Our analysis reveals diverse collaboration patterns, highlighting the importance of when and how professionals coordinate with agents. A collaborative agent must do two things that automation benchmarks never test: anticipate whether experts will adopt, modify, or reject its contribution once it leaves the chat window to guide its next steps, and assess collaboration quality from the unfolding workflow without constant expert feedback. Our benchmark operationalizes both: (1) forecasting how professionals use agent contributions at diverse workflows, and (2) verifying their judgments of collaboration satisfaction and output quality. Findings show that frontier models, both agentic and non-agentic, overestimate collaboration with experts and struggle to distinguish between high- and low-quality collaboration. Longer workflow context does not consistently improve these predictions. As frontier agents cannot yet understand long-horizon collaboration with experts, we position Kolab as a valuable dataset for studying human-agent collaboration grounded in real professional workflows.",
+   "abstract_source": "arxiv",
+   "version_note": null
+  },
+  {
+   "canonical_key": "doi:10.25300/misq/2026/19158",
+   "title": "Outcome Over Process: Advancing Both Fairness and Performance in Crowdfunding Through ML-Assisted Promotion",
+   "authors": [
+    "Lauren Rhue",
+    "Jessica Clark"
+   ],
+   "venue": "MIS Quarterly",
+   "source_slug": "misq",
+   "source_category": "management_journal",
+   "publication_status": "published",
+   "doi": "10.25300/misq/2026/19158",
+   "arxiv_id": null,
+   "nber_id": null,
+   "ssrn_id": null,
+   "primary_url": "https://doi.org/10.25300/misq/2026/19158",
+   "paper_url": "https://misq.umn.edu/misq/article-pdf/doi/10.25300/MISQ/2026/19158/21590/fl_10.25300_misq_2026_19158.pdf",
+   "pdf_url": "https://misq.umn.edu/misq/article-pdf/doi/10.25300/MISQ/2026/19158/21590/fl_10.25300_misq_2026_19158.pdf",
+   "published_at": "2026-08-03",
+   "first_seen_at": "2026-10-21T14:55:30Z",
+   "year": 2026,
+   "volume": null,
+   "issue": null,
+   "pages": "1-20",
+   "issue_number": 2,
+   "sets": [
+    "entrepreneurship",
+    "orgs_inequality"
+   ],
+   "relevance_score": 6,
+   "relevance_reasons": [
+    "entrepreneurship:crowdfunding",
+    "orgs_inequality:promotion"
+   ],
+   "recommended": false,
+   "note": "Kickstarter data comparing ML framings for platform promotion policy; fairness across creators and funding performance in crowdfunding.",
+   "abstract": "Crowdfunding platforms can influence project success through their promotion policy, which determines which projects receive enhanced visibility. Promotion policies can directly influence inclusivity on the platform and potentially address well-documented disparities across creators. This study examines how alternative machine learning (ML) problem framings for promotion policy affect fairness and business performance. Using data from 118,780 Kickstarter projects, we compare three ML framings: a process framing that learns to reproduce historical employee promotion decisions, a success framing that predicts whether projects will meet their funding goals, and a backers framing that predicts whether projects will attract a large number of backers. We evaluate the resulting counterfactual promotion sets using multiple fairness and performance measures. In our context, the success framing produces promotion sets with more favorable fairness outcomes and business performance outcomes than the other framings, possibly because it applies more consistent promotion decisions across similar projects. These findings demonstrate that alternative ML problem framings can produce meaningfully different promotion policies, even when trained on the same underlying data. While the success framing prioritizes practical projects, the backers framing favors projects with higher funding goals. Importantly, carefully designing the ML problem framing for promotion policies can align fairness and performance objectives, countering concerns that inclusivity necessarily comes at the expense of performance. This research contributes to the information systems literature by demonstrating that ML problem framing is a consequential choice in platform governance. It offers practical guidance for digital platforms seeking to improve fairness and business performance through ML-assisted promotion policies.",
+   "abstract_source": "crossref",
+   "version_note": null
+  },
+  {
+   "canonical_key": "doi:10.31235/osf.io/uj7qy_v1",
+   "title": "The Local and the Firm: Divergent Immigration Outcomes in Brazil",
+   "authors": [
+    "Francisco Costa",
+    "Wagner F Oliveira"
+   ],
+   "venue": "SocArXiv",
+   "source_slug": "socarxiv",
+   "source_category": "preprint",
+   "publication_status": "preprint",
+   "doi": "10.31235/osf.io/uj7qy_v1",
+   "arxiv_id": null,
+   "nber_id": null,
+   "ssrn_id": null,
+   "primary_url": "https://osf.io/preprints/socarxiv/uj7qy_v1/",
+   "paper_url": "https://osf.io/preprints/socarxiv/uj7qy_v1/",
+   "pdf_url": null,
+   "published_at": "2026-10-16",
+   "first_seen_at": "2026-10-21T14:55:30Z",
+   "year": 2026,
+   "volume": null,
+   "issue": null,
+   "pages": null,
+   "issue_number": 2,
+   "sets": [
+    "orgs_inequality"
+   ],
+   "relevance_score": 6,
+   "relevance_reasons": [
+    "orgs_inequality:hiring, immigrant, firm, labor market"
+   ],
+   "recommended": false,
+   "note": "Matched employer-employee data from Brazil with shift-share design on immigration, native wages, layoffs, and establishment-level hiring outcomes.",
+   "abstract": "How can adverse formal-sector effects of immigration at the regional level coexist with favorable outcomes inside the establishments that hire immigrants? We use matched employer-employee data from Brazil for 2000 to 2017 to estimate regional effects and characterize establishment-level patterns. We instrument regional immigrant exposure with a shift-share design that combines past immigrant settlements with country-of-origin inflows predicted by push factors such as environmental disasters and political instability. Greater exposure reduces the number of establishments hiring formally, lowers native formal wages, and increases native layoffs. Yet establishments employ more native workers and pay slightly higher native earnings after their first immigrant hire. These establishment-level estimates are descriptive because immigrant hiring is endogenous. The contrast shows that outcomes within immigrant-hiring establishments do not capture immigration's full incidence across a local labor market, consistent with adjustment across establishments or between formal and informal employment.",
+   "abstract_source": "osf",
+   "version_note": null
+  },
+  {
+   "canonical_key": "doi:10.1287/mnsc.2025.01818",
+   "title": "Why Do We Discriminate? Directional Beliefs and Biased Information Processing",
+   "authors": [
+    "Markus Eyting"
+   ],
+   "venue": "Management Science",
+   "source_slug": "mnsc",
+   "source_category": "management_journal",
+   "publication_status": "published",
+   "doi": "10.1287/mnsc.2025.01818",
+   "arxiv_id": null,
+   "nber_id": null,
+   "ssrn_id": null,
+   "primary_url": "https://doi.org/10.1287/mnsc.2025.01818",
+   "paper_url": "https://doi.org/10.1287/mnsc.2025.01818",
+   "pdf_url": null,
+   "published_at": "2026-10-14",
+   "first_seen_at": "2026-10-21T14:55:30Z",
+   "year": 2026,
+   "volume": null,
+   "issue": null,
+   "pages": null,
+   "issue_number": 2,
+   "sets": [
+    "orgs_inequality"
+   ],
+   "relevance_score": 6,
+   "relevance_reasons": [
+    "orgs_inequality:discrimination"
+   ],
+   "recommended": false,
+   "note": "Experiments on discrimination arising from directional beliefs and biased information processing, linking taste-based and statistical discrimination.",
+   "abstract": "Identifying the cause of discrimination is crucial to designing effective policies and to understanding discrimination dynamics. This paper provides a potential link between existing models of taste-based and statistical discrimination by studying directional belief formation through biased information search and processing. By selectively acquiring and processing information, individuals form directional beliefs and consequently discriminate based on these beliefs. Through a series of experiments in which individuals endogenously acquire and process various signals, I document discrimination stemming from directional beliefs and demonstrate important differences in how it manifests compared with taste-based and statistical discrimination. Finally, I show that limiting individuals’ scope to interpret information reduces such discrimination. This paper was accepted by Marie Claire Villeval, behavioral economics and decision analysis. Funding: Financial support from the Sustainable Architecture for Finance in Europe Experiment Center Frankfurt [Grant 232406], the Interdisciplinary Public Policy Mainz [Grant A2021011], and the Mainzer Wissenschaftsstiftung is gratefully acknowledged. Supplemental Material: The online appendix and data files are available at https://doi.org/10.1287/mnsc.2025.01818 .",
+   "abstract_source": "crossref",
+   "version_note": null
+  },
+  {
+   "canonical_key": "arxiv:2610.21236",
+   "title": "Workplace Ambiguity and Technology Support for Autistic and IDD Workers",
+   "authors": [
+    "Silas Curry",
+    "Rishit Singh",
+    "Heekyoung Jung",
+    "Angel Hsing-Chi Hwang",
+    "Fan Yang",
+    "Ce Zhong",
+    "Nicholas Lindgren",
+    "Chen Chen",
+    "Lingyao Li",
+    "Renkai Ma"
+   ],
+   "venue": "arXiv cs.HC",
+   "source_slug": "arxiv-ai-work",
+   "source_category": "preprint",
+   "publication_status": "preprint",
+   "doi": null,
+   "arxiv_id": "2610.21236",
+   "nber_id": null,
+   "ssrn_id": null,
+   "primary_url": "https://arxiv.org/abs/2610.21236",
+   "paper_url": "https://arxiv.org/pdf/2610.21236v1",
+   "pdf_url": "https://arxiv.org/pdf/2610.21236v1",
+   "published_at": "2026-10-15",
+   "first_seen_at": "2026-10-21T14:55:30Z",
+   "year": 2026,
+   "volume": null,
+   "issue": null,
+   "pages": null,
+   "issue_number": 2,
+   "sets": [
+    "orgs_inequality"
+   ],
+   "relevance_score": 6,
+   "relevance_reasons": [
+    "ai_work:ai, worker, workplace"
+   ],
+   "recommended": false,
+   "note": "Interview study with caregivers on workplace ambiguity as access barrier for autistic and IDD workers; technology support and surveillance tension.",
+   "abstract": "Workplace ambiguity, where expectations, evaluations, or procedures are left unstated, acts as a structural access barrier for autistic and IDD workers, routinely forcing them to act on guesses. To investigate how these barriers operate, we interviewed 11 caregivers, concluding with an AI co-design activity to explore technological solutions. Their perspectives revealed five themes of workplace ambiguity, which we synthesize into a conceptual framework comprising three intersecting dimensions: evaluative, procedural, and relational. To address these barriers, participants proposed three forms of technology support, including ambient real-time redirection, feedback processing, and physiological guidance, designed to make hidden expectations perceptible and actionable. However, this exposes a core tension: technologies designed to make the workplace legible can inadvertently make the worker hyper-legible to employers through surveillance. We argue that ambiguity-aware workplaces must make expectations explicit before they carry consequences, and assistive technologies must remain accountable to the worker.",
+   "abstract_source": "arxiv",
+   "version_note": null
+  }
+ ]
+}
