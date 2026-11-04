@@ -2,8 +2,50 @@
  "number": 3,
  "cutoff": "2026-10-28",
  "window_start": "2026-10-21",
- "generated_at": "2026-10-28T16:31:53Z",
+ "generated_at": "2026-11-04T17:53:38Z",
  "articles": [
+  {
+   "canonical_key": "doi:10.1086/744669",
+   "title": "Labor Market Signals: The Role of Large Language Models",
+   "authors": [
+    "Kian Abbas Nejad",
+    "Giuseppe Musillo",
+    "Niccolò Zaccaria",
+    "Till Wicker"
+   ],
+   "venue": "Journal of Labor Economics",
+   "source_slug": "jole",
+   "source_category": "economics_journal",
+   "publication_status": "published",
+   "doi": "10.1086/744669",
+   "arxiv_id": null,
+   "nber_id": null,
+   "ssrn_id": null,
+   "primary_url": "https://doi.org/10.1086/744669",
+   "paper_url": "https://doi.org/10.1086/744669",
+   "pdf_url": null,
+   "published_at": "2026-10-23",
+   "first_seen_at": "2026-10-28T16:28:37Z",
+   "year": 2026,
+   "volume": null,
+   "issue": null,
+   "pages": null,
+   "issue_number": 3,
+   "sets": [
+    "ai_work",
+    "orgs_inequality"
+   ],
+   "relevance_score": 10,
+   "relevance_reasons": [
+    "ai_work:large language model, llm, llms, labor",
+    "orgs_inequality:hiring, labor market, employer"
+   ],
+   "recommended": true,
+   "note": "Two field experiments on LLM-written cover letters; effects on hiring signals, recruiter responses, and lower-quality applicants.",
+   "abstract": "Large Language Models (LLMs) are transforming the labor market, including hiring decisions. This paper examines their impact on the signals job-seekers send to potential employers through two field experiments focusing on cover letters. We find that LLMs enhance signal quality, especially benefiting lower-quality applicants, yet these gains do not boost interview invitations because they are concentrated in standardized, less influential sections of the cover letter. When recruiters learn of LLM usage, they place greater value on high-quality, human-crafted letters. Hence, LLMs reduce the informativeness of signals, potentially increasing inefficiencies in labor market matching as estimated by a calibrated structural model.",
+   "abstract_source": "openalex",
+   "version_note": null
+  },
   {
    "canonical_key": "doi:10.1002/sej.70050",
    "title": "Generative AI use in entrepreneurship: An integrative review and the Empowerment–Entrapment Framework",
@@ -477,7 +519,7 @@
    "relevance_reasons": [
     "ai_work:ai, worker, job, employment"
    ],
-   "recommended": true,
+   "recommended": false,
    "note": "Model of firm with junior and senior cohorts under AI automation; expertise pipeline, junior demand, and managerial horizon.",
    "abstract": "Most analyses of AI and employment ask which jobs are exposed. This paper asks what happens to the pipeline that produces experts. It extends the model of Caosun and Aral (2026) from a single worker to a firm with two cohorts, juniors and seniors, and studies how expertise formation changes when codified work is automated. Because junior work is the most codified, demand for juniors falls first; the stock of seniors falls later but further, as the pipeline stops replacing the experts who retire. In the baseline calibration, junior demand bottoms out about a fifth below its 2022 level before recovering most of that ground, while the senior stock falls by a quarter and later halves. Because expertise forms through unassisted practice on work that AI cannot do, the time needed to develop an expert from within rises from about five years to nine. The costs fall on a different party from the one that decides on adoption: a manager with a three-year horizon sets AI use to maximise near-term output, cutting the wage bill by 21 percent while the capacity of the firm on work AI cannot do falls by two-fifths and its output on that work goes unserved once the pipeline runs thin. Two key parameters are not yet measured, so the results are scenarios rather than forecasts. The paper proposes three indicators organisations can track: the unaided practice juniors get on work AI cannot do, senior time spent on such work, and the years it takes to develop an expert.",
    "abstract_source": "arxiv",
@@ -814,8 +856,8 @@
    "nber_id": null,
    "ssrn_id": null,
    "primary_url": "https://doi.org/10.1016/j.jbusvent.2026.106655",
-   "paper_url": "https://doi.org/10.1016/j.jbusvent.2026.106655",
-   "pdf_url": null,
+   "paper_url": "https://papers.ssrn.com/sol3/Delivery.cfm/7493679.pdf?abstractid=7493679&mirid=1",
+   "pdf_url": "https://papers.ssrn.com/sol3/Delivery.cfm/7493679.pdf?abstractid=7493679&mirid=1",
    "published_at": "2026-10-01",
    "first_seen_at": "2026-10-28T16:28:37Z",
    "year": 2026,
@@ -1028,47 +1070,6 @@
    ],
    "recommended": false,
    "note": "Generative AI and temporary upskilling of knowledge workers; speaks directly to AI, skills, and work.",
-   "abstract": null,
-   "abstract_source": null,
-   "version_note": null
-  },
-  {
-   "canonical_key": "doi:10.1086/744669",
-   "title": "Labor Market Signals: The Role of Large Language Models",
-   "authors": [
-    "Kian Abbas Nejad",
-    "Giuseppe Musillo",
-    "Niccolò Zaccaria",
-    "Till Wicker"
-   ],
-   "venue": "Journal of Labor Economics",
-   "source_slug": "jole",
-   "source_category": "economics_journal",
-   "publication_status": "published",
-   "doi": "10.1086/744669",
-   "arxiv_id": null,
-   "nber_id": null,
-   "ssrn_id": null,
-   "primary_url": "https://doi.org/10.1086/744669",
-   "paper_url": "https://doi.org/10.1086/744669",
-   "pdf_url": null,
-   "published_at": "2026-10-23",
-   "first_seen_at": "2026-10-28T16:28:37Z",
-   "year": 2026,
-   "volume": null,
-   "issue": null,
-   "pages": null,
-   "issue_number": 3,
-   "sets": [
-    "ai_work",
-    "orgs_inequality"
-   ],
-   "relevance_score": 6,
-   "relevance_reasons": [
-    "ai_work:large language model, labor"
-   ],
-   "recommended": false,
-   "note": "Title suggests large language models as labor market signals, likely in hiring; abstract unavailable.",
    "abstract": null,
    "abstract_source": null,
    "version_note": null

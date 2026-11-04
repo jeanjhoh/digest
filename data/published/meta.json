@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-28T16:31:53Z",
+ "generated_at": "2026-11-04T17:53:38Z",
  "site": {
   "title": "Weekly Research Digest",
   "nav_label": "Digest",
@@ -73,7 +73,7 @@
   "working_paper": "Working paper",
   "preprint": "Preprint"
  },
- "latest_issue": 3,
+ "latest_issue": 4,
  "issues": [
   {
    "number": 1,
@@ -140,10 +140,10 @@
     "orgs_inequality": 13
    },
    "category_counts": {
+    "economics_journal": 3,
     "management_journal": 9,
     "preprint": 8,
     "working_paper": 7,
-    "economics_journal": 3,
     "sociology_journal": 1,
     "science_journal": 1
    },
@@ -154,11 +154,39 @@
     "in_scope": 29,
     "est_cost_usd": 0.2593
    }
+  },
+  {
+   "number": 4,
+   "cutoff": "2026-11-04",
+   "window_start": "2026-10-28",
+   "published_at": "2026-11-04T17:50:24Z",
+   "count": 33,
+   "recommended_count": 12,
+   "set_counts": {
+    "entrepreneurship": 9,
+    "ai_work": 14,
+    "orgs_inequality": 21
+   },
+   "category_counts": {
+    "science_journal": 2,
+    "alert": 2,
+    "management_journal": 5,
+    "working_paper": 6,
+    "preprint": 16,
+    "sociology_journal": 2
+   },
+   "run_status": "success",
+   "run_errors": [],
+   "stats": {
+    "seen": 848,
+    "in_scope": 33,
+    "est_cost_usd": 0.2853
+   }
   }
  ],
  "stats": {
-  "issue_count": 3,
-  "article_count": 106,
+  "issue_count": 4,
+  "article_count": 139,
   "source_count": 51
  }
 }

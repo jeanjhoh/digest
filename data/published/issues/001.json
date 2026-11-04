@@ -2,7 +2,7 @@
  "number": 1,
  "cutoff": "2026-10-13",
  "window_start": "2026-09-29",
- "generated_at": "2026-10-28T16:31:53Z",
+ "generated_at": "2026-11-04T17:53:38Z",
  "articles": [
   {
    "canonical_key": "doi:10.1257/aer.20231417",
@@ -2119,7 +2119,7 @@
    "note": "Survey of Norwegian households showing class differences in parental screen control reverse with child age; class reproduction.",
    "abstract": "Research usually treats class differences in parenting style as constant throughout childhood. We show instead that they can reverse with the child's age. Our case is parental control of children's screen use, for which expert advice is restrictive when children are young and divided when they are adolescents. We draw on an original survey of 20,670 Norwegian households with children aged 3 to 17 to estimate class differences in time limits, control of content and the negotiation of rules at each age. We find that better-resourced parents are stricter than others with young children, but more permissive with adolescents. The composition of the resources available to the household shapes the pattern: income and education have different, complementary associations with parental control. The observed reversal across childhood suggests that the advantage of well-resourced families in child rearing lies less in a fixed repertoire of practices than in adaptability, a capacity to adjust as the appropriate practice changes with the child's age.",
    "abstract_source": "osf",
-   "version_note": null
+   "version_note": "Earlier version: SocArXiv"
   },
   {
    "canonical_key": "doi:10.3386/w35882",
