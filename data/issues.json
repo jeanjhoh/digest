@@ -119,6 +119,35 @@
     "in_scope": 33,
     "est_cost_usd": 0.2853
    }
+  },
+  {
+   "number": 5,
+   "key": "2026-W46",
+   "window_start": "2026-11-04T17:50:24Z",
+   "cutoff_at": "2026-11-11T17:45:06Z",
+   "created_at": "2026-11-11T17:45:06Z",
+   "counts": {
+    "in_scope": 29,
+    "recommended": 7,
+    "by_set": {
+     "entrepreneurship": 13,
+     "ai_work": 8,
+     "orgs_inequality": 11
+    },
+    "by_category": {
+     "working_paper": 4,
+     "management_journal": 9,
+     "economics_journal": 3,
+     "preprint": 13
+    }
+   },
+   "run_status": "success",
+   "run_errors": [],
+   "stats": {
+    "seen": 780,
+    "in_scope": 29,
+    "est_cost_usd": 0.2475
+   }
   }
  ]
 }

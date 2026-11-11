@@ -2,7 +2,7 @@
  "number": 4,
  "cutoff": "2026-11-04",
  "window_start": "2026-10-28",
- "generated_at": "2026-11-04T17:53:38Z",
+ "generated_at": "2026-11-11T17:47:49Z",
  "articles": [
   {
    "canonical_key": "doi:10.1038/s41562-026-02610-5",
@@ -927,7 +927,7 @@
    "ssrn_id": null,
    "primary_url": "https://doi.org/10.3386/w35965",
    "paper_url": "https://doi.org/10.3386/w35965",
-   "pdf_url": null,
+   "pdf_url": "https://doi.org/10.3386/w35965",
    "published_at": "2026-10-01",
    "first_seen_at": "2026-11-04T17:50:24Z",
    "year": 2026,
@@ -940,12 +940,12 @@
    ],
    "relevance_score": 6,
    "relevance_reasons": [
-    "orgs_inequality:inequality, intergenerational, income inequality"
+    "orgs_inequality:inequality, intergenerational, income inequality, occupation"
    ],
    "recommended": false,
-   "note": "Income inequality and intergenerational mobility trends and measurement in Russia.",
-   "abstract": null,
-   "abstract_source": null,
+   "note": "Review of income inequality trends and intergenerational mobility in Russia, with family background associations in education, occupation, income.",
+   "abstract": "This chapter documents trends in income and inequality in Russia from the collapse of the Soviet Union through 2025, drawing on official statistics, the existing literature, and household survey microdata.It also reviews evidence on intergenerational mobility.While there is a consensus that inequality dramatically increased during the 1990s, its post-2000 trajectory is contested.Initial household survey studies usually found a decline, whereas official statistics reported a comparatively stable Gini coefficient.Our analysis of Russia's major household surveys, harmonized using common measurement conventions, aligns with the survey-based literature, indicating that the Gini coefficient generally fell from approximately 0.45-0.48 in the early 2000s to 0.29-0.38 in the early 2020s.We further find that most inequality arises within rather than between regions, urban and rural areas, and education and occupation groups.Household labormarket attachment, region, and household composition account for the largest shares of the explained variance in log income.The large literature on inequality is complemented by a small literature on intergenerational mobility.Here, the various studies on intergenerational dynamics in education, occupation, and income across post-Soviet cohorts conclude that, even against the background of dramatic structural changes, family background remains strongly associated with children's outcomes.",
+   "abstract_source": "openalex",
    "version_note": null
   },
   {

@@ -13,12 +13,12 @@
   "method": "Crossref works for ISSN 0001-8392, 1930-3815 (journal-article type) created within the run window; every paper is classified.",
   "notes": null,
   "enabled": true,
-  "last_checked_at": "2026-11-04T17:50:24Z",
+  "last_checked_at": "2026-11-11T17:45:06Z",
   "last_status": "ok",
   "last_error": null,
   "last_run": {
-   "in_scope": 2,
-   "pulled": 2
+   "in_scope": 0,
+   "pulled": 0
   },
   "totals": {
    "in_scope": 3,
@@ -40,16 +40,16 @@
   "method": "Crossref works for ISSN 0001-4273, 1948-0989 (journal-article type) created within the run window; every paper is classified.",
   "notes": null,
   "enabled": true,
-  "last_checked_at": "2026-11-04T17:50:24Z",
+  "last_checked_at": "2026-11-11T17:45:06Z",
   "last_status": "ok",
   "last_error": null,
   "last_run": {
    "in_scope": 0,
-   "pulled": 0
+   "pulled": 1
   },
   "totals": {
    "in_scope": 0,
-   "pulled": 4
+   "pulled": 5
   },
   "latest_in_scope_at": null
  },
@@ -67,12 +67,12 @@
   "method": "Crossref works for ISSN 0363-7425, 1930-3807 (journal-article type) created within the run window; every paper is classified.",
   "notes": null,
   "enabled": true,
-  "last_checked_at": "2026-11-04T17:50:24Z",
+  "last_checked_at": "2026-11-11T17:45:06Z",
   "last_status": "ok",
   "last_error": null,
   "last_run": {
    "in_scope": 0,
-   "pulled": 1
+   "pulled": 0
   },
   "totals": {
    "in_scope": 0,
@@ -94,18 +94,18 @@
   "method": "Crossref works for ISSN 1047-7039, 1526-5455 (journal-article type) created within the run window; every paper is classified.",
   "notes": null,
   "enabled": true,
-  "last_checked_at": "2026-11-04T17:50:24Z",
+  "last_checked_at": "2026-11-11T17:45:06Z",
   "last_status": "ok",
   "last_error": null,
   "last_run": {
-   "in_scope": 0,
+   "in_scope": 1,
    "pulled": 1
   },
   "totals": {
-   "in_scope": 2,
-   "pulled": 9
+   "in_scope": 3,
+   "pulled": 10
   },
-  "latest_in_scope_at": "2026-10-08"
+  "latest_in_scope_at": "2026-11-10"
  },
  {
   "slug": "smj",
@@ -121,12 +121,12 @@
   "method": "Crossref works for ISSN 0143-2095, 1097-0266 (journal-article type) created within the run window; every paper is classified.",
   "notes": null,
   "enabled": true,
-  "last_checked_at": "2026-11-04T17:50:24Z",
+  "last_checked_at": "2026-11-11T17:45:06Z",
   "last_status": "ok",
   "last_error": null,
   "last_run": {
    "in_scope": 0,
-   "pulled": 2
+   "pulled": 0
   },
   "totals": {
    "in_scope": 1,
@@ -148,18 +148,18 @@
   "method": "Crossref works for ISSN 0025-1909, 1526-5501 (journal-article type) created within the run window; every paper is classified.",
   "notes": null,
   "enabled": true,
-  "last_checked_at": "2026-11-04T17:50:24Z",
+  "last_checked_at": "2026-11-11T17:45:06Z",
   "last_status": "ok",
   "last_error": null,
   "last_run": {
-   "in_scope": 0,
-   "pulled": 7
+   "in_scope": 1,
+   "pulled": 4
   },
   "totals": {
-   "in_scope": 4,
-   "pulled": 43
+   "in_scope": 5,
+   "pulled": 47
   },
-  "latest_in_scope_at": "2026-10-14"
+  "latest_in_scope_at": "2026-11-06"
  },
  {
   "slug": "asr",
@@ -175,12 +175,12 @@
   "method": "Crossref works for ISSN 0003-1224, 1939-8271 (journal-article type) created within the run window; every paper is classified.",
   "notes": null,
   "enabled": true,
-  "last_checked_at": "2026-11-04T17:50:24Z",
+  "last_checked_at": "2026-11-11T17:45:06Z",
   "last_status": "ok",
   "last_error": null,
   "last_run": {
-   "in_scope": 1,
-   "pulled": 1
+   "in_scope": 0,
+   "pulled": 0
   },
   "totals": {
    "in_scope": 2,
@@ -202,7 +202,7 @@
   "method": "Crossref works for ISSN 0002-9602, 1537-5390 (journal-article type) created within the run window; every paper is classified.",
   "notes": null,
   "enabled": true,
-  "last_checked_at": "2026-11-04T17:50:24Z",
+  "last_checked_at": "2026-11-11T17:45:06Z",
   "last_status": "ok",
   "last_error": null,
   "last_run": {
@@ -229,12 +229,12 @@
   "method": "Crossref works for ISSN 0002-8282, 1944-7981 (journal-article type) created within the run window; every paper is classified.",
   "notes": null,
   "enabled": true,
-  "last_checked_at": "2026-11-04T17:50:24Z",
+  "last_checked_at": "2026-11-11T17:45:06Z",
   "last_status": "ok",
   "last_error": null,
   "last_run": {
    "in_scope": 0,
-   "pulled": 10
+   "pulled": 0
   },
   "totals": {
    "in_scope": 3,
@@ -256,18 +256,18 @@
   "method": "Crossref works for ISSN 0033-5533, 1531-4650 (journal-article type) created within the run window; every paper is classified.",
   "notes": null,
   "enabled": true,
-  "last_checked_at": "2026-11-04T17:50:24Z",
+  "last_checked_at": "2026-11-11T17:45:06Z",
   "last_status": "ok",
   "last_error": null,
   "last_run": {
-   "in_scope": 0,
-   "pulled": 1
+   "in_scope": 1,
+   "pulled": 3
   },
   "totals": {
-   "in_scope": 0,
-   "pulled": 5
+   "in_scope": 1,
+   "pulled": 8
   },
-  "latest_in_scope_at": null
+  "latest_in_scope_at": "2026-11-05"
  },
  {
   "slug": "jpe",
@@ -283,7 +283,7 @@
   "method": "Crossref works for ISSN 0022-3808, 1537-534X (journal-article type) created within the run window; every paper is classified.",
   "notes": null,
   "enabled": true,
-  "last_checked_at": "2026-11-04T17:50:24Z",
+  "last_checked_at": "2026-11-11T17:45:06Z",
   "last_status": "ok",
   "last_error": null,
   "last_run": {
@@ -310,16 +310,16 @@
   "method": "Crossref works for ISSN 0034-6527, 1467-937X (journal-article type) created within the run window; every paper is classified.",
   "notes": null,
   "enabled": true,
-  "last_checked_at": "2026-11-04T17:50:24Z",
+  "last_checked_at": "2026-11-11T17:45:06Z",
   "last_status": "ok",
   "last_error": null,
   "last_run": {
    "in_scope": 0,
-   "pulled": 0
+   "pulled": 2
   },
   "totals": {
    "in_scope": 0,
-   "pulled": 8
+   "pulled": 10
   },
   "latest_in_scope_at": null
  },
@@ -337,7 +337,7 @@
   "method": "Crossref works for ISSN 0012-9682, 1468-0262 (journal-article type) created within the run window; every paper is classified.",
   "notes": null,
   "enabled": true,
-  "last_checked_at": "2026-11-04T17:50:24Z",
+  "last_checked_at": "2026-11-11T17:45:06Z",
   "last_status": "ok",
   "last_error": null,
   "last_run": {
@@ -363,16 +363,16 @@
   "method": "Crossref works for ISSN 0883-9026 (journal-article type) created within the run window; keyword-gated (min score 2).",
   "notes": null,
   "enabled": true,
-  "last_checked_at": "2026-11-04T17:50:24Z",
+  "last_checked_at": "2026-11-11T17:45:06Z",
   "last_status": "ok",
   "last_error": null,
   "last_run": {
-   "in_scope": 0,
+   "in_scope": 1,
    "pulled": 1
   },
   "totals": {
-   "in_scope": 5,
-   "pulled": 7
+   "in_scope": 6,
+   "pulled": 8
   },
   "latest_in_scope_at": "2027-01-01"
  },
@@ -390,12 +390,12 @@
   "method": "Crossref works for ISSN 1042-2587, 1540-6520 (journal-article type) created within the run window; keyword-gated (min score 2).",
   "notes": null,
   "enabled": true,
-  "last_checked_at": "2026-11-04T17:50:24Z",
+  "last_checked_at": "2026-11-11T17:45:06Z",
   "last_status": "ok",
   "last_error": null,
   "last_run": {
-   "in_scope": 1,
-   "pulled": 2
+   "in_scope": 0,
+   "pulled": 0
   },
   "totals": {
    "in_scope": 3,
@@ -417,18 +417,18 @@
   "method": "Crossref works for ISSN 1932-4391, 1932-443X (journal-article type) created within the run window; keyword-gated (min score 2).",
   "notes": null,
   "enabled": true,
-  "last_checked_at": "2026-11-04T17:50:24Z",
+  "last_checked_at": "2026-11-11T17:45:06Z",
   "last_status": "ok",
   "last_error": null,
   "last_run": {
-   "in_scope": 1,
+   "in_scope": 2,
    "pulled": 2
   },
   "totals": {
-   "in_scope": 13,
-   "pulled": 20
+   "in_scope": 15,
+   "pulled": 22
   },
-  "latest_in_scope_at": "2026-10-30"
+  "latest_in_scope_at": "2026-11-09"
  },
  {
   "slug": "jom",
@@ -444,12 +444,12 @@
   "method": "Crossref works for ISSN 0149-2063, 1557-1211 (journal-article type) created within the run window; keyword-gated (min score 2).",
   "notes": null,
   "enabled": true,
-  "last_checked_at": "2026-11-04T17:50:24Z",
+  "last_checked_at": "2026-11-11T17:45:06Z",
   "last_status": "ok",
   "last_error": null,
   "last_run": {
    "in_scope": 0,
-   "pulled": 2
+   "pulled": 0
   },
   "totals": {
    "in_scope": 0,
@@ -471,18 +471,18 @@
   "method": "Crossref works for ISSN 0022-2380, 1467-6486 (journal-article type) created within the run window; keyword-gated (min score 2).",
   "notes": null,
   "enabled": true,
-  "last_checked_at": "2026-11-04T17:50:24Z",
+  "last_checked_at": "2026-11-11T17:45:06Z",
   "last_status": "ok",
   "last_error": null,
   "last_run": {
-   "in_scope": 0,
-   "pulled": 3
+   "in_scope": 1,
+   "pulled": 5
   },
   "totals": {
-   "in_scope": 1,
-   "pulled": 14
+   "in_scope": 2,
+   "pulled": 19
   },
-  "latest_in_scope_at": "2026-09-30"
+  "latest_in_scope_at": "2026-11-05"
  },
  {
   "slug": "orgstud",
@@ -498,7 +498,7 @@
   "method": "Crossref works for ISSN 0170-8406, 1741-3044 (journal-article type) created within the run window; keyword-gated (min score 2).",
   "notes": null,
   "enabled": true,
-  "last_checked_at": "2026-11-04T17:50:24Z",
+  "last_checked_at": "2026-11-11T17:45:06Z",
   "last_status": "ok",
   "last_error": null,
   "last_run": {
@@ -524,16 +524,16 @@
   "method": "Crossref works for ISSN 0048-7333 (journal-article type) created within the run window; keyword-gated (min score 2).",
   "notes": null,
   "enabled": true,
-  "last_checked_at": "2026-11-04T17:50:24Z",
+  "last_checked_at": "2026-11-11T17:45:06Z",
   "last_status": "ok",
   "last_error": null,
   "last_run": {
-   "in_scope": 0,
-   "pulled": 2
+   "in_scope": 1,
+   "pulled": 6
   },
   "totals": {
-   "in_scope": 2,
-   "pulled": 16
+   "in_scope": 3,
+   "pulled": 22
   },
   "latest_in_scope_at": "2027-01-01"
  },
@@ -551,16 +551,16 @@
   "method": "Crossref works for ISSN 2333-2050, 2333-2077 (journal-article type) created within the run window; keyword-gated (min score 2).",
   "notes": null,
   "enabled": true,
-  "last_checked_at": "2026-11-04T17:50:24Z",
+  "last_checked_at": "2026-11-11T17:45:06Z",
   "last_status": "ok",
   "last_error": null,
   "last_run": {
    "in_scope": 0,
-   "pulled": 0
+   "pulled": 1
   },
   "totals": {
    "in_scope": 0,
-   "pulled": 0
+   "pulled": 1
   },
   "latest_in_scope_at": null
  },
@@ -578,7 +578,7 @@
   "method": "Crossref works for ISSN 1941-6520, 1941-6067 (journal-article type) created within the run window; keyword-gated (min score 2).",
   "notes": null,
   "enabled": true,
-  "last_checked_at": "2026-11-04T17:50:24Z",
+  "last_checked_at": "2026-11-11T17:45:06Z",
   "last_status": "ok",
   "last_error": null,
   "last_run": {
@@ -604,7 +604,7 @@
   "method": "Crossref works for ISSN 2168-1007 (journal-article type) created within the run window; keyword-gated (min score 2).",
   "notes": null,
   "enabled": true,
-  "last_checked_at": "2026-11-04T17:50:24Z",
+  "last_checked_at": "2026-11-11T17:45:06Z",
   "last_status": "ok",
   "last_error": null,
   "last_run": {
@@ -631,18 +631,18 @@
   "method": "Crossref works for ISSN 0021-9010, 1939-1854 (journal-article type) created within the run window; keyword-gated (min score 2).",
   "notes": null,
   "enabled": true,
-  "last_checked_at": "2026-11-04T17:50:24Z",
+  "last_checked_at": "2026-11-11T17:45:06Z",
   "last_status": "ok",
   "last_error": null,
   "last_run": {
-   "in_scope": 0,
-   "pulled": 1
+   "in_scope": 1,
+   "pulled": 5
   },
   "totals": {
-   "in_scope": 0,
-   "pulled": 4
+   "in_scope": 1,
+   "pulled": 9
   },
-  "latest_in_scope_at": null
+  "latest_in_scope_at": "2026-11-05"
  },
  {
   "slug": "obhdp",
@@ -657,18 +657,18 @@
   "method": "Crossref works for ISSN 0749-5978 (journal-article type) created within the run window; keyword-gated (min score 2).",
   "notes": null,
   "enabled": true,
-  "last_checked_at": "2026-11-04T17:50:24Z",
+  "last_checked_at": "2026-11-11T17:45:06Z",
   "last_status": "ok",
   "last_error": null,
   "last_run": {
-   "in_scope": 0,
-   "pulled": 0
+   "in_scope": 1,
+   "pulled": 1
   },
   "totals": {
-   "in_scope": 0,
-   "pulled": 2
+   "in_scope": 1,
+   "pulled": 3
   },
-  "latest_in_scope_at": null
+  "latest_in_scope_at": "2026-11-01"
  },
  {
   "slug": "misq",
@@ -684,12 +684,12 @@
   "method": "Crossref works for ISSN 0276-7783, 2162-9730 (journal-article type) created within the run window; keyword-gated (min score 2).",
   "notes": null,
   "enabled": true,
-  "last_checked_at": "2026-11-04T17:50:24Z",
+  "last_checked_at": "2026-11-11T17:45:06Z",
   "last_status": "ok",
   "last_error": null,
   "last_run": {
    "in_scope": 0,
-   "pulled": 2
+   "pulled": 0
   },
   "totals": {
    "in_scope": 1,
@@ -711,12 +711,12 @@
   "method": "Crossref works for ISSN 1047-7047, 1526-5536 (journal-article type) created within the run window; keyword-gated (min score 2).",
   "notes": null,
   "enabled": true,
-  "last_checked_at": "2026-11-04T17:50:24Z",
+  "last_checked_at": "2026-11-11T17:45:06Z",
   "last_status": "ok",
   "last_error": null,
   "last_run": {
    "in_scope": 0,
-   "pulled": 1
+   "pulled": 0
   },
   "totals": {
    "in_scope": 1,
@@ -738,12 +738,12 @@
   "method": "Crossref works for ISSN 0037-7732, 1534-7605 (journal-article type) created within the run window; keyword-gated (min score 2).",
   "notes": null,
   "enabled": true,
-  "last_checked_at": "2026-11-04T17:50:24Z",
+  "last_checked_at": "2026-11-11T17:45:06Z",
   "last_status": "ok",
   "last_error": null,
   "last_run": {
-   "in_scope": 1,
-   "pulled": 2
+   "in_scope": 0,
+   "pulled": 0
   },
   "totals": {
    "in_scope": 1,
@@ -765,7 +765,7 @@
   "method": "Crossref works for ISSN 0360-0572, 1545-2115 (journal-article type) created within the run window; keyword-gated (min score 2).",
   "notes": null,
   "enabled": true,
-  "last_checked_at": "2026-11-04T17:50:24Z",
+  "last_checked_at": "2026-11-11T17:45:06Z",
   "last_status": "ok",
   "last_error": null,
   "last_run": {
@@ -791,16 +791,16 @@
   "method": "Crossref works for ISSN 2330-6696 (journal-article type) created within the run window; keyword-gated (min score 2).",
   "notes": null,
   "enabled": true,
-  "last_checked_at": "2026-11-04T17:50:24Z",
+  "last_checked_at": "2026-11-11T17:45:06Z",
   "last_status": "ok",
   "last_error": null,
   "last_run": {
    "in_scope": 0,
-   "pulled": 2
+   "pulled": 1
   },
   "totals": {
    "in_scope": 1,
-   "pulled": 9
+   "pulled": 10
   },
   "latest_in_scope_at": "2026-01-01"
  },
@@ -818,12 +818,12 @@
   "method": "Crossref works for ISSN 1475-1461, 1475-147X (journal-article type) created within the run window; keyword-gated (min score 2).",
   "notes": null,
   "enabled": true,
-  "last_checked_at": "2026-11-04T17:50:24Z",
+  "last_checked_at": "2026-11-11T17:45:06Z",
   "last_status": "ok",
   "last_error": null,
   "last_run": {
    "in_scope": 0,
-   "pulled": 1
+   "pulled": 0
   },
   "totals": {
    "in_scope": 0,
@@ -845,7 +845,7 @@
   "method": "Crossref works for ISSN 2640-205X, 2640-2068 (journal-article type) created within the run window; keyword-gated (min score 2).",
   "notes": null,
   "enabled": true,
-  "last_checked_at": "2026-11-04T17:50:24Z",
+  "last_checked_at": "2026-11-11T17:45:06Z",
   "last_status": "ok",
   "last_error": null,
   "last_run": {
@@ -872,7 +872,7 @@
   "method": "Crossref works for ISSN 1945-7782, 1945-7790 (journal-article type) created within the run window; keyword-gated (min score 2).",
   "notes": null,
   "enabled": true,
-  "last_checked_at": "2026-11-04T17:50:24Z",
+  "last_checked_at": "2026-11-11T17:45:06Z",
   "last_status": "ok",
   "last_error": null,
   "last_run": {
@@ -899,18 +899,18 @@
   "method": "Crossref works for ISSN 0895-3309, 1944-7965 (journal-article type) created within the run window; keyword-gated (min score 2).",
   "notes": null,
   "enabled": true,
-  "last_checked_at": "2026-11-04T17:50:24Z",
+  "last_checked_at": "2026-11-11T17:45:06Z",
   "last_status": "ok",
   "last_error": null,
   "last_run": {
-   "in_scope": 0,
-   "pulled": 0
+   "in_scope": 2,
+   "pulled": 8
   },
   "totals": {
-   "in_scope": 0,
-   "pulled": 0
+   "in_scope": 2,
+   "pulled": 8
   },
-  "latest_in_scope_at": null
+  "latest_in_scope_at": "2026-11-01"
  },
  {
   "slug": "jole",
@@ -926,16 +926,16 @@
   "method": "Crossref works for ISSN 0734-306X, 1537-5307 (journal-article type) created within the run window; keyword-gated (min score 2).",
   "notes": null,
   "enabled": true,
-  "last_checked_at": "2026-11-04T17:50:24Z",
+  "last_checked_at": "2026-11-11T17:45:06Z",
   "last_status": "ok",
   "last_error": null,
   "last_run": {
    "in_scope": 0,
-   "pulled": 0
+   "pulled": 8
   },
   "totals": {
    "in_scope": 2,
-   "pulled": 7
+   "pulled": 15
   },
   "latest_in_scope_at": "2026-10-23"
  },
@@ -953,7 +953,7 @@
   "method": "Crossref works for ISSN 0034-6535, 1530-9142 (journal-article type) created within the run window; keyword-gated (min score 2).",
   "notes": null,
   "enabled": true,
-  "last_checked_at": "2026-11-04T17:50:24Z",
+  "last_checked_at": "2026-11-11T17:45:06Z",
   "last_status": "ok",
   "last_error": null,
   "last_run": {
@@ -980,16 +980,16 @@
   "method": "Crossref works for ISSN 0022-1082, 1540-6261 (journal-article type) created within the run window; keyword-gated (min score 2).",
   "notes": null,
   "enabled": true,
-  "last_checked_at": "2026-11-04T17:50:24Z",
+  "last_checked_at": "2026-11-11T17:45:06Z",
   "last_status": "ok",
   "last_error": null,
   "last_run": {
    "in_scope": 0,
-   "pulled": 4
+   "pulled": 1
   },
   "totals": {
    "in_scope": 1,
-   "pulled": 18
+   "pulled": 19
   },
   "latest_in_scope_at": "2026-10-08"
  },
@@ -1006,16 +1006,16 @@
   "method": "Crossref works for ISSN 0304-405X (journal-article type) created within the run window; keyword-gated (min score 2).",
   "notes": null,
   "enabled": true,
-  "last_checked_at": "2026-11-04T17:50:24Z",
+  "last_checked_at": "2026-11-11T17:45:06Z",
   "last_status": "ok",
   "last_error": null,
   "last_run": {
    "in_scope": 0,
-   "pulled": 1
+   "pulled": 5
   },
   "totals": {
    "in_scope": 0,
-   "pulled": 12
+   "pulled": 17
   },
   "latest_in_scope_at": null
  },
@@ -1033,12 +1033,12 @@
   "method": "Crossref works for ISSN 0893-9454, 1465-7368 (journal-article type) created within the run window; keyword-gated (min score 2).",
   "notes": null,
   "enabled": true,
-  "last_checked_at": "2026-11-04T17:50:24Z",
+  "last_checked_at": "2026-11-11T17:45:06Z",
   "last_status": "ok",
   "last_error": null,
   "last_run": {
    "in_scope": 0,
-   "pulled": 3
+   "pulled": 0
   },
   "totals": {
    "in_scope": 1,
@@ -1059,16 +1059,16 @@
   "method": "Crossref works for ISSN 2397-3374 (journal-article type) created within the run window; keyword-gated (min score 2).",
   "notes": null,
   "enabled": true,
-  "last_checked_at": "2026-11-04T17:50:24Z",
+  "last_checked_at": "2026-11-11T17:45:06Z",
   "last_status": "ok",
   "last_error": null,
   "last_run": {
-   "in_scope": 1,
-   "pulled": 1
+   "in_scope": 0,
+   "pulled": 3
   },
   "totals": {
    "in_scope": 2,
-   "pulled": 24
+   "pulled": 27
   },
   "latest_in_scope_at": "2026-10-26"
  },
@@ -1086,16 +1086,16 @@
   "method": "Crossref works for ISSN 0921-898X, 1573-0913 (journal-article type) created within the run window; keyword-gated (min score 5).",
   "notes": null,
   "enabled": true,
-  "last_checked_at": "2026-11-04T17:50:24Z",
+  "last_checked_at": "2026-11-11T17:45:06Z",
   "last_status": "ok",
   "last_error": null,
   "last_run": {
-   "in_scope": 1,
-   "pulled": 2
+   "in_scope": 0,
+   "pulled": 1
   },
   "totals": {
    "in_scope": 4,
-   "pulled": 8
+   "pulled": 9
   },
   "latest_in_scope_at": "2026-10-28"
  },
@@ -1113,7 +1113,7 @@
   "method": "Crossref works for ISSN 0730-8884, 1552-8464 (journal-article type) created within the run window; keyword-gated (min score 5).",
   "notes": null,
   "enabled": true,
-  "last_checked_at": "2026-11-04T17:50:24Z",
+  "last_checked_at": "2026-11-11T17:45:06Z",
   "last_status": "ok",
   "last_error": null,
   "last_run": {
@@ -1140,16 +1140,16 @@
   "method": "Crossref works for ISSN 0028-0836, 1476-4687 (journal-article type) created within the run window; keyword-gated (min score 5).",
   "notes": null,
   "enabled": true,
-  "last_checked_at": "2026-11-04T17:50:24Z",
+  "last_checked_at": "2026-11-11T17:45:06Z",
   "last_status": "ok",
   "last_error": null,
   "last_run": {
    "in_scope": 0,
-   "pulled": 107
+   "pulled": 76
   },
   "totals": {
    "in_scope": 0,
-   "pulled": 429
+   "pulled": 505
   },
   "latest_in_scope_at": null
  },
@@ -1167,16 +1167,16 @@
   "method": "Crossref works for ISSN 0036-8075, 1095-9203 (journal-article type) created within the run window; keyword-gated (min score 5).",
   "notes": null,
   "enabled": true,
-  "last_checked_at": "2026-11-04T17:50:24Z",
+  "last_checked_at": "2026-11-11T17:45:06Z",
   "last_status": "ok",
   "last_error": null,
   "last_run": {
    "in_scope": 0,
-   "pulled": 41
+   "pulled": 45
   },
   "totals": {
    "in_scope": 0,
-   "pulled": 195
+   "pulled": 240
   },
   "latest_in_scope_at": null
  },
@@ -1194,16 +1194,16 @@
   "method": "Crossref works for ISSN 0027-8424, 1091-6490 (journal-article type) created within the run window; keyword-gated (min score 5).",
   "notes": null,
   "enabled": true,
-  "last_checked_at": "2026-11-04T17:50:24Z",
+  "last_checked_at": "2026-11-11T17:45:06Z",
   "last_status": "ok",
   "last_error": null,
   "last_run": {
-   "in_scope": 1,
-   "pulled": 126
+   "in_scope": 0,
+   "pulled": 60
   },
   "totals": {
    "in_scope": 1,
-   "pulled": 539
+   "pulled": 599
   },
   "latest_in_scope_at": "2026-11-03"
  },
@@ -1218,16 +1218,16 @@
   "method": "Google Sheet of SSRN and Google Scholar alert emails, resolved via Crossref by DOI or title; every paper is classified.",
   "notes": null,
   "enabled": true,
-  "last_checked_at": "2026-11-04T17:50:24Z",
+  "last_checked_at": "2026-11-11T17:45:06Z",
   "last_status": "ok",
   "last_error": null,
   "last_run": {
-   "in_scope": 2,
-   "pulled": 2
+   "in_scope": 0,
+   "pulled": 1
   },
   "totals": {
    "in_scope": 2,
-   "pulled": 3
+   "pulled": 4
   },
   "latest_in_scope_at": "2026-10-25"
  },
@@ -1242,18 +1242,18 @@
   "method": "OSF preprints API for provider socarxiv, created within the run window; keyword-gated (min score 2).",
   "notes": null,
   "enabled": true,
-  "last_checked_at": "2026-11-04T17:50:24Z",
+  "last_checked_at": "2026-11-11T17:45:06Z",
   "last_status": "ok",
   "last_error": null,
   "last_run": {
-   "in_scope": 10,
-   "pulled": 137
+   "in_scope": 11,
+   "pulled": 129
   },
   "totals": {
-   "in_scope": 29,
-   "pulled": 608
+   "in_scope": 40,
+   "pulled": 737
   },
-  "latest_in_scope_at": "2026-11-04"
+  "latest_in_scope_at": "2026-11-11"
  },
  {
   "slug": "nep-ent",
@@ -1266,12 +1266,12 @@
   "method": "RePEc NEP report nep-ent RSS feed (latest issue); every paper is classified.",
   "notes": null,
   "enabled": true,
-  "last_checked_at": "2026-11-04T17:50:24Z",
+  "last_checked_at": "2026-11-11T17:45:06Z",
   "last_status": "ok",
   "last_error": null,
   "last_run": {
-   "in_scope": 3,
-   "pulled": 8
+   "in_scope": 0,
+   "pulled": 0
   },
   "totals": {
    "in_scope": 11,
@@ -1290,18 +1290,18 @@
   "method": "Crossref works with DOI prefix 10.3386 created within the run window; keyword-gated (min score 2).",
   "notes": null,
   "enabled": true,
-  "last_checked_at": "2026-11-04T17:50:24Z",
+  "last_checked_at": "2026-11-11T17:45:06Z",
   "last_status": "ok",
   "last_error": null,
   "last_run": {
-   "in_scope": 3,
-   "pulled": 23
+   "in_scope": 4,
+   "pulled": 21
   },
   "totals": {
-   "in_scope": 15,
-   "pulled": 197
+   "in_scope": 19,
+   "pulled": 218
   },
-  "latest_in_scope_at": "2026-10-01"
+  "latest_in_scope_at": "2026-11-01"
  },
  {
   "slug": "arxiv-econ-gn",
@@ -1314,18 +1314,18 @@
   "method": "arXiv API query `cat:econ.GN` sorted by submission date within the run window; keyword-gated (min score 2).",
   "notes": null,
   "enabled": true,
-  "last_checked_at": "2026-11-04T17:50:24Z",
+  "last_checked_at": "2026-11-11T17:45:06Z",
   "last_status": "ok",
   "last_error": null,
   "last_run": {
-   "in_scope": 2,
-   "pulled": 37
+   "in_scope": 1,
+   "pulled": 30
   },
   "totals": {
-   "in_scope": 13,
-   "pulled": 138
+   "in_scope": 14,
+   "pulled": 168
   },
-  "latest_in_scope_at": "2026-10-31"
+  "latest_in_scope_at": "2026-11-04"
  },
  {
   "slug": "arxiv-ai-work",
@@ -1338,17 +1338,17 @@
   "method": "arXiv API query `(cat:cs.AI OR cat:cs.HC OR cat:cs.CL) AND (abs:\"labor market\" OR abs:workers OR abs:occupations OR abs:entrepreneurs OR abs:\"knowledge work\" OR abs:productivity OR abs:hiring OR abs:workplace OR abs:\"future of work\")` sorted by submission date within the run window; keyword-gated (min score 10).",
   "notes": null,
   "enabled": true,
-  "last_checked_at": "2026-11-04T17:50:24Z",
+  "last_checked_at": "2026-11-11T17:45:06Z",
   "last_status": "ok",
   "last_error": null,
   "last_run": {
-   "in_scope": 4,
-   "pulled": 119
+   "in_scope": 1,
+   "pulled": 113
   },
   "totals": {
-   "in_scope": 13,
-   "pulled": 618
+   "in_scope": 14,
+   "pulled": 731
   },
-  "latest_in_scope_at": "2026-11-02"
+  "latest_in_scope_at": "2026-11-04"
  }
 ]

@@ -1,0 +1,1144 @@
+{
+ "number": 5,
+ "cutoff": "2026-11-11",
+ "window_start": "2026-11-04",
+ "generated_at": "2026-11-11T17:47:49Z",
+ "articles": [
+  {
+   "canonical_key": "doi:10.1111/joms.70184",
+   "title": "Co‐Constructing the Illusion of Progression: How Boundary Blurring and Affirming Reproduce Social Exclusion in Elite Professions",
+   "authors": [
+    "Stefanie Gustafsson",
+    "Laura Empson"
+   ],
+   "venue": "Journal of Management Studies",
+   "source_slug": "jms",
+   "source_category": "management_journal",
+   "publication_status": "published",
+   "doi": "10.1111/joms.70184",
+   "arxiv_id": null,
+   "nber_id": null,
+   "ssrn_id": null,
+   "primary_url": "https://doi.org/10.1111/joms.70184",
+   "paper_url": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/joms.70184",
+   "pdf_url": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/joms.70184",
+   "published_at": "2026-11-05",
+   "first_seen_at": "2026-11-11T17:45:06Z",
+   "year": 2026,
+   "volume": null,
+   "issue": null,
+   "pages": null,
+   "issue_number": 5,
+   "sets": [
+    "orgs_inequality"
+   ],
+   "relevance_score": 9,
+   "relevance_reasons": [
+    "orgs_inequality:elite, diversity, organization, firm"
+   ],
+   "recommended": true,
+   "note": "Interview study of elite UK law firms on boundary practices reproducing social exclusion and limited progression of lower-status staff.",
+   "abstract": "Social exclusion is a persistent problem in elite professions. While scholarship has emphasized structural and cultural barriers, less is known about the relational practices and mechanisms through which social exclusion is sustained. Drawing on interviews with 84 lawyers, paralegals, and managers in elite UK law firms, we develop a conceptual model of how the blurring and affirming of social and symbolic boundaries between higher‐status and lower‐status groups reproduces social exclusion. We show how both groups blur and affirm boundaries across three domains: professional work, professional space, and systems of professional advancement. Boundary blurring makes symbolic boundaries more permeable, positioning lower‐status actors as prospective professionals, while boundary affirming maintains social boundaries around professional membership. We identify and theorize the illusion of progression as a relational mechanism emerging from intertwined blurring and affirming, constructing lower‐status roles as pathways into the profession even though progression is rare. The illusion perpetuates liminality by sustaining hope, individualizing failure and undermining lower‐status groups' collective challenge to social exclusion. Our findings advance understanding of the relational mechanism through which social exclusion persists in elite professions, show how boundary blurring can sustain rather than threaten status distinctions, and help explain why organizational diversity and inclusion efforts have produced little substantive change.",
+   "abstract_source": "crossref",
+   "version_note": null
+  },
+  {
+   "canonical_key": "doi:10.31235/osf.io/zh8e7_v2",
+   "title": "Financing, Ownership, and the Long-Term Trajectories of University Spin-Offs in Quebec, 1976-2025",
+   "authors": [
+    "Mahdi Khelfaoui"
+   ],
+   "venue": "SocArXiv",
+   "source_slug": "socarxiv",
+   "source_category": "preprint",
+   "publication_status": "preprint",
+   "doi": "10.31235/osf.io/zh8e7_v2",
+   "arxiv_id": null,
+   "nber_id": null,
+   "ssrn_id": null,
+   "primary_url": "https://osf.io/preprints/socarxiv/zh8e7_v2/",
+   "paper_url": "https://osf.io/preprints/socarxiv/zh8e7_v2/",
+   "pdf_url": null,
+   "published_at": "2026-11-04",
+   "first_seen_at": "2026-11-11T17:45:06Z",
+   "year": 2026,
+   "volume": null,
+   "issue": null,
+   "pages": null,
+   "issue_number": 5,
+   "sets": [
+    "entrepreneurship"
+   ],
+   "relevance_score": 9,
+   "relevance_reasons": [
+    "entrepreneurship:spin-off, university spin"
+   ],
+   "recommended": true,
+   "note": "Longitudinal records of 345 Quebec university spin-offs; financing, ownership, and acquisition outcomes over time.",
+   "abstract": "University spin-offs (USOs) are widely promoted as vehicles for converting publicly funded research into economic activity and supporting regional development. However, their long-term financing, ownership and outcomes have been much less studied than the factors that foster their creation and early growth. Drawing on company records and documented financing transactions, this article reconstructs the trajectories of 345 spin-offs originating from university research in Quebec between 1976 and 2016, tracked through 2025. It examines the changes in the institutional and geographical composition of their financing and how these factors relate to subsequent outcomes, including changes in ownership and acquisitions. The support of public institutions is crucial during the early stages of development, while private and foreign financing become increasingly important for USOs that reach later stages of development, particularly after a decade of operation. Nearly two-thirds of acquisitions result in the transfer of ownership to foreign corporations. These results suggest that although public financing of USOs can contribute to bringing university technologies to the market, their eventual ownership and location of activities do not necessarily correspond to the regional and national economic development objectives that underly public intervention.",
+   "abstract_source": "osf",
+   "version_note": null
+  },
+  {
+   "canonical_key": "doi:10.1002/sej.70069",
+   "title": "Generative AI and the architecture of knowledge work: Expertise bypass, exchange governability, and shifting bottlenecks",
+   "authors": [
+    "Michael G. Jacobides",
+    "Mingyu Dalbert Ma",
+    "Amartya Das",
+    "Matt Langione",
+    "Sesh Iyer"
+   ],
+   "venue": "Strategic Entrepreneurship Journal",
+   "source_slug": "sej",
+   "source_category": "management_journal",
+   "publication_status": "published",
+   "doi": "10.1002/sej.70069",
+   "arxiv_id": null,
+   "nber_id": null,
+   "ssrn_id": null,
+   "primary_url": "https://doi.org/10.1002/sej.70069",
+   "paper_url": "https://sms.onlinelibrary.wiley.com/doi/pdf/10.1002/sej.70069",
+   "pdf_url": "https://sms.onlinelibrary.wiley.com/doi/pdf/10.1002/sej.70069",
+   "published_at": "2026-11-09",
+   "first_seen_at": "2026-11-11T17:45:06Z",
+   "year": 2026,
+   "volume": null,
+   "issue": null,
+   "pages": null,
+   "issue_number": 5,
+   "sets": [
+    "ai_work"
+   ],
+   "relevance_score": 8,
+   "relevance_reasons": [
+    "ai_work:generative ai, ai, firm"
+   ],
+   "recommended": true,
+   "note": "Abductive study with interviews and firm website panel on how GenAI reallocates knowledge-work activities across firm boundaries.",
+   "abstract": "Research Summary Research on GenAI and work has largely focused on tasks. We ask when task‐level effects alter knowledge‐work industry architecture: the allocation of activities across firm boundaries. Using a three‐stage abductive design—an executive roundtable, a panel of 626 firm websites (2017–2025), and 33 interviews plus two further roundtables with C‐level executives and corporate directors—we document divergent repositioning: professional services firms foreground relational value, while interface‐oriented technology firms emphasize scalable interfaces. We find that activity reallocation is shaped by two independently varying dimensions: expertise bypass and exchange governability. Their intersection yields four configurations: contestable reallocation, persistent bundles with selective insourcing, federated expert provision, and integrated expert provision. We extend industry architecture theory by explaining change when production and exchange conditions shift separately. Managerial Summary GenAI is not simply making knowledge work more efficient—it may be changing which organizations perform which work. We document that professional services firms are emphasizing relationship‐driven, judgment‐intensive work, while interface‐oriented technology firms are extending scalable delivery. Our framework explains why task exposure alone does not determine where work moves. We distinguish between expertise bypass—whether GenAI can produce an output without the expertise previously required—and exchange governability—whether that activity can be specified, verified, priced, and warranted across firm boundaries. Where both are present, work becomes contestable and may be reallocated. Where they diverge, highly exposed activities may remain bundled, while less exposed, human‐intensive work may move through federated specialist models. These conditions shape which organizational forms become viable.",
+   "abstract_source": "crossref",
+   "version_note": null
+  },
+  {
+   "canonical_key": "doi:10.3386/w35987",
+   "title": "TaskNet: Building Occupational Task Inventories from Worker Interviews at Scale",
+   "authors": [
+    "Jennifer Wang",
+    "Andreas Haupt",
+    "Isaac Robinson",
+    "Phil Lewis",
+    "Erik Brynjolfsson",
+    "Diyi Yang"
+   ],
+   "venue": "NBER Working Papers",
+   "source_slug": "nber",
+   "source_category": "working_paper",
+   "publication_status": "working_paper",
+   "doi": "10.3386/w35987",
+   "arxiv_id": null,
+   "nber_id": "w35987",
+   "ssrn_id": null,
+   "primary_url": "https://doi.org/10.3386/w35987",
+   "paper_url": "https://doi.org/10.3386/w35987",
+   "pdf_url": "https://doi.org/10.3386/w35987",
+   "published_at": "2026-11-01",
+   "first_seen_at": "2026-11-11T17:45:06Z",
+   "year": 2026,
+   "volume": null,
+   "issue": null,
+   "pages": null,
+   "issue_number": 5,
+   "sets": [
+    "ai_work"
+   ],
+   "relevance_score": 8,
+   "relevance_reasons": [
+    "ai_work:ai, worker, job, occupation",
+    "entrepreneurship:inventor"
+   ],
+   "recommended": true,
+   "note": "Interview-based system building occupational task inventories from workers; revises O*NET-based AI exposure estimates for occupations.",
+   "abstract": "Understanding how AI is reshaping work requires an accurate account of the tasks workers perform.Workers are often the first to see how their jobs are changing, as new responsibilities and tools often appear in everyday work before these changes reach formal descriptions.Interviews with workers can help capture these emerging changes in job tasks.Yet existing methods support standardized ratings across workers, while open-ended conversations with workers remain costly to collect and synthesize at scale.We introduce the Stanford Task Network (TaskNet), an occupational taxonomy grounded directly in workers' accounts of their everyday work.To construct TaskNet, we develop a mixed-initiative system that induces task inventories directly from workers.The system conducts interviews, standardizes reports into individual task lists, and aggregates these lists into occupational task inventories.Applied to six occupations spanning a range of education requirements and AI exposure, our system interviews 132 workers and produces 202 task statements from 2726 reports, all of which were accepted by O*NET Center analysts, compared to roughly 65%of workers' write-in task suggestions collected through the current O*NET data collection process, a major alternative source for emerging tasks.Every statement is validated by 318 incumbents in 7923 ratings of relevance and importance.Relative to the task data from the O*NET 31.0 database for the sampled occupations, TaskNet covers 75% of the 118 published O*NET tasks and adds 79 tasks with no O*NET counterpart and 58 that refine existing statements.It covers 89% of tasks reported by held-out workers, compared with 79% for O*NET, and a larger share of the activities described in employer job postings (72.5% vs. 70.2%).Downstream, TaskNet changes AI exposure estimates in both directions, raising them for Software Developers and Lawyers, two occupations where AI's effects are widely debated.Because such estimates guide workforce policy and training, more complete and up-to-date task lists can help direct these efforts toward the workers most likely to be affected.TaskNet provides a foundation for keeping occupational information current and grounded in workers' experiences as AI reshapes work.",
+   "abstract_source": "openalex",
+   "version_note": null
+  },
+  {
+   "canonical_key": "doi:10.1016/j.jbusvent.2026.106663",
+   "title": "The Penrosean spinout: A new spin on the theory of the entrepreneurial firm",
+   "authors": [
+    "Roger Koppl",
+    "Fabian Parada Diaz",
+    "Maria Minniti"
+   ],
+   "venue": "Journal of Business Venturing",
+   "source_slug": "jbv",
+   "source_category": "management_journal",
+   "publication_status": "published",
+   "doi": "10.1016/j.jbusvent.2026.106663",
+   "arxiv_id": null,
+   "nber_id": null,
+   "ssrn_id": null,
+   "primary_url": "https://doi.org/10.1016/j.jbusvent.2026.106663",
+   "paper_url": "https://doi.org/10.1016/j.jbusvent.2026.106663",
+   "pdf_url": null,
+   "published_at": "2027-01-01",
+   "first_seen_at": "2026-11-11T17:45:06Z",
+   "year": 2027,
+   "volume": "42",
+   "issue": "1",
+   "pages": "106663",
+   "issue_number": 5,
+   "sets": [
+    "entrepreneurship"
+   ],
+   "relevance_score": 8,
+   "relevance_reasons": [
+    "entrepreneurship:entrepreneur, new venture, spinout"
+   ],
+   "recommended": true,
+   "note": "Theory of Penrosean spinouts: managerial capacity in employees drives new firm formation in low-tech sectors; noncompetes and licensing.",
+   "abstract": "We integrate Penrose's (1959) theory of firm growth with the spinout literature to identify a previously overlooked type of new venture: the Penrosean spinout. Penrose identified the accumulation of managerial capacity as a natural byproduct of routine firm operations and a catalyst of firm growth. However, managerial capacity may also accumulate in non-managerial employees, particularly in low-tech sectors such as the trades, where workers readily observe and absorb the full range of activities required to run an enterprise. When it does accumulate, excess managerial capacity may catalyze not firm growth but new firm formation — a spinout. In a pure Penrosean spinout, employer and employee need not disagree about the product, the market, or the production process; they disagree about whether to expand the business, and on what terms. Our framework makes three contributions. First, it identifies an endogenous mechanism of entrepreneurial entry: the seeds of new firm formation are sown continuously in the normal course of business, not only in response to technological disruption or novel market insight. Second, it explains persistent industry fragmentation in low-tech sectors as a structural consequence of the routine leakage of managerial capacity through spinouts. Third, it offers a novel account of why noncompete agreements and occupational licensing are prevalent among low-wage workers who possess little proprietary technical knowledge. By extending spinout theory beyond high-tech contexts, we contribute to a more comprehensive understanding of the emergence of entrepreneurial firms.",
+   "abstract_source": "openalex",
+   "version_note": null
+  },
+  {
+   "canonical_key": "doi:10.31235/osf.io/jmcyn_v2",
+   "title": "Thin Markets, Thick Ties, and Thinking Machines: Institutional Environments, IPO Markets, Technological Disruption, and New Venture Performance in Central Europe",
+   "authors": [
+    "John Stanly"
+   ],
+   "venue": "SocArXiv",
+   "source_slug": "socarxiv",
+   "source_category": "preprint",
+   "publication_status": "preprint",
+   "doi": "10.31235/osf.io/jmcyn_v2",
+   "arxiv_id": null,
+   "nber_id": null,
+   "ssrn_id": null,
+   "primary_url": "https://osf.io/preprints/socarxiv/jmcyn_v2/",
+   "paper_url": "https://osf.io/preprints/socarxiv/jmcyn_v2/",
+   "pdf_url": null,
+   "published_at": "2026-11-09",
+   "first_seen_at": "2026-11-11T17:45:06Z",
+   "year": 2026,
+   "volume": null,
+   "issue": null,
+   "pages": null,
+   "issue_number": 5,
+   "sets": [
+    "entrepreneurship",
+    "ai_work"
+   ],
+   "relevance_score": 8,
+   "relevance_reasons": [
+    "ai_work:artificial intelligence, entrepreneur, skill",
+    "entrepreneurship:entrepreneur, founder, new venture"
+   ],
+   "recommended": true,
+   "note": "Conceptual paper with propositions on institutions, IPO legitimacy, founder skill and AI as entrepreneurial actor in Central European new ventures.",
+   "abstract": "New ventures in Central Europe grow up inside institutional environments that are neither fully mature nor fully void. Formal rules have converged on European Union standards, yet capital markets remain thin, informal ties remain consequential, and successful technology ventures frequently exit to foreign exchanges. At the same time, artificial intelligence and related digital technologies are altering what a new venture is, who acts on its behalf, and how investors evaluate it. This conceptual paper integrates institutional theory, signaling and legitimacy perspectives on initial public offerings, and research on technological disruption to explain how these forces jointly shape new venture performance in the region. We develop seven propositions. We argue that the IPO operates as a legitimacy substitute whose value rises where market-supporting intermediaries are weak, that positive media sentiment exhibits a too-much-of-a-good-thing effect that is sharper in thin markets, and that founder drive pays off most when paired with political skill in particularistic settings. We further propose that category-breaking ventures face an initial valuation discount but superior long-run performance, that artificial intelligence acting as an entrepreneurial actor weakens the dependence of performance on local institutions, and that organizational scope and supranational harmonization condition these relationships. We conclude with a research agenda and implications for founders, investors, exchanges, and policymakers.",
+   "abstract_source": "osf",
+   "version_note": null
+  },
+  {
+   "canonical_key": "arxiv:2611.06346",
+   "title": "Today's Work, Tomorrow's Workforce: Incentivizing Learning in AI-Assisted Work",
+   "authors": [
+    "Moritz Diener",
+    "Daniel Hendriks",
+    "Philipp Spitzer",
+    "Gerhard Satzger",
+    "Joshua Holstein",
+    "Wei Sun"
+   ],
+   "venue": "arXiv cs.HC",
+   "source_slug": "arxiv-ai-work",
+   "source_category": "preprint",
+   "publication_status": "preprint",
+   "doi": null,
+   "arxiv_id": "2611.06346",
+   "nber_id": null,
+   "ssrn_id": null,
+   "primary_url": "https://arxiv.org/abs/2611.06346",
+   "paper_url": "https://arxiv.org/pdf/2611.06346v2",
+   "pdf_url": "https://arxiv.org/pdf/2611.06346v2",
+   "published_at": "2026-11-04",
+   "first_seen_at": "2026-11-11T17:45:06Z",
+   "year": 2026,
+   "volume": null,
+   "issue": null,
+   "pages": null,
+   "issue_number": 5,
+   "sets": [
+    "ai_work"
+   ],
+   "relevance_score": 8,
+   "relevance_reasons": [
+    "ai_work:ai, worker, workforce, skill"
+   ],
+   "recommended": true,
+   "note": "Formal model of worker skill acquisition and retention under AI assistance, with incentives for independent work.",
+   "abstract": "At work, people develop skills through experience: novices acquire skills by completing tasks, while experts retain theirs through continued practice. AI assistance changes this process by offering workers a choice between solving tasks independently and accepting the AI's answers. While relying on AI saves immediate effort, it can also displace the practice needed to acquire and retain skills, including those required to oversee the AI. We extend an existing accept-or-solve model to a sequence of tasks in which workers' skills evolve through independent practice and reliance on AI. We compare myopic workers, who maximize immediate utility, with strategic workers, who also value their future skills. We show that novices can become trapped at low skill levels, while experts may lose skill, even as AI-assisted outcome accuracy remains high. Strategic workers, by contrast, may choose to solve independently even when AI is more accurate, recognizing the future value of acquiring and retaining their skills. We then study incentives that reward correct independent work and characterize the payments needed to encourage skill acquisition and retention. We show that independent work can become self-sustaining once workers acquire sufficient skill, eliminating the need for continued incentives. Counterintuitively, supporting a higher skill target can sometimes reduce long-run incentive costs, either by enabling self-sustaining independent work or by lowering the payments needed to maintain proficiency. Our findings thereby shift the focus from whether workers should rely on AI on individual tasks to how organizations can sustain human expertise over time, and which skills are worth investing in.",
+   "abstract_source": "arxiv",
+   "version_note": null
+  },
+  {
+   "canonical_key": "arxiv:2611.06888",
+   "title": "Dull, Dirty, Dangerous? Working Conditions and the Limits of Occupational AI Exposure",
+   "authors": [
+    "Siyi Yu"
+   ],
+   "venue": "arXiv cs.AI",
+   "source_slug": "arxiv-econ-gn",
+   "source_category": "preprint",
+   "publication_status": "preprint",
+   "doi": null,
+   "arxiv_id": "2611.06888",
+   "nber_id": null,
+   "ssrn_id": null,
+   "primary_url": "https://arxiv.org/abs/2611.06888",
+   "paper_url": "https://arxiv.org/pdf/2611.06888v1",
+   "pdf_url": "https://arxiv.org/pdf/2611.06888v1",
+   "published_at": "2026-11-04",
+   "first_seen_at": "2026-11-11T17:45:06Z",
+   "year": 2026,
+   "volume": null,
+   "issue": null,
+   "pages": null,
+   "issue_number": 5,
+   "sets": [
+    "ai_work"
+   ],
+   "relevance_score": 7,
+   "relevance_reasons": [
+    "ai_work:large language model, llm, ai, automation"
+   ],
+   "recommended": false,
+   "note": "Relates occupational AI exposure measures to dull, dirty and dangerous working conditions across 754 occupations using O*NET.",
+   "abstract": "Automation is often justified as relief from dull, dirty, and dangerous work. I examine how these conditions relate to occupational AI exposure using 21 O*NET items across 754 US occupations. Higher exposure is associated with lower condition scores under a large language model (LLM) measure and AI Occupational Exposure (AIOE), with equal occupation weights and employment weights. Adjustment for physical demands, required education, training and experience, and wages reduces the composite association. The adjusted confidence intervals include zero for LLM exposure and remain below zero for AIOE. Separating repetition from restricted discretion also changes what the combined Dull score conveys. These comparisons show how item groupings and occupational characteristics shape the interpretation of exposure estimates. Occupational profiles offer a starting point for selecting contrasting research settings. Establishing desired automation or realized relief requires evidence about workers' preferences and specific interventions.",
+   "abstract_source": "arxiv",
+   "version_note": null
+  },
+  {
+   "canonical_key": "doi:10.1287/orsc.2022.17147",
+   "title": "Growth Paths in Early Machine Learning Ventures: Technical Configuration and Competitive Advantage Over Time",
+   "authors": [
+    "Jack Fraser",
+    "Pinar Ozcan"
+   ],
+   "venue": "Organization Science",
+   "source_slug": "orgsci",
+   "source_category": "management_journal",
+   "publication_status": "published",
+   "doi": "10.1287/orsc.2022.17147",
+   "arxiv_id": null,
+   "nber_id": null,
+   "ssrn_id": null,
+   "primary_url": "https://doi.org/10.1287/orsc.2022.17147",
+   "paper_url": "https://doi.org/10.1287/orsc.2022.17147",
+   "pdf_url": null,
+   "published_at": "2026-11-10",
+   "first_seen_at": "2026-11-11T17:45:06Z",
+   "year": 2026,
+   "volume": null,
+   "issue": null,
+   "pages": null,
+   "issue_number": 5,
+   "sets": [
+    "entrepreneurship"
+   ],
+   "relevance_score": 7,
+   "relevance_reasons": [
+    "ai_work:machine learning, firm",
+    "entrepreneurship:accelerator"
+   ],
+   "recommended": false,
+   "note": "Inductive multicase study of six early-stage machine learning ventures in an accelerator; growth paths and competitive advantage.",
+   "abstract": "Machine learning capabilities have become important strategic assets, yet little is known about how their technical characteristics affect the competitive advantage of the firms that build them. Through an inductive, multicase study tracking six early-stage machine learning ventures in an accelerator program, we explore how their phases of specialization and exploration may be constrained by properties of the underlying technology. Our findings show how training data, learning paradigms, and model outputs depend on one another and on the applications they serve, and how these relationships change over time. This interdependence shapes firms’ growth paths, alternately expanding or limiting the strategic options available to them. Characteristics that confer an early competitive advantage can constrain later growth. We discuss the implications for strategy research on competitive advantage and path dependence in machine learning ventures.",
+   "abstract_source": "crossref",
+   "version_note": null
+  },
+  {
+   "canonical_key": "doi:10.31235/osf.io/mf5ce_v1",
+   "title": "Has the Motherhood Wage Penalty Declined? Changing Selection into Motherhood Across Cohorts in Japan",
+   "authors": [
+    "Ryota Mugiyama"
+   ],
+   "venue": "SocArXiv",
+   "source_slug": "socarxiv",
+   "source_category": "preprint",
+   "publication_status": "preprint",
+   "doi": "10.31235/osf.io/mf5ce_v1",
+   "arxiv_id": null,
+   "nber_id": null,
+   "ssrn_id": null,
+   "primary_url": "https://osf.io/preprints/socarxiv/mf5ce_v1/",
+   "paper_url": "https://osf.io/preprints/socarxiv/mf5ce_v1/",
+   "pdf_url": null,
+   "published_at": "2026-11-06",
+   "first_seen_at": "2026-11-11T17:45:06Z",
+   "year": 2026,
+   "volume": null,
+   "issue": null,
+   "pages": null,
+   "issue_number": 5,
+   "sets": [
+    "orgs_inequality"
+   ],
+   "relevance_score": 7,
+   "relevance_reasons": [
+    "orgs_inequality:gender"
+   ],
+   "recommended": false,
+   "note": "Panel analysis of the motherhood wage penalty across Japanese cohorts using fixed-effects slopes; gender pay gap.",
+   "abstract": "Whether the motherhood wage penalty has declined amid family policy expansion and shifting gender norms has attracted attention. However, a change in the penalty over time could reflect both changing effects of motherhood and changing selection into motherhood, in particular selection on wage growth, which can produce spurious trends. Using nationally representative panel data from Japan, this study examines the wage consequences of motherhood over the ten years following first birth in an earlier (1960–1974) and a later (1975–1989) cohort, using fixed effects (FE) models and fixed effects individual slopes (FEIS) models, which account for individual differences in wage growth. Averaged over the ten years following first birth, the penalty was 10.1% and 3.6% in the earlier and later cohorts under the FE model, but 8.4% and 11.9% with no significant cohort difference under the FEIS model. Mothers in the later cohort also had steeper underlying wage growth than non-mothers, which is consistent with changing selection into motherhood on wage growth accounting for the apparent decline under the FE model. These findings provide no evidence that the motherhood wage penalty in Japan declined across cohorts, despite decades of family policy expansion and shifting gender norms.",
+   "abstract_source": "osf",
+   "version_note": null
+  },
+  {
+   "canonical_key": "doi:10.31235/osf.io/se5qb_v1",
+   "title": "Occupational mobility and developments of inequality along the life course: The German case",
+   "authors": [
+    "Steffen Hillmert"
+   ],
+   "venue": "SocArXiv",
+   "source_slug": "socarxiv",
+   "source_category": "preprint",
+   "publication_status": "preprint",
+   "doi": "10.31235/osf.io/se5qb_v1",
+   "arxiv_id": null,
+   "nber_id": null,
+   "ssrn_id": null,
+   "primary_url": "https://osf.io/preprints/socarxiv/se5qb_v1/",
+   "paper_url": "https://osf.io/preprints/socarxiv/se5qb_v1/",
+   "pdf_url": null,
+   "published_at": "2026-11-09",
+   "first_seen_at": "2026-11-11T17:45:06Z",
+   "year": 2026,
+   "volume": null,
+   "issue": null,
+   "pages": null,
+   "issue_number": 5,
+   "sets": [
+    "orgs_inequality"
+   ],
+   "relevance_score": 7,
+   "relevance_reasons": [
+    "orgs_inequality:inequality, social mobility, career, disadvantage"
+   ],
+   "recommended": false,
+   "note": "Cohort analysis of occupational mobility in West Germany; cumulative advantage and disadvantage in careers and intergenerational mobility.",
+   "abstract": "On the basis of inter-cohort comparisons, this paper describes patterns of intra-generational occupational mobility in Germany and their long-term trends since World War II. It also presents conceptual links between individual mobility and developments of inequality along the life course, with a special focus on the question to what extent employment careers are characterised by specific forms of cumulative advantage and disadvantage. Finally, it is asked how intra-generational developments are related to inter-generational social mobility. The paper also discusses how mobility patterns can be linked to specific institutions which – together with labour market conditions – are crucial determinants of the development of inequality within a cohort. In its empirical part, the paper presents evidence from cohort-specific analyses based on life-course data from a broad range of West German birth cohorts.",
+   "abstract_source": "osf",
+   "version_note": null
+  },
+  {
+   "canonical_key": "doi:10.31235/osf.io/e5du6_v1",
+   "title": "Pivoting Enough, Not Too Much: Entrepreneurial Drive, Political Skill, and Post-Pandemic Venture Performance in South America",
+   "authors": [
+    "Carlos Martínez",
+    "Kavin Alves Santos",
+    "Juan Giménez"
+   ],
+   "venue": "SocArXiv",
+   "source_slug": "socarxiv",
+   "source_category": "preprint",
+   "publication_status": "preprint",
+   "doi": "10.31235/osf.io/e5du6_v1",
+   "arxiv_id": null,
+   "nber_id": null,
+   "ssrn_id": null,
+   "primary_url": "https://osf.io/preprints/socarxiv/e5du6_v1/",
+   "paper_url": "https://osf.io/preprints/socarxiv/e5du6_v1/",
+   "pdf_url": null,
+   "published_at": "2026-11-07",
+   "first_seen_at": "2026-11-11T17:45:06Z",
+   "year": 2026,
+   "volume": null,
+   "issue": null,
+   "pages": null,
+   "issue_number": 5,
+   "sets": [
+    "entrepreneurship"
+   ],
+   "relevance_score": 7,
+   "relevance_reasons": [
+    "entrepreneurship:entrepreneur, founder"
+   ],
+   "recommended": false,
+   "note": "Survey of South American ventures on founder drive, political skill, and strategic pivoting in post-pandemic performance.",
+   "abstract": "How do ventures in emerging markets perform after a systemic shock? Drawing on upper echelons and dynamic capabilities perspectives, we examine how founder attributes and strategic pivoting shape post-pandemic venture performance in South America. Using survey data from 500 ventures in Argentina, Brazil, Chile, Colombia, and Peru, we find that entrepreneurial drive is positively related to performance and that this relationship is stronger when founders are politically skilled. Strategic pivoting has an inverted U-shaped relationship with performance, and environmental dynamism shifts the performance-maximizing level of pivoting upward. Core results hold with an alternative outcome, without influential observations, and with country-clustered standard errors, although moderation effects weaken with the alternative outcome. We discuss implications for theories of entrepreneurial adaptation and for the “too much of a good thing” logic.",
+   "abstract_source": "osf",
+   "version_note": null
+  },
+  {
+   "canonical_key": "doi:10.31235/osf.io/7w253_v2",
+   "title": "Shaping Women’s Fortunes: Inheritance and Gender Disparities",
+   "authors": [
+    "Naomi Crowther",
+    "Louisa Roos"
+   ],
+   "venue": "SocArXiv",
+   "source_slug": "socarxiv",
+   "source_category": "preprint",
+   "publication_status": "preprint",
+   "doi": "10.31235/osf.io/7w253_v2",
+   "arxiv_id": null,
+   "nber_id": null,
+   "ssrn_id": null,
+   "primary_url": "https://osf.io/preprints/socarxiv/7w253_v2/",
+   "paper_url": "https://osf.io/preprints/socarxiv/7w253_v2/",
+   "pdf_url": null,
+   "published_at": "2026-11-10",
+   "first_seen_at": "2026-11-11T17:45:06Z",
+   "year": 2026,
+   "volume": null,
+   "issue": null,
+   "pages": null,
+   "issue_number": 5,
+   "sets": [
+    "orgs_inequality"
+   ],
+   "relevance_score": 7,
+   "relevance_reasons": [
+    "entrepreneurship:business owner",
+    "orgs_inequality:inequality, socio-economic, gender, women"
+   ],
+   "recommended": false,
+   "note": "Swedish registry data on inheritance, wealth and labor supply by gender; gendered wealth gaps and unequal inheritance of business ownership.",
+   "abstract": "Women rely on intra- and inter-generational transfers for wealth accumulation more than men, yet the role of inheritance in closing gender wealth gaps remains poorly understood. Using Swedish registry inheritance data from 2002–2004 combined with panel data on individual wealth portfolios and labor income from 1999–2007, we examine how wealth and income evolve upon inheriting. Inheritance leads to larger relative increases in women’s net wealth compared to men, however the difference disappears in the long term. Differences in portfolio composition as well as unequal inheritance of productive assets, in the form of business ownership, may play a role. We find evidence indicative of structural barriers to financial resource accumulation over the lifecycle rather than inherent gender differences in investment preferences. The disparity in wealth accumulation post-inheritance is reinforced by gendered labor supply responses. Daughters reduce their paid labor supply more than sons, seemingly to provide unpaid eldercare. Given these findings, inheritance alone should not be viewed as an effective mechanism for reducing gender wealth inequality. (Stone Center on Socio-Economic Inequality Working Paper)",
+   "abstract_source": "osf",
+   "version_note": null
+  },
+  {
+   "canonical_key": "doi:10.1016/j.respol.2026.105646",
+   "title": "Staying on topic: How research knowledge spills over via university education to regional entrepreneurial activity",
+   "authors": [
+    "Frank J. van Rijnsoever",
+    "Jip Leendertse",
+    "Iris Wanzenböck",
+    "Yvette Baggen"
+   ],
+   "venue": "Research Policy",
+   "source_slug": "respol",
+   "source_category": "management_journal",
+   "publication_status": "published",
+   "doi": "10.1016/j.respol.2026.105646",
+   "arxiv_id": null,
+   "nber_id": null,
+   "ssrn_id": null,
+   "primary_url": "https://doi.org/10.1016/j.respol.2026.105646",
+   "paper_url": "https://www.sciencedirect.com/science/article/pii/S0048733326002374/pdf",
+   "pdf_url": "https://www.sciencedirect.com/science/article/pii/S0048733326002374/pdf",
+   "published_at": "2027-01-01",
+   "first_seen_at": "2026-11-11T17:45:06Z",
+   "year": 2027,
+   "volume": "56",
+   "issue": "1",
+   "pages": "105646",
+   "issue_number": 5,
+   "sets": [
+    "entrepreneurship"
+   ],
+   "relevance_score": 7,
+   "relevance_reasons": [
+    "entrepreneurship:entrepreneur"
+   ],
+   "recommended": false,
+   "note": "Topic-level analysis of how university research and education feed regional innovative entrepreneurship in two Dutch regions; knowledge spillover theory of entrepreneurship.",
+   "abstract": "Innovative entrepreneurship is an important driver of regional economic development. According to the Knowledge Spillover Theory of Entrepreneurship (KSTE), universities contribute directly to innovative entrepreneurship by conducting state-of-the-art research and educating talent. A key assumption of the KSTE is that human interactions play a pivotal role in transferring knowledge from universities to entrepreneurship, implying that educating students on research topics provides an indirect route for knowledge to spill over into innovative entrepreneurship. Yet this mechanism has not been tested at the level of knowledge specificity where such human interactions actually occur. In this paper, we introduce topics as a novel level of analysis to examine these processes empirically. We define topics as knowledge organized around a coherent theme or problem orientation, making them understandable, transmittable, and usable across institutional contexts through human interaction. Using this topic-level approach, we answer the following question: What is the direct and indirect influence of the amount of university research and education on the level of regional innovative entrepreneurial activity on a topic? We apply Latent Dirichlet Allocation to different documents to extract the amount of educational, research, and entrepreneurial activity per topic in two university regions in the Netherlands. We then connect these activities on a topic through a series of regression models. Our results show that education on a topic has a strong direct effect and largely mediates the positive effect of research on innovative entrepreneurial activity on that topic. Our results further suggest that spillovers to innovative entrepreneurial activity mostly take place within topics rather than between them. Finally, we find evidence that research on related topics can pull talent away from innovative entrepreneurship on a topic. In practical terms, our results suggest that education on state-of-the-art research topics is an important mechanism for promoting innovative entrepreneurship.",
+   "abstract_source": "openalex",
+   "version_note": null
+  },
+  {
+   "canonical_key": "doi:10.1257/jep.20251487",
+   "title": "The Meritocratic Consensus and Stratification in Higher Education",
+   "authors": [
+    "Zachary Bleemer",
+    "Jesse Rothstein"
+   ],
+   "venue": "Journal of Economic Perspectives",
+   "source_slug": "jep",
+   "source_category": "economics_journal",
+   "publication_status": "published",
+   "doi": "10.1257/jep.20251487",
+   "arxiv_id": null,
+   "nber_id": null,
+   "ssrn_id": null,
+   "primary_url": "https://doi.org/10.1257/jep.20251487",
+   "paper_url": "https://doi.org/10.1257/jep.20251487",
+   "pdf_url": null,
+   "published_at": "2026-11-01",
+   "first_seen_at": "2026-11-11T17:45:06Z",
+   "year": 2026,
+   "volume": "40",
+   "issue": "4",
+   "pages": "3-30",
+   "issue_number": 5,
+   "sets": [
+    "orgs_inequality"
+   ],
+   "relevance_score": 7,
+   "relevance_reasons": [
+    "orgs_inequality:stratification, meritocra, firm"
+   ],
+   "recommended": false,
+   "note": "Documents stratification of US colleges by test scores, family background, and instructional spending; admissions criteria and resource inequality trends.",
+   "abstract": "American colleges and universities are highly stratified by pre-college academic achievement, family background, and institutional resources. We study the meritocratic consensus in American higher education: Colleges that high-testing students (who are generally also from high-income families) attend spend dramatically more on instruction than do those that enroll lower-testing students. Stratification by test scores has been largely stable since the 1960s, but the stratification of instructional resources has risen sharply since 1970 at both private and public institutions. Nonacademic admissions criteria like athletics, legacy, and affirmative action are second-order in determining the allocation of students to universities. Potential economic justifications for the positive association of instructional expenditures with student prior achievement—q-complementarity between achievement and resources, convex social returns to high human capital, and incentives to invest in learning prior to college—have little empirical support. Resource stratification across universities has not increased in the past decade, largely due to increased public funding of universities that enroll lower-testing students through financial aid programs like California's CalGrant, but stratification within institutions is now rising swiftly.",
+   "abstract_source": "crossref",
+   "version_note": null
+  },
+  {
+   "canonical_key": "doi:10.3386/w36003",
+   "title": "AI as Shared Business Infrastructure: Firm Growth and the Distribution of Gains",
+   "authors": [
+    "Panle Jia Barwick",
+    "Lu Fang",
+    "Jinhan Liu",
+    "Huilan Xu",
+    "Zhe Yuan"
+   ],
+   "venue": "NBER Working Papers",
+   "source_slug": "nber",
+   "source_category": "working_paper",
+   "publication_status": "working_paper",
+   "doi": "10.3386/w36003",
+   "arxiv_id": null,
+   "nber_id": "w36003",
+   "ssrn_id": null,
+   "primary_url": "https://doi.org/10.3386/w36003",
+   "paper_url": "https://doi.org/10.3386/w36003",
+   "pdf_url": null,
+   "published_at": "2026-11-01",
+   "first_seen_at": "2026-11-11T17:45:06Z",
+   "year": 2026,
+   "volume": null,
+   "issue": null,
+   "pages": null,
+   "issue_number": 5,
+   "sets": [
+    "ai_work",
+    "entrepreneurship"
+   ],
+   "relevance_score": 6,
+   "relevance_reasons": [
+    "ai_work:ai, firm"
+   ],
+   "recommended": false,
+   "note": "Title suggests AI as shared infrastructure affecting firm growth and distribution of gains across firms; no abstract available.",
+   "abstract": null,
+   "abstract_source": null,
+   "version_note": null
+  },
+  {
+   "canonical_key": "doi:10.1016/j.obhdp.2026.104524",
+   "title": "Bias against women's anger is alive and well: A large-scale test using interactions in the field",
+   "authors": [
+    "Peter Jin",
+    "M. Asher Lawson",
+    "Natalia Karelaia",
+    "So Yeon Chun",
+    "Eric Luis Uhlmann"
+   ],
+   "venue": "Organizational Behavior and Human Decision Processes",
+   "source_slug": "obhdp",
+   "source_category": "management_journal",
+   "publication_status": "published",
+   "doi": "10.1016/j.obhdp.2026.104524",
+   "arxiv_id": null,
+   "nber_id": null,
+   "ssrn_id": null,
+   "primary_url": "https://doi.org/10.1016/j.obhdp.2026.104524",
+   "paper_url": "https://doi.org/10.1016/j.obhdp.2026.104524",
+   "pdf_url": null,
+   "published_at": "2026-11-01",
+   "first_seen_at": "2026-11-11T17:45:06Z",
+   "year": 2026,
+   "volume": "197",
+   "issue": null,
+   "pages": "104524",
+   "issue_number": 5,
+   "sets": [
+    "orgs_inequality"
+   ],
+   "relevance_score": 6,
+   "relevance_reasons": [
+    "orgs_inequality:discrimination, gender, women"
+   ],
+   "recommended": false,
+   "note": "Ten archival field datasets show persistent gender bias against women's anger expressions, including investor calls; no decline over time.",
+   "abstract": "Expressions of anger can have significant social consequences. Prior laboratory studies have shown that although men may benefit from expressing anger, women are often penalized for it. Yet, more recent experimental findings suggest that this gender-and-anger backlash effect may no longer hold consistently. These mixed results present an opportunity for competitive theory testing to distinguish between alternative accounts regarding whether and why gendered reactions to anger persist or have diminished. We systematically test gendered responses to verbal expressions of anger across ten large-scale archival datasets – spanning 67 years and over 100 million observations – that capture naturalistic emotion expressions in diverse settings, including political speeches, investor call conversations, social media posts, and online reviews. These replications in ecologically valid field data reveal that, overall, anger expressions by women elicited reactions reflecting decreased liking relative to men, yet had no consistent effect on attributed competence. Female and male responders did not differ significantly in the tendency to penalize angry women. Contrary to previous findings suggesting that gender stereotyping and discrimination are fading over time, our time trend analyses revealed no sign of decline: reactions to women’s anger grew slightly but consistently more negative relative to men’s, by about .001 standardized units per year. In sum, although society has made progress toward gender equality in many areas, prescriptive gender biases regarding anger expression remain observable in naturally emerging discourses in the field.",
+   "abstract_source": "openalex",
+   "version_note": null
+  },
+  {
+   "canonical_key": "doi:10.1257/jep.20251493",
+   "title": "Can Government Support for Innovation Create the Next Silicon Valley?",
+   "authors": [
+    "E. Jason Baron",
+    "Shawn Kantor",
+    "Alexander Whalley"
+   ],
+   "venue": "Journal of Economic Perspectives",
+   "source_slug": "jep",
+   "source_category": "economics_journal",
+   "publication_status": "published",
+   "doi": "10.1257/jep.20251493",
+   "arxiv_id": null,
+   "nber_id": null,
+   "ssrn_id": null,
+   "primary_url": "https://doi.org/10.1257/jep.20251493",
+   "paper_url": "https://doi.org/10.1257/jep.20251493",
+   "pdf_url": null,
+   "published_at": "2026-11-01",
+   "first_seen_at": "2026-11-11T17:45:06Z",
+   "year": 2026,
+   "volume": "40",
+   "issue": "4",
+   "pages": "31-52",
+   "issue_number": 5,
+   "sets": [
+    "entrepreneurship"
+   ],
+   "relevance_score": 6,
+   "relevance_reasons": [
+    "entrepreneurship:entrepreneur, innovation, r&d",
+    "orgs_inequality:race, firm"
+   ],
+   "recommended": false,
+   "note": "Review of causal evidence on public R&D and regional innovation hubs, stressing local entrepreneurs, risk capital, and skilled labor.",
+   "abstract": "Can government support for innovation create the next Silicon Valley? We examine what public research and development can and cannot do to foster regional knowledge hubs. The historical record suggests that many successful hubs owe their origins partly to serendipity and favorable initial conditions. We then review causal evidence from universities, changes in intellectual property rules, new research institutions, wartime R&D, and the space race. Public R&D can raise local innovation, employment, and income, but the effects are heterogeneous, often modest relative to cost, and may partly reflect the relocation of firms and skilled workers from elsewhere. The evidence suggests a central role for complementary local inputs, including entrepreneurs, risk capital, skilled labor, firms, and institutions. Public R&D can help build a hub, but is unlikely to create one on its own.",
+   "abstract_source": "crossref",
+   "version_note": null
+  },
+  {
+   "canonical_key": "doi:10.31235/osf.io/fa345_v1",
+   "title": "Capital Market Depth, Technological Advancement, and Entrepreneurial Activity in Europe: A Calibrated Simulation Study of Curvilinear and Contingent Effects",
+   "authors": [
+    "Dustin Wayne"
+   ],
+   "venue": "SocArXiv",
+   "source_slug": "socarxiv",
+   "source_category": "preprint",
+   "publication_status": "preprint",
+   "doi": "10.31235/osf.io/fa345_v1",
+   "arxiv_id": null,
+   "nber_id": null,
+   "ssrn_id": null,
+   "primary_url": "https://osf.io/preprints/socarxiv/fa345_v1/",
+   "paper_url": "https://osf.io/preprints/socarxiv/fa345_v1/",
+   "pdf_url": null,
+   "published_at": "2026-11-09",
+   "first_seen_at": "2026-11-11T17:45:06Z",
+   "year": 2026,
+   "volume": null,
+   "issue": null,
+   "pages": null,
+   "issue_number": 5,
+   "sets": [
+    "entrepreneurship"
+   ],
+   "relevance_score": 6,
+   "relevance_reasons": [
+    "entrepreneurship:entrepreneur, new venture"
+   ],
+   "recommended": false,
+   "note": "Simulated-data study of capital market depth, technology, and new venture entry and growth across European countries.",
+   "abstract": "European policymakers have paired the Capital Markets Union agenda with large public investments in technological advancement, yet the joint consequences of these two levers for entrepreneurship remain poorly understood. This study develops and tests a framework in which capital market depth shapes how technology development translates into entrepreneurial activity. Drawing on finance-and-growth theory, the knowledge spillover theory of entrepreneurship, and the too-much-of-a-good-thing perspective, we argue that technology development has an inverted U-shaped relationship with new venture entry and that deep capital markets shift the turning point outward and flatten the downturn. At the venture level, we argue that capital market depth amplifies the growth returns to venture-level technological advancement, particularly in munificent task environments. We evaluate these predictions using a calibrated two-level simulation of 4,500 country-industry-years across 30 European economies and 14,000 new ventures, combining two-way fixed effects, instrumental variables, formal turning-point tests, and a 216-specification multiverse analysis. The inverted U holds where capital markets are shallow or average but disappears where they are deep, and the venture-level interaction is robust for growth but not for survival. The study offers a transparent, replicable design for future work with administrative European data.",
+   "abstract_source": "osf",
+   "version_note": null
+  },
+  {
+   "canonical_key": "doi:10.3386/w35978",
+   "title": "Coordinated R&D Programs and the Creation of New Industries",
+   "authors": [
+    "Daniel Gross",
+    "Maria Roche"
+   ],
+   "venue": "NBER Working Papers",
+   "source_slug": "nber",
+   "source_category": "working_paper",
+   "publication_status": "working_paper",
+   "doi": "10.3386/w35978",
+   "arxiv_id": null,
+   "nber_id": "w35978",
+   "ssrn_id": null,
+   "primary_url": "https://doi.org/10.3386/w35978",
+   "paper_url": "https://doi.org/10.3386/w35978",
+   "pdf_url": "https://doi.org/10.3386/w35978",
+   "published_at": "2026-10-01",
+   "first_seen_at": "2026-11-04T17:50:24Z",
+   "year": 2026,
+   "volume": null,
+   "issue": null,
+   "pages": null,
+   "issue_number": 5,
+   "sets": [
+    "entrepreneurship"
+   ],
+   "relevance_score": 6,
+   "relevance_reasons": [
+    "entrepreneurship:firm entry, patent, r&d"
+   ],
+   "recommended": false,
+   "note": "Historical study of WWII radar R&D program, firm entry, patenting, and labor flows in forming a civilian industry.",
+   "abstract": "Large, mission-oriented R&D efforts sometimes generate substantial technological advances, but their commercial impacts vary.This paper uses one such effort-the U.S. World War II radar program-to explore how the outputs of such programs may contribute to later commercial development.Using archival records together with data on firm entry, patenting, and technical labor flows, we reconstruct the organization and outputs of wartime radar R&D, document the rapid postwar growth of a civilian industry, and evaluate which outputs were used in subsequent commercial activity.Codified knowledge (in publications and patents) diffused broadly, embodied knowledge (trained personnel) diffused more locally, and the component-system industrial architecture of the wartime program was mirrored in firms' postwar commercial positions.The evidence points to specific channels through which coordinated technology development programs can give shape to emerging high-tech industries.",
+   "abstract_source": "openalex",
+   "version_note": null
+  },
+  {
+   "canonical_key": "doi:10.3386/w35986",
+   "title": "Debiasing Law Enforcement Officers: Evidence from an Expressive Arts Intervention in India",
+   "authors": [
+    "Sofia Amaral",
+    "Girija Borker",
+    "Nishith Prakash",
+    "María Micaela Sviatschi"
+   ],
+   "venue": "NBER Working Papers",
+   "source_slug": "nber",
+   "source_category": "working_paper",
+   "publication_status": "working_paper",
+   "doi": "10.3386/w35986",
+   "arxiv_id": null,
+   "nber_id": "w35986",
+   "ssrn_id": null,
+   "primary_url": "https://doi.org/10.3386/w35986",
+   "paper_url": "https://doi.org/10.3386/w35986",
+   "pdf_url": "https://doi.org/10.3386/w35986",
+   "published_at": "2026-11-01",
+   "first_seen_at": "2026-11-11T17:45:06Z",
+   "year": 2026,
+   "volume": null,
+   "issue": null,
+   "pages": null,
+   "issue_number": 5,
+   "sets": [
+    "orgs_inequality"
+   ],
+   "relevance_score": 6,
+   "relevance_reasons": [
+    "orgs_inequality:gender, workplace"
+   ],
+   "recommended": false,
+   "note": "Cluster randomized trial with Bihar Police on debiasing officers toward gender-based violence; effects on workplace harassment of junior female officers.",
+   "abstract": "Frontline state agents exercise substantial discretion over citizens' access to public services, yet little is known about whether the attitudes and beliefs shaping this discretion can be changed among incumbent bureaucrats.Partnering with the Bihar Police -one of India's largest states that operates under comparatively severe policing capacity constraints, we conduct a cluster randomized controlled trial across 417 police stations and roughly 2,500 active duty senior field police officers to evaluate a three-day expressive arts intervention, grounded in the Theatre of the Oppressed, designed to change police responses to gender-based violence (GBV).Approximately 7 months after baseline, treated officers exhibit more favorable attitudes toward GBV, greater empathy, and stronger legal knowledge.These changes translate into observed policing behavior: in standardized victim audits conducted one year later, officers in treated stations are 15 percentage points less likely to blame victims, dismiss fewer complaints, and provide more referrals, while administrative records show a 41 percent reduction in registration delays and, over a longer horizon, increased GBV reporting by citizens.Exploiting variation generated by officer transfers, we find suggestive evidence that these effects persist when treated officers relocate and diffuse to untreated officers working alongside treated colleagues.The effects also extend to the workplace: junior female officers working with treated senior officers report lower harassment and anxiety.These findings show that the attitudes shaping bureaucratic discretion are malleable and that changing how incumbent state agents exercise authority can improve both citizen-facing service delivery and the broader workplace environment.",
+   "abstract_source": "openalex",
+   "version_note": null
+  },
+  {
+   "canonical_key": "doi:10.1287/mnsc.2026.00623",
+   "title": "Generative Artificial Intelligence and Sales Productivity: Field Experiments in Online Retail",
+   "authors": [
+    "Lu Fang",
+    "Zhe Yuan",
+    "Kaifu Zhang",
+    "Dante Donati",
+    "Miklos Sarvary"
+   ],
+   "venue": "Management Science",
+   "source_slug": "mnsc",
+   "source_category": "management_journal",
+   "publication_status": "published",
+   "doi": "10.1287/mnsc.2026.00623",
+   "arxiv_id": null,
+   "nber_id": null,
+   "ssrn_id": null,
+   "primary_url": "https://doi.org/10.1287/mnsc.2026.00623",
+   "paper_url": "https://doi.org/10.1287/mnsc.2026.00623",
+   "pdf_url": null,
+   "published_at": "2026-11-06",
+   "first_seen_at": "2026-11-11T17:45:06Z",
+   "year": 2026,
+   "volume": null,
+   "issue": null,
+   "pages": null,
+   "issue_number": 5,
+   "sets": [
+    "ai_work"
+   ],
+   "relevance_score": 6,
+   "relevance_reasons": [
+    "ai_work:artificial intelligence, productivity, firm"
+   ],
+   "recommended": false,
+   "note": "Randomized field experiments of generative AI in online retail workflows, effects on sales productivity and consumer heterogeneity.",
+   "abstract": "We quantify the short-term impact of generative artificial intelligence (GenAI) on sales performance through a series of large-scale randomized field experiments involving millions of users and products at a leading crossborder online retail platform. Over 2023–2024, the platform integrated GenAI into seven business workflows spanning customer service, consumer-product matching, advertising, and seller services. We find that GenAI adoption increases sales in most workflows, with effects ranging from no detectable impact to 16.3% depending on GenAI’s marginal contribution relative to baseline firm practices. Across the four GenAI applications with positive sales effects, the implied annual incremental value is roughly $5 per consumer—an economically meaningful impact given the retailer’s scale and the early stage of GenAI adoption. The gains operate primarily through higher conversion rates rather than larger cart values, consistent with GenAI improving the shopping experience by reducing search, information, communication, and personalization frictions. Importantly, these effects are not associated with worse postpurchase outcomes as product return rates and customer ratings do not deteriorate. Finally, we document substantial demand-side heterogeneity, with larger gains for less experienced consumers. Our findings provide novel, large-scale causal evidence on how GenAI shapes sales productivity in online retail, highlighting both its immediate value and broader potential. This paper was accepted by Jean-Pierre Dube, marketing. Funding: L. Fang acknowledges financial support from the National Natural Science Foundation of China [Grants 72501258 and 72192803], the Major Special Project in Philosophy and Social Sciences of the Ministry of Education of China [Grant 2026JZDZ020], the National Social Science Fund of China [Grant 22&ZD081]. Z. Yuan acknowledges financial support from the National Key Research and Development Project [Grant 2024YFB3312900], the National Natural Science Foundation of China [Grants 72141305 and 72203202], the National Social Science Fund of China [Grants 26ZDA030 and 25&ZD149], and the Fundamental Research Funds for the Central Universities. K. Zhang, D. Donati, and M. Sarvary have no funding to report. Supplemental Material: The online appendix and data files are available at https://doi.org/10.1287/mnsc.2026.00623 .",
+   "abstract_source": "crossref",
+   "version_note": null
+  },
+  {
+   "canonical_key": "doi:10.1002/sej.70061",
+   "title": "Learning‐by‐twinning: Organizational digital twins and the future of search",
+   "authors": [
+    "Prithwiraj (Raj) Choudhury",
+    "Yingxin Du",
+    "Megan Lawrence"
+   ],
+   "venue": "Strategic Entrepreneurship Journal",
+   "source_slug": "sej",
+   "source_category": "management_journal",
+   "publication_status": "published",
+   "doi": "10.1002/sej.70061",
+   "arxiv_id": null,
+   "nber_id": null,
+   "ssrn_id": null,
+   "primary_url": "https://doi.org/10.1002/sej.70061",
+   "paper_url": "https://sms.onlinelibrary.wiley.com/doi/pdf/10.1002/sej.70061",
+   "pdf_url": "https://sms.onlinelibrary.wiley.com/doi/pdf/10.1002/sej.70061",
+   "published_at": "2026-11-04",
+   "first_seen_at": "2026-11-11T17:45:06Z",
+   "year": 2026,
+   "volume": null,
+   "issue": null,
+   "pages": null,
+   "issue_number": 5,
+   "sets": [
+    "ai_work",
+    "entrepreneurship"
+   ],
+   "relevance_score": 6,
+   "relevance_reasons": [
+    "ai_work:generative ai, artificial intelligence, ai, entrepreneur",
+    "entrepreneurship:entrepreneur"
+   ],
+   "recommended": false,
+   "note": "Conceptual paper on generative-AI organizational digital twins as a form of entrepreneurial and managerial search and experimentation.",
+   "abstract": "Research Summary Entrepreneurs and managers often need to evaluate strategic choices, such as redesigning an incentive plan or entering an unfamiliar market, before committing scarce resources. Existing offline search tools, including mental models, analogical reasoning, model building, and simulation, allow managers to weigh alternatives without acting, but each is limited by what a single decision maker can specify, recall, or imagine. We argue that advances in generative AI, combined with the growing availability of firm‐specific digital trace data, are transforming this tradeoff. We introduce the organizational digital twin (ODT), an infrastructure combining firm‐specific data, AI‐based behavioral simulation models, and governance rules which facilitates a new form of offline search that we call learning‐by‐twinning: search conducted by observing how a strategic choice unfolds within a digital replica of the firm. We identify three mechanisms through which learning‐by‐twinning creates value, namely expanded search, safer experimentation, and richer system‐level feedback as well as specify certain conditions under which these benefits may attenuate. Managerial Summary Strategic entrepreneurship depends on discovering and refining opportunities through search and experimentation under uncertainty. Enabled by advances in generative artificial intelligence and organizational data infrastructures, we theorize that a new form of entrepreneurial search—learning‐by‐twinning—allows managers to conduct systematic virtual experimentation prior to real‐world implementation. We introduce the concept of the organizational digital twin (ODT) as the technological infrastructure that makes this search and experimentation possible: an evolving simulation environment built from firm‐specific digital trace data and multi‐agent AI models capable of reproducing organizational routines, interactions, and decision processes. We argue that learning‐by‐twinning alters the traditional tradeoffs of offline search by expanding the set of alternatives managers can explore, enabling low‐risk experimentation, and revealing second‐order organizational consequences before strategic commitments are made.",
+   "abstract_source": "crossref",
+   "version_note": null
+  },
+  {
+   "canonical_key": "doi:10.1037/apl0001426",
+   "title": "On criterion weighting to reduce adverse impact.",
+   "authors": [
+    "Jinsoo Choi",
+    "Daniel A. Newman"
+   ],
+   "venue": "Journal of Applied Psychology",
+   "source_slug": "jap",
+   "source_category": "management_journal",
+   "publication_status": "published",
+   "doi": "10.1037/apl0001426",
+   "arxiv_id": null,
+   "nber_id": null,
+   "ssrn_id": null,
+   "primary_url": "https://doi.org/10.1037/apl0001426",
+   "paper_url": "https://doi.org/10.1037/apl0001426",
+   "pdf_url": null,
+   "published_at": "2026-11-05",
+   "first_seen_at": "2026-11-11T17:45:06Z",
+   "year": 2026,
+   "volume": null,
+   "issue": null,
+   "pages": null,
+   "issue_number": 5,
+   "sets": [
+    "orgs_inequality"
+   ],
+   "relevance_score": 6,
+   "relevance_reasons": [
+    "orgs_inequality:hiring, racial, diversity"
+   ],
+   "recommended": false,
+   "note": "Meta-analytic Pareto-optimization of criterion and predictor weighting in personnel selection to reduce racial adverse impact in hiring.",
+   "abstract": "In research on adverse impact reduction (i.e., improving racial equality in hiring rates), one approach that is routinely mentioned in classic reviews is criterion weighting, or assigning more relative weight to contextual performance in the criterion measure. We revisit this recommendation, using an updated meta-analytic correlation matrix among predictors and criteria. Results show that, contrary to past beliefs, assigning more weight to contextual performance is typically unlikely to improve diversity and is also likely to harm criterion validity. Criterion weighting is also often outperformed by Pareto-optimal predictor weighting. Further, Pareto-optimal solutions show that, when holding criterion validity constant, assigning more criterion weight to contextual performance is likely to exacerbate rather than reduce adverse impact. We additionally offer a Global Pareto Frontier/outer envelope approach that simultaneously optimizes predictor weights and criterion weights to achieve the best adverse impact-criterion validity outcome pairs for a personnel selection system, and we identify circumstances needed for the joint optimization of predictor and criterion weights to outperform Pareto-optimal predictor weighting alone. (PsycInfo Database Record (c) 2026 APA, all rights reserved).",
+   "abstract_source": "openalex",
+   "version_note": null
+  },
+  {
+   "canonical_key": "doi:10.31235/osf.io/9vm3s_v1",
+   "title": "Reading the City: Urban Sentiment, Technological Disruption, and the Exporting and Performance of High-Growth Firms in China",
+   "authors": [
+    "Xiaoqing Wang",
+    "Kaifu Zhang"
+   ],
+   "venue": "SocArXiv",
+   "source_slug": "socarxiv",
+   "source_category": "preprint",
+   "publication_status": "preprint",
+   "doi": "10.31235/osf.io/9vm3s_v1",
+   "arxiv_id": null,
+   "nber_id": null,
+   "ssrn_id": null,
+   "primary_url": "https://osf.io/preprints/socarxiv/9vm3s_v1/",
+   "paper_url": "https://osf.io/preprints/socarxiv/9vm3s_v1/",
+   "pdf_url": null,
+   "published_at": "2026-11-09",
+   "first_seen_at": "2026-11-11T17:45:06Z",
+   "year": 2026,
+   "volume": null,
+   "issue": null,
+   "pages": null,
+   "issue_number": 5,
+   "sets": [
+    "entrepreneurship"
+   ],
+   "relevance_score": 6,
+   "relevance_reasons": [
+    "ai_work:large language model, job, productivity, entrepreneur",
+    "entrepreneurship:entrepreneur"
+   ],
+   "recommended": false,
+   "note": "High-growth firms in Chinese cities: LLM-measured urban sentiment, exporting and performance, using simulated survey data.",
+   "abstract": "High-growth firms are disproportionately responsible for job creation and productivity gains in emerging economies, yet little is known about how the urban environments in which they operate shape their decisions to sell abroad and the returns they earn from doing so. Integrating real options reasoning with an institution-based view of urban task environments, we argue that city-level sentiment about economic development and technological disruption functions as a collective signal that shapes how high-growth firms value and exploit international opportunities. We combine a simulated firm-level survey dataset calibrated to the World Bank Enterprise Survey design for 25 Chinese cities (N = 2,700 firms; 540 high-growth firms) with city-industry sentiment scores produced through large language model text classification. Economic development sentiment is positively associated with export intensity, whereas technological disruption sentiment displays an inverted U-shaped relationship with export intensity. Exporting is associated with higher productivity and growth, but these returns are amplified by favorable development sentiment and attenuated by intense disruption sentiment. A multiverse analysis of 72 specifications supports the robustness of the core moderation result. The study advances research on emerging-market internationalization, high-growth entrepreneurship, and text-based measurement in international business.",
+   "abstract_source": "osf",
+   "version_note": null
+  },
+  {
+   "canonical_key": "doi:10.31235/osf.io/tjh5u_v1",
+   "title": "Too Much Support, Not Enough Ecosystem? Resource Munificence, Government Support, and New Venture Founding in Northeastern China",
+   "authors": [
+    "Andrea Ting",
+    "Qianwei Xiao"
+   ],
+   "venue": "SocArXiv",
+   "source_slug": "socarxiv",
+   "source_category": "preprint",
+   "publication_status": "preprint",
+   "doi": "10.31235/osf.io/tjh5u_v1",
+   "arxiv_id": null,
+   "nber_id": null,
+   "ssrn_id": null,
+   "primary_url": "https://osf.io/preprints/socarxiv/tjh5u_v1/",
+   "paper_url": "https://osf.io/preprints/socarxiv/tjh5u_v1/",
+   "pdf_url": null,
+   "published_at": "2026-11-07",
+   "first_seen_at": "2026-11-11T17:45:06Z",
+   "year": 2026,
+   "volume": null,
+   "issue": null,
+   "pages": null,
+   "issue_number": 5,
+   "sets": [
+    "entrepreneurship"
+   ],
+   "relevance_score": 6,
+   "relevance_reasons": [
+    "ai_work:ai, entrepreneur, firm",
+    "entrepreneurship:entrepreneur, new venture"
+   ],
+   "recommended": false,
+   "note": "Simulated survey data on ecosystem munificence, government support, and new venture founding in Northeastern China.",
+   "abstract": "Northeastern China has received two decades of sustained state investment under successive revitalization programs, yet its rate of new venture founding continues to trail that of coastal regions. We integrate entrepreneurial ecosystem theory, real options reasoning, and the too-much-of-a-good-thing perspective to explain this puzzle. Using simulated survey data that mirror a two-wave design covering 1,000 firms in Liaoning, Jilin, Heilongjiang, and eastern Inner Mongolia, we find that ecosystem resource munificence is positively associated with the number of new ventures that firms found. Government support exhibits an inverted U-shaped relationship with founding, with a turning point slightly above the regional mean. Environmental dynamism strengthens the munificence and founding relationship, consistent with the view that rich ecosystems lower the cost of acquiring growth options under uncertainty. A complementary role for firm AI adoption appears in some specifications but not across a 144-specification multiverse. The results suggest that ecosystem depth, rather than support intensity, governs founding in transition regions.",
+   "abstract_source": "osf",
+   "version_note": null
+  },
+  {
+   "canonical_key": "doi:10.1093/qje/qjag054",
+   "title": "Why Do Union Jobs Pay More? New Evidence from Matched Employer-Employee Data",
+   "authors": [
+    "Pierre-Loup Beauregard",
+    "Thomas Lemieux",
+    "Derek Messacar",
+    "Raffaele Saggio"
+   ],
+   "venue": "The Quarterly Journal of Economics",
+   "source_slug": "qje",
+   "source_category": "economics_journal",
+   "publication_status": "published",
+   "doi": "10.1093/qje/qjag054",
+   "arxiv_id": null,
+   "nber_id": null,
+   "ssrn_id": null,
+   "primary_url": "https://doi.org/10.1093/qje/qjag054",
+   "paper_url": "https://academic.oup.com/qje/advance-article-pdf/doi/10.1093/qje/qjag054/73131032/qjag054.pdf",
+   "pdf_url": "https://academic.oup.com/qje/advance-article-pdf/doi/10.1093/qje/qjag054/73131032/qjag054.pdf",
+   "published_at": "2026-11-05",
+   "first_seen_at": "2026-11-11T17:45:06Z",
+   "year": 2026,
+   "volume": null,
+   "issue": null,
+   "pages": null,
+   "issue_number": 5,
+   "sets": [
+    "orgs_inequality"
+   ],
+   "relevance_score": 6,
+   "relevance_reasons": [],
+   "recommended": false,
+   "note": "Matched employer-employee data decomposing union pay premium into firm productivity and rent extraction; wage inequality.",
+   "abstract": "We use Canadian matched employer-employee data to assess the sources of the union pay premium. After controlling for worker heterogeneity using the two-way fixed effects approach of Abowd, Kramarz, and Margolis (AKM), we find that unionized firms pay about 15 log points more than non-unionized firms. Forty percent of this gap is linked to productivity differences between unionized and non-unionized firms as measured by value added per worker. The remaining gap reflects unions’ ability to extract more rents for workers. Our estimates imply that unions raise pay among unionized workers by around 9 log points, with considerable heterogeneity by industry and firm birth cohorts. The union effect grows to about 11 log points in an extension of the AKM approach where unions also affect the returns to unobservable worker characteristics.",
+   "abstract_source": "crossref",
+   "version_note": null
+  },
+  {
+   "canonical_key": "doi:10.31235/osf.io/v9gte_v1",
+   "title": "You Talking to Me? The Diverging Effects of Organizational Communication on the Gender Ambition Gap",
+   "authors": [
+    "Gulay Dogan",
+    "Aykut Öztürk"
+   ],
+   "venue": "SocArXiv",
+   "source_slug": "socarxiv",
+   "source_category": "preprint",
+   "publication_status": "preprint",
+   "doi": "10.31235/osf.io/v9gte_v1",
+   "arxiv_id": null,
+   "nber_id": null,
+   "ssrn_id": null,
+   "primary_url": "https://osf.io/preprints/socarxiv/v9gte_v1/",
+   "paper_url": "https://osf.io/preprints/socarxiv/v9gte_v1/",
+   "pdf_url": null,
+   "published_at": "2026-11-07",
+   "first_seen_at": "2026-11-11T17:45:06Z",
+   "year": 2026,
+   "volume": null,
+   "issue": null,
+   "pages": null,
+   "issue_number": 5,
+   "sets": [
+    "orgs_inequality"
+   ],
+   "relevance_score": 6,
+   "relevance_reasons": [
+    "orgs_inequality:gender, women, organization"
+   ],
+   "recommended": false,
+   "note": "Pre-registered survey experiment in a Turkish union on gender-targeted organizational messaging and the gender ambition gap.",
+   "abstract": "Women's underrepresentation in civic life is accompanied by a persistent ambition gap. Research attributes this gap partly to gendered socialization and unequal encouragement. How does organizational communication affect this gap, and can organizations narrow it by addressing women directly? We examine these questions through a pre-registered survey experiment with more than 7,000 members of a major Turkish public sector trade union confederation. Women and men were randomly assigned to a gender-neutral mobilization video, a video that addressed women directly and exclusively, or a placebo. The women-focused message increased women's willingness to participate in and lead union activities, while the gender-neutral message had no detectable effect among women. In contrast, the gender-neutral message appeared to speak primarily to men. Exploratory analyses link the success of the women-focused message to increases in self-efficacy and interest among women. These findings suggest that how organizations address their members can shape the ambition gap in participation, and that apparently gender-neutral appeals may not be neutral in their effects.",
+   "abstract_source": "osf",
+   "version_note": null
+  },
+  {
+   "canonical_key": "doi:10.31235/osf.io/psh8z_v1",
+   "title": "‘The more the merrier?’ Do earnings trajectories following fathers’ parenting leave uptake vary by contextual support?",
+   "authors": [
+    "Anna Erika Hägglund",
+    "Satu Helske",
+    "Simon Chapman"
+   ],
+   "venue": "SocArXiv",
+   "source_slug": "socarxiv",
+   "source_category": "preprint",
+   "publication_status": "preprint",
+   "doi": "10.31235/osf.io/psh8z_v1",
+   "arxiv_id": null,
+   "nber_id": null,
+   "ssrn_id": null,
+   "primary_url": "https://osf.io/preprints/socarxiv/psh8z_v1/",
+   "paper_url": "https://osf.io/preprints/socarxiv/psh8z_v1/",
+   "pdf_url": null,
+   "published_at": "2026-11-11",
+   "first_seen_at": "2026-11-11T17:45:06Z",
+   "year": 2026,
+   "volume": null,
+   "issue": null,
+   "pages": null,
+   "issue_number": 5,
+   "sets": [
+    "orgs_inequality"
+   ],
+   "relevance_score": 6,
+   "relevance_reasons": [
+    "orgs_inequality:career, disadvantage, workplace"
+   ],
+   "recommended": false,
+   "note": "Finnish register data on fathers' earnings after parenting leave, varying by national policy and workplace context; career penalties and gender.",
+   "abstract": "Despite policy reforms extending fathers’ parenting leave rights, many fathers still refrain from taking longer leaves. While fear for career disadvantages provides a prominent explanation for men’s limited use, empirical evidence on earnings consequences remains mixed. The extent to which leave uptake shapes fathers’ post-birth earnings trajectories could differ depending on how normalized leave-taking is within a given context. In this study, we ask whether potential negative implications decrease if leave entitlements targeted towards fathers expand and uptake becomes more widespread. We examine this question both at the national policy level and in the local workplace context. Empirically, we draw on Finnish register-based data for the period 2000–2020, and analyse hourly earnings among first-time fathers using stacked regression estimators. Our findings suggest that interruptions beyond the period earmarked to the father may be associated with lower earnings, if the policy and workplace context are less supportive; yet selection is also crucial.",
+   "abstract_source": "osf",
+   "version_note": null
+  }
+ ]
+}
