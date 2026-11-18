@@ -1,0 +1,1228 @@
+{
+ "number": 6,
+ "cutoff": "2026-11-18",
+ "window_start": "2026-11-11",
+ "generated_at": "2026-11-18T18:44:10Z",
+ "articles": [
+  {
+   "canonical_key": "doi:10.1073/pnas.2534118123",
+   "title": "Automating inequality? Gender bias in AI-mediated labor markets",
+   "authors": [
+    "Kenza Elass",
+    "Germain Gauthier",
+    "Debora Nozza",
+    "Paola Profeta"
+   ],
+   "venue": "Proceedings of the National Academy of Sciences",
+   "source_slug": "pnas",
+   "source_category": "science_journal",
+   "publication_status": "published",
+   "doi": "10.1073/pnas.2534118123",
+   "arxiv_id": null,
+   "nber_id": null,
+   "ssrn_id": null,
+   "primary_url": "https://doi.org/10.1073/pnas.2534118123",
+   "paper_url": "https://doi.org/10.1073/pnas.2534118123",
+   "pdf_url": null,
+   "published_at": "2026-11-16",
+   "first_seen_at": "2026-11-18T18:41:50Z",
+   "year": 2026,
+   "volume": "123",
+   "issue": "47",
+   "pages": null,
+   "issue_number": 6,
+   "sets": [
+    "ai_work",
+    "orgs_inequality"
+   ],
+   "relevance_score": 10,
+   "relevance_reasons": [
+    "ai_work:generative ai, large language model, llms, ai",
+    "orgs_inequality:inequality, wage gap, gender, women"
+   ],
+   "recommended": true,
+   "note": "Audit experiments show LLM gender bias in CV generation, screening scores and wage recommendations; AI hiring and gender inequality.",
+   "abstract": "Generative AI is rapidly entering labor markets, with large language models (LLMs) now used to help write CVs and evaluate applicants. We study the risks this creates in a series of audit experiments in which applicant gender is randomly assigned while all other information is held constant. We find that LLMs generate gender-stereotypical CVs and exhibit gender bias in screening scores and wage recommendations. Screening scores track occupational gender segregation, penalizing women in male-dominated occupations and favoring them in female-dominated ones. Wage recommendations track occupational gender wage gaps when gender is explicit in the prompt, though this gradient weakens under name-based gender signaling and is sensitive to the LLMs being used. These disparities arise through two channels: evaluation bias, when identical CV content is evaluated differently by gender, and generation bias, when gendered content produced by the model affects later evaluation. Because the same systems shape both CV content and its subsequent assessment, these channels can reinforce one another. Taken together, our findings identify measurable risks of algorithmic amplification in AI-mediated job search.",
+   "abstract_source": "crossref",
+   "version_note": null
+  },
+  {
+   "canonical_key": "doi:10.31235/osf.io/c7nx5_v1",
+   "title": "Computing The Incomputable? Artificial Intelligence and Entrepreneurial Decision Making Under Uncertainty",
+   "authors": [
+    "Miles Robin",
+    "Leo Will",
+    "M Pyad"
+   ],
+   "venue": "SocArXiv",
+   "source_slug": "socarxiv",
+   "source_category": "preprint",
+   "publication_status": "preprint",
+   "doi": "10.31235/osf.io/c7nx5_v1",
+   "arxiv_id": null,
+   "nber_id": null,
+   "ssrn_id": null,
+   "primary_url": "https://osf.io/preprints/socarxiv/c7nx5_v1/",
+   "paper_url": "https://osf.io/preprints/socarxiv/c7nx5_v1/",
+   "pdf_url": null,
+   "published_at": "2026-11-14",
+   "first_seen_at": "2026-11-18T18:41:50Z",
+   "year": 2026,
+   "volume": null,
+   "issue": null,
+   "pages": null,
+   "issue_number": 6,
+   "sets": [
+    "entrepreneurship",
+    "ai_work"
+   ],
+   "relevance_score": 9,
+   "relevance_reasons": [
+    "ai_work:artificial intelligence, ai, entrepreneur",
+    "entrepreneurship:entrepreneur"
+   ],
+   "recommended": true,
+   "note": "Theory of how AI shapes entrepreneurial decisions under uncertainty, contrasting oracle and generator modes via real options.",
+   "abstract": "Artificial intelligence promises to reduce the uncertainty that surrounds entrepreneurial decisions by predicting demand, scanning environments, and evaluating strategic alternatives at negligible cost. We argue that this promise is conditional on the type of uncertainty a decision involves. Drawing on real options reasoning and research distinguishing risk from Knightian uncertainty, we theorize that AI reduces uncertainty that can be resolved through information but cannot resolve uncertainty that is revealed only through action. When decision makers fail to distinguish the two, AI produces uncertainty compression, a condition in which perceived uncertainty falls faster than actual uncertainty, leading entrepreneurs to abandon flexibility and commit prematurely to irreversible investments. We contrast two modes of AI use. In oracle mode, AI is used to resolve uncertainty and select a single course of action. In generator mode, AI is used to expand, stage, and monitor a portfolio of real options. We develop propositions specifying when each mode improves decisions and how entrepreneurial theorizing and competitive diffusion of AI condition these effects. The framework reframes AI not as a substitute for entrepreneurial judgment under uncertainty but as a technology that changes the economics of flexibility.",
+   "abstract_source": "osf",
+   "version_note": null
+  },
+  {
+   "canonical_key": "doi:10.1093/restud/rdag096",
+   "title": "Daddy’s Girl: Daughters, Managerial Decisions, and Gender Inequality",
+   "authors": [
+    "Maddalena Ronchi",
+    "Nina Smith"
+   ],
+   "venue": "Review of Economic Studies",
+   "source_slug": "restud",
+   "source_category": "economics_journal",
+   "publication_status": "published",
+   "doi": "10.1093/restud/rdag096",
+   "arxiv_id": null,
+   "nber_id": null,
+   "ssrn_id": null,
+   "primary_url": "https://doi.org/10.1093/restud/rdag096",
+   "paper_url": "https://academic.oup.com/restud/advance-article-pdf/doi/10.1093/restud/rdag096/73573784/rdag096.pdf",
+   "pdf_url": "https://academic.oup.com/restud/advance-article-pdf/doi/10.1093/restud/rdag096/73573784/rdag096.pdf",
+   "published_at": "2026-11-13",
+   "first_seen_at": "2026-11-18T18:41:50Z",
+   "year": 2026,
+   "volume": null,
+   "issue": null,
+   "pages": null,
+   "issue_number": 6,
+   "sets": [
+    "orgs_inequality"
+   ],
+   "relevance_score": 9,
+   "relevance_reasons": [
+    "orgs_inequality:inequality, gender, women, firm"
+   ],
+   "recommended": true,
+   "note": "Danish registry data; manager's daughter birth shifts hiring toward women, raising women's relative earnings and employment within firms.",
+   "abstract": "Using Danish registry data, we study how managers’ gender attitudes shape gender inequality in the workplace by exploiting the birth of a daughter—as opposed to a son—as a plausibly exogenous shock to male managers’ gender attitudes. Comparing within-firm changes in women’s labour outcomes depending on the gender of the manager’s newborn child, we find that women’s relative earnings and employment increase by 4.4% and 2.9%, respectively, following the birth of the manager’s first daughter. These effects are driven by an increase in managers’ propensity to substitute male hires with female hires that have comparable education, hours worked, and earnings. Consistent with this substitution channel, we do not detect any significant effect on firm performance. Because these effects emerge rapidly and persist over time, we can rule out the need for prolonged exposure to gender issues or for personal incentives tied to improving conditions for their own daughters as prerequisites for managers to promote gender equality within their firms.",
+   "abstract_source": "crossref",
+   "version_note": null
+  },
+  {
+   "canonical_key": "doi:10.31235/osf.io/gtd4z_v1",
+   "title": "Keep on Keeping On, With a Machine: Artificial Intelligence and the Calibration of Entrepreneurial Persistence",
+   "authors": [
+    "Jiaju Justin Yan",
+    "Xiaqing Nancy He",
+    "Alan Boss"
+   ],
+   "venue": "SocArXiv",
+   "source_slug": "socarxiv",
+   "source_category": "preprint",
+   "publication_status": "preprint",
+   "doi": "10.31235/osf.io/gtd4z_v1",
+   "arxiv_id": null,
+   "nber_id": null,
+   "ssrn_id": null,
+   "primary_url": "https://osf.io/preprints/socarxiv/gtd4z_v1/",
+   "paper_url": "https://osf.io/preprints/socarxiv/gtd4z_v1/",
+   "pdf_url": null,
+   "published_at": "2026-11-14",
+   "first_seen_at": "2026-11-18T18:41:50Z",
+   "year": 2026,
+   "volume": null,
+   "issue": null,
+   "pages": null,
+   "issue_number": 6,
+   "sets": [
+    "entrepreneurship",
+    "ai_work"
+   ],
+   "relevance_score": 9,
+   "relevance_reasons": [
+    "ai_work:artificial intelligence, ai, entrepreneur, firm",
+    "entrepreneurship:entrepreneur, founder, small business, business owner"
+   ],
+   "recommended": true,
+   "note": "Conceptual framework on AI as antecedent of entrepreneurial persistence and calibration; propositions on resource and epistemic pathways.",
+   "abstract": "Entrepreneurs increasingly turn to artificial intelligence (AI) when deciding whether to continue a struggling venture, yet persistence theory locates the antecedents of persistence either within the entrepreneur or within human social networks. We theorize AI as a distinct, non-human antecedent of entrepreneurial persistence. Building on the psychological resource approach to persistence, escalation and threshold theories, and the AI Entrepreneurial Agency Framework, we distinguish two pathways. Through a resource pathway, AI supplies psychological resources that raise persistence intensity and loosen its dependence on the entrepreneur's internal resources. Through an epistemic pathway, AI shapes the feedback on which persistence decisions rest and thereby governs persistence calibration, which we define as the responsiveness of persistence to diagnostic disconfirming evidence. Five propositions specify when the pathways combine into AI-amplified escalation, how the Knightian uncertainty of the decision widens a gap between confidence and calibration, and how agentic AI attenuates the decision points at which founders confront adversity. A temporal extension explains how sustained AI scaffolding can render persistence fragile. The framework reconciles optimistic and pessimistic accounts of AI in entrepreneurship and offers testable implications for small business owners, advisors, and AI designers.",
+   "abstract_source": "osf",
+   "version_note": null
+  },
+  {
+   "canonical_key": "doi:10.1287/mnsc.2023.01626",
+   "title": "Redeploying the Jockeys: The Intermediary Role of Venture Capital in Entrepreneurial Labor Markets",
+   "authors": [
+    "Zhongchen Hu"
+   ],
+   "venue": "Management Science",
+   "source_slug": "mnsc",
+   "source_category": "management_journal",
+   "publication_status": "published",
+   "doi": "10.1287/mnsc.2023.01626",
+   "arxiv_id": null,
+   "nber_id": null,
+   "ssrn_id": null,
+   "primary_url": "https://doi.org/10.1287/mnsc.2023.01626",
+   "paper_url": "https://doi.org/10.1287/mnsc.2023.01626",
+   "pdf_url": null,
+   "published_at": "2026-11-12",
+   "first_seen_at": "2026-11-18T18:41:50Z",
+   "year": 2026,
+   "volume": null,
+   "issue": null,
+   "pages": null,
+   "issue_number": 6,
+   "sets": [
+    "entrepreneurship"
+   ],
+   "relevance_score": 9,
+   "relevance_reasons": [
+    "entrepreneurship:entrepreneur, founder, venture capital"
+   ],
+   "recommended": true,
+   "note": "Venture capitalists as intermediaries in entrepreneurial labor markets, matching founders across portfolio firms; effects on fund returns.",
+   "abstract": "This paper explores how venture capitalists (VCs) add value by examining their role as labor market intermediaries. Using novel data, I show that VCs create internal labor markets (ILMs) to facilitate entrepreneurial mobility across their portfolio firms. Survey evidence suggests that VCs leverage private information about founders’ abilities to strategically match talent to portfolio firms, creating value for the recipient companies. Consistent with this mechanism of asymmetric learning, I find that (a) former VC partners continue to influence founder mobility, (b) ILM intensity positively predicts VC fund returns, and (c) the ILM effect is stronger when information asymmetry is greater. This paper was accepted by Lin William Cong, finance. Supplemental Material: The online appendix and data files are available at https://doi.org/10.1287/mnsc.2023.01626 .",
+   "abstract_source": "crossref",
+   "version_note": null
+  },
+  {
+   "canonical_key": "doi:10.1002/smj.70143",
+   "title": "Silent female representation and tech entrepreneurial project evaluation: The role of evaluators' genders",
+   "authors": [
+    "Yan “Anthea” Zhang",
+    "Lun Li",
+    "Jizhen Li",
+    "Xiwei Yi"
+   ],
+   "venue": "Strategic Management Journal",
+   "source_slug": "smj",
+   "source_category": "management_journal",
+   "publication_status": "published",
+   "doi": "10.1002/smj.70143",
+   "arxiv_id": null,
+   "nber_id": null,
+   "ssrn_id": null,
+   "primary_url": "https://doi.org/10.1002/smj.70143",
+   "paper_url": "https://sms.onlinelibrary.wiley.com/doi/pdf/10.1002/smj.70143",
+   "pdf_url": "https://sms.onlinelibrary.wiley.com/doi/pdf/10.1002/smj.70143",
+   "published_at": "2026-11-17",
+   "first_seen_at": "2026-11-18T18:41:50Z",
+   "year": 2026,
+   "volume": null,
+   "issue": null,
+   "pages": null,
+   "issue_number": 6,
+   "sets": [
+    "entrepreneurship",
+    "orgs_inequality"
+   ],
+   "relevance_score": 9,
+   "relevance_reasons": [
+    "entrepreneurship:entrepreneur",
+    "orgs_inequality:gender, women"
+   ],
+   "recommended": true,
+   "note": "Evaluation of tech entrepreneurial funding applications by panels; silent female representation and evaluator gender shape gender disparities in resource access.",
+   "abstract": "Research Summary We examine how the nature of female representation in tech entrepreneurial projects may be related to the evaluations of the projects. We argue that silent female representation —i.e., women are present but do not speak in representing projects—may reinforce the stereotyped view of women, resulting in lower project evaluations relative to male‐only projects, whereas active female representation may not lead to evaluation penalty. We further predict that the negative association between silent female representation and project evaluation is stronger when the evaluators are women than when they are men. Conducted in a unique setting wherein female and male evaluators on panels, independently and confidentially, rated funding applications represented by various mixes of male and female entrepreneurs, our study provides evidence that is consistent with these predictions. Managerial Summary It is widely recognized that female entrepreneurs face greater challenges than their male counterparts when seeking external financial resources in the tech sector. This funding disparity may start from evaluation disparity. We find that projects with silent female representation—i.e., women are present but do not speak—receive lower evaluations than male‐only projects, whereas projects with active female representation receive evaluations comparable to male‐only projects. We also find that female evaluators are more likely than male evaluators to penalize projects with silent female representation. Our research offers valuable insights into strategies for fostering gender equality in traditionally male‐dominated fields.",
+   "abstract_source": "crossref",
+   "version_note": null
+  },
+  {
+   "canonical_key": "arxiv:2611.17530",
+   "title": "AI and the Two Margins of Work: Why Job Losses Show Up Before Job Creation",
+   "authors": [
+    "Mark Esposito",
+    "Liu Zhang"
+   ],
+   "venue": "arXiv econ.GN",
+   "source_slug": "arxiv-econ-gn",
+   "source_category": "preprint",
+   "publication_status": "preprint",
+   "doi": null,
+   "arxiv_id": "2611.17530",
+   "nber_id": null,
+   "ssrn_id": null,
+   "primary_url": "https://arxiv.org/abs/2611.17530",
+   "paper_url": "https://arxiv.org/pdf/2611.17530v1",
+   "pdf_url": "https://arxiv.org/pdf/2611.17530v1",
+   "published_at": "2026-11-12",
+   "first_seen_at": "2026-11-18T18:41:50Z",
+   "year": 2026,
+   "volume": null,
+   "issue": null,
+   "pages": null,
+   "issue_number": 6,
+   "sets": [
+    "ai_work",
+    "entrepreneurship"
+   ],
+   "relevance_score": 8,
+   "relevance_reasons": [
+    "ai_work:ai, automation, labor, job",
+    "entrepreneurship:founder"
+   ],
+   "recommended": true,
+   "note": "Model and establishment data on AI job displacement versus creation by new firms; founder effort and entry.",
+   "abstract": "Technological change acts on labor demand at two margins: adjustment within established activities and the creation of additional activities, often by new firms. Payroll statistics record the first promptly and the second late. In the computing era, firms that entered in 1978 or later held 42 percent of payroll by 1998 and entering cohorts kept about 80 percent of their payroll after five years; in the industries most exposed to automation, incumbents contracted before entrants accumulated, a sequence that is precise early in the period and suggestive by its end. We develop a model in which one AI capability lowers the full cost of acceptable output in existing production and makes additional projects worth attempting, with founder effort separate from hired hours. If operating products re-scale instantly, automation displaces no aggregate hours; if they take time, hours fall first and recover as incumbents re-expand and new products arrive, with the long-run sign set by income effects. Establishment job flows through the first quarter of 2026 show no gradient on language-model exposure on either margin, which is what the model predicts under the observed adoption path and also what no effect on payroll would look like; studies with founding-task exposure find entry rising 10 to 20 percent. We propose a net reinstatement ratio and show that statistics which record new work late overstate displacement for years.",
+   "abstract_source": "arxiv",
+   "version_note": null
+  },
+  {
+   "canonical_key": "doi:10.1086/744996",
+   "title": "Automation and Gender: Implications for Occupational Segregation and the Gender Skill Gap",
+   "authors": [
+    "Patricia Cortes",
+    "Ying Feng",
+    "Nicolas Guida-Johnson",
+    "Jessica Pan"
+   ],
+   "venue": "Journal of Labor Economics",
+   "source_slug": "jole",
+   "source_category": "economics_journal",
+   "publication_status": "published",
+   "doi": "10.1086/744996",
+   "arxiv_id": null,
+   "nber_id": null,
+   "ssrn_id": null,
+   "primary_url": "https://doi.org/10.1086/744996",
+   "paper_url": "https://www.econstor.eu/bitstream/10419/282822/1/dp16695.pdf",
+   "pdf_url": "https://www.econstor.eu/bitstream/10419/282822/1/dp16695.pdf",
+   "published_at": "2026-11-17",
+   "first_seen_at": "2026-11-18T18:41:50Z",
+   "year": 2026,
+   "volume": null,
+   "issue": null,
+   "pages": null,
+   "issue_number": 6,
+   "sets": [
+    "ai_work",
+    "orgs_inequality"
+   ],
+   "relevance_score": 8,
+   "relevance_reasons": [
+    "ai_work:automation, labor, worker, occupation",
+    "orgs_inequality:gender, women, occupational segregation, labor market"
+   ],
+   "recommended": true,
+   "note": "Causal study of local automation exposure and women's shift into high-skill occupations; occupational segregation and gender skill gap.",
+   "abstract": "We examine the differential effects of automation on the labor market and educational outcomes of women relative to men over the past four decades. Although women were disproportionately employed in occupations with a high risk of automation in 1980, they were more likely to shift to high-skill, high-wage occupations than men in over time. We provide a causal link by exploiting variation in local labor market exposure to automation attributable to historical differences in local industry structure. For a given change in the exposure to automation across commuting zones, women were more likely than men to shift out of routine task-intensive occupations to high-skill, high wage occupations over the subsequent decade. The net effect is that initially routine-intensive local labor markets experienced greater occupational gender integration. College attainment among younger workers, particularly women, also rose signicantly more in areas more exposed to automation. We propose a model of occupational choice with endogenous skill investments, where social skills and routine tasks are q-complements, and women have a comparative advantage in social skills, to explain the observed patterns. Supporting the model mechanisms, areas with greater exposure to automation experienced a greater movement of women into occupations with high social skill (and high cognitive) requirements than men.",
+   "abstract_source": "openalex",
+   "version_note": null
+  },
+  {
+   "canonical_key": "doi:10.1287/mnsc.2025.01479",
+   "title": "Does Feedback Enhance Diversity in Selection Decisions?",
+   "authors": [
+    "Jose A. Cervantez",
+    "Sophia L. Pink",
+    "Linda W. Chang",
+    "Aneesh Rai",
+    "Katherine L. Milkman"
+   ],
+   "venue": "Management Science",
+   "source_slug": "mnsc",
+   "source_category": "management_journal",
+   "publication_status": "published",
+   "doi": "10.1287/mnsc.2025.01479",
+   "arxiv_id": null,
+   "nber_id": null,
+   "ssrn_id": null,
+   "primary_url": "https://doi.org/10.1287/mnsc.2025.01479",
+   "paper_url": "https://doi.org/10.1287/mnsc.2025.01479",
+   "pdf_url": null,
+   "published_at": "2026-11-17",
+   "first_seen_at": "2026-11-18T18:41:50Z",
+   "year": 2026,
+   "volume": null,
+   "issue": null,
+   "pages": null,
+   "issue_number": 6,
+   "sets": [
+    "orgs_inequality"
+   ],
+   "relevance_score": 8,
+   "relevance_reasons": [
+    "orgs_inequality:racial, women, diversity, minority"
+   ],
+   "recommended": true,
+   "note": "Seven preregistered experiments, including a field experiment, on descriptive feedback raising selection of women and racial minorities; diversity in hiring.",
+   "abstract": "Some organizations provide employees with feedback on the demographics of people they have chosen to spotlight, hire, and promote, hoping to spur more diverse future selections. However, it is an open question whether purely descriptive feedback accomplishes this. We theorize and show that descriptive feedback highlighting low past selection rates of women or racial minorities (e.g., “5% of previous experts interviewed were women”) triggers a motivation to respond without prejudice, increasing the subsequent selection of members of underrepresented groups. Conversely, providing descriptive feedback about low selection rates of people with other attributes (e.g., areas of expertise, geographical location) that do not evoke image or reputational concerns has less influence on future decisions. We demonstrate these patterns across seven preregistered experiments (total n = 6,502), including one framed field experiment (Study 2). One study identifies motivation to respond without prejudice as a mediator of the effect of descriptive feedback about past choices on future selections of women and racial minorities. Another study shows that when women are overrepresented, the effect of descriptive feedback reverses in direction, increasing the subsequent selection of men (due to concerns about fairness), but this effect is significantly smaller in magnitude than the feedback effect produced when women are underrepresented. Practically, the effects of descriptive feedback were 45%–80% as large as simulating a strict quota requiring that at least one woman or racial minority be selected for a given opportunity, highlighting that descriptive feedback is a light-touch but potentially powerful intervention for promoting diversity. This paper was accepted by George Wu, behavioral economics and decision analysis. Supplemental Material: The online appendix and data files are available at https://doi.org/10.1287/mnsc.2025.01479 .",
+   "abstract_source": "crossref",
+   "version_note": null
+  },
+  {
+   "canonical_key": "doi:10.1002/sej.70063",
+   "title": "Government‐funded experimentation: How startups use R&D contracts to resolve uncertainty",
+   "authors": [
+    "Larisa Cioaca"
+   ],
+   "venue": "Strategic Entrepreneurship Journal",
+   "source_slug": "sej",
+   "source_category": "management_journal",
+   "publication_status": "published",
+   "doi": "10.1002/sej.70063",
+   "arxiv_id": null,
+   "nber_id": null,
+   "ssrn_id": null,
+   "primary_url": "https://doi.org/10.1002/sej.70063",
+   "paper_url": "https://sms.onlinelibrary.wiley.com/doi/pdf/10.1002/sej.70063",
+   "pdf_url": "https://sms.onlinelibrary.wiley.com/doi/pdf/10.1002/sej.70063",
+   "published_at": "2026-11-16",
+   "first_seen_at": "2026-11-18T18:41:50Z",
+   "year": 2026,
+   "volume": null,
+   "issue": null,
+   "pages": null,
+   "issue_number": 6,
+   "sets": [
+    "entrepreneurship"
+   ],
+   "relevance_score": 8,
+   "relevance_reasons": [
+    "entrepreneurship:startup, venture capital, r&d",
+    "orgs_inequality:diversity, firm"
+   ],
+   "recommended": true,
+   "note": "Government R&D contracts to high-tech startups; multi-agency market experimentation associated with later employment, sales, and acquisition.",
+   "abstract": "Research Summary Startups use experimentation to reduce technological and market uncertainty, but experimentation is costly and unevenly funded. This paper examines how government‐funded experimentation relates to subsequent performance among high‐tech startups that receive federal awards. Using data on $32 billion in US government R&D contracts awarded to high‐tech startups between 2001 and 2018, I distinguish between technology experimentation, measured by the value of R&D contracts, and market experimentation, measured by the number of agencies awarding the R&D contracts. Market experimentation is positively associated with subsequent employment, sales, and acquisition, while technology experimentation shows weaker associations with these outcomes. The findings are consistent with startups using information from multiple government buyers to learn about market opportunities and improve subsequent performance. Managerial Summary High‐tech startups need to test both whether their technology works and where demand exists, but venture capital often leaves this experimentation unfunded. Using data on $32 billion in US government R&D contracts awarded to high‐tech startups from 2001 to 2018, this paper shows that startups funded by more government agencies subsequently have higher employment and sales and are more likely to be acquired. Larger R&D contract amounts have less consistent relationships with these outcomes. For managers, the findings suggest considering what different government customers can help the firm learn. For policymakers, they suggest that the diversity of a startup's public customer base is a vital margin to consider alongside the overall size of its R&D awards.",
+   "abstract_source": "crossref",
+   "version_note": null
+  },
+  {
+   "canonical_key": "doi:10.5465/amd.2025.0303",
+   "title": "Intellectual Tenacity at Work: Generative AI Exposure and the Economic Returns to Occupational Personality Requirements",
+   "authors": [
+    "Christos Makridis",
+    "Louis Hickman"
+   ],
+   "venue": "Academy of Management Discoveries",
+   "source_slug": "amd",
+   "source_category": "management_journal",
+   "publication_status": "published",
+   "doi": "10.5465/amd.2025.0303",
+   "arxiv_id": null,
+   "nber_id": null,
+   "ssrn_id": null,
+   "primary_url": "https://doi.org/10.5465/amd.2025.0303",
+   "paper_url": "https://doi.org/10.5465/amd.2025.0303",
+   "pdf_url": null,
+   "published_at": "2026-11-16",
+   "first_seen_at": "2026-11-18T18:41:50Z",
+   "year": 2026,
+   "volume": null,
+   "issue": null,
+   "pages": null,
+   "issue_number": 6,
+   "sets": [
+    "ai_work",
+    "orgs_inequality"
+   ],
+   "relevance_score": 8,
+   "relevance_reasons": [
+    "ai_work:generative ai, artificial intelligence, ai, labor",
+    "entrepreneurship:innovation"
+   ],
+   "recommended": true,
+   "note": "O*NET and ACS data on wage returns to occupational personality requirements by GenAI exposure.",
+   "abstract": "Technology, including generative artificial intelligence (GenAI), is changing professional work, but its implications for how occupational personality requirements are rewarded in the labor market remain unclear. Using job-incumbent ratings from the U.S. Department of Labor’s Occupational Information Network (O*NET), we identify two personality requirement composites: intellectual tenacity (achievement/effort, persistence, initiative, analytical thinking, innovation, and independence) and social adjustment (emotion regulation, concern for others, social orientation, cooperation, and stress tolerance). We link these measures to more than 15 million workers in the American Community Survey from 2006 to 2024. Intellectual tenacity requirements were positively associated with hourly wages, whereas social adjustment requirements had a weaker, negative association. The wage premium for intellectual tenacity requirements was approximately stable through 2014 and rose thereafter, while the return to social adjustment requirements declined. These divergent trends began before widespread GenAI adoption, but they are concentrated in occupations with greater exposure to GenAI: wage returns for intellectual tenacity requirements increased in occupations highly exposed to GenAI, while returns to social adjustment requirements decreased in those occupations. These findings suggest that broad measures of personality or non-cognitive occupational requirements can obscure opposing shifts in the labor-market value of persistent analytical effort and social adjustment.",
+   "abstract_source": "openalex",
+   "version_note": null
+  },
+  {
+   "canonical_key": "doi:10.31235/osf.io/evmzp_v2",
+   "title": "More Room for Difference, Less Room for Change: Generative AI and Psychosocial Disabilities at Work",
+   "authors": [
+    "Hana Porkertova",
+    "Karolina Gregorova"
+   ],
+   "venue": "SocArXiv",
+   "source_slug": "socarxiv",
+   "source_category": "preprint",
+   "publication_status": "preprint",
+   "doi": "10.31235/osf.io/evmzp_v2",
+   "arxiv_id": null,
+   "nber_id": null,
+   "ssrn_id": null,
+   "primary_url": "https://osf.io/preprints/socarxiv/evmzp_v2/",
+   "paper_url": "https://osf.io/preprints/socarxiv/evmzp_v2/",
+   "pdf_url": null,
+   "published_at": "2026-11-13",
+   "first_seen_at": "2026-11-18T18:41:50Z",
+   "year": 2026,
+   "volume": null,
+   "issue": null,
+   "pages": null,
+   "issue_number": 6,
+   "sets": [
+    "ai_work",
+    "orgs_inequality"
+   ],
+   "relevance_score": 8,
+   "relevance_reasons": [
+    "ai_work:generative ai, ai, worker, workplace"
+   ],
+   "recommended": true,
+   "note": "Qualitative study of people with psychosocial disabilities using generative AI at work as accommodation; reinforces organizational norms and inclusion.",
+   "abstract": "The growing incorporation of generative AI into work life creates new possibilities for accommodating diverse ways of functioning while raising questions about the reproduction of existing organisational norms. Drawing on qualitative research on how people with psychosocial disabilities use generative AI at work, this article examines the reconfiguration of relations between workers, working processes, and expected outcomes in work assemblages, which are mediated through generative AI. First, generative AI serves as workplace accommodation, helping participants adapt work to their ways of functioning. Second, it mediates between diverse work processes and expected outcomes, allowing workers to work in their own ways while producing outputs that meet workplace standards. Third, generative AI helps create digital doubles that communicate and present themselves in normative ways. By mediating between diverse ways of working and standardised organisational expectations, generative AI can reinforce existing organisational norms rather than encourage the systemic changes needed for workplace inclusion.",
+   "abstract_source": "osf",
+   "version_note": null
+  },
+  {
+   "canonical_key": "arxiv:2611.14708",
+   "title": "The Rebundling of Freelance Work in the AI Age",
+   "authors": [
+    "Caroline Chin",
+    "Shagun Kala",
+    "Nadav Kunievsky",
+    "Teng Liu",
+    "Alex Martin Richmond",
+    "Carl Shan"
+   ],
+   "venue": "arXiv econ.GN",
+   "source_slug": "arxiv-econ-gn",
+   "source_category": "preprint",
+   "publication_status": "preprint",
+   "doi": null,
+   "arxiv_id": "2611.14708",
+   "nber_id": null,
+   "ssrn_id": null,
+   "primary_url": "https://arxiv.org/abs/2611.14708",
+   "paper_url": "https://arxiv.org/pdf/2611.14708v1",
+   "pdf_url": "https://arxiv.org/pdf/2611.14708v1",
+   "published_at": "2026-11-10",
+   "first_seen_at": "2026-11-18T18:41:50Z",
+   "year": 2026,
+   "volume": null,
+   "issue": null,
+   "pages": null,
+   "issue_number": 6,
+   "sets": [
+    "ai_work"
+   ],
+   "relevance_score": 8,
+   "relevance_reasons": [
+    "ai_work:generative ai, chatgpt, ai, job"
+   ],
+   "recommended": false,
+   "note": "Compares ChatGPT activities with Upwork freelance demand; AI-related postings bundle tasks into larger projects.",
+   "abstract": "This paper examines how freelance work is changing in the AI era. We compare the activities people undertake in ChatGPT with the work clients request on Upwork, an online freelance platform, and examine how clients combine tasks into projects. We find that activities more prevalent in ChatGPT tend to lose marketplace share on Upwork, while those less prevalent tend to gain share. Within AI-related work, demand is becoming more diverse, and job postings combine tasks that were rarely requested together before the generative AI era. AI-related postings also have substantially larger project budgets and involve more hours of work, while differences in hourly rates are small. Together, these findings suggest that AI is reshaping not only which tasks clients outsource, but also how they combine tasks into larger, higher-value projects.",
+   "abstract_source": "arxiv",
+   "version_note": null
+  },
+  {
+   "canonical_key": "doi:10.1086/744978",
+   "title": "The Search for Parental Leave and the Early-Career Gender Wage Gap",
+   "authors": [
+    "Ilaria D'Angelis"
+   ],
+   "venue": "Journal of Labor Economics",
+   "source_slug": "jole",
+   "source_category": "economics_journal",
+   "publication_status": "published",
+   "doi": "10.1086/744978",
+   "arxiv_id": null,
+   "nber_id": null,
+   "ssrn_id": null,
+   "primary_url": "https://doi.org/10.1086/744978",
+   "paper_url": "http://repec.umb.edu/RePEc/files/2023_01.pdf",
+   "pdf_url": "http://repec.umb.edu/RePEc/files/2023_01.pdf",
+   "published_at": "2026-11-16",
+   "first_seen_at": "2026-11-18T18:41:50Z",
+   "year": 2026,
+   "volume": null,
+   "issue": null,
+   "pages": null,
+   "issue_number": 6,
+   "sets": [
+    "orgs_inequality"
+   ],
+   "relevance_score": 8,
+   "relevance_reasons": [
+    "orgs_inequality:wage gap, career, gender, women"
+   ],
+   "recommended": false,
+   "note": "Hedonic job-search model: gender differences in parental leave preferences explain growth of early-career gender wage gap.",
+   "abstract": "Gender differences in preferences for parental leave contribute to the early-career growth in the gender wage gap among highly educated millennial Americans. Estimating a hedonic job-search model, I show that, while both men and women experience wage growth by entering firms offering better pay and benefits, the wage gap increases as women accept lower wages upon receiving job offers from employers providing parental leave. The wage-gap growth could decline by 60% if preferences for paid parental leave did not differ by gender. It could also decline if mandating and subsidizing the provision of paid leave muted workers’ leave-wage trade-off.",
+   "abstract_source": "openalex",
+   "version_note": null
+  },
+  {
+   "canonical_key": "doi:10.31235/osf.io/ghr65_v1",
+   "title": "The wealth of algorithms: generative AI, jobs and inequality in a global dynamic CGE model",
+   "authors": [
+    "David Radi"
+   ],
+   "venue": "SocArXiv",
+   "source_slug": "socarxiv",
+   "source_category": "preprint",
+   "publication_status": "preprint",
+   "doi": "10.31235/osf.io/ghr65_v1",
+   "arxiv_id": null,
+   "nber_id": null,
+   "ssrn_id": null,
+   "primary_url": "https://osf.io/preprints/socarxiv/ghr65_v1/",
+   "paper_url": "https://osf.io/preprints/socarxiv/ghr65_v1/",
+   "pdf_url": null,
+   "published_at": "2026-11-14",
+   "first_seen_at": "2026-11-18T18:41:50Z",
+   "year": 2026,
+   "volume": null,
+   "issue": null,
+   "pages": null,
+   "issue_number": 6,
+   "sets": [
+    "ai_work",
+    "orgs_inequality"
+   ],
+   "relevance_score": 8,
+   "relevance_reasons": [
+    "ai_work:generative ai, artificial intelligence, ai, labour",
+    "orgs_inequality:inequality, firm, workplace, occupation"
+   ],
+   "recommended": false,
+   "note": "Global CGE model of generative AI effects on jobs, wages and inequality across 23 regions; gains accrue mostly to capital owners.",
+   "abstract": "This paper models how generative artificial intelligence (AI) affects jobs, wages and inequality across the world economy. Few doubt that it will change the economy; what nobody yet knows is how. Workers, firms and governments want to know whose jobs and pay will change, who will capture the gains and which countries will come out ahead, well before the evidence can tell them. This paper does not try to forecast that future. Its contribution is a quantitative framework for understanding what drives AI’s economic effects, what they depend on, and what follows for policy. We add AI to a global dynamic computable general equilibrium (CGE) model that tracks production, trade, investment and employment year by year to 2040 in 23 regions. AI does some tasks inside each occupation and makes workers more productive in others. When AI does a task, we start from a 27% saving on its labour cost, the average Acemoglu (2025) draws from two workplace experiments. We run a central scenario and 68 alternatives that vary how fast and how widely AI is adopted, what it costs, how far it replaces rather than helps workers and how labour markets adjust. How cheap and capable AI becomes, and how widely firms adopt it, decide the size of the gain: by 2040 world GDP ends about 1% to 15% above a path without AI in our main scenarios (about 7% in the central case). It reaches about 35% in an extreme case where AI becomes 30% a year more efficient (15 to 25% if AI keeps improving but more slowly over time). Most of the gain goes to owners of capital in almost every scenario. Who shares in it depends on who owns capital and on the extent to which AI replaces rather than helps workers. In the central case capital’s share of world income rises by about 4 points, clerks’ real pay ends roughly 13 to 22% below the no-AI path in the large economies, and within rich economies the Gini coefficient of household income rises by about 2 to 3.5 points. If job losses last, the world gain against the no-AI baseline in 2040 is 5.4% against 6.8%, and labour income falls further everywhere. Based on these results, we then test several illustrative AI policies to see how they change the outcomes and their distributional effects. Each does a different job: support for changing jobs mainly protects workers’ pay, keeping AI cheap mainly protects output, and only sharing AI’s capital income narrows inequality noticeably. The policies are illustrative and largely unfunded in the model, so their gains are likely inflated.",
+   "abstract_source": "osf",
+   "version_note": null
+  },
+  {
+   "canonical_key": "doi:10.31235/osf.io/qb5pa_v5",
+   "title": "Bucks for Bumps: How Paid Parental Leave Pays Off for Firms",
+   "authors": [
+    "Hillary Cookler"
+   ],
+   "venue": "SocArXiv",
+   "source_slug": "socarxiv",
+   "source_category": "preprint",
+   "publication_status": "preprint",
+   "doi": "10.31235/osf.io/qb5pa_v5",
+   "arxiv_id": null,
+   "nber_id": null,
+   "ssrn_id": null,
+   "primary_url": "https://osf.io/preprints/socarxiv/qb5pa_v5/",
+   "paper_url": "https://osf.io/preprints/socarxiv/qb5pa_v5/",
+   "pdf_url": null,
+   "published_at": "2026-11-18",
+   "first_seen_at": "2026-11-18T18:41:50Z",
+   "year": 2026,
+   "volume": null,
+   "issue": null,
+   "pages": null,
+   "issue_number": 6,
+   "sets": [
+    "orgs_inequality"
+   ],
+   "relevance_score": 7,
+   "relevance_reasons": [
+    "orgs_inequality:women, parental, firm, labor market"
+   ],
+   "recommended": false,
+   "note": "Difference-in-differences on firm paid parental leave expansions and retention, with heterogeneity by gender, age and pay.",
+   "abstract": "Firms use benefits such as paid parental leave (PPL) to attract and retain employees. In the U.S., which lacks broad public PPL benefits, firms increasingly provide this benefit. Systematic evidence of its benefits remains limited, due in part to the absence of comprehensive data on firm policies. Using a novel, hand-collected database of firm policy changes, this paper estimates the causal effect of PPL expansion on employee retention using a difference-in-differences design. PPL expansions reduce departure rates by 3.0%, an effect equivalent to a permanent wage increase of 1.4% or more. I propose that PPL affects retention through multiple concurrent mechanisms that vary in sign and magnitude across workers. Women's retention gains concentrate among the youngest and lowest-paid workers, while women at peak childbearing ages show no retention gain. Men's gains are largest at the top of the salary distribution and extend to men aged 40 and over, who are unlikely to use the leave. At the firm level, women's retention gains are largest in firms with the least flexible internal labor markets, and the effect appears across firm revenue trajectories. Public PPL programs, by contrast, show no detectable retention effect, consistent with the non-portability of firm-provided benefits. Combining fertility estimates from the American Community Survey (ACS) with worker and firm data, the paper calculates the expected costs of PPL provision and compares them to retention gains: at realistic utilization rates, PPL expansions generate positive net returns to firms.",
+   "abstract_source": "osf",
+   "version_note": null
+  },
+  {
+   "canonical_key": "doi:10.1093/qje/qjag057",
+   "title": "Labor Market Tightness and the Reversal of Inequality Trends in Germany",
+   "authors": [
+    "Christian Dustmann",
+    "Martin Friedrich",
+    "Carl Gergs",
+    "Uta Schönberg"
+   ],
+   "venue": "The Quarterly Journal of Economics",
+   "source_slug": "qje",
+   "source_category": "economics_journal",
+   "publication_status": "published",
+   "doi": "10.1093/qje/qjag057",
+   "arxiv_id": null,
+   "nber_id": null,
+   "ssrn_id": null,
+   "primary_url": "https://doi.org/10.1093/qje/qjag057",
+   "paper_url": "https://academic.oup.com/qje/advance-article-pdf/doi/10.1093/qje/qjag057/73492189/qjag057.pdf",
+   "pdf_url": "https://academic.oup.com/qje/advance-article-pdf/doi/10.1093/qje/qjag057/73492189/qjag057.pdf",
+   "published_at": "2026-11-11",
+   "first_seen_at": "2026-11-18T18:41:50Z",
+   "year": 2026,
+   "volume": null,
+   "issue": null,
+   "pages": null,
+   "issue_number": 6,
+   "sets": [
+    "orgs_inequality"
+   ],
+   "relevance_score": 7,
+   "relevance_reasons": [
+    "orgs_inequality:inequality, wage inequality, firm, labor market"
+   ],
+   "recommended": false,
+   "note": "Administrative data on German wage inequality reversal via tight labor markets, worker-firm sorting, and firm wage premia.",
+   "abstract": "Germany experienced a sharp rise in wage inequality over the two decades leading up to the Great Recession. However, a remarkable trend reversal occurred in 2010—well before the introduction of the minimum wage in 2015—when wages at the bottom of the distribution began to grow more rapidly than those higher up. This paper attributes the reversal to an increasingly tight labor market after the Great Recession, supported by strong domestic demand, and operating through several interrelated and mutually reinforcing channels. Consistent with this hypothesis, job-to-job transition rates and between-job wage growth rose markedly after the recession, especially for workers at the lower rungs of the job ladder. Concurrently, workers increasingly moved from low-paying to higher-paying firms, compressing the worker-weighted distribution of firm wage premia. Tighter labor markets also reduced assortative matching between workers and firms, lowered the skill premium, and weakened firms’ monopsony power.",
+   "abstract_source": "crossref",
+   "version_note": null
+  },
+  {
+   "canonical_key": "doi:10.31235/osf.io/tekqj_v1",
+   "title": "Targets with teeth: binding equity targets, gender and the selection of elite research chairs",
+   "authors": [
+    "Kyle Siler"
+   ],
+   "venue": "SocArXiv",
+   "source_slug": "socarxiv",
+   "source_category": "preprint",
+   "publication_status": "preprint",
+   "doi": "10.31235/osf.io/tekqj_v1",
+   "arxiv_id": null,
+   "nber_id": null,
+   "ssrn_id": null,
+   "primary_url": "https://osf.io/preprints/socarxiv/tekqj_v1/",
+   "paper_url": "https://osf.io/preprints/socarxiv/tekqj_v1/",
+   "pdf_url": null,
+   "published_at": "2026-11-16",
+   "first_seen_at": "2026-11-18T18:41:50Z",
+   "year": 2026,
+   "volume": null,
+   "issue": null,
+   "pages": null,
+   "issue_number": 6,
+   "sets": [
+    "orgs_inequality"
+   ],
+   "relevance_score": 7,
+   "relevance_reasons": [
+    "entrepreneurship:innovation",
+    "orgs_inequality:career, elite, gender, women"
+   ],
+   "recommended": false,
+   "note": "Compares Canada Research Chairs appointees with comparable researchers before and after binding gender targets; selection, gender and elite positions.",
+   "abstract": "Organizations that allocate elite positions often set equity targets, and a target binds when missing targets carries penalties. How binding targets change who is selected is rarely measured, since applicants are seldom observed and appointees are rarely compared with the pool they are drawn from. This article studies the Canada Research Chairs, a national program of elite research chairs whose targets for women became binding under a 2017 court order and were set against population shares in 2021. This article compares career publication records of chairholders appointed in 2001-2025 with those of randomly drawn researchers in the same national system, before and after the targets became binding. After 2017, women’s share of early-career appointments rose from 37% to 60%, and of senior appointments from 26% to 55%, exceeding their shares of comparable faculty. Appointed early-career women received 13% fewer citations per year than appointed men in 2010-17 and 29% fewer after, while among comparable researchers the gap narrowed slightly, from 18% to 13%. After 2017, appointees’ citation gap was wider in fields where women were a smaller share of professors. Appointing early-career women above their share of the professoriate meant drawing from deeper in their pool or men from higher in theirs. Implications of binding equity targets for innovation and distributive justice in academic rewards are discussed.",
+   "abstract_source": "osf",
+   "version_note": null
+  },
+  {
+   "canonical_key": "doi:10.1002/sej.70066",
+   "title": "The entrepreneur as ecosystem architect: Economic foundations for strategic entrepreneurship in the age of AI",
+   "authors": [
+    "David J. Teece"
+   ],
+   "venue": "Strategic Entrepreneurship Journal",
+   "source_slug": "sej",
+   "source_category": "management_journal",
+   "publication_status": "published",
+   "doi": "10.1002/sej.70066",
+   "arxiv_id": null,
+   "nber_id": null,
+   "ssrn_id": null,
+   "primary_url": "https://doi.org/10.1002/sej.70066",
+   "paper_url": "https://sms.onlinelibrary.wiley.com/doi/pdf/10.1002/sej.70066",
+   "pdf_url": "https://sms.onlinelibrary.wiley.com/doi/pdf/10.1002/sej.70066",
+   "published_at": "2026-11-17",
+   "first_seen_at": "2026-11-18T18:41:50Z",
+   "year": 2026,
+   "volume": null,
+   "issue": null,
+   "pages": null,
+   "issue_number": 6,
+   "sets": [
+    "entrepreneurship",
+    "ai_work"
+   ],
+   "relevance_score": 7,
+   "relevance_reasons": [
+    "ai_work:artificial intelligence, ai, entrepreneur",
+    "entrepreneurship:entrepreneur, innovation"
+   ],
+   "recommended": false,
+   "note": "Conceptual paper on entrepreneurs as ecosystem architects when AI lowers software costs; value capture and complementary assets.",
+   "abstract": "Research Summary This paper develops an alternative foundation for understanding strategic entrepreneurship in the age of artificial intelligence (AI) by joining entrepreneurship research with the profiting from innovation model and the dynamic capabilities framework. It argues that the economic function of the entrepreneur is increasingly that of an ecosystem architect, exercising judgment under uncertainty to orchestrate complementary assets and capabilities across organizational boundaries. AI dramatically lowers the cost of building software thereby lowering product development costs but may raise the barriers to scaling and sustaining competitive advantage. Value capture depends not simply on innovation, but on a compelling value proposition and access to and control over critical complementary assets, architectural control points, and shifting ecosystem bottlenecks. The paper emphasizes that entrepreneurial success requires dynamic capabilities and human judgment to configure and reconfigure ecosystems as technologies and competitive conditions evolve. Managerial Summary AI makes it easier to start a business as it lowers the cost of software development; but building a durable competitive advantage still requires more than a good product or technology. It requires a compelling value proposition to the customer and participation in ecosystems first as tenant and later as anchor. Accordingly, entrepreneurs need to become sophisticated ecosystem players and aspire to be architects, coordinating partners, platforms, data, technology, capital, and other capabilities they may not own. They should identify early which complementary assets are critical to creating and capturing value, understand where control and bottlenecks lie in their ecosystem, and continually reassess these as technology and competition change. AI can help small teams move faster and operate at greater scale, but it does not replace human judgment. Successful entrepreneurs must combine AI with strong ecosystem relationships, domain expertise, governance, and the ability to adapt as their businesses scale.",
+   "abstract_source": "crossref",
+   "version_note": null
+  },
+  {
+   "canonical_key": "doi:10.1287/isre.2025.2709",
+   "title": "The Workplace GenAI Usage Divide: A Genetics-Informed Cognitive and Metacognitive Account",
+   "authors": [
+    "Shuhua Sun",
+    "Shiyang Gong",
+    "Yinliang (Ricky) Tan"
+   ],
+   "venue": "Information Systems Research",
+   "source_slug": "isr",
+   "source_category": "management_journal",
+   "publication_status": "published",
+   "doi": "10.1287/isre.2025.2709",
+   "arxiv_id": null,
+   "nber_id": null,
+   "ssrn_id": null,
+   "primary_url": "https://doi.org/10.1287/isre.2025.2709",
+   "paper_url": "https://doi.org/10.1287/isre.2025.2709",
+   "pdf_url": null,
+   "published_at": "2026-11-13",
+   "first_seen_at": "2026-11-18T18:41:50Z",
+   "year": 2026,
+   "volume": null,
+   "issue": null,
+   "pages": null,
+   "issue_number": 6,
+   "sets": [
+    "ai_work"
+   ],
+   "relevance_score": 7,
+   "relevance_reasons": [
+    "ai_work:generative ai, ai, workplace"
+   ],
+   "recommended": false,
+   "note": "Links educational attainment polygenic scores to employees' GenAI usage frequency and intensity using survey data and usage logs.",
+   "abstract": "Generative AI (GenAI) is increasingly deployed in organizations, yet employees differ substantially and persistently in how frequently and intensively they use it. This workplace “usage divide” raises a fundamental but underexplored question: Why do employees differ systematically in their use of GenAI, even under common formal access? We argue that this divide reflects a broader challenge for IS research: explaining the use of systems that are probabilistic rather than deterministic, and general-purpose yet uneven and evolving in their capabilities. In workplaces where employees remain accountable for task performance, these properties make the use of GenAI not a routine adoption decision but a judgment process in which employees assess the system’s credibility and determine where task-relevant expertise lies. Drawing on molecular genetics and metacognition research, we theorize that genetic propensity, indexed by the educational attainment polygenic score (PGS)—an aggregate genetic index associated with educational attainment—helps account for systematic variation in these judgments and, ultimately, persistent differences in workplace GenAI use. Specifically, we develop a parsimonious two-pathway model linking educational attainment PGS to GenAI use: a cognitive pathway involving formal educational attainment and perceptions of GenAI credibility, and a metacognitive pathway involving strategic mindset and metaknowledge of where task-relevant expertise lies. We test our model using a multisource dataset combining primary genetic data, survey measures, and 21 months of objective usage logs. The results show that educational attainment PGS, a broad distal genetic index, is associated with both GenAI use frequency and interaction intensity and provide theory-consistent evidence for the proposed pathways. Overall, our study offers a micro-foundational account of the persistent GenAI usage divide and advances IS theory on the use of probabilistic, general-purpose systems in the workplace.",
+   "abstract_source": "crossref",
+   "version_note": null
+  },
+  {
+   "canonical_key": "doi:10.1016/j.jbusvent.2026.106664",
+   "title": "Understanding multi-level dynamics in rural entrepreneurial ecosystems: A conceptual framework and research agenda",
+   "authors": [
+    "Ana Joana Candeias Fernandes",
+    "João J. Ferreira",
+    "Luís Farinha"
+   ],
+   "venue": "Journal of Business Venturing",
+   "source_slug": "jbv",
+   "source_category": "management_journal",
+   "publication_status": "published",
+   "doi": "10.1016/j.jbusvent.2026.106664",
+   "arxiv_id": null,
+   "nber_id": null,
+   "ssrn_id": null,
+   "primary_url": "https://doi.org/10.1016/j.jbusvent.2026.106664",
+   "paper_url": "https://www.sciencedirect.com/science/article/pii/S0883902626000947/pdf",
+   "pdf_url": "https://www.sciencedirect.com/science/article/pii/S0883902626000947/pdf",
+   "published_at": "2027-01-01",
+   "first_seen_at": "2026-11-18T18:41:50Z",
+   "year": 2027,
+   "volume": "42",
+   "issue": "1",
+   "pages": "106664",
+   "issue_number": 6,
+   "sets": [
+    "entrepreneurship"
+   ],
+   "relevance_score": 7,
+   "relevance_reasons": [
+    "entrepreneurship:entrepreneur"
+   ],
+   "recommended": false,
+   "note": "Systematic review of 71 articles on rural entrepreneurial ecosystems, proposing a multi-level framework with adaptive alignment.",
+   "abstract": "Rural regions occupy vast territories and often exhibit spatial dispersion, limited institutional support, constrained resources, and scarce market opportunities. Yet entrepreneurial activity develops under these conditions. This coexistence creates a theoretical puzzle for entrepreneurial ecosystem (EE) research, as rural EE operate despite several conditions commonly associated with effective ecosystem functioning being comparatively weak or dispersed. We conduct a bibliometric–systematic review of 71 articles on rural EE, identifying four thematic clusters and synthesizing them into a multi-level conceptual framework and eight research propositions. Grounded in complex adaptive systems theory and informed by a multi-level mechanisms perspective, we conceptualize rural EE as compensatory cross-level systems operating under conditions of structural thinness. We theorize that structural thinness changes the functional logic of EE as available ecosystem elements assume broader, more interdependent, and compensatory roles. Whereas denser EE, often associated with urban environments, may rely comparatively more on abundant and specialized ecosystem elements, rural EE functioning becomes relatively more dependent on adaptive alignment. We conceptualize adaptive alignment as an emergent system-level mechanism through which ecosystem elements continually adjust their roles and relationships via recurring processes of coordination, feedback, resource recombination, and mutual adjustment across analytical levels. Adaptive alignment sustains rural EE functioning, thereby supporting entrepreneurial activity and shaping regional value creation. By theorizing that structural thinness changes not merely the availability of ecosystem elements but the functional logic through which they become connected and collectively sustain ecosystem functioning, we extend the boundary conditions of prevailing EE explanations and inform more context-sensitive research, policy, and practice in rural regions worldwide.",
+   "abstract_source": "openalex",
+   "version_note": null
+  },
+  {
+   "canonical_key": "doi:10.5465/amj.2024.0699",
+   "title": "Benefiting from Culture Wars: Resource Mobilization in Polarized Issue Domains",
+   "authors": [
+    "Ludovica Castiglia",
+    "Fabrizio Ferraro"
+   ],
+   "venue": "Academy of Management Journal",
+   "source_slug": "amj",
+   "source_category": "management_journal",
+   "publication_status": "published",
+   "doi": "10.5465/amj.2024.0699",
+   "arxiv_id": null,
+   "nber_id": null,
+   "ssrn_id": null,
+   "primary_url": "https://doi.org/10.5465/amj.2024.0699",
+   "paper_url": "https://doi.org/10.5465/amj.2024.0699",
+   "pdf_url": null,
+   "published_at": "2026-11-10",
+   "first_seen_at": "2026-11-11T17:45:06Z",
+   "year": 2026,
+   "volume": null,
+   "issue": null,
+   "pages": null,
+   "issue_number": 6,
+   "sets": [
+    "entrepreneurship"
+   ],
+   "relevance_score": 6,
+   "relevance_reasons": [
+    "entrepreneurship:new venture"
+   ],
+   "recommended": false,
+   "note": "Kickstarter campaigns study of resource mobilization by new ventures in polarized issue domains via compensatory investment.",
+   "abstract": "Organizations engaging with contested social issues may struggle to mobilize resources due to disapproval from hostile audiences. Yet, some may benefit from increased support from sympathetic audiences, leaving unclear when such support will outweigh opposition. We propose that variation in audience reactions depends partly on how contestation is structured. We theorize that ideological polarization—the extent to which opposing stances on an issue sort along ideological lines—may enhance resource mobilization in contested issue domains. As polarization increases, contested issues pit opposing identities against each other and heighten threats to sympathetic audiences’ worldviews. New ventures in more polarized domains may attract greater support as sympathetic audiences respond by investing in aligned ventures, a mechanism we term “compensatory investment.” This relationship strengthens under conditions that heighten identity threat: when issues are highly salient, making them central political battlegrounds, and when audiences on both sides rely on core moral foundations to evaluate the issue, so that disagreements are experienced as moral violations. Analyses of U.S.-based Kickstarter campaigns (2009–2020) support our predictions and provide evidence consistent with compensatory investment. Our study highlights polarization as a key source of issue heterogeneity, introduces the mechanism of compensatory investment, and specifies when polarization enhances resource mobilization.",
+   "abstract_source": "openalex",
+   "version_note": null
+  },
+  {
+   "canonical_key": "arxiv:2611.20140",
+   "title": "Can AI Judge You? An Empirical Audit of Deployment Readiness in LLM-assisted Hiring Systems",
+   "authors": [
+    "Spandan Roy",
+    "Subhabrata Majumdar",
+    "Soudeep Deb"
+   ],
+   "venue": "arXiv cs.CY",
+   "source_slug": "arxiv-ai-work",
+   "source_category": "preprint",
+   "publication_status": "preprint",
+   "doi": null,
+   "arxiv_id": "2611.20140",
+   "nber_id": null,
+   "ssrn_id": null,
+   "primary_url": "https://arxiv.org/abs/2611.20140",
+   "paper_url": "https://arxiv.org/pdf/2611.20140v2",
+   "pdf_url": "https://arxiv.org/pdf/2611.20140v2",
+   "published_at": "2026-11-15",
+   "first_seen_at": "2026-11-18T18:41:50Z",
+   "year": 2026,
+   "volume": null,
+   "issue": null,
+   "pages": null,
+   "issue_number": 6,
+   "sets": [
+    "ai_work",
+    "orgs_inequality"
+   ],
+   "relevance_score": 6,
+   "relevance_reasons": [
+    "ai_work:large language model, llm, llms, ai",
+    "orgs_inequality:hiring, organization"
+   ],
+   "recommended": false,
+   "note": "Controlled audit of LLM resume screening across job roles, covering evaluation interfaces and permission controls.",
+   "abstract": "Delegating resume screening to large language models (LLMs) requires organizations to establish whether they can distinguish candidates by relevant qualifications while allowing only authorized users to change screening rules or approve exceptions. To this end, we develop a system architecture that separates candidate evidence, evaluation, permission controls, and assessment record, and empirically examine two complementary dimensions of its deployment readiness. First, we assess its operational readiness on four LLMs using a controlled experiment on 210 resumes across 14 job roles and six decision interfaces. Second, we assess its compliance readiness by testing how it handles unauthorized user requests and instructions embedded in resumes. We find that operational performance depends on the choice of evaluation interface: scalar scores generally distinguish qualification changes better than simple pass/fail judgments, while comparative judgments are sensitive to presentation order. Explicit permission rules and separation of resume content from instructions reduce unauthorized compliance, to a varying degree of effectiveness across LLMs and usage contexts. Finally, we find that LLM evaluators often diverge between their decisions and offered justifications. Going beyond simply evaluating LLMs for hiring tasks, our framework supports an audit of a fully configured resume evaluation system to enable its deployment decision.",
+   "abstract_source": "arxiv",
+   "version_note": null
+  },
+  {
+   "canonical_key": "arxiv:2611.21456",
+   "title": "Expertise capture in workplace AI",
+   "authors": [
+    "Andreas Ekelhart",
+    "Ahmad Mohsin",
+    "Iqbal H. Sarker",
+    "Helge Janicke"
+   ],
+   "venue": "arXiv cs.CR",
+   "source_slug": "arxiv-ai-work",
+   "source_category": "preprint",
+   "publication_status": "preprint",
+   "doi": null,
+   "arxiv_id": "2611.21456",
+   "nber_id": null,
+   "ssrn_id": null,
+   "primary_url": "https://arxiv.org/abs/2611.21456",
+   "paper_url": "https://arxiv.org/pdf/2611.21456v1",
+   "pdf_url": "https://arxiv.org/pdf/2611.21456v1",
+   "published_at": "2026-11-16",
+   "first_seen_at": "2026-11-18T18:41:50Z",
+   "year": 2026,
+   "volume": null,
+   "issue": null,
+   "pages": null,
+   "issue_number": 6,
+   "sets": [
+    "ai_work"
+   ],
+   "relevance_score": 6,
+   "relevance_reasons": [
+    "ai_work:ai, worker, workplace"
+   ],
+   "recommended": false,
+   "note": "Conceptual framework on workers' judgment absorbed into employer-controlled AI assistants and departure asymmetries.",
+   "abstract": "AI assistants are becoming part of how knowledge workers think and perform, accumulating the prompts, exemplars, memory and interaction histories that encode a worker's professional judgment. This infrastructure typically runs under employer or platform control. We name the resulting process expertise capture, the absorption of worker-applied knowledge and judgment into AI resources under organizational control. We develop a framework of contribution forms, technical residences and transformation families, and show that how far a contribution can be attributed, separated and revoked depends on where it resides and how it has been transformed, properties fixed by system design long before any dispute arises. When a worker departs, the organization retains a capability shaped by their judgment while the worker loses access to it, and the asymmetry compounds as contributions move from inspectable artifacts into derivatives, learned components and successor systems. We outline three measures, write-time provenance, extraction of separable contributions and an executable exit procedure, that make an agreed allocation technically performable, and make explicit what cannot be separated at all.",
+   "abstract_source": "arxiv",
+   "version_note": null
+  },
+  {
+   "canonical_key": "doi:10.31235/osf.io/sp9mc_v1",
+   "title": "Field of study choice and labor market outcomes",
+   "authors": [
+    "Nicolai T. Borgen",
+    "David Reimer"
+   ],
+   "venue": "SocArXiv",
+   "source_slug": "socarxiv",
+   "source_category": "preprint",
+   "publication_status": "preprint",
+   "doi": "10.31235/osf.io/sp9mc_v1",
+   "arxiv_id": null,
+   "nber_id": null,
+   "ssrn_id": null,
+   "primary_url": "https://osf.io/preprints/socarxiv/sp9mc_v1/",
+   "paper_url": "https://osf.io/preprints/socarxiv/sp9mc_v1/",
+   "pdf_url": null,
+   "published_at": "2026-11-16",
+   "first_seen_at": "2026-11-18T18:41:50Z",
+   "year": 2026,
+   "volume": null,
+   "issue": null,
+   "pages": null,
+   "issue_number": 6,
+   "sets": [
+    "orgs_inequality"
+   ],
+   "relevance_score": 6,
+   "relevance_reasons": [
+    "orgs_inequality:inequality, socioeconomic, career, disadvantage"
+   ],
+   "recommended": false,
+   "note": "Review plus Norwegian register data on field-of-study earnings differences, with gender, ethnic and parental-education sorting; speaks to stratification and labor market inequality.",
+   "abstract": "Higher education has evolved into a mass system, with nearly 50% of birth cohorts pursuing a degree, and earnings differences between fields of study rival the premium of a college degree. In this chapter, we provide an updated review of the literature on field of study choice and labor market outcomes across sociology and economics, with an emphasis on methods for identifying causal effects and measuring fields of study. We outline why labor market outcomes differ between fields and discuss how field of study choice may exacerbate labor market inequality. Studies with causal designs show that differences in returns between fields are not explained by selection into fields. Field of study choice contributes to women’s labor market disadvantage, whereas ethnic minorities in Europe tend to choose fields with higher returns, and sorting by socioeconomic background does not necessarily increase inequality. Using Norwegian register data, we show that earnings differences between fields are considerably larger than the difference between having higher education and not. Individuals with higher-educated parents are more likely to graduate in most fields, and more than six times as likely as others to graduate in medicine. Future research should test whether skills, signaling, or social closure produce the advantages of some fields, and examine how returns vary within fields and over careers.",
+   "abstract_source": "osf",
+   "version_note": null
+  },
+  {
+   "canonical_key": "doi:10.1287/stsc.2026.0663",
+   "title": "Follow Him or Her? CEO Gender and Inter-organizational Imitation of Strategic Behaviors",
+   "authors": [
+    "Abhinav Gupta",
+    "Rohan Radke",
+    "Aparna Joshi"
+   ],
+   "venue": "Strategy Science",
+   "source_slug": "stratsci",
+   "source_category": "management_journal",
+   "publication_status": "published",
+   "doi": "10.1287/stsc.2026.0663",
+   "arxiv_id": null,
+   "nber_id": null,
+   "ssrn_id": null,
+   "primary_url": "https://doi.org/10.1287/stsc.2026.0663",
+   "paper_url": "https://doi.org/10.1287/stsc.2026.0663",
+   "pdf_url": null,
+   "published_at": "2026-11-13",
+   "first_seen_at": "2026-11-18T18:41:50Z",
+   "year": 2026,
+   "volume": null,
+   "issue": null,
+   "pages": null,
+   "issue_number": 6,
+   "sets": [
+    "orgs_inequality"
+   ],
+   "relevance_score": 6,
+   "relevance_reasons": [
+    "orgs_inequality:gender, organization, firm"
+   ],
+   "recommended": false,
+   "note": "S&P 1500 panel: strategic behaviors of female-led firms are discounted by peers in benchmarking; CEO gender asymmetries.",
+   "abstract": "Firms routinely benchmark their strategic decisions against industry peers, yet some firms become more influential referents than others. We examine whether the gender of a referent firm's CEO shapes the extent to which its strategic behaviors are emulated. Drawing on research on gender and social evaluation, we argue that CEO gender serves as a diffuse expertise cue, leading observing firms to place greater weight on the strategic behaviors of male-led than female-led peers. We further propose that this tendency depends on observer CEOs' motivations for self-enhancement and status-quo maintenance, reflected in their gender and political ideology, respectively. Using a panel of S&P 1500 firms from 1997 to 2022, we find that the strategic behaviors of female-led firms are systematically discounted in the benchmarking process. This discounting is weaker among female CEOs and, for international diversification, among more politically liberal CEOs. The results are robust across multiple analytical strategies, including propensity score matching, randomization inference placebo tests, instrumental variable estimation, and additional robustness analyses. Our study contributes to research on interorganizational imitation and gender in the upper echelons by identifying systematic gender-based asymmetries in strategic benchmarking.",
+   "abstract_source": "crossref",
+   "version_note": null
+  },
+  {
+   "canonical_key": "doi:10.3386/w36036",
+   "title": "How Does Capital Flow To Poor Countries? Evidence from Venture Capital and Private Equity",
+   "authors": [
+    "Emanuele Colonnelli",
+    "Marcio Cruz",
+    "Josh Lerner",
+    "Mariana Pereira-Lopez",
+    "Yuanchang Wei"
+   ],
+   "venue": "NBER Working Papers",
+   "source_slug": "nber",
+   "source_category": "working_paper",
+   "publication_status": "working_paper",
+   "doi": "10.3386/w36036",
+   "arxiv_id": null,
+   "nber_id": "w36036",
+   "ssrn_id": null,
+   "primary_url": "https://doi.org/10.3386/w36036",
+   "paper_url": "https://doi.org/10.3386/w36036",
+   "pdf_url": null,
+   "published_at": "2026-11-01",
+   "first_seen_at": "2026-11-18T18:41:50Z",
+   "year": 2026,
+   "volume": null,
+   "issue": null,
+   "pages": null,
+   "issue_number": 6,
+   "sets": [
+    "entrepreneurship"
+   ],
+   "relevance_score": 6,
+   "relevance_reasons": [
+    "entrepreneurship:venture capital"
+   ],
+   "recommended": false,
+   "note": "Venture capital and private equity flows into poor countries; relevant to startup financing, judged from title only.",
+   "abstract": null,
+   "abstract_source": null,
+   "version_note": null
+  },
+  {
+   "canonical_key": "doi:10.1007/s11187-026-01300-w",
+   "title": "Institutional changes and the persistence of regional entrepreneurship in China: 1952–2024",
+   "authors": [
+    "Guangping Chen",
+    "Cassandra C. Wang"
+   ],
+   "venue": "Small Business Economics",
+   "source_slug": "sbe",
+   "source_category": "management_journal",
+   "publication_status": "published",
+   "doi": "10.1007/s11187-026-01300-w",
+   "arxiv_id": null,
+   "nber_id": null,
+   "ssrn_id": null,
+   "primary_url": "https://doi.org/10.1007/s11187-026-01300-w",
+   "paper_url": "https://link.springer.com/content/pdf/10.1007/s11187-026-01300-w.pdf",
+   "pdf_url": "https://link.springer.com/content/pdf/10.1007/s11187-026-01300-w.pdf",
+   "published_at": "2026-11-18",
+   "first_seen_at": "2026-11-18T18:41:50Z",
+   "year": 2026,
+   "volume": null,
+   "issue": null,
+   "pages": null,
+   "issue_number": 6,
+   "sets": [
+    "entrepreneurship"
+   ],
+   "relevance_score": 6,
+   "relevance_reasons": [
+    "entrepreneurship:entrepreneur"
+   ],
+   "recommended": false,
+   "note": "Long-run study of institutional change and persistence of regional entrepreneurship in China, 1952-2024.",
+   "abstract": null,
+   "abstract_source": null,
+   "version_note": null
+  },
+  {
+   "canonical_key": "doi:10.31235/osf.io/ay4v2_v2",
+   "title": "Metrics by Default: Bibliometric Gatekeeping, Institutional Logics, and Early-Career Research Evaluation in India",
+   "authors": [
+    "Moumita Koley",
+    "Yogesh Vijay Krishna"
+   ],
+   "venue": "SocArXiv",
+   "source_slug": "socarxiv",
+   "source_category": "preprint",
+   "publication_status": "preprint",
+   "doi": "10.31235/osf.io/ay4v2_v2",
+   "arxiv_id": null,
+   "nber_id": null,
+   "ssrn_id": null,
+   "primary_url": "https://osf.io/preprints/socarxiv/ay4v2_v2/",
+   "paper_url": "https://osf.io/preprints/socarxiv/ay4v2_v2/",
+   "pdf_url": null,
+   "published_at": "2026-11-15",
+   "first_seen_at": "2026-11-18T18:41:50Z",
+   "year": 2026,
+   "volume": null,
+   "issue": null,
+   "pages": null,
+   "issue_number": 6,
+   "sets": [
+    "orgs_inequality"
+   ],
+   "relevance_score": 6,
+   "relevance_reasons": [
+    "orgs_inequality:career"
+   ],
+   "recommended": false,
+   "note": "Interviews on bibliometric gatekeeping in Indian early-career fellowship selection; institutional logics and structural inequities in evaluation.",
+   "abstract": "Journal-based bibliometric indicators continue to dominate research evaluation globally despite sustained advocacy for reform. However, the mechanisms by which they become institutionally entrenched, and the structural conditions that make them difficult to dislodge, remain poorly understood. Particularly in rapidly expanding research systems in the Global South. This article addresses that gap through a systematic qualitative investigation of how bibliometric indicators are operationalized as institutional gatekeepers within India's national post-doctoral fellowships and early-career selection processes in STEM. India represents a critical and underexamined case. It’s the world's third-largest producer of scientific publications, combining quantitative growth imperatives with limited evaluation infrastructure capacity and facing structural asymmetries in international publishing. These situations amplify reliance on metrics and shift their costs onto those who are unfavorably positioned to resist them. Drawing on semi-structured interviews with 25 early-and mid-career researchers, and fellowship administrators across four case settings - the INSPIRE Faculty Fellowship, the National Postdoctoral Fellowship (NPDF), institutional postdoctoral fellowships, and retrospective accounts from mid-career researchers in STEM. The study reveals a metrics-governed gatekeeping architecture, where quantitative screening serves as the primary filter before any qualitative assessment. This logic generates field-specific distortions, reproduces structural inequities under the guise of objectivity, incentivizes volume over significance, and creates systemic vulnerabilities to metric manipulation and research misconduct. We theorize these dynamics through the lens of commensuration, institutional logics, and the sociology of quantification. Despite policy discourse emphasizing quality and societal impact, operational evaluation infrastructures continue to rely on bibliometrics because metrics reduce administrative complexity and create the appearance of objectivity & transparency. The article concludes with evidence-based recommendations for context-sensitive reform appropriate to India's research ecosystem and transferable to other rapidly expanding research systems in the Global South.",
+   "abstract_source": "osf",
+   "version_note": null
+  },
+  {
+   "canonical_key": "arxiv:2611.16747",
+   "title": "Unequal Rewards and the Direction of Scientific Work: Evidence from U.S. Public Universities",
+   "authors": [
+    "Likun Cao"
+   ],
+   "venue": "arXiv econ.GN",
+   "source_slug": "arxiv-econ-gn",
+   "source_category": "preprint",
+   "publication_status": "preprint",
+   "doi": null,
+   "arxiv_id": "2611.16747",
+   "nber_id": null,
+   "ssrn_id": null,
+   "primary_url": "https://arxiv.org/abs/2611.16747",
+   "paper_url": "https://arxiv.org/pdf/2611.16747v1",
+   "pdf_url": "https://arxiv.org/pdf/2611.16747v1",
+   "published_at": "2026-11-12",
+   "first_seen_at": "2026-11-18T18:41:50Z",
+   "year": 2026,
+   "volume": null,
+   "issue": null,
+   "pages": null,
+   "issue_number": 6,
+   "sets": [
+    "orgs_inequality"
+   ],
+   "relevance_score": 6,
+   "relevance_reasons": [
+    "orgs_inequality:inequality, organization"
+   ],
+   "recommended": false,
+   "note": "Pay dispersion in university departments and its link to productivity and novelty of scientific work.",
+   "abstract": "Research on pay dispersion has long asked whether unequal rewards increase or depress performance. Tournament theory expects stronger effort, while social comparison accounts expect withdrawal. Both perspectives, however, treat performance as a single scale on which workers can be ranked. Scientific work often resists such ordering. Some contributions extend recognized lines of inquiry and can be evaluated against prevailing standards; others revise the frames through which value is judged and become legible only later. We argue that intellectual tournaments more readily reward the first kind of contribution than the second. Pay dispersion may therefore be associated not only with how much scholars produce but also with what kinds of intellectual exploration are encouraged. We test this argument with administrative payroll records for 105,050 tenure-line faculty in 4,839 departments at 93 U.S. public universities from 2004 to 2026, linked to publication histories in OpenAlex. For each department, we estimate a separate pay equation using rank, contract basis, and seniority, then measure the Gini of the salary variation this local ladder cannot explain. Scholars in departments with greater unexplained pay dispersion publish more papers and receive more citations, but their work is less disruptive, less novel, and more conventional. Additional analyses show that compensation premiums above the ladder go disproportionately to scholars with broad collaborations and topical breadth. Although the design cannot fully separate treatment from selection, the evidence shows that inequality is not only a distributional outcome but also an evaluative structure, shaping which forms of knowledge are recognized, rewarded, and reproduced within organizations and communities.",
+   "abstract_source": "arxiv",
+   "version_note": null
+  },
+  {
+   "canonical_key": "doi:10.3386/w36035",
+   "title": "Will AI Growth Reach the Developing World?",
+   "authors": [
+    "Daniel Björkegren",
+    "David Lagakos",
+    "Mitchell VanVuren"
+   ],
+   "venue": "NBER Working Papers",
+   "source_slug": "nber",
+   "source_category": "working_paper",
+   "publication_status": "working_paper",
+   "doi": "10.3386/w36035",
+   "arxiv_id": null,
+   "nber_id": "w36035",
+   "ssrn_id": null,
+   "primary_url": "https://doi.org/10.3386/w36035",
+   "paper_url": "https://doi.org/10.3386/w36035",
+   "pdf_url": "https://doi.org/10.3386/w36035",
+   "published_at": "2026-11-01",
+   "first_seen_at": "2026-11-18T18:41:50Z",
+   "year": 2026,
+   "volume": null,
+   "issue": null,
+   "pages": null,
+   "issue_number": 6,
+   "sets": [
+    "ai_work"
+   ],
+   "relevance_score": 6,
+   "relevance_reasons": [
+    "ai_work:ai, labor, worker, productivity"
+   ],
+   "recommended": false,
+   "note": "Growth model of AI substituting or complementing labor in developing economies; worker skills complementarity and distributional losses.",
+   "abstract": "This paper explores how economic growth driven by AI will impact the developing world.Our analysis is based on a growth model of a developed and developing economy where AI services are traded on the world market, and may substitute for or complement different labor inputs in production.Preferences allow for the possibility that demand for services provided by AI has an upper bound.The model predicts that developing countries may not benefit as much from AIdriven growth.First, they may lack complementary skills needed to fully utilize AI domestically.Second, they may be priced out of world markets due to their relatively lower productivity.We use our model to simulate how growth and welfare are affected by making workers more complementary to AI, subsidizing compute, speeding technology diffusion, and providing cash transfers.Numerical simulations of the model suggest that the potential for developing countries to be left behind -or having some workers lose in absolute terms -is substantial enough that researchers should study the impacts of AI on developing countries in real time.",
+   "abstract_source": "openalex",
+   "version_note": null
+  }
+ ]
+}

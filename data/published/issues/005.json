@@ -2,7 +2,7 @@
  "number": 5,
  "cutoff": "2026-11-11",
  "window_start": "2026-11-04",
- "generated_at": "2026-11-11T17:47:49Z",
+ "generated_at": "2026-11-18T18:44:10Z",
  "articles": [
   {
    "canonical_key": "doi:10.1111/joms.70184",
@@ -77,6 +77,48 @@
    "note": "Longitudinal records of 345 Quebec university spin-offs; financing, ownership, and acquisition outcomes over time.",
    "abstract": "University spin-offs (USOs) are widely promoted as vehicles for converting publicly funded research into economic activity and supporting regional development. However, their long-term financing, ownership and outcomes have been much less studied than the factors that foster their creation and early growth. Drawing on company records and documented financing transactions, this article reconstructs the trajectories of 345 spin-offs originating from university research in Quebec between 1976 and 2016, tracked through 2025. It examines the changes in the institutional and geographical composition of their financing and how these factors relate to subsequent outcomes, including changes in ownership and acquisitions. The support of public institutions is crucial during the early stages of development, while private and foreign financing become increasingly important for USOs that reach later stages of development, particularly after a decade of operation. Nearly two-thirds of acquisitions result in the transfer of ownership to foreign corporations. These results suggest that although public financing of USOs can contribute to bringing university technologies to the market, their eventual ownership and location of activities do not necessarily correspond to the regional and national economic development objectives that underly public intervention.",
    "abstract_source": "osf",
+   "version_note": null
+  },
+  {
+   "canonical_key": "doi:10.3386/w36003",
+   "title": "AI as Shared Business Infrastructure: Firm Growth and the Distribution of Gains",
+   "authors": [
+    "Panle Jia Barwick",
+    "Lu Fang",
+    "Jinhan Liu",
+    "Huilan Xu",
+    "Zhe Yuan"
+   ],
+   "venue": "NBER Working Papers",
+   "source_slug": "nber",
+   "source_category": "working_paper",
+   "publication_status": "working_paper",
+   "doi": "10.3386/w36003",
+   "arxiv_id": null,
+   "nber_id": "w36003",
+   "ssrn_id": null,
+   "primary_url": "https://doi.org/10.3386/w36003",
+   "paper_url": "https://doi.org/10.3386/w36003",
+   "pdf_url": "https://doi.org/10.3386/w36003",
+   "published_at": "2026-11-01",
+   "first_seen_at": "2026-11-11T17:45:06Z",
+   "year": 2026,
+   "volume": null,
+   "issue": null,
+   "pages": null,
+   "issue_number": 5,
+   "sets": [
+    "ai_work",
+    "entrepreneurship"
+   ],
+   "relevance_score": 8,
+   "relevance_reasons": [
+    "ai_work:generative ai, ai, firm"
+   ],
+   "recommended": true,
+   "note": "Difference-in-differences on platform-embedded generative AI adoption by small e-commerce firms; sales growth, entry, and distribution of gains.",
+   "abstract": "Generative AI improves performance on individual tasks, but whether those gains translate into firm growth, and for which firms, remains an open question.We study a leading Chinese e-commerce platform that in 2024 embedded a generative AI system in the operating software firms use to run their businesses, drawing on centrally developed models and platform-wide data to deliver ready-touse applications to every firm.Complete records of each firm's AI use, linked to its monthly operations and sales, let us trace adoption through changes in business capabilities, such as reaching customers and introducing new products, to sales growth.Using a matched difference-in-differences design and focusing on firms with annual sales below RMB 5 million, we find that adoption raises monthly sales by 51.6%, primarily through a 47.0% increase in the number of orders; instrumentalvariable estimates confirm these results.Adopters reach more customers, update their product lines faster, and deliver better product and service quality, with the largest proportional gains for the smallest firms.Two mechanisms help explain the results.First, AI lowers the cost of routine work: adopters produce more product content and change listings more often while spending less staff time per order, and the gains are largest for firms that faced the highest costs relative to sales before adoption.Second, AI reduces information frictions: adopters post richer product information, and the gains are largest in markets where demand is hard to predict and matching quality is poor, especially for small firms.At the market level, product categories with greater preexisting information frictions see more sales by existing firms, more entry, and more new products.AI expands markets rather than merely shifting sales from non-adopters to adopters.",
+   "abstract_source": "openalex",
    "version_note": null
   },
   {
@@ -587,48 +629,6 @@
    "note": "Documents stratification of US colleges by test scores, family background, and instructional spending; admissions criteria and resource inequality trends.",
    "abstract": "American colleges and universities are highly stratified by pre-college academic achievement, family background, and institutional resources. We study the meritocratic consensus in American higher education: Colleges that high-testing students (who are generally also from high-income families) attend spend dramatically more on instruction than do those that enroll lower-testing students. Stratification by test scores has been largely stable since the 1960s, but the stratification of instructional resources has risen sharply since 1970 at both private and public institutions. Nonacademic admissions criteria like athletics, legacy, and affirmative action are second-order in determining the allocation of students to universities. Potential economic justifications for the positive association of instructional expenditures with student prior achievement—q-complementarity between achievement and resources, convex social returns to high human capital, and incentives to invest in learning prior to college—have little empirical support. Resource stratification across universities has not increased in the past decade, largely due to increased public funding of universities that enroll lower-testing students through financial aid programs like California's CalGrant, but stratification within institutions is now rising swiftly.",
    "abstract_source": "crossref",
-   "version_note": null
-  },
-  {
-   "canonical_key": "doi:10.3386/w36003",
-   "title": "AI as Shared Business Infrastructure: Firm Growth and the Distribution of Gains",
-   "authors": [
-    "Panle Jia Barwick",
-    "Lu Fang",
-    "Jinhan Liu",
-    "Huilan Xu",
-    "Zhe Yuan"
-   ],
-   "venue": "NBER Working Papers",
-   "source_slug": "nber",
-   "source_category": "working_paper",
-   "publication_status": "working_paper",
-   "doi": "10.3386/w36003",
-   "arxiv_id": null,
-   "nber_id": "w36003",
-   "ssrn_id": null,
-   "primary_url": "https://doi.org/10.3386/w36003",
-   "paper_url": "https://doi.org/10.3386/w36003",
-   "pdf_url": null,
-   "published_at": "2026-11-01",
-   "first_seen_at": "2026-11-11T17:45:06Z",
-   "year": 2026,
-   "volume": null,
-   "issue": null,
-   "pages": null,
-   "issue_number": 5,
-   "sets": [
-    "ai_work",
-    "entrepreneurship"
-   ],
-   "relevance_score": 6,
-   "relevance_reasons": [
-    "ai_work:ai, firm"
-   ],
-   "recommended": false,
-   "note": "Title suggests AI as shared infrastructure affecting firm growth and distribution of gains across firms; no abstract available.",
-   "abstract": null,
-   "abstract_source": null,
    "version_note": null
   },
   {
