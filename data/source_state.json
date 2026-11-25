@@ -1,6 +1,6 @@
 {
  "aejapp": {
-  "last_checked_at": "2026-11-18T18:41:50Z",
+  "last_checked_at": "2026-11-25T19:48:44Z",
   "last_error": null,
   "last_run": {
    "in_scope": 0,
@@ -14,7 +14,7 @@
   }
  },
  "aer": {
-  "last_checked_at": "2026-11-18T18:41:50Z",
+  "last_checked_at": "2026-11-25T19:48:44Z",
   "last_error": null,
   "last_run": {
    "in_scope": 0,
@@ -28,35 +28,35 @@
   }
  },
  "aeri": {
-  "last_checked_at": "2026-11-18T18:41:50Z",
+  "last_checked_at": "2026-11-25T19:48:44Z",
   "last_error": null,
   "last_run": {
    "in_scope": 0,
-   "pulled": 0
+   "pulled": 9
   },
   "last_status": "ok",
   "latest_in_scope_at": null,
   "totals": {
    "in_scope": 0,
-   "pulled": 0
+   "pulled": 9
   }
  },
  "ajs": {
-  "last_checked_at": "2026-11-18T18:41:50Z",
+  "last_checked_at": "2026-11-25T19:48:44Z",
   "last_error": null,
   "last_run": {
    "in_scope": 0,
-   "pulled": 10
+   "pulled": 1
   },
   "last_status": "ok",
   "latest_in_scope_at": null,
   "totals": {
    "in_scope": 0,
-   "pulled": 11
+   "pulled": 12
   }
  },
  "alerts": {
-  "last_checked_at": "2026-11-18T18:41:50Z",
+  "last_checked_at": "2026-11-25T19:48:44Z",
   "last_error": null,
   "last_run": {
    "in_scope": 0,
@@ -70,49 +70,49 @@
   }
  },
  "amd": {
-  "last_checked_at": "2026-11-18T18:41:50Z",
-  "last_error": null,
-  "last_run": {
-   "in_scope": 1,
-   "pulled": 3
-  },
-  "last_status": "ok",
-  "latest_in_scope_at": "2026-11-16",
-  "totals": {
-   "in_scope": 1,
-   "pulled": 5
-  }
- },
- "amj": {
-  "last_checked_at": "2026-11-18T18:41:50Z",
+  "last_checked_at": "2026-11-25T19:48:44Z",
   "last_error": null,
   "last_run": {
    "in_scope": 1,
    "pulled": 1
   },
   "last_status": "ok",
-  "latest_in_scope_at": "2026-11-10",
+  "latest_in_scope_at": "2026-11-23",
   "totals": {
+   "in_scope": 2,
+   "pulled": 6
+  }
+ },
+ "amj": {
+  "last_checked_at": "2026-11-25T19:48:44Z",
+  "last_error": null,
+  "last_run": {
    "in_scope": 1,
+   "pulled": 0
+  },
+  "last_status": "ok",
+  "latest_in_scope_at": "2026-11-18",
+  "totals": {
+   "in_scope": 2,
    "pulled": 6
   }
  },
  "amr": {
-  "last_checked_at": "2026-11-18T18:41:50Z",
+  "last_checked_at": "2026-11-25T19:48:44Z",
   "last_error": null,
   "last_run": {
    "in_scope": 0,
-   "pulled": 0
+   "pulled": 1
   },
   "last_status": "ok",
   "latest_in_scope_at": null,
   "totals": {
    "in_scope": 0,
-   "pulled": 5
+   "pulled": 6
   }
  },
  "annals": {
-  "last_checked_at": "2026-11-18T18:41:50Z",
+  "last_checked_at": "2026-11-25T19:48:44Z",
   "last_error": null,
   "last_run": {
    "in_scope": 0,
@@ -126,7 +126,7 @@
   }
  },
  "arsoc": {
-  "last_checked_at": "2026-11-18T18:41:50Z",
+  "last_checked_at": "2026-11-25T19:48:44Z",
   "last_error": null,
   "last_run": {
    "in_scope": 0,
@@ -140,109 +140,109 @@
   }
  },
  "arxiv-ai-work": {
-  "last_checked_at": "2026-11-18T18:41:50Z",
-  "last_error": null,
-  "last_run": {
-   "in_scope": 2,
-   "pulled": 110
-  },
-  "last_status": "ok",
-  "latest_in_scope_at": "2026-11-16",
-  "totals": {
-   "in_scope": 16,
-   "pulled": 841
-  }
- },
- "arxiv-econ-gn": {
-  "last_checked_at": "2026-11-18T18:41:50Z",
+  "last_checked_at": "2026-11-25T19:48:44Z",
   "last_error": null,
   "last_run": {
    "in_scope": 3,
-   "pulled": 24
+   "pulled": 112
   },
   "last_status": "ok",
-  "latest_in_scope_at": "2026-11-12",
+  "latest_in_scope_at": "2026-11-23",
   "totals": {
-   "in_scope": 17,
-   "pulled": 192
+   "in_scope": 19,
+   "pulled": 953
+  }
+ },
+ "arxiv-econ-gn": {
+  "last_checked_at": "2026-11-25T19:48:44Z",
+  "last_error": null,
+  "last_run": {
+   "in_scope": 3,
+   "pulled": 25
+  },
+  "last_status": "ok",
+  "latest_in_scope_at": "2026-11-23",
+  "totals": {
+   "in_scope": 20,
+   "pulled": 217
   }
  },
  "asq": {
-  "last_checked_at": "2026-11-18T18:41:50Z",
+  "last_checked_at": "2026-11-25T19:48:44Z",
   "last_error": null,
   "last_run": {
    "in_scope": 0,
-   "pulled": 0
+   "pulled": 1
   },
   "last_status": "ok",
   "latest_in_scope_at": "2026-11-03",
   "totals": {
    "in_scope": 3,
-   "pulled": 3
+   "pulled": 4
   }
  },
  "asr": {
-  "last_checked_at": "2026-11-18T18:41:50Z",
-  "last_error": null,
-  "last_run": {
-   "in_scope": 0,
-   "pulled": 0
-  },
-  "last_status": "ok",
-  "latest_in_scope_at": "2026-10-30",
-  "totals": {
-   "in_scope": 2,
-   "pulled": 5
-  }
- },
- "ecta": {
-  "last_checked_at": "2026-11-18T18:41:50Z",
-  "last_error": null,
-  "last_run": {
-   "in_scope": 0,
-   "pulled": 0
-  },
-  "last_status": "ok",
-  "latest_in_scope_at": null,
-  "totals": {
-   "in_scope": 0,
-   "pulled": 0
-  }
- },
- "etp": {
-  "last_checked_at": "2026-11-18T18:41:50Z",
-  "last_error": null,
-  "last_run": {
-   "in_scope": 0,
-   "pulled": 0
-  },
-  "last_status": "ok",
-  "latest_in_scope_at": "2026-11-01",
-  "totals": {
-   "in_scope": 3,
-   "pulled": 5
-  }
- },
- "isr": {
-  "last_checked_at": "2026-11-18T18:41:50Z",
+  "last_checked_at": "2026-11-25T19:48:44Z",
   "last_error": null,
   "last_run": {
    "in_scope": 1,
-   "pulled": 4
+   "pulled": 2
+  },
+  "last_status": "ok",
+  "latest_in_scope_at": "2026-11-19",
+  "totals": {
+   "in_scope": 3,
+   "pulled": 7
+  }
+ },
+ "ecta": {
+  "last_checked_at": "2026-11-25T19:48:44Z",
+  "last_error": null,
+  "last_run": {
+   "in_scope": 1,
+   "pulled": 13
+  },
+  "last_status": "ok",
+  "latest_in_scope_at": "2026-01-01",
+  "totals": {
+   "in_scope": 1,
+   "pulled": 13
+  }
+ },
+ "etp": {
+  "last_checked_at": "2026-11-25T19:48:44Z",
+  "last_error": null,
+  "last_run": {
+   "in_scope": 1,
+   "pulled": 1
+  },
+  "last_status": "ok",
+  "latest_in_scope_at": "2026-11-20",
+  "totals": {
+   "in_scope": 4,
+   "pulled": 6
+  }
+ },
+ "isr": {
+  "last_checked_at": "2026-11-25T19:48:44Z",
+  "last_error": null,
+  "last_run": {
+   "in_scope": 0,
+   "pulled": 1
   },
   "last_status": "ok",
   "latest_in_scope_at": "2026-11-13",
   "totals": {
    "in_scope": 2,
-   "pulled": 13
+   "pulled": 14
   }
  },
  "jap": {
-  "last_checked_at": "2026-11-18T18:41:50Z",
+  "last_checked_at": "2026-11-25T19:48:44Z",
   "last_error": null,
   "last_run": {
    "in_scope": 0,
-   "pulled": 2
+   "pulled": 0
   },
   "last_status": "ok",
   "latest_in_scope_at": "2026-11-05",
@@ -252,21 +252,21 @@
   }
  },
  "jbv": {
-  "last_checked_at": "2026-11-18T18:41:50Z",
+  "last_checked_at": "2026-11-25T19:48:44Z",
   "last_error": null,
   "last_run": {
    "in_scope": 1,
-   "pulled": 2
+   "pulled": 1
   },
   "last_status": "ok",
   "latest_in_scope_at": "2027-01-01",
   "totals": {
-   "in_scope": 7,
-   "pulled": 10
+   "in_scope": 8,
+   "pulled": 11
   }
  },
  "jep": {
-  "last_checked_at": "2026-11-18T18:41:50Z",
+  "last_checked_at": "2026-11-25T19:48:44Z",
   "last_error": null,
   "last_run": {
    "in_scope": 0,
@@ -280,7 +280,7 @@
   }
  },
  "jf": {
-  "last_checked_at": "2026-11-18T18:41:50Z",
+  "last_checked_at": "2026-11-25T19:48:44Z",
   "last_error": null,
   "last_run": {
    "in_scope": 0,
@@ -294,63 +294,7 @@
   }
  },
  "jfe": {
-  "last_checked_at": "2026-11-18T18:41:50Z",
-  "last_error": null,
-  "last_run": {
-   "in_scope": 0,
-   "pulled": 1
-  },
-  "last_status": "ok",
-  "latest_in_scope_at": null,
-  "totals": {
-   "in_scope": 0,
-   "pulled": 18
-  }
- },
- "jms": {
-  "last_checked_at": "2026-11-18T18:41:50Z",
-  "last_error": null,
-  "last_run": {
-   "in_scope": 0,
-   "pulled": 7
-  },
-  "last_status": "ok",
-  "latest_in_scope_at": "2026-11-05",
-  "totals": {
-   "in_scope": 2,
-   "pulled": 26
-  }
- },
- "jole": {
-  "last_checked_at": "2026-11-18T18:41:50Z",
-  "last_error": null,
-  "last_run": {
-   "in_scope": 2,
-   "pulled": 10
-  },
-  "last_status": "ok",
-  "latest_in_scope_at": "2026-11-17",
-  "totals": {
-   "in_scope": 4,
-   "pulled": 25
-  }
- },
- "jom": {
-  "last_checked_at": "2026-11-18T18:41:50Z",
-  "last_error": null,
-  "last_run": {
-   "in_scope": 0,
-   "pulled": 1
-  },
-  "last_status": "ok",
-  "latest_in_scope_at": null,
-  "totals": {
-   "in_scope": 0,
-   "pulled": 7
-  }
- },
- "jpe": {
-  "last_checked_at": "2026-11-18T18:41:50Z",
+  "last_checked_at": "2026-11-25T19:48:44Z",
   "last_error": null,
   "last_run": {
    "in_scope": 0,
@@ -360,11 +304,67 @@
   "latest_in_scope_at": null,
   "totals": {
    "in_scope": 0,
-   "pulled": 10
+   "pulled": 22
+  }
+ },
+ "jms": {
+  "last_checked_at": "2026-11-25T19:48:44Z",
+  "last_error": null,
+  "last_run": {
+   "in_scope": 0,
+   "pulled": 1
+  },
+  "last_status": "ok",
+  "latest_in_scope_at": "2026-11-05",
+  "totals": {
+   "in_scope": 2,
+   "pulled": 27
+  }
+ },
+ "jole": {
+  "last_checked_at": "2026-11-25T19:48:44Z",
+  "last_error": null,
+  "last_run": {
+   "in_scope": 0,
+   "pulled": 0
+  },
+  "last_status": "ok",
+  "latest_in_scope_at": "2026-11-17",
+  "totals": {
+   "in_scope": 4,
+   "pulled": 25
+  }
+ },
+ "jom": {
+  "last_checked_at": "2026-11-25T19:48:44Z",
+  "last_error": null,
+  "last_run": {
+   "in_scope": 1,
+   "pulled": 6
+  },
+  "last_status": "ok",
+  "latest_in_scope_at": "2026-11-25",
+  "totals": {
+   "in_scope": 1,
+   "pulled": 13
+  }
+ },
+ "jpe": {
+  "last_checked_at": "2026-11-25T19:48:44Z",
+  "last_error": null,
+  "last_run": {
+   "in_scope": 0,
+   "pulled": 4
+  },
+  "last_status": "ok",
+  "latest_in_scope_at": null,
+  "totals": {
+   "in_scope": 0,
+   "pulled": 14
   }
  },
  "misq": {
-  "last_checked_at": "2026-11-18T18:41:50Z",
+  "last_checked_at": "2026-11-25T19:48:44Z",
   "last_error": null,
   "last_run": {
    "in_scope": 0,
@@ -378,39 +378,39 @@
   }
  },
  "mnsc": {
-  "last_checked_at": "2026-11-18T18:41:50Z",
+  "last_checked_at": "2026-11-25T19:48:44Z",
   "last_error": null,
   "last_run": {
    "in_scope": 2,
-   "pulled": 20
+   "pulled": 15
   },
   "last_status": "ok",
-  "latest_in_scope_at": "2026-11-17",
+  "latest_in_scope_at": "2026-11-25",
   "totals": {
-   "in_scope": 7,
-   "pulled": 67
+   "in_scope": 9,
+   "pulled": 82
   }
  },
  "nature": {
-  "last_checked_at": "2026-11-18T18:41:50Z",
+  "last_checked_at": "2026-11-25T19:48:44Z",
   "last_error": null,
   "last_run": {
    "in_scope": 0,
-   "pulled": 75
+   "pulled": 93
   },
   "last_status": "ok",
   "latest_in_scope_at": null,
   "totals": {
    "in_scope": 0,
-   "pulled": 580
+   "pulled": 673
   }
  },
  "nber": {
-  "last_checked_at": "2026-11-18T18:41:50Z",
+  "last_checked_at": "2026-11-25T19:48:44Z",
   "last_error": null,
   "last_run": {
-   "in_scope": 2,
-   "pulled": 31
+   "in_scope": 0,
+   "pulled": 0
   },
   "last_status": "ok",
   "latest_in_scope_at": "2026-11-01",
@@ -420,7 +420,7 @@
   }
  },
  "nep-ent": {
-  "last_checked_at": "2026-11-18T18:41:50Z",
+  "last_checked_at": "2026-11-25T19:48:44Z",
   "last_error": null,
   "last_run": {
    "in_scope": 0,
@@ -434,25 +434,25 @@
   }
  },
  "nhb": {
-  "last_checked_at": "2026-11-18T18:41:50Z",
+  "last_checked_at": "2026-11-25T19:48:44Z",
   "last_error": null,
   "last_run": {
    "in_scope": 0,
-   "pulled": 3
+   "pulled": 9
   },
   "last_status": "ok",
   "latest_in_scope_at": "2026-10-26",
   "totals": {
    "in_scope": 2,
-   "pulled": 30
+   "pulled": 39
   }
  },
  "obhdp": {
-  "last_checked_at": "2026-11-18T18:41:50Z",
+  "last_checked_at": "2026-11-25T19:48:44Z",
   "last_error": null,
   "last_run": {
    "in_scope": 0,
-   "pulled": 1
+   "pulled": 0
   },
   "last_status": "ok",
   "latest_in_scope_at": "2026-11-01",
@@ -462,11 +462,11 @@
   }
  },
  "orgsci": {
-  "last_checked_at": "2026-11-18T18:41:50Z",
+  "last_checked_at": "2026-11-25T19:48:44Z",
   "last_error": null,
   "last_run": {
    "in_scope": 0,
-   "pulled": 6
+   "pulled": 0
   },
   "last_status": "ok",
   "latest_in_scope_at": "2026-11-10",
@@ -476,49 +476,49 @@
   }
  },
  "orgstud": {
-  "last_checked_at": "2026-11-18T18:41:50Z",
+  "last_checked_at": "2026-11-25T19:48:44Z",
   "last_error": null,
   "last_run": {
    "in_scope": 0,
-   "pulled": 9
+   "pulled": 2
   },
   "last_status": "ok",
   "latest_in_scope_at": null,
   "totals": {
    "in_scope": 0,
-   "pulled": 17
+   "pulled": 19
   }
  },
  "pnas": {
-  "last_checked_at": "2026-11-18T18:41:50Z",
+  "last_checked_at": "2026-11-25T19:48:44Z",
   "last_error": null,
   "last_run": {
-   "in_scope": 1,
-   "pulled": 117
+   "in_scope": 0,
+   "pulled": 101
   },
   "last_status": "ok",
   "latest_in_scope_at": "2026-11-16",
   "totals": {
    "in_scope": 2,
-   "pulled": 716
+   "pulled": 817
   }
  },
  "qje": {
-  "last_checked_at": "2026-11-18T18:41:50Z",
+  "last_checked_at": "2026-11-25T19:48:44Z",
   "last_error": null,
   "last_run": {
    "in_scope": 1,
    "pulled": 2
   },
   "last_status": "ok",
-  "latest_in_scope_at": "2026-11-11",
+  "latest_in_scope_at": "2026-11-24",
   "totals": {
-   "in_scope": 2,
-   "pulled": 10
+   "in_scope": 3,
+   "pulled": 12
   }
  },
  "respol": {
-  "last_checked_at": "2026-11-18T18:41:50Z",
+  "last_checked_at": "2026-11-25T19:48:44Z",
   "last_error": null,
   "last_run": {
    "in_scope": 0,
@@ -528,11 +528,11 @@
   "latest_in_scope_at": "2027-01-01",
   "totals": {
    "in_scope": 3,
-   "pulled": 25
+   "pulled": 28
   }
  },
  "restat": {
-  "last_checked_at": "2026-11-18T18:41:50Z",
+  "last_checked_at": "2026-11-25T19:48:44Z",
   "last_error": null,
   "last_run": {
    "in_scope": 0,
@@ -546,77 +546,77 @@
   }
  },
  "restud": {
-  "last_checked_at": "2026-11-18T18:41:50Z",
+  "last_checked_at": "2026-11-25T19:48:44Z",
   "last_error": null,
   "last_run": {
-   "in_scope": 1,
-   "pulled": 4
+   "in_scope": 0,
+   "pulled": 3
   },
   "last_status": "ok",
   "latest_in_scope_at": "2026-11-13",
   "totals": {
    "in_scope": 1,
-   "pulled": 14
+   "pulled": 17
   }
  },
  "rfs": {
-  "last_checked_at": "2026-11-18T18:41:50Z",
+  "last_checked_at": "2026-11-25T19:48:44Z",
   "last_error": null,
   "last_run": {
    "in_scope": 0,
-   "pulled": 2
+   "pulled": 3
   },
   "last_status": "ok",
   "latest_in_scope_at": "2026-10-06",
   "totals": {
    "in_scope": 1,
-   "pulled": 10
+   "pulled": 13
   }
  },
  "sbe": {
-  "last_checked_at": "2026-11-18T18:41:50Z",
+  "last_checked_at": "2026-11-25T19:48:44Z",
   "last_error": null,
   "last_run": {
-   "in_scope": 1,
-   "pulled": 2
+   "in_scope": 2,
+   "pulled": 5
   },
   "last_status": "ok",
-  "latest_in_scope_at": "2026-11-18",
+  "latest_in_scope_at": "2026-11-23",
   "totals": {
-   "in_scope": 5,
-   "pulled": 11
+   "in_scope": 7,
+   "pulled": 16
   }
  },
  "science": {
-  "last_checked_at": "2026-11-18T18:41:50Z",
+  "last_checked_at": "2026-11-25T19:48:44Z",
   "last_error": null,
   "last_run": {
    "in_scope": 0,
-   "pulled": 45
+   "pulled": 37
   },
   "last_status": "ok",
   "latest_in_scope_at": null,
   "totals": {
    "in_scope": 0,
-   "pulled": 285
+   "pulled": 322
   }
  },
  "sej": {
-  "last_checked_at": "2026-11-18T18:41:50Z",
+  "last_checked_at": "2026-11-25T19:48:44Z",
   "last_error": null,
   "last_run": {
-   "in_scope": 2,
-   "pulled": 2
+   "in_scope": 1,
+   "pulled": 1
   },
   "last_status": "ok",
-  "latest_in_scope_at": "2026-11-17",
+  "latest_in_scope_at": "2026-11-24",
   "totals": {
-   "in_scope": 17,
-   "pulled": 24
+   "in_scope": 18,
+   "pulled": 25
   }
  },
  "ser": {
-  "last_checked_at": "2026-11-18T18:41:50Z",
+  "last_checked_at": "2026-11-25T19:48:44Z",
   "last_error": null,
   "last_run": {
    "in_scope": 0,
@@ -630,49 +630,49 @@
   }
  },
  "smj": {
-  "last_checked_at": "2026-11-18T18:41:50Z",
+  "last_checked_at": "2026-11-25T19:48:44Z",
   "last_error": null,
   "last_run": {
    "in_scope": 1,
-   "pulled": 2
-  },
-  "last_status": "ok",
-  "latest_in_scope_at": "2026-11-17",
-  "totals": {
-   "in_scope": 2,
-   "pulled": 9
-  }
- },
- "socarxiv": {
-  "last_checked_at": "2026-11-18T18:41:50Z",
-  "last_error": null,
-  "last_run": {
-   "in_scope": 8,
-   "pulled": 123
+   "pulled": 1
   },
   "last_status": "ok",
   "latest_in_scope_at": "2026-11-18",
   "totals": {
-   "in_scope": 48,
-   "pulled": 860
+   "in_scope": 3,
+   "pulled": 10
+  }
+ },
+ "socarxiv": {
+  "last_checked_at": "2026-11-25T19:48:44Z",
+  "last_error": null,
+  "last_run": {
+   "in_scope": 6,
+   "pulled": 123
+  },
+  "last_status": "ok",
+  "latest_in_scope_at": "2026-11-25",
+  "totals": {
+   "in_scope": 54,
+   "pulled": 983
   }
  },
  "socforces": {
-  "last_checked_at": "2026-11-18T18:41:50Z",
+  "last_checked_at": "2026-11-25T19:48:44Z",
   "last_error": null,
   "last_run": {
    "in_scope": 0,
-   "pulled": 0
+   "pulled": 1
   },
   "last_status": "ok",
   "latest_in_scope_at": "2026-11-03",
   "totals": {
    "in_scope": 1,
-   "pulled": 10
+   "pulled": 11
   }
  },
  "socsci": {
-  "last_checked_at": "2026-11-18T18:41:50Z",
+  "last_checked_at": "2026-11-25T19:48:44Z",
   "last_error": null,
   "last_run": {
    "in_scope": 0,
@@ -686,11 +686,11 @@
   }
  },
  "stratsci": {
-  "last_checked_at": "2026-11-18T18:41:50Z",
+  "last_checked_at": "2026-11-25T19:48:44Z",
   "last_error": null,
   "last_run": {
-   "in_scope": 1,
-   "pulled": 1
+   "in_scope": 0,
+   "pulled": 0
   },
   "last_status": "ok",
   "latest_in_scope_at": "2026-11-13",
@@ -700,7 +700,7 @@
   }
  },
  "wox": {
-  "last_checked_at": "2026-11-18T18:41:50Z",
+  "last_checked_at": "2026-11-25T19:48:44Z",
   "last_error": null,
   "last_run": {
    "in_scope": 0,
